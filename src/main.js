@@ -15,7 +15,7 @@ Vue.use(VueCookies)
 Vue.config.productionTip = false
 Vue.use(VueI18n);
 const i18n = new VueI18n({
-    locale: 'zhHans',
+    locale: 'en',
     messages: {
         'zhHans': zhHans,
         'en': en,
