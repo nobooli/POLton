@@ -7,17 +7,17 @@
         },
         "voicelist": [
           {
-            "name": "konlulu",
+            "name": "Konlulu",
             "path": "konlulu.mp3",
             "translation": {
-              "en": "konlulu"
+              "en": "Konlulu"
             }
           },
           {
-            "name": "minna-san",
+            "name": "Minna-san",
             "path": "minna-san.mp3",
             "translation": {
-              "en": "minna-san"
+              "en": "Minna-san"
             }
           },
           {
@@ -28,17 +28,17 @@
             }
           },
           {
-            "name": "She was so cute, i could eat her up",
+            "name": "Kawaii kata, tabetai kawaii kata",
             "path": "so_cute_i_could_eat_her_up.mp3",
             "translation": {
               "en": "She was so cute, i could eat her up"
             }
           },
           {
-            "name": "Listen, listen everyone",
+            "name": "Anoe anone minna anone",
             "path": "anone.mp3",
             "translation": {
-              "en": "Listen, listen everyone"
+              "en": "Listen, listen everyone listen"
             }
           }
         ]
@@ -50,7 +50,7 @@
         },
         "voicelist": [
           {
-            "name": "hi",
+            "name": "Hi",
             "path": "hi.mp3",
             "translation": {
               "en": "hi"
@@ -71,31 +71,119 @@
             }
           },
           {
-            "name": "jesus, oh jesus",
+            "name": "Jesus, oh jesus",
             "path": "lulujesus.mp3",
             "translation": {
               "en": "Jesus, oh Jesus"
             }
           },
           {
-            "name": "yo",
+            "name": "Yo",
             "path": "yo.mp3",
             "translation": {
               "en": "yo"
             }
           },
           {
-            "name": "check it out",
+            "name": "Check it out",
             "path": "check_it_out.mp3",
             "translation": {
               "en": "check it out"
             }
           },
           {
-            "name": "nintendo",
+            "name": "Nintendo",
             "path": "nintendo.mp3",
             "translation": {
               "en": "nintendoooooo"
+            }
+          },
+          {
+            "name": "I will be back",
+            "path": "i_will_be_back.mp3",
+            "translation": {
+              "en": "I will be back"
+            }
+          },
+          {
+            "name": "Coming soon",
+            "path": "coming_soon.mp3",
+            "translation": {
+              "en": "Coming soon"
+            }
+          },
+          {
+            "name": "Long time no see",
+            "path": "long_time_no_see.mp3",
+            "translation": {
+              "en": "Long time no see"
+            }
+          },
+          {
+            "name": "Beam",
+            "path": "beam.mp3",
+            "translation": {
+              "en": "Beam"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Reaction",
+        "translation": {
+          "en": "Reaction"
+        },
+        "voicelist": [
+          {
+            "name": "Squeal 1",
+            "path": "squeal1.mp3",
+            "translation": {
+              "en": "Squeal 1"
+            }
+          }, 
+          {
+            "name": "Squeal 2",
+            "path": "squeal2.mp3",
+            "translation": {
+              "en": "Squeal 2"
+            }
+          },
+          {
+            "name": "Kuyashi",
+            "path": "kuyashi.mp3",
+            "translation": {
+              "en": "How frustating"
+            }
+          }
+        ]
+      },
+      {
+        "name": "SFX",
+        "translation": {
+          "en": "SFX"
+        },
+        "voicelist": [
+          {
+            "name": "Machine gun",
+            "path": "machine_gun.mp3",
+            "translation": {
+              "en": "Machine gun"
+            }
+          }
+        ]
+      },
+      {
+        "name": "BGM",
+        "translation": {
+          "en": "BGM"
+        },
+        "voicelist": [
+          
+          {
+            "name": "Jaws",
+            "path": "jaws_bgm.mp3",
+            "translation": {
+              "en": "Jaws"
             }
           }
         ]
