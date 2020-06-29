@@ -48,6 +48,13 @@
             "translation": {
               "en": "I'm hungry"
             }
+          },
+          {
+            "name": "jesus, oh jesus",
+            "path": "lulujesus.mp3",
+            "translation": {
+              "en": "Jesus, oh Jesus"
+            }
           }
         ]
       }
