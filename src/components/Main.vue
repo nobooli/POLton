@@ -86,7 +86,7 @@
       </v-col>
     </v-row>
     <!---展示按钮--->
-    <v-row v-for="group in voices" :key="group">
+    <v-row v-for="group in voices" :key="group.name">
       <v-col cols="12" class="ma-0 pa-0">
         <v-card class="ma-1 pa-0">
           <v-card-title>{{resolveI18n(group.translation)}}</v-card-title>
@@ -118,7 +118,7 @@
         <p class="title font-weight-blod">{{$t("ui.orderlistnow")}}</p>
         <v-chip
           v-for="(selected,index) in orderlist"
-          :key="selected"
+          :key="'list'+index"
           class="ma-2"
           close
           color="secondary"

@@ -17,7 +17,7 @@ module.exports = {
         developerinfo: "This site is made by fans. We are not related to Nijisanji in any way.",
         repeatmode: "Don't you ever stop!(Loop play)",
         betainfo: "2020/6/29, Konlulu faith is starting!",
-        info: "Forking peko button for the church of Debilulu",
+        info: "Lulu button for the church of Debilulu",
         developer: "Original developer：Coceki",
         credits: "Special Thanks：野兔子同好会 Richard_Al 昭和歌姬夏半首",
         translationCredits: "English translation: HoloLive Moments",

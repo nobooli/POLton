@@ -22,7 +22,7 @@
           </v-list-item-title>
         </v-list-item>
         <v-divider></v-divider>
-        <v-list-item @click="See('https://github.com/Coceki/peko-button')">
+        <v-list-item @click="See('https://github.com/RomainLK/lulu-button')">
           <v-list-item-title>
             <v-icon left color="black">mdi-github</v-icon>
             {{$t("ui.helpdevelope")}}
@@ -52,7 +52,7 @@
       <v-icon left>mdi-github</v-icon>
       {{$t("ui.helpdevelope")}}
     </v-btn>
-    <v-btn v-on="on" fab icon @click="DarkMode()">
+    <v-btn fab icon @click="DarkMode()">
       <v-icon>{{darkmodeicon}}</v-icon>
     </v-btn>
     <v-menu transition="slide-y-transition" bottom offset-y>
