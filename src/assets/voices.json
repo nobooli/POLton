@@ -19,6 +19,27 @@
             "translation": {
               "en": "minna-san"
             }
+          },
+          {
+            "name": "I am human",
+            "path": "ningendesu.mp3",
+            "translation": {
+              "en": "I am human"
+            }
+          },
+          {
+            "name": "She was so cute, i could eat her up",
+            "path": "so_cute_i_could_eat_her_up.mp3",
+            "translation": {
+              "en": "She was so cute, i could eat her up"
+            }
+          },
+          {
+            "name": "Listen, listen everyone",
+            "path": "anone.mp3",
+            "translation": {
+              "en": "Listen, listen everyone"
+            }
           }
         ]
       },
@@ -54,6 +75,27 @@
             "path": "lulujesus.mp3",
             "translation": {
               "en": "Jesus, oh Jesus"
+            }
+          },
+          {
+            "name": "yo",
+            "path": "yo.mp3",
+            "translation": {
+              "en": "yo"
+            }
+          },
+          {
+            "name": "check it out",
+            "path": "check_it_out.mp3",
+            "translation": {
+              "en": "check it out"
+            }
+          },
+          {
+            "name": "nintendo",
+            "path": "nintendo.mp3",
+            "translation": {
+              "en": "nintendoooooo"
             }
           }
         ]
