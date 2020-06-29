@@ -3,18 +3,50 @@
       {
         "name": "Catchphrase",
         "translation": {
-          "Chinese": "各种哈↑哈↑哈↑",
-          "Japanese": "いろいろははは",
           "en": "Catchphrase"
         },
         "voicelist": [
           {
             "name": "konlulu",
-            "path": "konlulu.ogg",
+            "path": "konlulu.mp3",
             "translation": {
-              "Chinese": "哈↑哈↑哈↓哈↓哈↓",
-              "Japanese": "は↑は↑は↓は↓は↓",
               "en": "konlulu"
+            }
+          },
+          {
+            "name": "minna-san",
+            "path": "minna-san.mp3",
+            "translation": {
+              "en": "minna-san"
+            }
+          }
+        ]
+      },
+      {
+        "name": "English",
+        "translation": {
+          "en": "English"
+        },
+        "voicelist": [
+          {
+            "name": "hi",
+            "path": "hi.mp3",
+            "translation": {
+              "en": "hi"
+            }
+          },
+          {
+            "name": "I'm a shark",
+            "path": "im_a_shark.mp3",
+            "translation": {
+              "en": "I'm a shark"
+            }
+          },
+          {
+            "name": "I'm hungry",
+            "path": "im_hungry.mp3",
+            "translation": {
+              "en": "I'm hungry"
             }
           }
         ]

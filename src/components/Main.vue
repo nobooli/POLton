@@ -114,7 +114,7 @@
         <v-toolbar-title>{{$t("ui.orderplaymode")}}</v-toolbar-title>
         <v-spacer></v-spacer>
       </v-toolbar>
-      <v-card v-if="$i18n.locale=='zhHans'" class="pa-2">
+      <v-card class="pa-1">
         <p class="title font-weight-blod">{{$t("ui.orderlistnow")}}</p>
         <v-chip
           v-for="(selected,index) in orderlist"
@@ -125,61 +125,7 @@
           text-color="white"
           @click:close="deletelist(index)"
           @click="playOnly(selected)"
-        >{{selected.translation.Chinese}}</v-chip>
-        <v-switch
-          class="ml-3 mt-2"
-          v-model="repeatmode"
-          inset
-          color="secondary"
-          :label="$t('ui.repeatmode')"
-        ></v-switch>
-        <v-card-actions v-if="orderlist.length>0">
-          <v-btn raised color="primary" @click="orderplay">{{$t("ui.playthislist")}}</v-btn>
-          <v-btn text color="secondary" @click="stopplay">{{$t("ui.stopplay")}}</v-btn>
-          <v-divider></v-divider>
-          <v-btn text color="red" @click="resetorder">{{$t("ui.resetorder")}}</v-btn>
-        </v-card-actions>
-        <p v-else>{{$t("ui.listempty")}}</p>
-      </v-card>
-      <v-card v-if="$i18n.locale=='ja'" class="pa-1">
-        <p class="title font-weight-blod">{{$t("ui.orderlistnow")}}</p>
-        <v-chip
-          v-for="(selected,index) in orderlist"
-          :key="selected"
-          class="ma-2"
-          close
-          color="secondary"
-          text-color="white"
-          @click:close="deletelist(index)"
-          @click="playOnly(selected)"
-        >{{selected.translation.Japanese}}</v-chip>
-        <v-switch
-          class="ml-3 mt-2"
-          v-model="repeatmode"
-          inset
-          color="secondary"
-          :label="$t('ui.repeatmode')"
-        ></v-switch>
-        <v-card-actions v-if="orderlist.length>0">
-          <v-btn raised color="primary" @click="orderplay">{{$t("ui.playthislist")}}</v-btn>
-          <v-btn text color="secondary" @click="stopplay">{{$t("ui.stopplay")}}</v-btn>
-          <v-divider></v-divider>
-          <v-btn text color="red" @click="resetorder">{{$t("ui.resetorder")}}</v-btn>
-        </v-card-actions>
-        <p v-else>{{$t("ui.listempty")}}</p>
-      </v-card>
-      <v-card v-if="$i18n.locale=='en'" class="pa-1">
-        <p class="title font-weight-blod">{{$t("ui.orderlistnow")}}</p>
-        <v-chip
-          v-for="(selected,index) in orderlist"
-          :key="selected"
-          class="ma-2"
-          close
-          color="secondary"
-          text-color="white"
-          @click:close="deletelist(index)"
-          @click="playOnly(selected)"
-        >{{selected.translation.English}}</v-chip>
+        >{{resolveI18n(selected.translation)}}</v-chip>
         <v-switch
           class="ml-3 mt-2"
           v-model="repeatmode"
@@ -234,7 +180,7 @@
 </template>
 
 <script>
-import voicelist from '../assets/voices.json';
+import voicelist from "../assets/voices.json";
 var audio = new Audio();
 var i = 0;
 export default {
@@ -246,7 +192,7 @@ export default {
     helpdialog: false,
     repeatmode: false,
     arrysize: 0,
-    volume: 100,
+    volume: 100
   }),
   created() {
     //window.console.log(this.voices); //装载语音包path
@@ -263,21 +209,21 @@ export default {
       }
       let audio = new Audio();
       audio.preload = true;
-      audio.src = 'voices/' + item.path;
+      audio.src = "voices/" + item.path;
       this.voice = item;
       audio.volume = this.volume / 100;
       audio.play();
     },
     playOnly(item) {
       let audio = new Audio();
-      audio.src = 'voices/' + item.path;
+      audio.src = "voices/" + item.path;
       audio.preload = true;
       this.voice = item;
       audio.play();
     },
     playSpecial() {
       let audio = new Audio();
-      audio.src = 'voices/私货.mp3';
+      audio.src = "voices/私货.mp3";
       audio.preload = true;
       audio.play();
     },
@@ -292,22 +238,22 @@ export default {
       let repeat = this.repeatmode;
       audio.preload = true;
       audio.loop = false;
-      audio.src = 'voices/' + arry[i].path;
+      audio.src = "voices/" + arry[i].path;
       audio.volume = this.volume / 100;
       audio.play();
-      audio.addEventListener('ended', playEndedHandler, false);
+      audio.addEventListener("ended", playEndedHandler, false);
       function playEndedHandler() {
         //序列播放实现
         i++;
         if (i < arry.length) {
-          audio.src = 'voices/' + arry[i].path;
+          audio.src = "voices/" + arry[i].path;
           //window.console.log(i);
           audio.play();
         } else {
           if (repeat == true) {
             //不要停不下来啊
             i = 0;
-            audio.src = 'voices/' + arry[i].path;
+            audio.src = "voices/" + arry[i].path;
             audio.play();
           }
         }
@@ -319,7 +265,7 @@ export default {
     stopplay() {
       audio.pause();
       i = 0;
-    },
+    }
   },
   watch: {
     orderplaymode: function() {
@@ -329,8 +275,8 @@ export default {
     },
     orderlist: function() {
       this.arrysize = this.orderlist.length;
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -347,8 +293,13 @@ export default {
 #fluntUIcoming {
   border-radius: 10px;
   width: 100%;
-  background: linear-gradient(135deg, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 1) 100%);
-  box-shadow: -4px -4px 10px -8px rgba(255, 255, 255, 1), 4px 4px 10px -8px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    135deg,
+    rgba(246, 246, 246, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  box-shadow: -4px -4px 10px -8px rgba(255, 255, 255, 1),
+    4px 4px 10px -8px rgba(0, 0, 0, 0.3);
 }
 #fluntUItext {
   font-family: Helvetica;
