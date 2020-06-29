@@ -19,6 +19,7 @@ module.exports = {
         betainfo: "2020/6/29, Konlulu faith is starting!",
         info: "Lulu button for the church of Debilulu",
         developer: "Original developer：Coceki",
+        fork: "Forked by: Merun",
         credits: "Special Thanks：野兔子同好会 Richard_Al 昭和歌姬夏半首",
         translationCredits: "English translation: HoloLive Moments",
         tips1: "Open the play queue, select the sound clips (duplication is allowed)",
