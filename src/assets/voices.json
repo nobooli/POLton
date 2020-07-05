@@ -40,6 +40,13 @@
             "translation": {
               "en": "Listen, listen everyone listen"
             }
+          },
+          {
+            "name": "Ningen tabetai",
+            "path": "ningentabetai.mp3",
+            "translation": {
+              "en": "Wanna eat human"
+            }
           }
         ]
       },
@@ -124,6 +131,13 @@
             "path": "beam.mp3",
             "translation": {
               "en": "Beam"
+            }
+          },
+          {
+            "name": "Killer Queen",
+            "path": "killerqueen.mp3",
+            "translation": {
+              "en": "Killer Queen"
             }
           }
         ]
