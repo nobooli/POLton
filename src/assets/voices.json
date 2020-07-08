@@ -47,6 +47,27 @@
             "translation": {
               "en": "Wanna eat human"
             }
+          },
+          {
+            "name": "Moshi moshi",
+            "path": "moshimoshi.mp3",
+            "translation": {
+              "en": "Moshi Moshi"
+            }
+          },
+          {
+            "name": "I am at your house",
+            "path": "atyourhouse.mp3",
+            "translation": {
+              "en": "Right now, I'm in front of your house"
+            }
+          },
+          {
+            "name": "Right behind you",
+            "path": "rightbehindyou.mp3",
+            "translation": {
+              "en": "Right now, I'm right behind you"
+            }
           }
         ]
       },
@@ -167,6 +188,27 @@
             "path": "kuyashi.mp3",
             "translation": {
               "en": "How frustating"
+            }
+          },
+          {
+            "name": "Nyan Nyan",
+            "path": "nyannyan.mp3",
+            "translation": {
+              "en": "Meow Meow"
+            }
+          },
+          {
+            "name": "Kawaii",
+            "path": "kawaiii.mp3",
+            "translation": {
+              "en": "That's cute"
+            }
+          },
+          {
+            "name": "yummy",
+            "path": "thatlookyummy.mp3",
+            "translation": {
+              "en": "That look yummy"
             }
           }
         ]
