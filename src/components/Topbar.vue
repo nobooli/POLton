@@ -48,7 +48,7 @@
       <v-icon left>mdi-twitter</v-icon>@lulu_suzuhara
     </v-btn>
     <v-spacer></v-spacer>
-    <v-btn v-if="$vuetify.breakpoint.mdAndUp" @click="See('https://github.com/Coceki/peko-button')">
+    <v-btn v-if="$vuetify.breakpoint.mdAndUp" @click="See('https://github.com/RomainLK/lulu-button')">
       <v-icon left>mdi-github</v-icon>
       {{$t("ui.helpdevelope")}}
     </v-btn>
