@@ -68,6 +68,20 @@
             "translation": {
               "en": "Right now, I'm right behind you"
             }
+          },
+          {
+            "name": "I'm back",
+            "path": "imback.mp3",
+            "translation": {
+              "en": "I'm back"
+            }
+          },
+          {
+            "name": "Surprised?",
+            "path": "suprised.mp3",
+            "translation": {
+              "en": "Surprised?"
+            }
           }
         ]
       },
@@ -209,6 +223,27 @@
             "path": "thatlookyummy.mp3",
             "translation": {
               "en": "That look yummy"
+            }
+          },
+          {
+            "name": "ittai1",
+            "path": "ittai1.mp3",
+            "translation": {
+              "en": "Ouch"
+            }
+          },
+          {
+            "name": "ittai2",
+            "path": "ittai2_long.mp3",
+            "translation": {
+              "en": "Owwww"
+            }
+          },
+          {
+            "name": "gomene",
+            "path": "imsorry.mp3",
+            "translation": {
+              "en": "Sorry~"
             }
           }
         ]
