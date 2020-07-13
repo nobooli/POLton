@@ -2,6 +2,14 @@
 
 Forked from https://github.com/Coceki/peko-button
 
+##  Adding voices
+
+Add them in the public/voices folder, and edit public/voices.json to add them in the interface.
+
+Upload them in mp3, with a filename as close as possible to the content. Use romaji for Japanese.
+
+MP3 equalization can be done using mp3gains, targeting a normal of 89db.
+
 ## Original Credits
 代码：  
 * [Coceki](https://space.bilibili.com/11229533)  

@@ -51,8 +51,8 @@
             }
           },
           {
-            "name": "Surprised?",
-            "path": "catchphrases/suprised.mp3",
+            "name": "Bikkuri shita?",
+            "path": "catchphrases/bikkuri_shita.mp3",
             "translation": {
               "en": "Surprised?"
             }
@@ -152,7 +152,7 @@
             "name": "Hi",
             "path": "english/hi.mp3",
             "translation": {
-              "en": "hi"
+              "en": "Hi"
             }
           },
           {
@@ -320,7 +320,7 @@
             "name": "Abunai",
             "path": "reactions/abunai.mp3",
             "translation": {
-              "en": "Look out!"
+              "en": "Look out"
             }
           },{
             "name": "Arya",
