@@ -7,6 +7,7 @@ export default new Vuex.Store({
     state: {
         dark_mode: false,
         dark_icon: "mdi-moon-waning-crescent",
+        lastAudio: ''
     },
     mutations: {
         change_dark_mode(state) {
@@ -17,6 +18,9 @@ export default new Vuex.Store({
                 state.dark_icon = "mdi-white-balance-sunny";
             }
         },
+        setLastAudio(state, value){
+            state.lastAudio = value;
+        }
     },
     actions: {},
     modules: {}

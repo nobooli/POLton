@@ -31,7 +31,7 @@
         fab
         @click="orderdialog=true"
       >
-        <v-badge color="secondary" :content="arrysize" :value="arrysize" overlap>
+        <v-badge color="secondary" :content="orderlist.length" :value=" orderlist.length" overlap>
           <v-icon>mdi-reorder-horizontal</v-icon>
         </v-badge>
       </v-btn>
@@ -143,7 +143,7 @@
       </v-card>
     </v-dialog>
     <!--序列播放说明-->
-    <v-dialog v-model="helpdialog" persistent max-width="600">
+    <!-- <v-dialog v-model="helpdialog" persistent max-width="600">
       <v-toolbar dark color="primary">
         <v-toolbar-title>{{$t("ui.orderplaymodehelp")}}</v-toolbar-title>
         <v-spacer></v-spacer>
@@ -175,7 +175,7 @@
         </v-img>
       </v-card>
       <v-btn raised color="primary" @click="helpdialog=false">{{$t("ui.gotit")}}</v-btn>
-    </v-dialog>
+    </v-dialog>-->
   </v-container>
 </template>
 
@@ -189,7 +189,7 @@ export default {
     orderplaymode: false,
     orderdialog: false,
     orderlist: [],
-    helpdialog: false,
+    //helpdialog: false,
     repeatmode: false,
     arrysize: 0,
     volume: 100
@@ -207,9 +207,11 @@ export default {
         this.orderlist.push(item);
         //window.console.log(this.orderlist);
       }
+
       let audio = new Audio();
       audio.preload = true;
       audio.src = "voices/" + item.path;
+      this.$store.commit("setLastAudio", audio.src);
       this.voice = item;
       audio.volume = this.volume / 100;
       audio.play();
@@ -265,17 +267,18 @@ export default {
     stopplay() {
       audio.pause();
       i = 0;
-    }
+    },
+
   },
   watch: {
-    orderplaymode: function() {
-      if (this.orderplaymode) {
-        this.helpdialog = true;
-      }
-    },
-    orderlist: function() {
-      this.arrysize = this.orderlist.length;
-    }
+    // orderplaymode: function() {
+    //   // if (this.orderplaymode) {
+    //   //   this.helpdialog = true;
+    //   // }
+    // },
+    // orderlist: function() {
+    //   this.arrysize = this.orderlist.length;
+    // }
   }
 };
 </script>
