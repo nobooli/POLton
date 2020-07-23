@@ -58,6 +58,13 @@
             }
           },
           {
+            "name": "Nantekottai",
+            "path": "catchphrases/nantekottai.mp3",
+            "translation": {
+              "en": "What the hell!"
+            }
+          },
+          {
             "name": "Konkonkonlulu",
             "path": "catchphrases/konkonkonlulu.mp3",
             "translation": {
@@ -139,6 +146,12 @@
             "path": "nihongo/sugoi_hentai.mp3",
             "translation": {
               "en": "Super pervert"
+            }
+          },{
+            "name": "tasuke wa ko nai yo",
+            "path": "nihongo/tasuke_wa_ko_nai_yo.mp3",
+            "translation": {
+              "en": "Help won't come"
             }
           }
         ]},
@@ -237,6 +250,27 @@
             "path": "english/additional_time.mp3",
             "translation": {
               "en": "Additional time"
+            }
+          },
+          {
+            "name": "Dont touch me",
+            "path": "english/Dont_Touch_Me.mp3",
+            "translation": {
+              "en": "Don't touch me"
+            }
+          },
+          {
+            "name": "Anybody",
+            "path": "english/anybody.mp3",
+            "translation": {
+              "en": "Anybody"
+            }
+          },
+          {
+            "name": "I dont speak english",
+            "path": "english/i_dont_speak_English.mp3",
+            "translation": {
+              "en": "I dont speak English"
             }
           }
         ]
