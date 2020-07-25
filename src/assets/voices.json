@@ -272,6 +272,20 @@
             "translation": {
               "en": "I dont speak English"
             }
+          },
+          {
+            "name": "Yes I know",
+            "path": "english/yes_I_know.mp3",
+            "translation": {
+              "en": "Yes, I know"
+            }
+          },
+          {
+            "name": "Blah blah blah",
+            "path": "english/blah_blah_blah.mp3",
+            "translation": {
+              "en": "Blah blah blah"
+            }
           }
         ]
       },
