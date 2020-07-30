@@ -56,6 +56,9 @@
       <!-- </router-link> -->
       <!-- </v-badge> -->
     </v-row>
+    <v-row align="center" justify="center">
+      <v-text-field :value="$store.state.lastAudio" label="URL" readonly outlined></v-text-field>
+    </v-row>
     <v-row class="pa-1">
       <!--div id="fluntUIcoming" class="pa-5">
         <p class="font-weight-blod" id="fluntUItext"><v-icon large color="primary" class="mr-4">mdi-git</v-icon>{{$t("ui.newversion")}}</p>
@@ -267,8 +270,7 @@ export default {
     stopplay() {
       audio.pause();
       i = 0;
-    },
-
+    }
   },
   watch: {
     // orderplaymode: function() {

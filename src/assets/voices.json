@@ -148,12 +148,26 @@
               "en": "Super pervert"
             }
           },{
-            "name": "tasuke wa ko nai yo",
+            "name": "Tasuke wa ko nai yo",
             "path": "nihongo/tasuke_wa_ko_nai_yo.mp3",
             "translation": {
               "en": "Help won't come"
             }
+          },{
+            "name": "Are are okashina nande",
+            "path": "nihongo/are_arere_okashina_nande.mp3",
+            "translation": {
+              "en": "Huh? This is strange. Why???"
+            }
+          },{
+            "name": "Sayonalion",
+            "path": "nihongo/sayonalion.mp3",
+            "translation": {
+              "en": "Farewel~ion"
+            }
           }
+    
+
         ]},
       {
         "name": "English",
@@ -253,8 +267,8 @@
             }
           },
           {
-            "name": "Dont touch me",
-            "path": "english/Dont_Touch_Me.mp3",
+            "name": "Don't touch me",
+            "path": "english/dont_touch_me.mp3",
             "translation": {
               "en": "Don't touch me"
             }
@@ -267,8 +281,8 @@
             }
           },
           {
-            "name": "I dont speak english",
-            "path": "english/i_dont_speak_English.mp3",
+            "name": "I dont speak English",
+            "path": "english/i_dont_speak_english.mp3",
             "translation": {
               "en": "I dont speak English"
             }
@@ -285,6 +299,41 @@
             "path": "english/blah_blah_blah.mp3",
             "translation": {
               "en": "Blah blah blah"
+            }
+          },
+          {
+            "name": "Hi Hello! How are you? I'm fine thank you.",
+            "path": "english/hello_im_fine_thank_you.mp3",
+            "translation": {
+              "en": "Hi Hello! How are you? I'm fine thank you."
+            }
+          },
+          {
+            "name": "Yes I know",
+            "path": "english/yes_i_know.mp3",
+            "translation": {
+              "en": "Yes I know"
+            }
+          },
+          {
+            "name": "Let's eat",
+            "path": "english/lets_eat.mp3",
+            "translation": {
+              "en": "Let's eat"
+            }
+          },
+          {
+            "name": "Not eat",
+            "path": "english/not_eat.mp3",
+            "translation": {
+              "en": "Not eat"
+            }
+          },
+          {
+            "name": "Stay here",
+            "path": "english/stay_here.mp3",
+            "translation": {
+              "en": "Stay here"
             }
           }
         ]
@@ -388,6 +437,36 @@
             "translation": {
               "en": "Darn"
             }
+          },{
+            "name": "Yayyyy",
+            "path": "reactions/yayyyy.mp3",
+            "translation": {
+              "en": "Yayyyy"
+            }
+          },{
+            "name": "Onya",
+            "path": "reactions/onya.mp3",
+            "translation": {
+              "en": "Onya"
+            }
+          },{
+            "name": "Nandekotta panna cotta",
+            "path": "reactions/nandekottai_panna_cotta.mp3",
+            "translation": {
+              "en": "Why in the panna cottaaaa?"
+            }
+          },{
+            "name": "Kyaaa",
+            "path": "reactions/kyaaa.mp3",
+            "translation": {
+              "en": "Kyaaa"
+            }
+          },{
+            "name": "Hiiii",
+            "path": "reactions/hiiii.mp3",
+            "translation": {
+              "en": "Hiiii"
+            }
           }
         ]
       },
@@ -409,6 +488,27 @@
             "path": "sfx/vroom.mp3",
             "translation": {
               "en": "Vroom"
+            }
+          },
+          {
+            "name": "Pafuu",
+            "path": "sfx/pafuu.mp3",
+            "translation": {
+              "en": "Pafuu"
+            }
+          },
+          {
+            "name": "Pafu Pafu Pafu",
+            "path": "sfx/pafu_pafu_pafu.mp3",
+            "translation": {
+              "en": "Pafu Pafu Pafu"
+            }
+          },
+          {
+            "name": "Pim pon",
+            "path": "sfx/pim_pon.mp3",
+            "translation": {
+              "en": "Pim pon"
             }
           }
         ]
@@ -443,6 +543,34 @@
             "path": "musics/ponponpon.mp3",
             "translation": {
               "en": "Ponponpon"
+            }
+          },
+          {
+            "name": "Dan dan jingle 1",
+            "path": "musics/dan_dan_jingle_part_1.mp3",
+            "translation": {
+              "en": "Dan dan jingle 1"
+            }
+          },
+          {
+            "name": "Dan dan jingle 1",
+            "path": "musics/dan_dan_jingle_part_2.mp3",
+            "translation": {
+              "en": "Dan dan jingle 2"
+            }
+          },
+          {
+            "name": "Pien pien",
+            "path": "musics/pien_pien.mp3",
+            "translation": {
+              "en": "Pien pien"
+            }
+          },
+          {
+            "name": "Pien acapella",
+            "path": "musics/pien_acapella.mp3",
+            "translation": {
+              "en": "Pien acapella"
             }
           }
         ]
