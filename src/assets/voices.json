@@ -165,9 +165,31 @@
             "translation": {
               "en": "Farewel~ion"
             }
+          },{
+            "name": "Wakattenai",
+            "path": "nihongo/wakattenai.mp3",
+            "translation": {
+              "en": "I don't understand anything"
+            }
+          },{
+            "name": "Wakatta",
+            "path": "nihongo/wakatta.mp3",
+            "translation": {
+              "en": "I somewhat understand"
+            }
+          },{
+            "name": "Nekohara",
+            "path": "nihongo/nekohara_Lulu.mp3",
+            "translation": {
+              "en": "Monogatary's neko tongue twist"
+            }
+          },{
+            "name": "ningen janai but",
+            "path": "nihongo/ningen_janai_but.mp3",
+            "translation": {
+              "en": "I'm not human but"
+            }
           }
-    
-
         ]},
       {
         "name": "English",
@@ -334,6 +356,27 @@
             "path": "english/stay_here.mp3",
             "translation": {
               "en": "Stay here"
+            }
+          },
+          {
+            "name": "Do not ride snake",
+            "path": "english/do_not_ride_snake.mp3",
+            "translation": {
+              "en": "Do not ride snake"
+            }
+          },
+          {
+            "name": "Beg",
+            "path": "english/beg.mp3",
+            "translation": {
+              "en": "Beg"
+            }
+          },
+          {
+            "name": "Now",
+            "path": "english/now.mp3",
+            "translation": {
+              "en": "Now"
             }
           }
         ]
