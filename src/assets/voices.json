@@ -185,8 +185,31 @@
               "en": "I'm not killing anyone!... In fact I am"
             }
           }
-    
-
+          ,{
+            "name": "Wakattenai",
+            "path": "nihongo/wakattenai.mp3",
+            "translation": {
+              "en": "I don't understand anything"
+            }
+          },{
+            "name": "Wakatta",
+            "path": "nihongo/wakatta.mp3",
+            "translation": {
+              "en": "I somewhat understand"
+            }
+          },{
+            "name": "Nekohara",
+            "path": "nihongo/nekohara_lulu.mp3",
+            "translation": {
+              "en": "Monogatari's neko tongue twist"
+            }
+          },{
+            "name": "Ningen janai demo",
+            "path": "nihongo/ningen_janai_but.mp3",
+            "translation": {
+              "en": "I'm not human but"
+            }
+          }
         ]},
       {
         "name": "English",
@@ -346,6 +369,27 @@
             "path": "english/stay_here.mp3",
             "translation": {
               "en": "Stay here"
+            }
+          },
+          {
+            "name": "Do not ride snake",
+            "path": "english/do_not_ride_snake.mp3",
+            "translation": {
+              "en": "Do not ride snake"
+            }
+          },
+          {
+            "name": "Beg",
+            "path": "english/beg.mp3",
+            "translation": {
+              "en": "Beg"
+            }
+          },
+          {
+            "name": "Now",
+            "path": "english/now.mp3",
+            "translation": {
+              "en": "Now"
             }
           }
         ]
