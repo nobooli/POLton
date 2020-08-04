@@ -28,6 +28,13 @@
             }
           },
           {
+            "name": "Ohalulu",
+            "path": "catchphrases/ohalulu.mp3",
+            "translation": {
+              "en": "Ohalulu"
+            }
+          },
+          {
             "name": "Ningen desu",
             "path": "catchphrases/ningen_desu.mp3",
             "translation": {
@@ -83,6 +90,12 @@
             "path": "catchphrases/konkonkonlulu_slow.mp3",
             "translation": {
               "en": "Konkonkonlulu (slow)"
+            }
+          },
+          { "name" : "Overheat Jasmine Drive",
+            "path": "catchphrases/overheat_jasmine_drive.mp3",
+            "translation": {
+              "en": "Overheat Jasmine Drive"
             }
           }
         ]
@@ -164,6 +177,12 @@
             "path": "nihongo/sayonalion.mp3",
             "translation": {
               "en": "Farewel~ion"
+            }
+          },
+          { "name": "korosutenaiyo! Yahari korosu",
+            "path": "nihongo/korosutenaiyo.mp3",
+            "translation": {
+              "en": "I'm not killing anyone!... In fact I am"
             }
           }
     
@@ -306,13 +325,6 @@
             "path": "english/hello_im_fine_thank_you.mp3",
             "translation": {
               "en": "Hi Hello! How are you? I'm fine thank you."
-            }
-          },
-          {
-            "name": "Yes I know",
-            "path": "english/yes_i_know.mp3",
-            "translation": {
-              "en": "Yes I know"
             }
           },
           {
@@ -553,7 +565,7 @@
             }
           },
           {
-            "name": "Dan dan jingle 1",
+            "name": "Dan dan jingle 2",
             "path": "musics/dan_dan_jingle_part_2.mp3",
             "translation": {
               "en": "Dan dan jingle 2"

@@ -90,14 +90,15 @@
 </template>
 
 <script>
+import { copyToClipboard } from "@/common/clipboard";
 export default {
   data: () => ({
     snackbarCopy: false,
     langs: [
       { title: "English", src: "en", isready: true },
       { title: "简体中文", src: "zhHans", isready: false },
-      { title: "日本語(ベータ版)", src: "ja", isready: false }
-    ]
+      { title: "日本語(ベータ版)", src: "ja", isready: false },
+    ],
   }),
   methods: {
     changeLang(e) {
@@ -112,35 +113,26 @@ export default {
       window.location.href = e;
     },
     copyLastAudio() {
-      this.copyToClipboard(this.$store.state.lastAudio);
+      copyToClipboard(this.$store.state.lastAudio);
       this.snackbarCopy = true;
     },
-    copyToClipboard(text) {
-      const listener = ev => {
-        ev.preventDefault();
-        ev.clipboardData.setData("text/plain", text);
-      };
-      document.addEventListener("copy", listener);
-      document.execCommand("copy");
-      document.removeEventListener("copy", listener);
-    }
   },
   computed: {
     darkmodeicon: {
-      get: function() {
+      get: function () {
         return this.$store.state.dark_icon;
-      }
+      },
     },
     night: {
-      get: function() {
+      get: function () {
         if (this.$vuetify.theme.dark) {
           return "grey darken-4";
         } else {
           return "primary";
         }
-      }
-    }
-  }
+      },
+    },
+  },
 };
 </script>
 

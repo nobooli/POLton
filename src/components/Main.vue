@@ -109,7 +109,7 @@
       </v-col>
     </v-row>
     <!--序列播放-->
-    <v-dialog v-model="orderdialog" persistent max-width="800">
+    <v-dialog v-model="orderdialog" max-width="800">
       <v-toolbar dark color="primary">
         <v-btn icon dark @click="orderdialog = false,stopplay()">
           <v-icon>mdi-close</v-icon>
@@ -118,6 +118,16 @@
         <v-spacer></v-spacer>
       </v-toolbar>
       <v-card class="pa-1">
+        <v-toolbar dense>
+          
+            <v-text-field hide-details  single-line :value="playlistUrl" readonly ></v-text-field>
+          
+          
+            <v-btn icon @click="copyPlaylist">
+              <v-icon>mdi-content-copy</v-icon>
+            </v-btn>
+          
+        </v-toolbar>
         <p class="title font-weight-blod">{{$t("ui.orderlistnow")}}</p>
         <v-chip
           v-for="(selected,index) in orderlist"
@@ -184,6 +194,8 @@
 
 <script>
 import voicelist from "../assets/voices.json";
+import { copyToClipboard } from "@/common/clipboard";
+
 var audio = new Audio();
 var i = 0;
 export default {
@@ -195,10 +207,34 @@ export default {
     //helpdialog: false,
     repeatmode: false,
     arrysize: 0,
-    volume: 100
+    volume: 100,
   }),
-  created() {
-    //window.console.log(this.voices); //装载语音包path
+  mounted() {
+    for (const [gIndex, group] of Object.entries(voicelist.groups)) {
+      for (const [vIndex, voice] of Object.entries(group.voicelist)) {
+        voice.key = `${gIndex},${vIndex}`;
+      }
+    }
+    const params = new URLSearchParams(document.location.search.substring(1));
+    const playlist = params.get("playlist");
+    if (playlist) {
+      this.orderplaymode = true;
+      playlist
+        .split(";")
+        .map((v) => v.split(","))
+        .forEach(([gIndex, vIndex]) => {
+          this.orderlist.push(voicelist.groups[gIndex].voicelist[vIndex]);
+        });
+        this.orderdialog = true;
+    }
+  },
+  computed: {
+    playlistUrl() {
+      return `${window.location.origin}?playlist=${this.orderlist.reduce(
+        (r, k) => `${!r ? r : r + ";"}${k.key}`,
+        ""
+      )}`;
+    },
   },
   methods: {
     resolveI18n(obj) {
@@ -208,7 +244,7 @@ export default {
       if (this.orderplaymode) {
         //判断序列播放
         this.orderlist.push(item);
-        //window.console.log(this.orderlist);
+        window.console.log(this.orderlist);
       }
 
       let audio = new Audio();
@@ -264,13 +300,16 @@ export default {
         }
       }
     },
+    copyPlaylist() {
+      copyToClipboard(this.playlistUrl);
+    },
     resetorder() {
       this.orderlist = [];
     },
     stopplay() {
       audio.pause();
       i = 0;
-    }
+    },
   },
   watch: {
     // orderplaymode: function() {
@@ -281,7 +320,7 @@ export default {
     // orderlist: function() {
     //   this.arrysize = this.orderlist.length;
     // }
-  }
+  },
 };
 </script>
 
