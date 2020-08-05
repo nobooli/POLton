@@ -21,6 +21,12 @@
             <v-icon left color="blue">mdi-twitter</v-icon>@lulu_suzuhara
           </v-list-item-title>
         </v-list-item>
+        <v-list-item to="/">
+          <v-list-item-title>{{$t('link.soundboard')}}</v-list-item-title>
+        </v-list-item>
+        <v-list-item to="/bingo-generator">
+          <v-list-item-title>{{$t('link.bingoGenerator')}}</v-list-item-title>
+        </v-list-item>
         <v-divider></v-divider>
         <v-list-item @click="see('https://github.com/RomainLK/lulu-button')">
           <v-list-item-title>
@@ -47,13 +53,15 @@
     >
       <v-icon left>mdi-twitter</v-icon>@lulu_suzuhara
     </v-btn>
+    <v-btn class="ml-4" to="/">{{$t('link.soundboard')}}</v-btn>
+    <v-btn class="ml-4" to="/bingo-generator">{{$t('link.bingoGenerator')}}</v-btn>
+
     <v-spacer></v-spacer>
     <v-btn
       v-if="$vuetify.breakpoint.mdAndUp"
       @click="see('https://github.com/RomainLK/lulu-button')"
     >
       <v-icon left>mdi-github</v-icon>
-      {{$t("ui.helpdevelope")}}
     </v-btn>
     <v-btn :disabled="!$store.state.lastAudio" fab icon @click="copyLastAudio()">
       <v-icon>mdi-content-copy</v-icon>

@@ -4,7 +4,7 @@ module.exports = {
     ],
 
     pwa: {
-      name: 'ぺこらボタン',
+      name: 'Konlulu',
       msTileColor: '#728bf3',
       appleMobileWebAppCapable: 'yes',
       appleMobileWebAppStatusBarStyle: 'black',
@@ -14,4 +14,10 @@ module.exports = {
       },
       themeColor: '#728bf3'
     },
+    devServer: {
+      overlay: {
+        warnings: false,
+        errors: false
+      }
+    }
 }
