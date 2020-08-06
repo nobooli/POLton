@@ -97,6 +97,24 @@
             "translation": {
               "en": "Overheat Jasmine Drive"
             }
+          },
+          { "name" : "Ansatsusha Suzuhara Lulu",
+            "path": "catchphrases/ansatsusha_suzuhara_lulu.mp3",
+            "translation": {
+              "en": "Assassin Suzuhara Lulu"
+            }
+          },
+          { "name" : "Sniper Lulu",
+            "path": "catchphrases/sniper_lulu.mp3",
+            "translation": {
+              "en": "Sniper Lulu"
+            }
+          },
+          { "name" : "Samehara Lulu",
+            "path": "catchphrases/samehara_lulu.mp3",
+            "translation": {
+              "en": "Samehara Lulu"
+            }
           }
         ]
       },
@@ -391,6 +409,13 @@
             "translation": {
               "en": "Now"
             }
+          },
+          {
+            "name": "Headshot",
+            "path": "english/headshot.mp3",
+            "translation": {
+              "en": "Headshot"
+            }
           }
         ]
       },
@@ -523,6 +548,18 @@
             "translation": {
               "en": "Hiiii"
             }
+          },{
+            "name": "Kakoi",
+            "path": "reactions/kakoi.mp3",
+            "translation": {
+              "en": "Cool"
+            }
+          },{
+            "name": "Yoisho",
+            "path": "reactions/yoisho.mp3",
+            "translation": {
+              "en": "Yoisho"
+            }
           }
         ]
       },
@@ -627,6 +664,13 @@
             "path": "musics/pien_acapella.mp3",
             "translation": {
               "en": "Pien acapella"
+            }
+          },
+          {
+            "name": "Doki doki waku waku",
+            "path": "musics/doki_doki_waku_waku.mp3",
+            "translation": {
+              "en": "Doki doki waku waku"
             }
           }
         ]

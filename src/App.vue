@@ -77,7 +77,7 @@ export default {
   name: "App",
 
   components: {
-    Topbar
+    Topbar,
   },
 
   data: () => ({
@@ -121,24 +121,20 @@ export default {
       //   href:"https://korone.icu/",
       //   color:"brown darken-1"
       // },
-    ]
+    ],
     //
   }),
   mounted() {
     let timeNow = new Date();
     let hours = timeNow.getHours();
     if (hours < 6 || hours > 18) {
-      //自动触发夜间模式
       this.$store.commit("change_dark_mode");
       this.$vuetify.theme.dark = this.$store.state.dark_mode;
-      window.console.log("success");
     }
-    window.onbeforeinstallprompt = e => {
-      //当浏览器触发横幅显示事件
-      window.console.log(e);
+    window.onbeforeinstallprompt = (e) => {
       this.prompt = true;
       this.deferred = e;
-      //window.console.log(this.prompt);
+
       this.showAddToHomeScreen();
     };
     window.addEventListener("scroll", this.handleScroll, true);
@@ -154,7 +150,7 @@ export default {
     addToHomescreen() {
       this.deferred.prompt();
       let _this = this;
-      this.deferred.userChoice.then(function(choiceResult) {
+      this.deferred.userChoice.then(function (choiceResult) {
         if (choiceResult.outcome === "accepted") {
           window.console.log("User accepted the A2HS prompt");
           _this.addtoscreendialog = false;
@@ -181,7 +177,7 @@ export default {
     },
     See(e) {
       window.location.href = e;
-    }
-  }
+    },
+  },
 };
 </script>

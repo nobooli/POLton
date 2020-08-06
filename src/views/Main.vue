@@ -215,8 +215,8 @@ export default {
         voice.key = `${gIndex},${vIndex}`;
       }
     }
-    const params = new URLSearchParams(document.location.search.substring(1));
-    const playlist = params.get("playlist");
+  
+    const playlist = this.$route.query.playlist;
     if (playlist) {
       this.orderplaymode = true;
       playlist

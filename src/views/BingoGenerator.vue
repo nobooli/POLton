@@ -1,25 +1,22 @@
 <template>
   <v-container>
     <v-row align="center">
-      <v-col>
+      <v-col class="text-center">
         <v-btn @click="generate(null)">Generate</v-btn>
         <v-btn class="ml-4" @click="download">Download</v-btn>
         <v-btn class="ml-4" @click="reset">Reset board</v-btn>
       </v-col>
     </v-row>
-    <canvas ref="bingoCanvas" v-on:click="mouseClick"></canvas>
+    <v-row align="center">
+      <v-col class="text-center">
+        <canvas class="d-inline" ref="bingoCanvas" v-on:click="mouseClick"></canvas>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 <script>
 import bingoLines from "@/assets/bingoLines.json";
 export default {
-  beforeMount() {
-    window.addEventListener("beforeunload", this.preventNav);
-    this.$once("hook:beforeDestroy", () => {
-      window.removeEventListener("beforeunload", this.preventNav);
-    });
-  },
-
   beforeRouteLeave(to, from, next) {
     if (this.isPlaying) {
       if (!window.confirm("Abandon the game?")) {
@@ -30,19 +27,27 @@ export default {
   },
 
   mounted() {
-    this.generate(null);
+    for (const [index, line] of Object.entries(bingoLines)) {
+      line.index = index;
+    }
+    window.addEventListener("beforeunload", this.preventNav);
+    this.$once("hook:beforeDestroy", () => {
+      window.removeEventListener("beforeunload", this.preventNav);
+    });
+    let restore;
+    if (this.$route.query.lines) {
+      restore = this.decodeList(this.$route.query.lines).map(
+        (i) => bingoLines[i]
+      );
+    }
+    this.generate(restore);
   },
-  data: function () {
+  data() {
     return {
       isPlaying: false,
+      bingoed: false,
+      lines: [],
       table: [
-        [0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0],
-        [0, 0, 1, 0, 0],
-        [0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0],
-      ],
-      tableText: [
         [0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0],
         [0, 0, 1, 0, 0],
@@ -52,64 +57,66 @@ export default {
     };
   },
   methods: {
-    reset: function () {
+    reset() {
       this.isPlaying = false;
+      this.bingoed = false;
       for (let y = 0; y < 5; y++) {
         for (let x = 0; x < 5; x++) {
           this.table[y][x] = 0;
         }
       }
       this.table[2][2] = 1;
-      this.generate(this.tableText);
+      this.generate(this.lines);
     },
-    checkBingo: function () {
+    checkBingo() {
       //check rows
-      let colSums=[0,0,0,0,0];
+      const colSums = [0, 0, 0, 0, 0];
       for (let y = 0; y < 5; y++) {
         let rowSum = 0;
         for (let x = 0; x < 5; x++) {
-          rowSum+=this.table[y][x];
-          colSums[x]+=this.table[y][x];
+          rowSum += this.table[y][x];
+          colSums[x] += this.table[y][x];
           if (colSums[x] === 5) {
             return true;
           }
         }
-        if (rowSum===5) {
+        if (rowSum === 5) {
           return true;
         }
       }
       return false;
     },
-    mouseClick: function (event) {
+    mouseClick(event) {
       if (event.offsetX && event.offsetY) {
-        let x = event.offsetX - 44;
-        let y = event.offsetY - 476;
+        const x = event.offsetX - 44;
+        const y = event.offsetY - 476;
         if (x > 0 && y > 0 && x < 909 && y < 1350) {
           this.isPlaying = true;
-          let tableX = Math.ceil(x / 164) - 1;
-          let tableY = Math.ceil(y / 164) - 1;
+          const tableX = Math.ceil(x / 164) - 1;
+          const tableY = Math.ceil(y / 164) - 1;
           this.table[tableY][tableX] = 1;
           {
             //draw
             const context = this.$refs.bingoCanvas.getContext("2d");
 
             context.font = "16pt Arial";
-            let cellX = tableX*164+44;
-            let cellY = tableY*164+475;
-            let width = 161;
+            const cellX = tableX * 164 + 44;
+            const cellY = tableY * 164 + 475;
+            const width = 161;
             context.beginPath();
-            context.lineWidth="2";
+            context.lineWidth = "2";
             context.strokeStyle = "red";
-            context.rect(cellX,cellY,width,width);
+            context.rect(cellX, cellY, width, width);
             context.stroke();
           }
-          if (this.checkBingo()) {
+          if (!this.bingoed && this.checkBingo()) {
+            this.bingoed = true;
             alert("Bingo!");
           }
         }
       }
     },
-    generate(generatedLines = null) {
+    generate(generatedLines) {
       if (this.isPlaying) {
         if (!window.confirm("Abandon the game?")) {
           this.reset();
@@ -127,37 +134,33 @@ export default {
       bg.onload = () => {
         context.drawImage(bg, 0, 0);
 
-        const lines =
-          generatedLines === null
-            ? this.getRandomLines(bingoLines, 24)
-            : generatedLines;
-
+        if (generatedLines) {
+          this.lines = generatedLines;
+        } else {
+          this.lines = this.getRandomLines(bingoLines, 24);
+          this.$router.push({
+            query: { lines: this.encodeList(this.lines.map((l) => l.index)) },
+          });
+        }
+        const linesCopy = this.lines.slice();
         const xOrigin = 45;
         const yOrigin = 480;
         const squareSide = 165;
-        const textBoxPadding = 5;
-        const textBox = 160;
 
         for (let line = 0; line < 5; line++) {
           for (let col = 0; col < 5; col++) {
             let text;
-            if (generatedLines === null) {
-              if (col === 2 && line === 2) {
-                text = "Konlulu!";
-              } else {
-                text = lines.pop()[this.$i18n.locale];
-              }
-              this.tableText[line][col] = text;
+            if (col === 2 && line === 2) {
+              text = "Konlulu!";
             } else {
-              text = this.tableText[line][col];
+              text = linesCopy.pop()[this.$i18n.locale];
             }
-
             this.wrapText(
               context,
               text,
-              xOrigin + squareSide * col + textBoxPadding,
-              yOrigin + squareSide * line + squareSide / 2.5 + textBoxPadding,
-              textBox,
+              xOrigin + squareSide * col + squareSide / 2, // around horizontal center
+              yOrigin + squareSide * line + squareSide / 2, //around vertical center
+              squareSide,
               25
             );
           }
@@ -180,30 +183,46 @@ export default {
       return result;
     },
 
+    encodeList(array) {
+      return btoa(array.join(","));
+    },
+    decodeList(encoded) {
+      return atob(encoded).split(",");
+    },
+
     wrapText(context, text, x, y, maxWidth, lineHeight) {
       const words = text.split(" ");
+      const final = [];
       let line = "";
-
+      let metrics;
       for (let n = 0; n < words.length; n++) {
         const testLine = line + words[n] + " ";
-        const metrics = context.measureText(testLine);
+        metrics = context.measureText(testLine);
 
         const testWidth = metrics.width;
         if (testWidth > maxWidth && n > 0) {
-          context.fillText(line, x, y);
+          final.push(line);
+
           line = words[n] + " ";
-          y += lineHeight;
         } else {
           line = testLine;
         }
       }
-      context.fillText(line, x, y);
+      final.push(line);
+      const finalHeight = final.length * lineHeight;
+
+      let yStart = y - finalHeight / 2;
+      for (const text of final) {
+        const xStart = x - context.measureText(text).width / 2;
+
+        context.fillText(text, xStart, yStart);
+        yStart += lineHeight;
+      }
     },
     download() {
-      //
       var image = this.$refs.bingoCanvas
         .toDataURL("image/png")
-        .replace("image/png", "image/octet-stream"); // here is the most important part because if you dont replace you will get a DOM 18 exception.
+        .replace("image/png", "image/octet-stream");
       window.location.href = image;
     },
   },

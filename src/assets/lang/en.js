@@ -50,7 +50,7 @@ module.exports = {
     bingoGenerator: "Bingo Generator",
   },
   bingo: {
-      generate: 'Generate',
-      download: 'Download'
+    generate: 'Generate',
+    download: 'Download'
   }
 };
