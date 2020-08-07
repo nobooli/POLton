@@ -69,10 +69,13 @@ export default {
       this.generate(this.lines);
     },
     checkBingo() {
-      //check rows
+      let forwardSum = 0; // \ diagonal
+      let backwardSum = 0; // / diagonal
       const colSums = [0, 0, 0, 0, 0];
       for (let y = 0; y < 5; y++) {
         let rowSum = 0;
+        forwardSum += this.table[y][y];
+        backwardSum += this.table[4 - y][y];
         for (let x = 0; x < 5; x++) {
           rowSum += this.table[y][x];
           colSums[x] += this.table[y][x];
@@ -83,6 +86,9 @@ export default {
         if (rowSum === 5) {
           return true;
         }
+      }
+      if (forwardSum === 5 || backwardSum === 5) {
+        return true;
       }
       return false;
     },
