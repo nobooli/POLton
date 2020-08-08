@@ -227,6 +227,12 @@
             "translation": {
               "en": "I'm not human but"
             }
+          },{
+            "name": "Onii-chan Daisuki",
+            "path": "nihongo/onii_chan_daisuki.mp3",
+            "translation": {
+              "en": "Onii-chan Daisuki"
+            }
           }
         ]},
       {
@@ -415,6 +421,20 @@
             "path": "english/headshot.mp3",
             "translation": {
               "en": "Headshot"
+            }
+          },
+          {
+            "name": "Yummy",
+            "path": "english/yummy.mp3",
+            "translation": {
+              "en": "Yummy"
+            }
+          },
+          {
+            "name": "Holy shit",
+            "path": "english/holy_shit.mp3",
+            "translation": {
+              "en": "Holy shit"
             }
           }
         ]
@@ -671,6 +691,27 @@
             "path": "musics/doki_doki_waku_waku.mp3",
             "translation": {
               "en": "Doki doki waku waku"
+            }
+          },
+          {
+            "name": "Mottenai",
+            "path": "musics/mottenai.mp3",
+            "translation": {
+              "en": "Mottenai"
+            }
+          },
+          {
+            "name": "Nantekoto",
+            "path": "musics/nantekoto.mp3",
+            "translation": {
+              "en": "Nantekoto"
+            }
+          },
+          {
+            "name": "Zen de ke den",
+            "path": "musics/zen_de_ke_den.mp3",
+            "translation": {
+              "en": "Zen de ke den"
             }
           }
         ]
