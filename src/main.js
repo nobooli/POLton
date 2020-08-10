@@ -10,6 +10,7 @@ import ja from './assets/lang/ja'
 import VueCookies from 'vue-cookies'
 import '@mdi/font/css/materialdesignicons.css'
 import './registerServiceWorker'
+import '@pwabuilder/pwaupdate'
 
 Vue.use(VueCookies)
 Vue.config.productionTip = false

@@ -20,54 +20,14 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
+
     <Topbar></Topbar>
     <v-content app>
-      <v-container fluid class="mt-10">
-        <v-fab-transition>
-          <v-btn class v-show="gotop" color="primary" fab dark fixed bottom right @click="toTop">
-            <v-icon>mdi-arrow-up</v-icon>
-          </v-btn>
-        </v-fab-transition>
+      <v-container fluid class="mb-10">
         <router-view></router-view>
       </v-container>
     </v-content>
-    <v-footer style="postition:absolute;bottom:0;" class="py-4" dark height="auto">
-      <v-container mx-auto>
-        <v-layout wrap>
-          <v-flex xs10>
-            <v-container>
-              <v-row align="end">
-                {{$t("ui.developer")}}
-                <v-btn icon @click="See('https://github.com/RomainLK/lulu-button')">
-                  <v-icon>mdi-github</v-icon>
-                </v-btn>
-              </v-row>
-              <v-row align="end">{{$t("ui.fork")}}</v-row>
-              <v-row>{{$t("ui.credits")}}</v-row>
-              <v-row>{{$t("ui.translationCredits")}}</v-row>
-              <v-row>
-                <p>{{$t("ui.friendlinks")}}</p>
-                <div class="ma-0 pa-0">
-                  <v-btn
-                    class="ma-1"
-                    v-for="link in links"
-                    :key="link.name"
-                    depressed
-                    :color="link.color"
-                    @click="See(link.href)"
-                  >{{link.name}}</v-btn>
-                </div>
-              </v-row>
-              <v-row>{{$t("ui.developerinfo")}}</v-row>
-            </v-container>
-          </v-flex>
-          <v-spacer />
-          <v-btn class="mr-0" square title="Go to top" @click="$vuetify.goTo(0)">
-            <v-icon>mdi-chevron-up</v-icon>
-          </v-btn>
-        </v-layout>
-      </v-container>
-    </v-footer>
+
   </v-app>
 </template>
 
@@ -85,44 +45,8 @@ export default {
     prompt: false,
     deferred: null,
     addtoscreendialog: false,
-    links: [
-      // {
-      //   name:"VTuber按钮合集/vtbBtn",
-      //   href:"https://vtbbtn.org/",
-      //   color:"orange lighten-1"
-      // },
-      // {
-      //   name:"夸按钮/あくあボタン",
-      //   href:"https://aquaminato.moe/",
-      //   color:"purple lighten-2"
-      // },
-      // {
-      //   name:"狐按钮/フブキボタン",
-      //   href:"https://sfubuki.moe/",
-      //   color:"blue lighten-2"
-      // },
-      // {
-      //   name:"祭按钮/まつりボタン",
-      //   href:"https://natsuiromatsuri.moe/",
-      //   color:"orange darken-1"
-      // },
-      // {
-      //   name:"狼按钮/ミオボタン",
-      //   href:"https://ookamimio.org/",
-      //   color:"black"
-      // },
-      // {
-      //   name:"余按钮/なきりあやめボタン",
-      //   href:"https://nakiriayame.moe/",
-      //   color:"red darken-1"
-      // },
-      // {
-      //   name:"狗按钮/ころねボタン",
-      //   href:"https://korone.icu/",
-      //   color:"brown darken-1"
-      // },
-    ],
-    //
+    links: [],
+    showSidebar: false,
   }),
   mounted() {
     let timeNow = new Date();

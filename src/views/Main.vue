@@ -1,94 +1,42 @@
 <template>
   <v-container>
-    <v-menu id="volumeM" open-on-hover offset-x>
-      <template v-slot:activator="{ on }">
-        <v-btn id="volumestyle" color="secondary" dark fixed bottom left fab v-on="on">
-          <v-icon>mdi-volume-high</v-icon>
-        </v-btn>
-      </template>
-      <v-card min-height="100" min-width="250" flat>
-        <v-slider
-          class="pl-5 pr-5 pt-8 mb-0"
-          v-model="volume"
-          :label="this.$t('ui.volume')"
-          thumb-label
-          max="100"
-          min="0"
-          dense
-          prepend-icon="mdi-volume-high"
-        ></v-slider>
-      </v-card>
-    </v-menu>
-    <v-fab-transition>
-      <v-btn
-        class="mb-12 mr-12"
-        v-show="orderplaymode"
-        color="primary"
-        dark
-        fixed
-        bottom
-        right
-        fab
-        @click="orderdialog=true"
-      >
+    <v-bottom-navigation fixed>
+      <v-slider
+        class="pt-4 ml-4"
+        style="width:20rem"
+        v-model="volume"
+        :label="this.$t('ui.volume')"
+        thumb-label
+        max="100"
+        min="0"
+        dense
+        prepend-icon="mdi-volume-high"
+      ></v-slider>
+      <v-spacer />
+      <v-switch
+        class="mr-3"
+        v-model="orderplaymode"
+        inset
+        color="secondary"
+        :label="$t('ui.openorderplaymode')"
+      ></v-switch>
+
+      <v-btn :disabled="!orderplaymode" icon @click="orderdialog=true">
         <v-badge color="secondary" :content="orderlist.length" :value=" orderlist.length" overlap>
           <v-icon>mdi-reorder-horizontal</v-icon>
         </v-badge>
       </v-btn>
-    </v-fab-transition>
-
-    <!---标题--->
-    <v-row class="mt-5" align="center" justify="center">
-      <div class="text-center display-1 font-weight-bold">{{$t("ui.title")}}</div>
-    </v-row>
-
-    <v-row align="center" justify="center">
-      <v-switch v-model="orderplaymode" inset color="secondary" :label="$t('ui.openorderplaymode')"></v-switch>
-      <!-- <v-badge
-        color="primary"
-        :content="this.$t('ui.beta')"
-        overlap
-        offset-x=40
-        offset-y=20
-      >-->
-      <!-- <router-link to="/pekolanguage" class="a"> -->
-      <!-- <v-btn disabled class="ma-2" raised color="secondary">{{$t("ui.pekolanguage")}}</v-btn> -->
-      <!-- </router-link> -->
-      <!-- </v-badge> -->
-    </v-row>
+      <v-btn
+        :disabled="!$store.state.lastAudio"
+        icon
+        @click="$store.dispatch('copyLastAudioToClipboard')"
+      >
+        <v-icon>mdi-content-copy</v-icon>
+      </v-btn>
+    </v-bottom-navigation>
     <v-row align="center" justify="center">
       <v-text-field :value="$store.state.lastAudio" label="URL" readonly outlined></v-text-field>
     </v-row>
-    <v-row class="pa-1">
-      <!--div id="fluntUIcoming" class="pa-5">
-        <p class="font-weight-blod" id="fluntUItext"><v-icon large color="primary" class="mr-4">mdi-git</v-icon>{{$t("ui.newversion")}}</p>
-      </div-->
-    </v-row>
-    <!---帮助文本--->
-    <v-row>
-      <v-col cols="12" class="ma-0 pa-0">
-        <v-card class="ma-1 pa-4">
-          <p class="headline font-weight-blod">
-            <v-icon large color="red">mdi-party-popper</v-icon>
-            {{$t("ui.info")}}
-          </p>
-          <p>{{$t("ui.betainfo")}}</p>
-        </v-card>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col cols="12" class="ma-0 pa-0">
-        <v-card class="ma-1 pa-4">
-          <p class="headline font-weight-blod">
-            <v-icon large color="primary">mdi-help-circle</v-icon>
-            {{$t("ui.helptitle")}}
-          </p>
-          <p>{{$t("ui.helpcontent")}}</p>
-          <p>{{$t("ui.additionalhelp")}}</p>
-        </v-card>
-      </v-col>
-    </v-row>
-    <!---展示按钮--->
     <v-row v-for="group in voices" :key="group.name">
       <v-col cols="12" class="ma-0 pa-0">
         <v-card class="ma-1 pa-0">
@@ -108,7 +56,7 @@
         </v-card>
       </v-col>
     </v-row>
-    <!--序列播放-->
+
     <v-dialog v-model="orderdialog" max-width="800">
       <v-toolbar dark color="primary">
         <v-btn icon dark @click="orderdialog = false,stopplay()">
@@ -119,14 +67,11 @@
       </v-toolbar>
       <v-card class="pa-1">
         <v-toolbar dense>
-          
-            <v-text-field hide-details  single-line :value="playlistUrl" readonly ></v-text-field>
-          
-          
-            <v-btn icon @click="copyPlaylist">
-              <v-icon>mdi-content-copy</v-icon>
-            </v-btn>
-          
+          <v-text-field hide-details single-line :value="playlistUrl" readonly></v-text-field>
+
+          <v-btn icon @click="copyPlaylist">
+            <v-icon>mdi-content-copy</v-icon>
+          </v-btn>
         </v-toolbar>
         <p class="title font-weight-blod">{{$t("ui.orderlistnow")}}</p>
         <v-chip
@@ -155,40 +100,6 @@
         <p v-else>{{$t("ui.listempty")}}</p>
       </v-card>
     </v-dialog>
-    <!--序列播放说明-->
-    <!-- <v-dialog v-model="helpdialog" persistent max-width="600">
-      <v-toolbar dark color="primary">
-        <v-toolbar-title>{{$t("ui.orderplaymodehelp")}}</v-toolbar-title>
-        <v-spacer></v-spacer>
-      </v-toolbar>
-      <v-card class="pa-5">
-        <p class="title">{{$t("ui.tips1")}}</p>
-        <v-img src="1.png" width="300">
-          <template v-slot:placeholder>
-            <v-row class="fill-height ma-0" align="center" justify="center">
-              <v-progress-circular indeterminate color="primary"></v-progress-circular>
-            </v-row>
-          </template>
-        </v-img>
-        <p class="title">{{$t("ui.tips2")}}</p>
-        <v-img src="2.png" width="300">
-          <template v-slot:placeholder>
-            <v-row class="fill-height ma-0" align="center" justify="center">
-              <v-progress-circular indeterminate color="primary"></v-progress-circular>
-            </v-row>
-          </template>
-        </v-img>
-        <p class="title">{{$t("ui.tips3")}}</p>
-        <v-img src="3.png" width="300">
-          <template v-slot:placeholder>
-            <v-row class="fill-height ma-0" align="center" justify="center">
-              <v-progress-circular indeterminate color="primary"></v-progress-circular>
-            </v-row>
-          </template>
-        </v-img>
-      </v-card>
-      <v-btn raised color="primary" @click="helpdialog=false">{{$t("ui.gotit")}}</v-btn>
-    </v-dialog>-->
   </v-container>
 </template>
 
@@ -215,7 +126,7 @@ export default {
         voice.key = `${gIndex},${vIndex}`;
       }
     }
-  
+
     const playlist = this.$route.query.playlist;
     if (playlist) {
       this.orderplaymode = true;
@@ -225,7 +136,7 @@ export default {
         .forEach(([gIndex, vIndex]) => {
           this.orderlist.push(voicelist.groups[gIndex].voicelist[vIndex]);
         });
-        this.orderdialog = true;
+      this.orderdialog = true;
     }
   },
   computed: {
@@ -311,16 +222,6 @@ export default {
       i = 0;
     },
   },
-  watch: {
-    // orderplaymode: function() {
-    //   // if (this.orderplaymode) {
-    //   //   this.helpdialog = true;
-    //   // }
-    // },
-    // orderlist: function() {
-    //   this.arrysize = this.orderlist.length;
-    // }
-  },
 };
 </script>
 
@@ -328,35 +229,7 @@ export default {
 .a {
   text-decoration: none;
 }
-#volumestyle {
-  z-index: 201;
-}
-#volumeM {
-  z-index: 999;
-}
-#fluntUIcoming {
-  border-radius: 10px;
-  width: 100%;
-  background: linear-gradient(
-    135deg,
-    rgba(246, 246, 246, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  box-shadow: -4px -4px 10px -8px rgba(255, 255, 255, 1),
-    4px 4px 10px -8px rgba(0, 0, 0, 0.3);
-}
-#fluntUItext {
-  font-family: Helvetica;
-  font-weight: normal;
-  color: #999;
-  font-size: 24px;
-}
-#fluntinfo {
-  font-family: Helvetica;
-  font-weight: normal;
-  color: #999;
-  font-size: 16px;
-}
+
 .btn {
   max-width: 100%;
   word-wrap: break-word !important;

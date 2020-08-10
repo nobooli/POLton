@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import { copyToClipboard } from "@/common/clipboard";
 
 Vue.use(Vuex)
 
@@ -7,7 +8,8 @@ export default new Vuex.Store({
     state: {
         dark_mode: false,
         dark_icon: "mdi-moon-waning-crescent",
-        lastAudio: ''
+        lastAudio: '',
+        notifications: []
     },
     mutations: {
         change_dark_mode(state) {
@@ -22,6 +24,10 @@ export default new Vuex.Store({
             state.lastAudio = value;
         }
     },
-    actions: {},
+    actions: {
+        copyLastAudioToClipboard(){
+            copyToClipboard(this.$store.state.lastAudio);
+        }
+    },
     modules: {}
 })

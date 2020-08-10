@@ -1,6 +1,6 @@
 module.exports = {
   ui: {
-    title: "Lulu Button",
+    title: "Konlulu",
     mediacontorl: "Control Button",
     stopplay: "Stop",
     helptitle: "Help",
@@ -14,21 +14,16 @@ module.exports = {
     listempty: "Playlist is empty",
     resetorder: "Clear the playlist",
     language: "Language",
-    orderplaymodehelp: "How to use the playlist",
     developerinfo:
-      "This site is made by fans. We are not related to Nijisanji in any way.",
-    repeatmode: "Don't you ever stop!(Loop play)",
+      "This site is made by fans. We are not related to Nijisanji or Ichikara in any way.",
+    repeatmode: "Loop playlist",
     betainfo:
-      "2020/07/13, Lulu having such a soft and sweet voice, clips were equalized to bless our ears!",
-    info: "Lulu button for the church of Debilulu",
+      "2020/08/11, Bingo and redesign!",
+    info: "Konlulu fansite",
     developer: "Original developer：Coceki",
     fork: "Forked by: Merun",
-    credits: "Special Thanks：野兔子同好会 Richard_Al 昭和歌姬夏半首",
-    translationCredits: "English translation: HoloLive Moments",
-    tips1:
-      "Open the play queue, select the sound clips (duplication is allowed)",
-    tips2: "Then click the round button on bottom right corner",
-    tips3: "It will play these clips in order.",
+    credits: "Special Thanks：kahdeg, ztynz, Schtolteheim Reinbach IV, epic lod",
+    translationCredits: "Translation: Hololive Moments(EN)",
     beta: "Coming soon",
     gotit: "Got it",
     entersomewords:
@@ -48,6 +43,7 @@ module.exports = {
   link: {
     soundboard: "Soundboard",
     bingoGenerator: "Bingo Generator",
+    about: "About"
   },
   bingo: {
     generate: 'Generate',

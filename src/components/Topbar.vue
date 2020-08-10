@@ -1,16 +1,23 @@
 <template>
   <v-app-bar
     :collapse-on-scroll="$vuetify.breakpoint.smAndDown"
-    fixed
+    app
     :color="night"
     dark
     :elevate-on-scroll="$vuetify.breakpoint.mdAndUp"
   >
     <v-menu transition="slide-y-transition" bottom offset-y>
       <template v-slot:activator="{on:menu}">
-        <v-app-bar-nav-icon v-on="menu" v-show="$vuetify.breakpoint.smAndDown"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon v-on="menu" v></v-app-bar-nav-icon>
       </template>
       <v-list>
+        <v-list-item to="/">
+          <v-list-item-title> <v-icon left color="secondary">mdi-volume-source</v-icon>{{$t('link.soundboard')}}</v-list-item-title>
+        </v-list-item>
+        <v-list-item to="/bingo-generator">
+          <v-list-item-title> <v-icon left color="secondary">mdi-grid</v-icon>{{$t('link.bingoGenerator')}}</v-list-item-title>
+        </v-list-item>
+        <v-divider></v-divider>
         <v-list-item @click="see('https://www.youtube.com/channel/UC_a1ZYZ8ZTXpjg9xUY9sj8w')">
           <v-list-item-title>
             <v-icon left color="red">mdi-youtube</v-icon>鈴原るる【にじさんじ所属】
@@ -21,13 +28,10 @@
             <v-icon left color="blue">mdi-twitter</v-icon>@lulu_suzuhara
           </v-list-item-title>
         </v-list-item>
-        <v-list-item to="/">
-          <v-list-item-title>{{$t('link.soundboard')}}</v-list-item-title>
-        </v-list-item>
-        <v-list-item to="/bingo-generator">
-          <v-list-item-title>{{$t('link.bingoGenerator')}}</v-list-item-title>
-        </v-list-item>
         <v-divider></v-divider>
+        <v-list-item to="/about">
+          <v-list-item-title> <v-icon left color="secondary">mdi-information</v-icon>{{$t('link.about')}}</v-list-item-title>
+        </v-list-item>
         <v-list-item @click="see('https://github.com/RomainLK/lulu-button')">
           <v-list-item-title>
             <v-icon left color="black">mdi-github</v-icon>
@@ -37,7 +41,9 @@
       </v-list>
     </v-menu>
     <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>
-    <v-btn
+    <pwa-update></pwa-update>
+    <v-spacer />
+    <!-- <v-btn
       v-if="$vuetify.breakpoint.mdAndUp"
       class="ml-4 text-capitalize"
       color="red"
@@ -53,19 +59,14 @@
     >
       <v-icon left>mdi-twitter</v-icon>@lulu_suzuhara
     </v-btn>
-    <v-btn class="ml-4" to="/">{{$t('link.soundboard')}}</v-btn>
-    <v-btn class="ml-4" to="/bingo-generator">{{$t('link.bingoGenerator')}}</v-btn>
-
     <v-spacer></v-spacer>
     <v-btn
       v-if="$vuetify.breakpoint.mdAndUp"
       @click="see('https://github.com/RomainLK/lulu-button')"
     >
       <v-icon left>mdi-github</v-icon>
-    </v-btn>
-    <v-btn :disabled="!$store.state.lastAudio" fab icon @click="copyLastAudio()">
-      <v-icon>mdi-content-copy</v-icon>
-    </v-btn>
+    </v-btn>-->
+
     <v-btn fab icon @click="darkMode()">
       <v-icon>{{darkmodeicon}}</v-icon>
     </v-btn>
@@ -100,6 +101,11 @@
 <script>
 import { copyToClipboard } from "@/common/clipboard";
 export default {
+  props: {
+    value: {
+      type: Boolean,
+    },
+  },
   data: () => ({
     snackbarCopy: false,
     langs: [

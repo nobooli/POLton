@@ -227,6 +227,12 @@
             "translation": {
               "en": "I'm not human but"
             }
+          },{
+            "name": "Nande doushite",
+            "path": "nihongo/nande_doushite.mp3",
+            "translation": {
+              "en": "Why? How?"
+            }
           }
         ]},
       {
@@ -415,6 +421,13 @@
             "path": "english/headshot.mp3",
             "translation": {
               "en": "Headshot"
+            }
+          },
+          {
+            "name": "See you later alligator",
+            "path": "english/see_you_later_alligator.mp3",
+            "translation": {
+              "en": "See you later alligator"
             }
           }
         ]
