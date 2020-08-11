@@ -448,6 +448,27 @@
             "translation": {
               "en": "Holy shit"
             }
+          },
+          {
+            "name": "Help me",
+            "path": "english/help_me.mp3",
+            "translation": {
+              "en": "Help me"
+            }
+          },
+          {
+            "name": "Wake up",
+            "path": "english/wake_up.mp3",
+            "translation": {
+              "en": "Wake up"
+            }
+          },
+          {
+            "name": "Forsaken",
+            "path": "english/my_god_why_have_you_forsaken_me.mp3",
+            "translation": {
+              "en": "My god, why have you forsaken me"
+            }
           }
         ]
       },
@@ -724,6 +745,28 @@
             "path": "musics/zen_de_ke_den.mp3",
             "translation": {
               "en": "Zen de ke den"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Laughs",
+        "translation":{
+          "en": "Laughs"
+        },
+        "voicelist":[
+          {
+            "name": "Yhihihihi",
+            "path": "laughs/yhihihihi.mp3",
+            "translation": {
+              "en": "Yhihihihi"
+            }
+          },
+          {
+            "name": "Ykhikhikhi",
+            "path": "laughs/ykhikhikhi.mp3",
+            "translation": {
+              "en": "Ykhikhikhi"
             }
           }
         ]
