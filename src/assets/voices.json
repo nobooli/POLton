@@ -1,775 +1,886 @@
 {
-    "groups": [
-      {
-        "name": "Catchphrases",
-        "translation": {
-          "en": "Catchphrases"
+  "groups": [
+    {
+      "name": "Catchphrases",
+      "translation": {
+        "en": "Catchphrases",
+        "ja": "キャッチフレーズ "
+      },
+      "voicelist": [
+        {
+          "name": "Konlulu",
+          "path": "catchphrases/konlulu.mp3",
+          "translation": {
+            "en": "Konlulu",
+            "ja": "こんるる"
+          }
         },
-        "voicelist": [
-          {
-            "name": "Konlulu",
-            "path": "catchphrases/konlulu.mp3",
-            "translation": {
-              "en": "Konlulu"
-            }
-          },
-          {
-            "name": "Minna-san",
-            "path": "catchphrases/minna-san.mp3",
-            "translation": {
-              "en": "Minna-san"
-            }
-          },
-          {
-            "name": "Minna-san konlulu",
-            "path": "catchphrases/minna-san_konlulu.mp3",
-            "translation": {
-              "en": "Minna-san konlulu"
-            }
-          },
-          {
-            "name": "Ohalulu",
-            "path": "catchphrases/ohalulu.mp3",
-            "translation": {
-              "en": "Ohalulu"
-            }
-          },
-          {
-            "name": "Ningen desu",
-            "path": "catchphrases/ningen_desu.mp3",
-            "translation": {
-              "en": "I am human"
-            }
-          },
+        {
+          "name": "Minna-san",
+          "path": "catchphrases/minna-san.mp3",
+          "translation": {
+            "en": "Minna-san",
+            "ja": "みんなさん"
+          }
+        },
+        {
+          "name": "Minna-san konlulu",
+          "path": "catchphrases/minna-san_konlulu.mp3",
+          "translation": {
+            "en": "Minna-san konlulu",
+            "ja": "みんあさんこんるる"
+          }
+        },
+        {
+          "name": "Ohalulu",
+          "path": "catchphrases/ohalulu.mp3",
+          "translation": {
+            "en": "Ohalulu",
+            "ja": "おはるる"
+          }
+        },
+        {
+          "name": "Ningen desu",
+          "path": "catchphrases/ningen_desu.mp3",
+          "translation": {
+            "en": "I am human",
+            "ja": "人間です"
+          }
+        },
 
-          {
-            "name": "Ningen tabetai",
-            "path": "catchphrases/ningen_tabetai.mp3",
-            "translation": {
-              "en": "Wanna eat human"
-            }
-          },
+        {
+          "name": "Ningen tabetai",
+          "path": "catchphrases/ningen_tabetai.mp3",
+          "translation": {
+            "en": "Wanna eat human",
+            "ja": "人間食べたい"
+          }
+        },
 
-          {
-            "name": "Tadaima",
-            "path": "catchphrases/tadaima.mp3",
-            "translation": {
-              "en": "I'm back"
-            }
-          },
-          {
-            "name": "Bikkuri shita?",
-            "path": "catchphrases/bikkuri_shita.mp3",
-            "translation": {
-              "en": "Surprised?"
-            }
-          },
-          {
-            "name": "Nantekottai",
-            "path": "catchphrases/nantekottai.mp3",
-            "translation": {
-              "en": "What the hell!"
-            }
-          },
-          {
-            "name": "Konkonkonlulu",
-            "path": "catchphrases/konkonkonlulu.mp3",
-            "translation": {
-              "en": "Konkonkonlulu"
-            }
-          },
-          {
-            "name": "Konkonkonlulu (fast)",
-            "path": "catchphrases/konkonkonlulu_fast.mp3",
-            "translation": {
-              "en": "Konkonkonlulu (fast)"
-            }
-          },
-          {
-            "name": "Konkonkonlulu (slow)",
-            "path": "catchphrases/konkonkonlulu_slow.mp3",
-            "translation": {
-              "en": "Konkonkonlulu (slow)"
-            }
-          },
-          { "name" : "Overheat Jasmine Drive",
-            "path": "catchphrases/overheat_jasmine_drive.mp3",
-            "translation": {
-              "en": "Overheat Jasmine Drive"
-            }
-          },
-          { "name" : "Ansatsusha Suzuhara Lulu",
-            "path": "catchphrases/ansatsusha_suzuhara_lulu.mp3",
-            "translation": {
-              "en": "Assassin Suzuhara Lulu"
-            }
-          },
-          { "name" : "Sniper Lulu",
-            "path": "catchphrases/sniper_lulu.mp3",
-            "translation": {
-              "en": "Sniper Lulu"
-            }
-          },
-          { "name" : "Samehara Lulu",
-            "path": "catchphrases/samehara_lulu.mp3",
-            "translation": {
-              "en": "Samehara Lulu"
-            }
+        {
+          "name": "Tadaima",
+          "path": "catchphrases/tadaima.mp3",
+          "translation": {
+            "en": "I'm back",
+            "ja": "只今"
           }
-        ]
+        },
+        {
+          "name": "Bikkuri shita?",
+          "path": "catchphrases/bikkuri_shita.mp3",
+          "translation": {
+            "en": "Surprised?",
+            "ja": "びっくりした"
+          }
+        },
+        {
+          "name": "Nantekottai",
+          "path": "catchphrases/nantekottai.mp3",
+          "translation": {
+            "en": "What the hell!",
+            "ja": "なんてこったい"
+          }
+        },
+        {
+          "name": "Konkonkonlulu",
+          "path": "catchphrases/konkonkonlulu.mp3",
+          "translation": {
+            "en": "Konkonkonlulu",
+            "ja": "こんこんこんるる"
+          }
+        },
+        {
+          "name": "Konkonkonlulu (fast)",
+          "path": "catchphrases/konkonkonlulu_fast.mp3",
+          "translation": {
+            "en": "Konkonkonlulu (fast)",
+            "ja": "こんこんこんるる（はやい）"
+          }
+        },
+        {
+          "name": "Konkonkonlulu (slow)",
+          "path": "catchphrases/konkonkonlulu_slow.mp3",
+          "translation": {
+            "en": "Konkonkonlulu (slow)",
+            "ja": "こんこんこんるる（おそい）"
+          }
+        },
+        { "name" : "Overheat Jasmine Drive",
+          "path": "catchphrases/overheat_jasmine_drive.mp3",
+          "translation": {
+            "en": "Overheat Jasmine Drive",
+            "ja": "オヴヘアトジャスミヌドリヴ"
+          }
+        },
+        { "name" : "Ansatsusha Suzuhara Lulu",
+          "path": "catchphrases/ansatsusha_suzuhara_lulu.mp3",
+          "translation": {
+            "en": "Assassin Suzuhara Lulu",
+            "ja": "暗殺者鈴原るる"
+          }
+        },
+        { "name" : "Sniper Lulu",
+          "path": "catchphrases/sniper_lulu.mp3",
+          "translation": {
+            "en": "Sniper Lulu",
+            "ja": "スナイパー"
+          }
+        },
+        { "name" : "Samehara Lulu",
+          "path": "catchphrases/samehara_lulu.mp3",
+          "translation": {
+            "en": "Samehara Lulu",
+            "ja": "サメはらるる"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nihongo",
+      "translation": {
+        "en": "Japanese",
+        "ja": "日本語"
       },
-      {
-        "name": "Nihongo",
-        "translation": {
-          "en": "Japanese"
+      "voicelist": [
+        {
+          "name": "Moshi moshi",
+          "path": "nihongo/moshi_moshi.mp3",
+          "translation": {
+            "en": "Moshi Moshi",
+            "ja": "もしもし"
+          }
         },
-        "voicelist": [
-          {
-            "name": "Moshi moshi",
-            "path": "nihongo/moshi_moshi.mp3",
-            "translation": {
-              "en": "Moshi Moshi"
-            }
-          },
-          {
-            "name": "I am at your house",
-            "path": "nihongo/at_your_house.mp3",
-            "translation": {
-              "en": "Right now, I'm in front of your house"
-            }
-          },
-          {
-            "name": "Right behind you",
-            "path": "nihongo/right_behind_you.mp3",
-            "translation": {
-              "en": "Right now, I'm right behind you"
-            }
-          },
-          {
-            "name": "Kawaii kata, tabetai kawaii kata",
-            "path": "nihongo/kawaii_kata.mp3",
-            "translation": {
-              "en": "She was so cute, i could eat her up"
-            }
-          },
-          {
-            "name": "Anoe anone minna anone",
-            "path": "nihongo/anone.mp3",
-            "translation": {
-              "en": "Listen, listen everyone listen"
-            }
-          },
-          {
-            "name": "Daijobu desu",
-            "path": "nihongo/daijobu_desu.mp3",
-            "translation": {
-              "en": "I'm ok"
-            }
-          },
-          {
-            "name": "Hentai hentai",
-            "path": "nihongo/hentai_hentai.mp3",
-            "translation": {
-              "en": "Pervert pervert"
-            }
-          },{
-            "name": "Sugoi hentai",
-            "path": "nihongo/sugoi_hentai.mp3",
-            "translation": {
-              "en": "Super pervert"
-            }
-          },{
-            "name": "Tasuke wa ko nai yo",
-            "path": "nihongo/tasuke_wa_ko_nai_yo.mp3",
-            "translation": {
-              "en": "Help won't come"
-            }
-          },{
-            "name": "Are are okashina nande",
-            "path": "nihongo/are_arere_okashina_nande.mp3",
-            "translation": {
-              "en": "Huh? This is strange. Why???"
-            }
-          },{
-            "name": "Sayonalion",
-            "path": "nihongo/sayonalion.mp3",
-            "translation": {
-              "en": "Farewel~ion"
-            }
-          },
-          { "name": "korosutenaiyo! Yahari korosu",
-            "path": "nihongo/korosutenaiyo.mp3",
-            "translation": {
-              "en": "I'm not killing anyone!... In fact I am"
-            }
+        {
+          "name": "I am at your house",
+          "path": "nihongo/at_your_house.mp3",
+          "translation": {
+            "en": "Right now, I'm in front of your house",
+            "ja": "いま、あなたの家の前いるの"
           }
-          ,{
-            "name": "Wakattenai",
-            "path": "nihongo/wakattenai.mp3",
-            "translation": {
-              "en": "I don't understand anything"
-            }
-          },{
-            "name": "Wakatta",
-            "path": "nihongo/wakatta.mp3",
-            "translation": {
-              "en": "I somewhat understand"
-            }
-          },{
-            "name": "Nekohara",
-            "path": "nihongo/nekohara_lulu.mp3",
-            "translation": {
-              "en": "Monogatari's neko tongue twist"
-            }
-          },{
-            "name": "Ningen janai demo",
-            "path": "nihongo/ningen_janai_but.mp3",
-            "translation": {
-              "en": "I'm not human but"
-            }
-          },{
-            "name": "Nande doushite",
-            "path": "nihongo/nande_doushite.mp3",
-            "translation": {
-              "en": "Why? How?"
-            }
-          }, {
-            "name": "Onii-chan Daisuki",
-            "path": "nihongo/onii_chan_daisuki.mp3",
-            "translation": {
-              "en": "Onii-chan Daisuki"
-            }
-          }
-        ]},
-      {
-        "name": "English",
-        "translation": {
-          "en": "English"
         },
-        "voicelist": [
-          {
-            "name": "Hi",
-            "path": "english/hi.mp3",
-            "translation": {
-              "en": "Hi"
-            }
-          },
-          {
-            "name": "I'm a shark",
-            "path": "english/im_a_shark.mp3",
-            "translation": {
-              "en": "I'm a shark"
-            }
-          },
-          {
-            "name": "I'm hungry",
-            "path": "english/im_hungry.mp3",
-            "translation": {
-              "en": "I'm hungry"
-            }
-          },
-          {
-            "name": "Jesus, oh jesus",
-            "path": "english/jesus_oh_jesus.mp3",
-            "translation": {
-              "en": "Jesus, oh Jesus"
-            }
-          },
-          {
-            "name": "Yo",
-            "path": "english/yo.mp3",
-            "translation": {
-              "en": "Yo"
-            }
-          },
-          {
-            "name": "Check it out",
-            "path": "english/check_it_out.mp3",
-            "translation": {
-              "en": "Check it out"
-            }
-          },
-          {
-            "name": "I will be back",
-            "path": "english/i_will_be_back.mp3",
-            "translation": {
-              "en": "I will be back"
-            }
-          },
-          {
-            "name": "Coming soon",
-            "path": "english/coming_soon.mp3",
-            "translation": {
-              "en": "Coming soon"
-            }
-          },
-          {
-            "name": "Long time no see",
-            "path": "english/long_time_no_see.mp3",
-            "translation": {
-              "en": "Long time no see"
-            }
-          },
-          {
-            "name": "Beam",
-            "path": "english/beam.mp3",
-            "translation": {
-              "en": "Beam"
-            }
-          },
-          {
-            "name": "Killer Queen",
-            "path": "english/killer_queen.mp3",
-            "translation": {
-              "en": "Killer Queen"
-            }
-          },
-          {
-            "name": "Sensitive",
-            "path": "english/sensitive.mp3",
-            "translation": {
-              "en": "Sensitive"
-            }
-          },
-          {
-            "name": "Additional time",
-            "path": "english/additional_time.mp3",
-            "translation": {
-              "en": "Additional time"
-            }
-          },
-          {
-            "name": "Don't touch me",
-            "path": "english/dont_touch_me.mp3",
-            "translation": {
-              "en": "Don't touch me"
-            }
-          },
-          {
-            "name": "Anybody",
-            "path": "english/anybody.mp3",
-            "translation": {
-              "en": "Anybody"
-            }
-          },
-          {
-            "name": "I dont speak English",
-            "path": "english/i_dont_speak_english.mp3",
-            "translation": {
-              "en": "I dont speak English"
-            }
-          },
-          {
-            "name": "Yes I know",
-            "path": "english/yes_I_know.mp3",
-            "translation": {
-              "en": "Yes, I know"
-            }
-          },
-          {
-            "name": "Blah blah blah",
-            "path": "english/blah_blah_blah.mp3",
-            "translation": {
-              "en": "Blah blah blah"
-            }
-          },
-          {
-            "name": "Hi Hello! How are you? I'm fine thank you.",
-            "path": "english/hello_im_fine_thank_you.mp3",
-            "translation": {
-              "en": "Hi Hello! How are you? I'm fine thank you."
-            }
-          },
-          {
-            "name": "Let's eat",
-            "path": "english/lets_eat.mp3",
-            "translation": {
-              "en": "Let's eat"
-            }
-          },
-          {
-            "name": "Not eat",
-            "path": "english/not_eat.mp3",
-            "translation": {
-              "en": "Not eat"
-            }
-          },
-          {
-            "name": "Stay here",
-            "path": "english/stay_here.mp3",
-            "translation": {
-              "en": "Stay here"
-            }
-          },
-          {
-            "name": "Do not ride snake",
-            "path": "english/do_not_ride_snake.mp3",
-            "translation": {
-              "en": "Do not ride snake"
-            }
-          },
-          {
-            "name": "Beg",
-            "path": "english/beg.mp3",
-            "translation": {
-              "en": "Beg"
-            }
-          },
-          {
-            "name": "Now",
-            "path": "english/now.mp3",
-            "translation": {
-              "en": "Now"
-            }
-          },
-          {
-            "name": "Headshot",
-            "path": "english/headshot.mp3",
-            "translation": {
-              "en": "Headshot"
-            }
-          },
-          {
-            "name": "See you later alligator",
-            "path": "english/see_you_later_alligator.mp3",
-            "translation": {
-              "en": "See you later alligator"
-            }
-          }, {
-            "name": "Yummy",
-            "path": "english/yummy.mp3",
-            "translation": {
-              "en": "Yummy"
-            }
-          },
-          {
-            "name": "Holy shit",
-            "path": "english/holy_shit.mp3",
-            "translation": {
-              "en": "Holy shit"
-            }
-          },
-          {
-            "name": "Help me",
-            "path": "english/help_me.mp3",
-            "translation": {
-              "en": "Help me"
-            }
-          },
-          {
-            "name": "Wake up",
-            "path": "english/wake_up.mp3",
-            "translation": {
-              "en": "Wake up"
-            }
-          },
-          {
-            "name": "Forsaken",
-            "path": "english/my_god_why_have_you_forsaken_me.mp3",
-            "translation": {
-              "en": "My god, why have you forsaken me"
-            }
+        {
+          "name": "Right behind you",
+          "path": "nihongo/right_behind_you.mp3",
+          "translation": {
+            "en": "Right now, I'm right behind you",
+            "ja": "いま、あなたの後ろにいるの"
           }
-        ]
+        },
+        {
+          "name": "Kawaii kata, tabetai kawaii kata",
+          "path": "nihongo/kawaii_kata.mp3",
+          "translation": {
+            "en": "She was so cute, i could eat her up",
+            "ja": "かわいいかた、たべたいかわいいかた"
+          }
+        },
+        {
+          "name": "Anone anone minna anone",
+          "path": "nihongo/anone.mp3",
+          "translation": {
+            "en": "Listen, listen everyone listen",
+            "ja": "あのねあのねみんああのね"
+          }
+        },
+        {
+          "name": "Daijobu desu",
+          "path": "nihongo/daijobu_desu.mp3",
+          "translation": {
+            "en": "I'm ok",
+            "ja": "大丈夫"
+          }
+        },
+        {
+          "name": "Hentai hentai",
+          "path": "nihongo/hentai_hentai.mp3",
+          "translation": {
+            "en": "Pervert pervert",
+            "ja": "へんたいへんたい"
+          }
+        },{
+          "name": "Sugoi hentai",
+          "path": "nihongo/sugoi_hentai.mp3",
+          "translation": {
+            "en": "Super pervert",
+            "ja": "すごいへんたい"
+          }
+        },{
+          "name": "Tasuke wa ko nai yo",
+          "path": "nihongo/tasuke_wa_ko_nai_yo.mp3",
+          "translation": {
+            "en": "Help won't come",
+            "ja": "助けは来ないよ"
+          }
+        },{
+          "name": "Are are okashina nande",
+          "path": "nihongo/are_arere_okashina_nande.mp3",
+          "translation": {
+            "en": "Huh? This is strange. Why???",
+            "ja": "あれあれ？おかしななんでｄ？"
+          }
+        },{
+          "name": "Sayonalion",
+          "path": "nihongo/sayonalion.mp3",
+          "translation": {
+            "en": "Farewel~ion",
+            "ja": "さよなリオン"
+          }
+        },
+        { "name": "korosutenaiyo! Yahari korosu",
+          "path": "nihongo/korosutenaiyo.mp3",
+          "translation": {
+            "en": "I'm not killing anyone!... In fact I am",
+            "ja": "殺すてないよ！やはり殺す"
+          }
+        }
+        ,{
+          "name": "Wakattenai",
+          "path": "nihongo/wakattenai.mp3",
+          "translation": {
+            "en": "I don't understand anything",
+            "ja": "わかってない"
+          }
+        },{
+          "name": "Wakatta",
+          "path": "nihongo/wakatta.mp3",
+          "translation": {
+            "en": "I somewhat understand",
+            "ja": "わかった"
+          }
+        },{
+          "name": "Nekohara",
+          "path": "nihongo/nekohara_lulu.mp3",
+          "translation": {
+            "en": "Monogatari's neko tongue twist",
+            "ja": "物語の早口言葉"
+          }
+        },{
+          "name": "Ningen janai demo",
+          "path": "nihongo/ningen_janai_but.mp3",
+          "translation": {
+            "en": "I'm not human but",
+            "ja": "人間じゃないでも"
+          }
+        },{
+          "name": "Nande doushite",
+          "path": "nihongo/nande_doushite.mp3",
+          "translation": {
+            "en": "Why? How?",
+            "ja": "なんでどうして"
+          }
+        }, {
+          "name": "Onii-chan Daisuki",
+          "path": "nihongo/onii_chan_daisuki.mp3",
+          "translation": {
+            "en": "Onii-chan Daisuki",
+            "ja": "お兄ちゃん大好き"
+          }
+        }
+      ]},
+    {
+      "name": "English",
+      "translation": {
+        "en": "English"
       },
-      {
-        "name": "Reactions",
-        "translation": {
-          "en": "Reactions"
-        },
-        "voicelist": [
-          {
-            "name": "Squeal 1",
-            "path": "reactions/squeal1.mp3",
-            "translation": {
-              "en": "Squeal 1"
-            }
-          }, 
-          {
-            "name": "Squeal 2",
-            "path": "reactions/squeal2.mp3",
-            "translation": {
-              "en": "Squeal 2"
-            }
-          },
-          {
-            "name": "Kuyashi",
-            "path": "reactions/kuyashi.mp3",
-            "translation": {
-              "en": "How frustating"
-            }
-          },
-          {
-            "name": "Nyan Nyan",
-            "path": "reactions/nyan_nyan.mp3",
-            "translation": {
-              "en": "Meow Meow"
-            }
-          },
-          {
-            "name": "Kawaii",
-            "path": "reactions/kawaiii.mp3",
-            "translation": {
-              "en": "That's cute"
-            }
-          },
-          {
-            "name": "Oishiso",
-            "path": "reactions/oishiso.mp3",
-            "translation": {
-              "en": "That look yummy"
-            }
-          },
-          {
-            "name": "Ittai1",
-            "path": "reactions/ittai1.mp3",
-            "translation": {
-              "en": "Ouch"
-            }
-          },
-          {
-            "name": "Ittai2",
-            "path": "reactions/ittai2_long.mp3",
-            "translation": {
-              "en": "Owwww"
-            }
-          },
-          {
-            "name": "Gomen ne",
-            "path": "reactions/gomen_ne.mp3",
-            "translation": {
-              "en": "Sorry~"
-            }
-          },
-          {
-            "name": "Nintendo",
-            "path": "reactions/nintendo.mp3",
-            "translation": {
-              "en": "Nintendoooooo"
-            }
-          },{
-            "name": "Abunai",
-            "path": "reactions/abunai.mp3",
-            "translation": {
-              "en": "That was close"
-            }
-          },{
-            "name": "Arya",
-            "path": "reactions/arya.mp3",
-            "translation": {
-              "en": "Arya"
-            }
-          },{
-            "name": "Nya",
-            "path": "reactions/nya.mp3",
-            "translation": {
-              "en": "Meow"
-            }
-          },{
-            "name": "Shimatta",
-            "path": "reactions/shimatta.mp3",
-            "translation": {
-              "en": "Darn"
-            }
-          },{
-            "name": "Yayyyy",
-            "path": "reactions/yayyyy.mp3",
-            "translation": {
-              "en": "Yayyyy"
-            }
-          },{
-            "name": "Onya",
-            "path": "reactions/onya.mp3",
-            "translation": {
-              "en": "Onya"
-            }
-          },{
-            "name": "Nandekotta panna cotta",
-            "path": "reactions/nandekottai_panna_cotta.mp3",
-            "translation": {
-              "en": "Why in the panna cottaaaa?"
-            }
-          },{
-            "name": "Kyaaa",
-            "path": "reactions/kyaaa.mp3",
-            "translation": {
-              "en": "Kyaaa"
-            }
-          },{
-            "name": "Hiiii",
-            "path": "reactions/hiiii.mp3",
-            "translation": {
-              "en": "Hiiii"
-            }
-          },{
-            "name": "Kakoi",
-            "path": "reactions/kakoi.mp3",
-            "translation": {
-              "en": "Cool"
-            }
-          },{
-            "name": "Yoisho",
-            "path": "reactions/yoisho.mp3",
-            "translation": {
-              "en": "Yoisho"
-            }
+      "voicelist": [
+        {
+          "name": "Hi",
+          "path": "english/hi.mp3",
+          "translation": {
+            "en": "Hi",
+            "ja": "ちわつす"
           }
-        ]
+        },
+        {
+          "name": "I'm a shark",
+          "path": "english/im_a_shark.mp3",
+          "translation": {
+            "en": "I'm a shark",
+            "ja": "サメです"
+          }
+        },
+        {
+          "name": "I'm hungry",
+          "path": "english/im_hungry.mp3",
+          "translation": {
+            "en": "I'm hungry",
+            "ja": "腹ペコです"
+          }
+        },
+        {
+          "name": "Jesus, oh jesus",
+          "path": "english/jesus_oh_jesus.mp3",
+          "translation": {
+            "en": "Jesus, oh Jesus",
+            "ja": "イエスオイエス"
+          }
+        },
+        {
+          "name": "Yo",
+          "path": "english/yo.mp3",
+          "translation": {
+            "en": "Yo",
+            "ja": "ヨ"
+          }
+        },
+        {
+          "name": "Check it out",
+          "path": "english/check_it_out.mp3",
+          "translation": {
+            "en": "Check it out",
+            "ja": "チェクラ"
+          }
+        },
+        {
+          "name": "I will be back",
+          "path": "english/i_will_be_back.mp3",
+          "translation": {
+            "en": "I will be back",
+            "ja": "戻るします"
+          }
+        },
+        {
+          "name": "Coming soon",
+          "path": "english/coming_soon.mp3",
+          "translation": {
+            "en": "Coming soon",
+            "ja": "コミングスーン"
+          }
+        },
+        {
+          "name": "Long time no see",
+          "path": "english/long_time_no_see.mp3",
+          "translation": {
+            "en": "Long time no see",
+            "ja": "おひさしぶり"
+          }
+        },
+        {
+          "name": "Beam",
+          "path": "english/beam.mp3",
+          "translation": {
+            "en": "Beam",
+            "ja": "光線"
+          }
+        },
+        {
+          "name": "Killer Queen",
+          "path": "english/killer_queen.mp3",
+          "translation": {
+            "en": "Killer Queen",
+            "ja": "殺人者女王"
+          }
+        },
+        {
+          "name": "Sensitive",
+          "path": "english/sensitive.mp3",
+          "translation": {
+            "en": "Sensitive",
+            "ja": "センシチブ"
+          }
+        },
+        {
+          "name": "Additional time",
+          "path": "english/additional_time.mp3",
+          "translation": {
+            "en": "Additional time",
+            "ja": "追加の時間"
+          }
+        },
+        {
+          "name": "Don't touch me",
+          "path": "english/dont_touch_me.mp3",
+          "translation": {
+            "en": "Don't touch me",
+            "ja": "触るれないで"
+          }
+        },
+        {
+          "name": "Anybody",
+          "path": "english/anybody.mp3",
+          "translation": {
+            "en": "Anybody",
+            "ja": "誰でも"
+          }
+        },
+        {
+          "name": "I dont speak English",
+          "path": "english/i_dont_speak_english.mp3",
+          "translation": {
+            "en": "I dont speak English",
+            "ja": "英語が話せない"
+          }
+        },
+        {
+          "name": "Yes I know",
+          "path": "english/yes_I_know.mp3",
+          "translation": {
+            "en": "Yes, I know",
+            "ja": "はい知る"
+          }
+        },
+        {
+          "name": "Blah blah blah",
+          "path": "english/blah_blah_blah.mp3",
+          "translation": {
+            "en": "Blah blah blah",
+            "ja": "かくかくしかじか"
+          }
+        },
+        {
+          "name": "Hi Hello! How are you? I'm fine thank you.",
+          "path": "english/hello_im_fine_thank_you.mp3",
+          "translation": {
+            "en": "Hi Hello! How are you? I'm fine thank you.",
+            "ja": "こんちわ！ごきげんいかがですか？元気ですありがと"
+          }
+        },
+        {
+          "name": "Let's eat",
+          "path": "english/lets_eat.mp3",
+          "translation": {
+            "en": "Let's eat",
+            "ja": "たべますよう"
+          }
+        },
+        {
+          "name": "Not eat",
+          "path": "english/not_eat.mp3",
+          "translation": {
+            "en": "Not eat",
+            "ja": "たべじゃない"
+          }
+        },
+        {
+          "name": "Stay here",
+          "path": "english/stay_here.mp3",
+          "translation": {
+            "en": "Stay here",
+            "ja": "ここ泊まる"
+          }
+        },
+        {
+          "name": "Do not ride snake",
+          "path": "english/do_not_ride_snake.mp3",
+          "translation": {
+            "en": "Do not ride snake",
+            "ja": "蛇には乗らない"
+          }
+        },
+        {
+          "name": "Beg",
+          "path": "english/beg.mp3",
+          "translation": {
+            "en": "Beg",
+            "ja": "希う"
+          }
+        },
+        {
+          "name": "Now",
+          "path": "english/now.mp3",
+          "translation": {
+            "en": "Now",
+            "ja": "まう"
+          }
+        },
+        {
+          "name": "Headshot",
+          "path": "english/headshot.mp3",
+          "translation": {
+            "en": "Headshot",
+            "ja": "ヘッド·ショット"
+          }
+        },
+        {
+          "name": "See you later alligator",
+          "path": "english/see_you_later_alligator.mp3",
+          "translation": {
+            "en": "See you later alligator",
+            "ja": "鱷魚まったね"
+          }
+        }, {
+          "name": "Yummy",
+          "path": "english/yummy.mp3",
+          "translation": {
+            "en": "Yummy",
+            "ja": "わにまたね"
+          }
+        },
+        {
+          "name": "Holy shit",
+          "path": "english/holy_shit.mp3",
+          "translation": {
+            "en": "Holy shit",
+            "ja": "なんてこった"
+          }
+        },
+        {
+          "name": "Help me",
+          "path": "english/help_me.mp3",
+          "translation": {
+            "en": "Help me",
+            "ja": "助けて"
+          }
+        },
+        {
+          "name": "Wake up",
+          "path": "english/wake_up.mp3",
+          "translation": {
+            "en": "Wake up",
+            "ja": "目覚めろ"
+          }
+        },
+        {
+          "name": "Forsaken",
+          "path": "english/my_god_why_have_you_forsaken_me.mp3",
+          "translation": {
+            "en": "My god, why have you forsaken me",
+            "ja": "エリエリレマサバクタニ"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Reactions",
+      "translation": {
+        "en": "Reactions",
+        "ja": "反応"
       },
-      {
-        "name": "SFX",
-        "translation": {
-          "en": "SFX"
-        },
-        "voicelist": [
-          {
-            "name": "Machine gun",
-            "path": "sfx/machine_gun.mp3",
-            "translation": {
-              "en": "Machine gun"
-            }
-          },
-          {
-            "name": "Vroom",
-            "path": "sfx/vroom.mp3",
-            "translation": {
-              "en": "Vroom"
-            }
-          },
-          {
-            "name": "Pafuu",
-            "path": "sfx/pafuu.mp3",
-            "translation": {
-              "en": "Pafuu"
-            }
-          },
-          {
-            "name": "Pafu Pafu Pafu",
-            "path": "sfx/pafu_pafu_pafu.mp3",
-            "translation": {
-              "en": "Pafu Pafu Pafu"
-            }
-          },
-          {
-            "name": "Pim pon",
-            "path": "sfx/pim_pon.mp3",
-            "translation": {
-              "en": "Pim pon"
-            }
+      "voicelist": [
+        {
+          "name": "Squeal 1",
+          "path": "reactions/squeal1.mp3",
+          "translation": {
+            "en": "Squeal 1",
+            "ja": "きゃ１"
           }
-        ]
+        }, 
+        {
+          "name": "Squeal 2",
+          "path": "reactions/squeal2.mp3",
+          "translation": {
+            "en": "Squeal 2",
+            "ja": "きゃ２"
+          }
+        },
+        {
+          "name": "Kuyashi",
+          "path": "reactions/kuyashi.mp3",
+          "translation": {
+            "en": "How frustating",
+            "ja": "くやし"
+          }
+        },
+        {
+          "name": "Nyan Nyan",
+          "path": "reactions/nyan_nyan.mp3",
+          "translation": {
+            "en": "Meow Meow",
+            "ja": "にゃにゃ"
+          }
+        },
+        {
+          "name": "Kawaii",
+          "path": "reactions/kawaiii.mp3",
+          "translation": {
+            "en": "That's cute",
+            "ja": "かわいい"
+          }
+        },
+        {
+          "name": "Oishiso",
+          "path": "reactions/oishiso.mp3",
+          "translation": {
+            "en": "That look yummy",
+            "ja": "美味しそう"
+          }
+        },
+        {
+          "name": "Ittai1",
+          "path": "reactions/ittai1.mp3",
+          "translation": {
+            "en": "Ouch",
+            "ja": "いったい１"
+          }
+        },
+        {
+          "name": "Ittai2",
+          "path": "reactions/ittai2_long.mp3",
+          "translation": {
+            "en": "Owwww",
+            "ja": "いったい２"
+          }
+        },
+        {
+          "name": "Gomen ne",
+          "path": "reactions/gomen_ne.mp3",
+          "translation": {
+            "en": "Sorry~",
+            "ja": "ごめんえ"
+          }
+        },
+        {
+          "name": "Nintendo",
+          "path": "reactions/nintendo.mp3",
+          "translation": {
+            "en": "Nintendoooooo",
+            "ja": "ニンテンドオオオオ"
+          }
+        },{
+          "name": "Abunai",
+          "path": "reactions/abunai.mp3",
+          "translation": {
+            "en": "That was close",
+            "ja": "危ない"
+          }
+        },{
+          "name": "Arya",
+          "path": "reactions/arya.mp3",
+          "translation": {
+            "en": "Arya",
+            "ja": "ありゃ"
+          }
+        },{
+          "name": "Nya",
+          "path": "reactions/nya.mp3",
+          "translation": {
+            "en": "Meow",
+            "ja": "にゃ"
+          }
+        },{
+          "name": "Shimatta",
+          "path": "reactions/shimatta.mp3",
+          "translation": {
+            "en": "Darn",
+            "ja": "しまった"
+          }
+        },{
+          "name": "Yayyyy",
+          "path": "reactions/yayyyy.mp3",
+          "translation": {
+            "en": "Yayyyy",
+            "ja": "やっっっｙ"
+          }
+        },{
+          "name": "Onya",
+          "path": "reactions/onya.mp3",
+          "translation": {
+            "en": "Onya",
+            "ja": "おにゃ"
+          }
+        },{
+          "name": "Nandekotta panna cotta",
+          "path": "reactions/nandekottai_panna_cotta.mp3",
+          "translation": {
+            "en": "Why in the panna cottaaaa?",
+            "ja": "なんでこったパンアコッタ"
+          }
+        },{
+          "name": "Kyaaa",
+          "path": "reactions/kyaaa.mp3",
+          "translation": {
+            "en": "Kyaaa",
+            "ja": "きゃああ"
+          }
+        },{
+          "name": "Hiiii",
+          "path": "reactions/hiiii.mp3",
+          "translation": {
+            "en": "Hiiii",
+            "ja": "ひいい"
+          }
+        },{
+          "name": "Kakoi",
+          "path": "reactions/kakoi.mp3",
+          "translation": {
+            "en": "Cool",
+            "ja": "かっこいい"
+          }
+        },{
+          "name": "Yoisho",
+          "path": "reactions/yoisho.mp3",
+          "translation": {
+            "en": "Yoisho",
+            "ja": "よいしょ"
+          }
+        }
+      ]
+    },
+    {
+      "name": "SFX",
+      "translation": {
+        "en": "SFX",
+        "ja": "SFX"
       },
-      {
-        "name": "Musics",
-        "translation": {
-          "en": "Musics"
-        },
-        "voicelist": [
-          {
-            "name": "Jaws",
-            "path": "musics/jaws.mp3",
-            "translation": {
-              "en": "Jaws"
-            }
-          },          {
-            "name": "Dame dame dame",
-            "path": "musics/dame_dame.mp3",
-            "translation": {
-              "en": "Not good not good"
-            }
-          },          {
-            "name": "konkonkonkonkon",
-            "path": "musics/konkonkonkonkon.mp3",
-            "translation": {
-              "en": "Konkonkonkonkon"
-            }
-          },
-          {
-            "name": "ponponpon",
-            "path": "musics/ponponpon.mp3",
-            "translation": {
-              "en": "Ponponpon"
-            }
-          },
-          {
-            "name": "Dan dan jingle 1",
-            "path": "musics/dan_dan_jingle_part_1.mp3",
-            "translation": {
-              "en": "Dan dan jingle 1"
-            }
-          },
-          {
-            "name": "Dan dan jingle 2",
-            "path": "musics/dan_dan_jingle_part_2.mp3",
-            "translation": {
-              "en": "Dan dan jingle 2"
-            }
-          },
-          {
-            "name": "Pien pien",
-            "path": "musics/pien_pien.mp3",
-            "translation": {
-              "en": "Pien pien"
-            }
-          },
-          {
-            "name": "Pien acapella",
-            "path": "musics/pien_acapella.mp3",
-            "translation": {
-              "en": "Pien acapella"
-            }
-          },
-          {
-            "name": "Doki doki waku waku",
-            "path": "musics/doki_doki_waku_waku.mp3",
-            "translation": {
-              "en": "Doki doki waku waku"
-            }
-          },
-          {
-            "name": "Mottenai",
-            "path": "musics/mottenai.mp3",
-            "translation": {
-              "en": "Mottenai"
-            }
-          },
-          {
-            "name": "Nantekoto",
-            "path": "musics/nantekoto.mp3",
-            "translation": {
-              "en": "Nantekoto"
-            }
-          },
-          {
-            "name": "Zen de ke den",
-            "path": "musics/zen_de_ke_den.mp3",
-            "translation": {
-              "en": "Zen de ke den"
-            }
+      "voicelist": [
+        {
+          "name": "Machine gun",
+          "path": "sfx/machine_gun.mp3",
+          "translation": {
+            "en": "Machine gun",
+            "ja": "機関銃"
           }
-        ]
+        },
+        {
+          "name": "Vroom",
+          "path": "sfx/vroom.mp3",
+          "translation": {
+            "en": "Vroom",
+            "ja": "ブルルン"
+          }
+        },
+        {
+          "name": "Pafuu",
+          "path": "sfx/pafuu.mp3",
+          "translation": {
+            "en": "Pafuu",
+            "ja": "ぱふう"
+          }
+        },
+        {
+          "name": "Pafu Pafu Pafu",
+          "path": "sfx/pafu_pafu_pafu.mp3",
+          "translation": {
+            "en": "Pafu Pafu Pafu",
+            "ja": "ぱふぱふぱふ"
+          }
+        },
+        {
+          "name": "Pim pon",
+          "path": "sfx/pim_pon.mp3",
+          "translation": {
+            "en": "Pim pon",
+            "ja": "ぴっぽっ"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Musics",
+      "translation": {
+        "en": "Musics",
+        "ja": "音楽"
       },
-      {
-        "name": "Laughs",
-        "translation":{
-          "en": "Laughs"
-        },
-        "voicelist":[
-          {
-            "name": "Yhihihihi",
-            "path": "laughs/yhihihihi.mp3",
-            "translation": {
-              "en": "Yhihihihi"
-            }
-          },
-          {
-            "name": "Ykhikhikhi",
-            "path": "laughs/ykhikhikhi.mp3",
-            "translation": {
-              "en": "Ykhikhikhi"
-            }
+      "voicelist": [
+        {
+          "name": "Jaws",
+          "path": "musics/jaws.mp3",
+          "translation": {
+            "en": "Jaws",
+            "ja": "ジョーズ"
           }
-        ]
-      }
-    ]
-  }
+        },          {
+          "name": "Dame dame dame",
+          "path": "musics/dame_dame.mp3",
+          "translation": {
+            "en": "Not good not good",
+            "ja": "だめだめだめ"
+          }
+        },          {
+          "name": "konkonkonkonkon",
+          "path": "musics/konkonkonkonkon.mp3",
+          "translation": {
+            "en": "Konkonkonkonkon",
+            "ja": "こんこんこんこん"
+          }
+        },
+        {
+          "name": "ponponpon",
+          "path": "musics/ponponpon.mp3",
+          "translation": {
+            "en": "Ponponpon",
+            "ja": "ぽんぽんぽん"
+          }
+        },
+        {
+          "name": "Dan dan jingle 1",
+          "path": "musics/dan_dan_jingle_part_1.mp3",
+          "translation": {
+            "en": "Dan dan jingle 1",
+            "ja": "だんだん１"
+          }
+        },
+        {
+          "name": "Dan dan jingle 2",
+          "path": "musics/dan_dan_jingle_part_2.mp3",
+          "translation": {
+            "en": "Dan dan jingle 2",
+            "ja": "だんだん２"
+          }
+        },
+        {
+          "name": "Pien pien",
+          "path": "musics/pien_pien.mp3",
+          "translation": {
+            "en": "Pien pien",
+            "ja": "ぴえんぴえん"
+          }
+        },
+        {
+          "name": "Pien acapella",
+          "path": "musics/pien_acapella.mp3",
+          "translation": {
+            "en": "Pien acapella",
+            "ja": "ぴえんアカペラ"
+          }
+        },
+        {
+          "name": "Doki doki waku waku",
+          "path": "musics/doki_doki_waku_waku.mp3",
+          "translation": {
+            "en": "Doki doki waku waku",
+            "ja": "どきどきわくわく"
+          }
+        },
+        {
+          "name": "Mottenai",
+          "path": "musics/mottenai.mp3",
+          "translation": {
+            "en": "Mottenai",
+            "ja": "もってない"
+          }
+        },
+        {
+          "name": "Nantekoto",
+          "path": "musics/nantekoto.mp3",
+          "translation": {
+            "en": "Nantekoto",
+            "ja": "なんてこと"
+          }
+        },
+        {
+          "name": "Zen de ke den",
+          "path": "musics/zen_de_ke_den.mp3",
+          "translation": {
+            "en": "Zen de ke den",
+            "ja": "ぜんでけでん"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laughs",
+      "translation":{
+        "en": "Laughs"
+      },
+      "voicelist":[
+        {
+          "name": "Yhihihihi",
+          "path": "laughs/yhihihihi.mp3",
+          "translation": {
+            "en": "Yhihihihi",
+            "ja": "ひひひひ"
+          }
+        },
+        {
+          "name": "Ykhikhikhi",
+          "path": "laughs/ykhikhikhi.mp3",
+          "translation": {
+            "en": "Ykhikhikhi",
+            "ja": "きききき"
+          }
+        }
+      ]
+    }
+  ]
+}
