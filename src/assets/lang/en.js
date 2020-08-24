@@ -4,9 +4,6 @@ module.exports = {
     mediacontorl: "Control Button",
     stopplay: "Stop",
     helptitle: "Help",
-    helpcontent:
-      "Click button to play Lulu's lines~ No need to wait for the first line to finish before playing the next one",
-    additionalhelp: "",
     openorderplaymode: "Playlist mode",
     orderplaymode: "Play in order",
     orderlistnow: "Current playlist",
@@ -24,8 +21,6 @@ module.exports = {
     fork: "Forked by: Merun",
     credits: "Special Thanks：kahdeg, ztynz, Schtolteheim Reinbach IV, epic lod",
     translationCredits: "Translation: Hololive Moments(EN)",
-    beta: "Coming soon",
-    gotit: "Got it",
     entersomewords:
       "Please enter the sentence you want to generate(please don't write too long, it may lag)",
     generate: "Generate",
@@ -37,7 +32,6 @@ module.exports = {
     addtohomescreeninfo:
       "This site supports PWA. You can add this sit to the home screen like normal apps and use it offline.",
     friendlinks: "friend links",
-    newversion: "A brand new version is on the way",
     copiedToClipboard: "Copied {value} to clipboard",
   },
   link: {
