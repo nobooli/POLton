@@ -275,6 +275,13 @@
             "en": "Onii-chan Daisuki",
             "ja": "お兄ちゃん大好き"
           }
+        }, {
+          "name": "Koko wa doko Watashihadare",
+          "path": "nihongo/kokouwadouko_watashiwadare.mp3",
+          "translation": {
+            "en": "Where am I? Who am I?",
+            "ja": "ここはどこ？ 私は誰？"
+          }
         }
       ]},
     {
@@ -537,6 +544,14 @@
             "en": "My god, why have you forsaken me",
             "ja": "エリエリレマサバクタニ"
           }
+        },
+        {
+          "name": "Congratulation",
+          "path": "english/congratulation.mp3",
+          "translation": {
+            "en": "Congratulation",
+            "ja": "おめでとう"
+          }
         }
       ]
     },
@@ -703,6 +718,13 @@
             "en": "Yoisho",
             "ja": "よいしょ"
           }
+        },{
+          "name": "Ora",
+          "path": "reactions/ora.mp3",
+          "translation": {
+            "en": "Ora",
+            "ja": "おら"
+          }
         }
       ]
     },
@@ -855,6 +877,14 @@
             "en": "Zen de ke den",
             "ja": "ぜんでけでん"
           }
+        },
+        {
+          "name": " lulu's chilling song",
+          "path": "musics/lulu_sing_1.mp3",
+          "translation": {
+            "en": " lulu's chilling song",
+            "ja": ""
+          }
         }
       ]
     },
@@ -878,6 +908,30 @@
           "translation": {
             "en": "Ykhikhikhi",
             "ja": "きききき"
+          }
+        },
+        {
+          "name": "Bukhikhikhi",
+          "path": "laughs/bukhikhikhi.mp3",
+          "translation": {
+            "en": "Bukhikhikhi",
+            "ja": "ぶきききき"
+          }
+        },
+        {
+          "name": "Hihihi",
+          "path": "laughs/hihihi.mp3",
+          "translation": {
+            "en": "Hihihi",
+            "ja": "ひひひ"
+          }
+        },
+        {
+          "name": "Ehehe",
+          "path": "laughs/ehehe.mp3",
+          "translation": {
+            "en": "Ehehe",
+            "ja": "えへへ"
           }
         }
       ]
