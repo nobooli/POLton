@@ -282,6 +282,13 @@
             "en": "Where am I? Who am I?",
             "ja": "ここはどこ？ 私は誰？"
           }
+        }, {
+          "name": "Moemoekyun",
+          "path": "nihongo/moemoekyun.mp3",
+          "translation": {
+            "en": "Moe moe kyun~",
+            "ja": "もえ もえ きゅん~"
+          }
         }
       ]},
     {
