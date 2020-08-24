@@ -12,27 +12,42 @@
       </template>
       <v-list>
         <v-list-item to="/">
-          <v-list-item-title> <v-icon left color="secondary">mdi-volume-source</v-icon>{{$t('link.soundboard')}}</v-list-item-title>
+          <v-list-item-title>
+            <v-icon left color="secondary">mdi-volume-source</v-icon>
+            {{$t('link.soundboard')}}
+          </v-list-item-title>
         </v-list-item>
         <v-list-item to="/bingo-generator">
-          <v-list-item-title> <v-icon left color="secondary">mdi-grid</v-icon>{{$t('link.bingoGenerator')}}</v-list-item-title>
+          <v-list-item-title>
+            <v-icon left color="secondary">mdi-grid</v-icon>
+            {{$t('link.bingoGenerator')}}
+          </v-list-item-title>
         </v-list-item>
+        <!-- <v-list-item href="/lulunomicon">
+          <v-list-item-title>
+            <v-icon left color="secondary">mdi-book-open-page-variant</v-icon>
+            {{$t('link.lulunomicon')}}
+          </v-list-item-title>
+        </v-list-item> -->
         <v-divider></v-divider>
-        <v-list-item @click="see('https://www.youtube.com/channel/UC_a1ZYZ8ZTXpjg9xUY9sj8w')">
+        <v-list-item href="https://www.youtube.com/channel/UC_a1ZYZ8ZTXpjg9xUY9sj8w">
           <v-list-item-title>
             <v-icon left color="red">mdi-youtube</v-icon>鈴原るる【にじさんじ所属】
           </v-list-item-title>
         </v-list-item>
-        <v-list-item @click="see('https://twitter.com/lulu_suzuhara')">
+        <v-list-item href="https://twitter.com/lulu_suzuhara">
           <v-list-item-title>
             <v-icon left color="blue">mdi-twitter</v-icon>@lulu_suzuhara
           </v-list-item-title>
         </v-list-item>
         <v-divider></v-divider>
         <v-list-item to="/about">
-          <v-list-item-title> <v-icon left color="secondary">mdi-information</v-icon>{{$t('link.about')}}</v-list-item-title>
+          <v-list-item-title>
+            <v-icon left color="secondary">mdi-information</v-icon>
+            {{$t('link.about')}}
+          </v-list-item-title>
         </v-list-item>
-        <v-list-item @click="see('https://github.com/RomainLK/lulu-button')">
+        <v-list-item href="https://github.com/RomainLK/lulu-button">
           <v-list-item-title>
             <v-icon left color="black">mdi-github</v-icon>
             {{$t("ui.helpdevelope")}}

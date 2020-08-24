@@ -37,6 +37,7 @@ module.exports = {
   link: {
     soundboard: "Soundboard",
     bingoGenerator: "Bingo Generator",
+    lulunomicon: "Lulunomicon",
     about: "About"
   },
   bingo: {
