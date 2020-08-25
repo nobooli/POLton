@@ -25,8 +25,8 @@ export default new Vuex.Store({
         }
     },
     actions: {
-        copyLastAudioToClipboard(){
-            copyToClipboard(this.$store.state.lastAudio);
+        copyLastAudioToClipboard({state}){
+            copyToClipboard(state.lastAudio);
         }
     },
     modules: {}
