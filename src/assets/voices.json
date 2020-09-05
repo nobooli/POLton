@@ -289,6 +289,49 @@
             "en": "Moe moe kyun~",
             "ja": "もえ もえ きゅん~"
           }
+        }, {
+          "name": "Gambare",
+          "path": "nihongo/gambare.mp3",
+          "translation" : {
+            "en" : "Do your best",
+            "ja": "がんばれ"
+          } 
+        }, {
+          "name": "Gambare 2x",
+          "path": "nihongo/gambar2xe.mp3",
+          "translation" : {
+            "en" : "Do your best 2X",
+            "ja": "がんばれ２ｘ"
+          }
+        }, {
+          "name": "Omedetou",
+          "path": "nihongo/omedetou.mp3",
+          "translation" : {
+            "en" : "Congratulation",
+            "ja": "おめでとう"
+          }
+        }, {
+          "name": "Omedetou 2",
+          "path": "nihongo/omedetou2.mp3",
+          "translation" : {
+            "en" : "Congratulation 2",
+            "ja": "おｍでとう２"
+          }
+        },
+        {
+          "name": "Omedetou 2x",
+          "path": "nihongo/omedetou2x.mp3",
+          "translation" : {
+            "en" : "Congratulation 2X",
+            "ja": "おめでとう２ｘ"
+          }
+        }, {
+          "name": "Hoshii 6x",
+          "path": "nihongo/hoshii6x.mp3",
+          "translation" : {
+            "en" : "I want 6x",
+            "ja": "ほしい６ｘ"
+          }
         }
       ]},
     {
@@ -558,6 +601,30 @@
           "translation": {
             "en": "Congratulation",
             "ja": "おめでとう"
+          }
+        },
+        {
+          "name": "Fight!",
+          "path": "english/fighto.mp3",
+          "translation": {
+            "en": "Fight!",
+            "ja": ""
+          }
+        },
+        {
+          "name": "Thank you",
+          "path": "english/thank_you.mp3",
+          "translation": {
+            "en": "Thank you",
+            "ja": "ありがとう"
+          }
+        },
+        {
+          "name": "Thank you for watching",
+          "path": "english/thank_you_for_watching.mp3",
+          "translation": {
+            "en": "Thank you for watching",
+            "ja": "観戦いただきありがとう"
           }
         }
       ]

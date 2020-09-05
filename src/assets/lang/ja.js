@@ -18,7 +18,7 @@
         info: "こんるる",
         developer: "開発者：Coceki",
         fork: "Forked by: Merun",
-        credits: "特別な感謝：kahdeg, ztynz, Schtolteheim Reinbach IV, epic lod",
+        credits: "特別な感謝：kahdeg, ztynz, Schtolteheim Reinbach IV, epic lod, Trout",
         translationCredits: "ほにゃく：",
         generate: "ジエネレート",
         helpdevelope: "このウェブサイトの改善にご協力ください",

@@ -19,7 +19,7 @@ module.exports = {
     info: "Konlulu fansite",
     developer: "Original developer：Coceki",
     fork: "Forked by: Merun",
-    credits: "Special Thanks：kahdeg, ztynz, Schtolteheim Reinbach IV, epic lod",
+    credits: "Special Thanks：kahdeg, ztynz, Schtolteheim Reinbach IV, epic lod, Trout",
     translationCredits: "Translation: Hololive Moments(EN)",
     entersomewords:
       "Please enter the sentence you want to generate(please don't write too long, it may lag)",
