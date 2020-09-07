@@ -37,31 +37,31 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     nav: [
+      // {
+      //   text: 'Guide',
+      //   link: '/guide/',
+      // },
+      // {
+      //   text: 'Config',
+      //   link: '/config/'
+      // },
       {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Back to soundboard',
+        link: 'http://konlulu.faith'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    // sidebar: {
+    //   '/guide/': [
+    //     {
+    //       title: 'Guide',
+    //       collapsable: false,
+    //       children: [
+    //         '',
+    //         'using-vue',
+    //       ]
+    //     }
+    //   ],
+    // }
   },
 
   /**
