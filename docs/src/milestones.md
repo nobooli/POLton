@@ -16,7 +16,7 @@ She bought a pillow from [Nitori](https://www.nitori-net.jp/ec/) to reward herse
 ## August 29
 
 Summer outfit reveal (Yukata)\
-Her hair ornmanent weighs around 60 kilograms
+Her hair ornmanent weighs around 60 kilograms.
 
 ## October 30
 
@@ -40,11 +40,12 @@ Ponytail and no cardigan reveal
 
 ## March 27
 
-3D Reveal with Saw Cleaver
+3D reveal with Saw Cleaver
 
 ## April 7
 
-Spring outfit reveal. Despite her hat having horns, Debidebi Debiru doesn't acknowledge her as a demon at and considers her as human.
+Spring outfit reveal \
+Despite her hat having horns, Debidebi Debiru doesn't acknowledge her as a demon at and considers her as human.
 
 ## April 19
 
