@@ -20,10 +20,10 @@ Her hair ornament weighs around 60 kilograms.
 
 ## October 30
 
-50k Youtube subscribers outfit reveal (Dress[)\
+50k Youtube subscribers outfit reveal (Dress[](https://www.youtube.com/watch?v=UC4Iuvwe9uo&feature=youtu.be&t=368))[\
 The pointy things on her crown are like horns.](https://www.youtube.com/watch?v=UC4Iuvwe9uo&feature=youtu.be&t=368)
-She initially thought of an armor (like Arthur's from Super Ghouls 'N Ghosts) as her 50k subs outfit idea.\
-When she thought about the armor, she said: "There's no point in wearing the armor if I immediately take it off anyway." This is her referencing the game Super Ghouls `N Ghosts.
+[She initially thought of an armor (like Arthur's from Super Ghouls 'N Ghosts) as her 50k subs outfit idea.\
+She didn't go with the idea because "There's no point in wearing the armor if I'm taking it off immediately anyway." This is her referencing the game Super Ghouls `N Ghosts.](https://www.youtube.com/watch?v=Y41t4bIxM-Q&feature=youtu.be&t=938)
 
 ## November 30
 
