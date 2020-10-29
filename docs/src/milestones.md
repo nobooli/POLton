@@ -6,7 +6,7 @@ date: 2020-10-29T18:27:29.607Z
 
 ## April 29
 
-Twitter Debut
+[Twitter Debut](https://twitter.com/lulu_suzuhara/status/1122759425360445442)
 
 ## July 26
 
@@ -16,7 +16,7 @@ She bought a pillow from [Nitori](https://www.nitori-net.jp/ec/) to reward herse
 ## August 29
 
 Summer outfit reveal (Yukata)\
-Her hair ornmanent weighs around 60 kilograms.
+Her hair ornament weighs around 60 kilograms.
 
 ## October 30
 
