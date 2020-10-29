@@ -33,7 +33,7 @@ Live2D 2.0 update reveal
 
 ## January 4
 
-200k Youtube Subscribers (250 days since debut)
+[200k Youtube Subscribers (250 days since debut)](https://twitter.com/lulu_suzuhara/status/1214099620424343552)
 
 ## February 4
 
@@ -45,16 +45,19 @@ Ponytail and no cardigan reveal
 
 ## April 7
 
-Spring outfit reveal \
-Despite her hat having horns, Debidebi Debiru doesn't acknowledge her as a demon at and considers her as human.
+Spring outfit reveal[](https://youtu.be/zclbjVsGNTk?t=3281)[\
+Despite her hat having horns, Debidebi Debiru doesn't acknowledge her as a demon at all and considers her as a human being.](https://youtu.be/zclbjVsGNTk?t=3281)
 
 ## April 19
 
-300k Youtube Subscribers (She hit it while she's replaying the first game she's played on stream, Super Ghouls 'N Ghosts)
+300k Youtube Subscribers[\
+She hit it while she's replaying the first game she's played on stream, Super Ghouls 'N Ghosts](https://youtu.be/wkluMTiwDkw?t=7367)
 
 ## May 1
 
-She did a 24-hour project, spanning over multiple streams, to celebrate her one year since her debut. She revealed her Niji3D model at the beginning. Her goals for her second year is that she gains more confidence in herself.
+She did a 24-hour project, spanning over multiple streams, to celebrate her one year since her debut. \
+She revealed her Niji3D model at the beginning.[\
+Her goals for her second year is that she gains more confidence in herself.](https://youtu.be/xAB-WwYxBbo?t=7150)
 
 ## August 21
 
