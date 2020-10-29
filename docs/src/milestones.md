@@ -45,7 +45,8 @@ She didn't go with the idea because "There's no point in wearing the armor if I'
 
 ## April 7
 
-[Spring outfit reveal](https://twitter.com/sainexxx/status/1254732262051966978)[Despite her hat having horns, Debidebi Debiru doesn't acknowledge her as a demon at all and considers her as a human being.](https://youtu.be/zclbjVsGNTk?t=3281)
+[Spring outfit reveal](https://twitter.com/sainexxx/status/1254732262051966978)[\
+Despite her hat having horns, Debidebi Debiru doesn't acknowledge her as a demon at all and considers her as a human being.](https://youtu.be/zclbjVsGNTk?t=3281)
 
 ## April 19
 
