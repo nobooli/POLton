@@ -28,8 +28,6 @@ When she thought about the armor, she said: "There's no point in wearing the arm
 
 Live2D 2.0 update reveal
 
-
-
 # 2020
 
 ## January 4
@@ -38,7 +36,7 @@ Live2D 2.0 update reveal
 
 ## February 4
 
-Ponytail and No Cardigan Reveal
+Ponytail and no cardigan reveal
 
 ## March 27
 
