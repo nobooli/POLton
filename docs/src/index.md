@@ -8,7 +8,7 @@ date: 2020-08-24T22:07:22.152Z
 
 Suzuhara Lulu is an art student
 
-# Gloassary
+# Glossary
 
 [Konlulu](./konlulu)
 <netlify-identity/>
