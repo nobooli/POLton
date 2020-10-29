@@ -55,7 +55,7 @@ She hit it while she's replaying the first game she's played on stream, Super Gh
 ## May 1
 
 She did a 24-hour stream to celebrate one year since her debut. \
-She revealed her Niji3D model at the first stream.[\
+She revealed her Niji3D model during the stream.[\
 Her goals for her second year is that she gains more confidence in herself.](https://youtu.be/xAB-WwYxBbo?t=7150)
 
 ## August 21
