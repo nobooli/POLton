@@ -28,8 +28,9 @@ When she thought about the armor, she said: "There's no point in wearing the arm
 
 Live2D 2.0 update reveal
 
-# \
-2020
+
+
+# 2020
 
 ## January 4
 
@@ -51,7 +52,7 @@ Spring outfit reveal. Despite her hat having horns, Debidebi Debiru doesn't ackn
 
 300k Youtube Subscribers (She hit it while she's replaying the first game she's played on stream, Super Ghouls 'N Ghosts)
 
-## May 1	
+## May 1
 
 She did a 24-hour project, spanning over multiple streams, to celebrate her one year since her debut. She revealed her Niji3D model at the beginning. Her goals for her second year is that she gains more confidence in herself.
 
