@@ -51,7 +51,7 @@ Despite her hat having horns, Debidebi Debiru doesn't acknowledge her as a demon
 ## April 19
 
 300k Youtube Subscribers[\
-She hit it while she's replaying the first game she's played on stream, Super Ghouls 'N Ghosts](https://youtu.be/wkluMTiwDkw?t=7367)
+She hit it while replaying the first game she played on stream, Super Ghouls 'N Ghosts](https://youtu.be/wkluMTiwDkw?t=7367)
 
 ## May 1
 
