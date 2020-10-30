@@ -21,8 +21,8 @@ Her hair ornament weighs around 60 kilograms.
 ## October 30
 
 [50k Youtube subscribers outfit reveal (Dress)](https://twitter.com/sainexxx/status/1199285265619025922)[\
-The pointy things on her crown are like horns.](https://www.youtube.com/watch?v=UC4Iuvwe9uo&feature=youtu.be&t=368)
-[She initially thought of an armor (like Arthur's from Super Ghouls 'N Ghosts) as her 50k subs outfit idea.\
+The pointy things on her crown are like horns.](https://www.youtube.com/watch?v=UC4Iuvwe9uo&feature=youtu.be&t=368)[\
+She initially thought of an armor (like Arthur's from Super Ghouls 'N Ghosts) as her 50k subs outfit idea.\
 She didn't go with the idea because "There's no point in wearing the armor if I'm taking it off immediately anyway." This is her referencing the game Super Ghouls `N Ghosts.](https://www.youtube.com/watch?v=Y41t4bIxM-Q&feature=youtu.be&t=938)
 
 ## November 30
@@ -57,7 +57,7 @@ She hit it while replaying the first game she played on stream, Super Ghouls 'N 
 
 She did a 24-hour stream to celebrate one year since her debut. \
 She revealed her Niji3D model during the stream.[\
-Her goals for her second year is that she gains more confidence in herself.](https://youtu.be/xAB-WwYxBbo?t=7150)
+Her goal for her second year is that she gains more confidence in herself.](https://youtu.be/xAB-WwYxBbo?t=7150)
 
 ## August 21
 
