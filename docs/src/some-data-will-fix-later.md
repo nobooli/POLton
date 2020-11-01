@@ -84,7 +84,7 @@ Tsuki no Waltz
 Good-bye days
 Virtual to Live
 
-[List of Alcoholic Beverages Drunk on Stream]
+\[List of Alcoholic Beverages Drunk on Stream]
 
 June 24, 2019
 ニッカ シードル・スイート
@@ -136,8 +136,7 @@ Kirin The Strong Shiikwasa Sour (Limited-time Offer)
 Hokusetsu Sweet Devil 180ml Cup
 北雪 スイートデビル 180mlカップ
 
-[Monthly Total Hours Streamed]
-
+\[Monthly Total Hours Streamed]
 
 Month:
 Total Hours Streamed (Lulu's channel only):
@@ -247,16 +246,13 @@ September 2020
 11 streams
 1 appearance
 
-[Monthly Longest Streams]
+\[Monthly Longest Streams]
 Month:
 Stream:
 Duration:
-| Month     | Stream | Duration     |
-| :---        |    :---  |          :--- |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+
 May 2019
-[Super Ghouls 'N Ghosts] #04 - I'll surpass my limits...!
+\[Super Ghouls 'N Ghosts] #04 - I'll surpass my limits...!
 https://youtu.be/sY9XtIUNFbE
 5 hours 1 minute
 
@@ -266,17 +262,17 @@ https://youtu.be/TLD4KmU16-M
 5 hours 11 minutes
 
 July 2019
-[Cuphead] - I can't stop playing Cuphead!!
+\[Cuphead] - I can't stop playing Cuphead!!
 https://youtu.be/SK11UOxl_2Y
 4 hours 14 minutes
 
 August 2019
-[Bloodborne] #11 - Second Half
+\[Bloodborne] #11 - Second Half
 https://youtu.be/GhbIiSydXQk
 7 hours 44 minutes (combined with the first half totalling 15 hours 20 minutes)
 
 September 2019
-[Hollow Knight] #04 - Comfy Chill Hollow Knight
+\[Hollow Knight] #04 - Comfy Chill Hollow Knight
 https://youtu.be/TyV5RcQpju8
 10 hours 55 minutes (combined with part 2 totalling 17 hours 54 minutes)
 
