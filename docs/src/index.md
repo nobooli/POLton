@@ -11,4 +11,6 @@ Suzuhara Lulu is an art student
 # Glossary
 
 [Konlulu](./konlulu)
+
+\[Milestones](Milestones)
 <netlify-identity/>
