@@ -32,7 +32,7 @@ Zankoku na Tenshi no Thesis
 DAN DAN Kokoro Hikareteku
 Chouchou Musubi
 Rain
-Sutar
+Star
 Lemon
 
 October 30, 2019
