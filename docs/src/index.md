@@ -14,6 +14,6 @@ Suzuhara Lulu is an art student
 
 [Milestones](./milestones)
 
-[Data](./data)
+[Data](./some-data-will-fix-later)
 
 <netlify-identity/>
