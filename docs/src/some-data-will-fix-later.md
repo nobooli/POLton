@@ -139,112 +139,26 @@ Hokusetsu Sweet Devil 180ml Cup
 \[Monthly Total Hours Streamed]
 
 |Month|Total Hours Streamed|Number of Streams|Number of streams at least 3 hours long|Appearances in other channels|
+|------------------|------------------|------------------|------------------|------------------|
+|May 2019|74 hours 31 minutes|40 streams|6 streams|2 appearances|
+|June 2019|77 hours 17 minutes|35 streams|6 streams|3 appearances|
+|July 2019|86 hours 33 minutes|36 streams|9 streams|0 appearances|
+|August 2019|99 hours 15 minutes|33 streams|14 streams|2 appearances|
+|September 2019|97 hours 23 minutes|29 streams|15 streams|1 appearance|
+|October 2019|101 hours 49 minutes|31 streams|17 streams|1 appearance|
+|November 2019|109 hours 49 minutes|35 streams|15 streams|0 appearances|
+|December 2019|104 hours 21 minutes|34 streams|11 streams|3 appearances|
+|January 2020|76 hours 31 minutes|26 streams|9 streams|0 appearances|
+|February 2020|92 hours 46 minutes|25 streams|13 streams|2 appearances|
+|March 2020|101 hours 29 minutes|33 streams|17 streams|0 appearances|
+|April 2020|105 hours 43 minutes|32 streams|19 streams|2 appearances|
+|May 2020|83 hours 8 minutes|22 streams|15 streams|0 appearances|
+|June 2020|95 hours 3 minutes|24 streams|18 streams|1 appearance|
+|July 2020|61 hours 21 minutes|20 streams|8 streams|0 appearances|
+|August 2020|80 hours 30 minutes|20 streams|16 streams|1 appearance|
+|September 2020|82 hours 58 minutes|25 streams|11 streams|1 appearance|
 
-|------------------|------------------|
-
-May 2019
-74 hours 31 min
-40 streams
-6 streams
-2 appearances
-
-June 2019
-77 hours 17 min
-35 streams
-6 streams
-3 appearances
-
-July 2019
-86 hours 33 minutes
-36 streams
-9 streams
-0 appearances
-
-August 2019
-99 hours 15 minutes
-33 streams
-14 streams
-2 appearances
-
-September 2019
-97 hours 23 minutes
-29 streams
-15 streams
-1 appearance
-
-October 2019
-101 hours 49 minutes
-31 streams
-17 streams
-1 appearance
-
-November 2019
-109 hours 49 minutes
-35 streams
-15 streams
-0 appearances
-
-December 2019
-104 hours 21 minutes
-34 streams
-11 streams
-3 appearances
-
-January 2020
-76 hours 31 minutes
-26 streams
-9 streams
-0 appearances
-
-February 2020
-92 hours 46 minutes
-25 streams
-13 streams
-2 appearances
-
-March 2020
-101 hours 29 minutes
-33 streams
-17 streams
-0 appearances
-
-April 2020
-105 hours 43 minutes
-32 streams
-19 streams
-2 appearances
-
-May 2020
-83 hours 8 minutes
-22 streams
-15 streams
-0 appearances
-
-June 2020
-95 hours 3 minutes
-24 streams
-18 streams
-1 appearance
-
-July 2020
-61 hours 21 minutes
-20 streams
-8 streams
-0 appearances
-
-August 2020
-80 hours 30 minutes
-20 streams
-16 streams
-1 appearance
-
-September 2020
-82 hours 58 minutes
-25 streams
-11 streams
-1 appearance
-
-\[Monthly Longest Streams] (can't make tables)
+\[Monthly Longest Streams]
 
 May 2019[](https://youtu.be/sY9XtIUNFbE)[\
 [Super Ghouls 'N Ghosts] #04 - I'll surpass my limits...!](https://youtu.be/sY9XtIUNFbE)\
