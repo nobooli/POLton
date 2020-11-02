@@ -247,60 +247,57 @@ September 2020
 1 appearance
 
 \[Monthly Longest Streams]
-Month:
-Stream:
-Duration:
 
 May 2019[](https://youtu.be/sY9XtIUNFbE)[\
-\[Super Ghouls 'N Ghosts] #04 - I'll surpass my limits...!](https://youtu.be/sY9XtIUNFbE)\
+[Super Ghouls 'N Ghosts] #04 - I'll surpass my limits...!](https://youtu.be/sY9XtIUNFbE)\
 5 hours 1 minute
 
 June 2019[\
-\[Yoshi's Island] #04 - I won't stop until I clear this!](https://youtu.be/TLD4KmU16-M)\
+[Yoshi's Island] #04 - I won't stop until I clear this!](https://youtu.be/TLD4KmU16-M)\
 5 hours 11 minutes
 
 July 2019[\
-\[Cuphead] - I can't stop playing Cuphead!!](https://youtu.be/SK11UOxl_2Y)\
+[Cuphead] - I can't stop playing Cuphead!!](https://youtu.be/SK11UOxl_2Y)\
 4 hours 14 minutes
 
 August 2019[\
-\[Bloodborne] #11 - Second Half](https://youtu.be/GhbIiSydXQk)\
-7 hours 44 minutes (combined with the first half totalling 15 hours 20 minutes)
+[Bloodborne] #11 - Second Half](https://youtu.be/GhbIiSydXQk)\
+7 hours 44 minutes (combined with the first half totaling 15 hours 20 minutes)
 
 September 2019[\
-\[Hollow Knight] #04 - Comfy Chill Hollow Knight](https://youtu.be/TyV5RcQpju8)\
-10 hours 55 minutes (combined with part 2 totalling 17 hours 54 minutes)
+[Hollow Knight] #04 - Comfy Chill Hollow Knight](https://youtu.be/TyV5RcQpju8)\
+10 hours 55 minutes (combined with part 2 totaling 17 hours 54 minutes)
 
 October 2019[\
-\[Dark Souls Remastered] #11 - Welcome to the DLC World!!!!!!!](https://youtu.be/V-V6VvldRj0)\
+[Dark Souls Remastered] #11 - Welcome to the DLC World!!!!!!!](https://youtu.be/V-V6VvldRj0)\
 7 hours 33 minutes
 
 November 2019[\
-\[Minecraft] Ohalulu! Morning Comfy Minecraft Stream](https://youtu.be/vfhhnN_vyHg)\
+[Minecraft] Ohalulu! Morning Comfy Minecraft Stream](https://youtu.be/vfhhnN_vyHg)\
 7 hours 11 minutes
 
-December 2019[\
-It's New Year's Eve! \[Ghouls 'N Ghosts] The battle I won't lose until I clear it is right here! ](https://youtu.be/BFOtRhQoEFY)(placeholder translation)\
-11 hours 7 minutes (combined with the second half totalling 18 hours 12 minutes)
+December 2019\
+[It's New Year's Eve! [Ghouls 'N Ghosts] The battle I won't lose until I clear it is right here! ](https://youtu.be/BFOtRhQoEFY)(placeholder translation)\
+11 hours 7 minutes (combined with the second half totaling 18 hours 12 minutes)
 
 January 2020[\
-\[Super Mario World] Blind Playthrough! The! World!!!!!!](https://youtu.be/cnKqj-vKt2Q)\
+[Super Mario World] Blind Playthrough! The! World!!!!!!](https://youtu.be/cnKqj-vKt2Q)\
 9 hours 34 minutes
 
 February 2020[\
-\[Demon's Souls] #6 - It's OK for me finish it with this...!!!](https://youtu.be/AinRcloibZw) (placeholder translation)\
+[Demon's Souls] #6 - It's OK for me finish it with this...!!!](https://youtu.be/AinRcloibZw) (placeholder translation)\
 10 hours 46 minutes (did a Ring Fit Adventure stream in the evening for 10 hours 18 minutes)
 
 March 2020[\
-\[Blasphemous] I'm doing it...!!!](https://youtu.be/Dnb3jQse5gM)\
+[Blasphemous] I'm doing it...!!!](https://youtu.be/Dnb3jQse5gM)\
 8 hours
 
 April 2020[\
-\[Super Mario Bros.] I'll definitely try clearing it this time!! It's a rematch!!!!](https://youtu.be/H-85oSp5QCU)\
+[Super Mario Bros.] I'll definitely try clearing it this time!! It's a rematch!!!!](https://youtu.be/H-85oSp5QCU)\
 7 hours 7 minutes
 
 May 2020[\
-\[Super Mario Bros. 3] Last Chapter!!!](https://youtu.be/uDKwbKGY04Y)\
+[Super Mario Bros. 3] Last Chapter!!!](https://youtu.be/uDKwbKGY04Y)\
 9 hours 46 minutes (she also did a 24-hour stream earlier in the month)
 
 June 2020[\
@@ -316,5 +313,5 @@ Ninja Gaiden (Part 2)](https://youtu.be/nLWjI60eyD8)\
 9 hours 21 minutes (Part 1 took 8 hours, and immediately after this she played Ring Fit Adventure)
 
 September 2020[\
-\[Fall Guys] Tame (misspelled "team") Practice for the Tournament!](https://youtu.be/sWu5xmSAgRA)\
+[Fall Guys] Tame (misspelled "team") Practice for the Tournament](https://youtu.be/sWu5xmSAgRA)\
 7 hours 18 minutes
