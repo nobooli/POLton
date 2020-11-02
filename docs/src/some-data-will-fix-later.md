@@ -246,7 +246,7 @@ September 2020
 11 streams
 1 appearance
 
-\[Monthly Longest Streams]
+\[Monthly Longest Streams] (can't make tables)
 
 May 2019[](https://youtu.be/sY9XtIUNFbE)[\
 [Super Ghouls 'N Ghosts] #04 - I'll surpass my limits...!](https://youtu.be/sY9XtIUNFbE)\
