@@ -138,11 +138,9 @@ Hokusetsu Sweet Devil 180ml Cup
 
 \[Monthly Total Hours Streamed]
 
-Month:
-Total Hours Streamed (Lulu's channel only):
-Number of Streams:
-Number of streams that are at least 3 hours long:
-Appearances in other channels:
+|Month|Total Hours Streamed|Number of Streams|Number of streams at least 3 hours long|Appearances in other channels|
+
+|------------------|------------------|
 
 May 2019
 74 hours 31 min
