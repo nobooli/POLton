@@ -39,6 +39,7 @@ In her streams she always references The World when she pauses the game (usually
 [Spicy Food]
 She likes eating spicy food.
 The limit of the spicy food she can eat is Mouko Tanmen Nakamoto's North Pole ramen.
+She can eat CoCo Ichibanya's curry at spicy level 4, but for her spicy level 10 is painful. (NOTE: not on the wiki, but if I remember correctly, she ate level 10 during LizeLulu Listen. I'll provide a source later.)
 
 [Physical Activity]
 She likes doing physical activity.
