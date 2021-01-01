@@ -1,5 +1,5 @@
 ---
-title: Trivia (Streams)
+title: Trivia (Streams) *WIP*
 date: 2020-11-12T18:35:19.723Z
 ---
 
@@ -7,7 +7,7 @@ date: 2020-11-12T18:35:19.723Z
 
 Nothing on her official introduction and bio says about her being a hardcore gamer, so it's a huge surprise to people coming in to see her stream for the first time that she's the kind of gamer who repeatedly plays the same game without getting burnt out.
 
-She always watched her sister play video games when they were little so she herself also began to love video games herself. 
+She always watched her sister play video games when they were little, so she also began to love video games herself. 
 The first game her sister recommended her to play is Fatal Frame.
 
 At the time it took her *two years* to beat the game (she said she only really played it during her days off), but when she played it for the second time with Debidebi Debiru in a collab stream, it only took them 2 days.
@@ -32,17 +32,18 @@ She said she wasn't good at playing Tic-Tac-Toe because she played it alone in t
 
 [Suzuhara Lulu's Preparation]
 
-To prepare for a VERY difficult stage in Donkey Kong Country 2, she maxed out her lives prior to starting the stream. Not only that, she drank Red Bull before starting the stream to psych herself up. (some random shit: she wasn't able to finish Animal Land in her first Donkey Kong Country Lost World stream, and it actually took her 3 hours to beat the stage)
+She maxed out her lives off stream to prepare for an extremely difficult stage in Donkey Kong Country 2 (Animal Land). Not only that, she drank Red Bull before starting the stream to psych herself up.
 
-In Megaman X, she grinded lives to prepare for a difficult stage. (https://twitter.com/lulu_suzuhara/status/1145991936366432257)
-She didn't know that the game doesn't save the extra lives so when she started the stream she was shocked to see that the lives she grinded were gone.
+In Megaman X, she farmed extra lives to prepare for a difficult stage. (https://twitter.com/lulu_suzuhara/status/1145991936366432257)
+She didn't know that the game doesn't save the extra lives so when she started the stream she was shocked to see that the extra lives she farmed were gone.
 
 During the Fatal Frame collab with Debidebi Debiru, she wanted to see the true ending and perfect clear the game so they tried and tried again to trigger the event that unlocks the ending through a boss. (needs qc/tlc)
 
 In her Bloodborne stream, she stocked up on healing items until they maxed out before challenging a very difficult boss again.
 
 She wrote out notes for the event triggers that unlock the Shura ending in Sekiro.
-(my entry) She and her teammates (Kuzuha, Fuwa Minato, and Honma Himawari) had the longest practice hours in preparation for the Fall Guys VTuber Party.
+
+(my entry) She and her teammates (Kuzuha, Fuwa Minato, and Honma Himawari) had the longest practice hours for the Fall Guys VTuber Party.
 
 [Rapid Fire Suzuhara Lulu]
 
@@ -52,7 +53,7 @@ Her third controller wasn't able to endure her button mashing that it broke in l
 [Suzuhara Lulu's Hat]
 
 She takes off her hat when she goes into serious mode.
-She said that taking her hat off **feels** like she's 50 kilograms lighter. (note: 体感 is used in the source, confirm with the link associated with this entry)
+She said that taking her hat off **feels** like she's 50 kilograms lighter. (note: 体感 is used in the source, confirm with the link included in the original source)
 
 [Suzuhara Lulu's Brain on Video Games]
 
@@ -76,11 +77,11 @@ After her clear time in a time-attack stage was made fun of by an NPC, she repea
 
 Tongue Twisters:
 
-In one chatting stream she was sent a marshmallow that challenges her to do some tongue twisters. She attempted to do the challenge multiple times until she got the tongue twisters right. --Despite her clearing them the success rate was quite low.--
+In one chatting stream she was sent a marshmallow that challenges her to do some tongue twisters. She attempted to do the challenge multiple times until she got the tongue twisters right. ~~Despite her clearing them the success rate was quite low.~~
 
 Monster Hunter World:
 
-She repeatedly challenged Maimoto Keisuke until the latter broke his nail during their Monster Hunter World collab stream. (I'm trying to incorporate the "breaking parts" reference from the original text in this sentence but it's lost in translation. Needs an edit.)
+She repeatedly challenged Maimoto Keisuke until the latter broke his nail during their Monster Hunter World collab stream. (I was trying to incorporate the "breaking parts" reference from the original text in this sentence but it gets lost in translation. Needs an edit.)
 
 Super Mario Maker 2:
 
@@ -88,7 +89,7 @@ After failing one stage too many times, she was asked by Luigi if he could take 
 
 Cuphead:
 
-She was just supposed to do a sneak peek on one stage but she ended up retrying the stage until she cleared it.
+She was just supposed to do a sneak peek on one stage but she ended up replaying the entire stage until she cleared it.
 
 Super Mario 64:
 
@@ -96,15 +97,16 @@ She displayed her tenacity in doing difficult stages repeatedly until she clears
 
 Dark Souls 2:
 
-She konlulued Maldron the Assassin after the latter taunted her with gestures and backstabbed her.
+She konlulu'd Maldron the Assassin after the latter taunted her with gestures and backstabbed her.
 
-Rhythm Heaven Fever
+Rhythm Heaven Fever:
+
 She displayed her frustration through button mashing because she couldn't perfect the fork stage.
 
 [Suzuhara Lulu and Lag]
 
 She played games notable for their high difficulty (Super Ghouls 'N Ghosts, Donkey Kong Country 1 and 2, Castlevania IV, Sekiro) with lag and limited screen size because she only had one monitor and had to watch her capture footage through OBS.
-The last stream she played with lag was her fifth Sekiro stream on June 7, 2019, where she beat Lady Butterfly in 14 attempts.
+The last stream she played with lag was her fifth Sekiro stream on June 7, 2019, where she defeated Lady Butterfly within 14 attempts.
 Her second monitor arrived on June 8, 2019 and the first stream she played lag-free was her third and final Splatterhouse stream.
 
 She often jinxes herself *immediately* after saying some inspirational stuff or when she's talking about how she's progressing well in the game. (Usually by falling)
@@ -113,7 +115,7 @@ She usually tilts her head in a slanting position and looks straight, eyes wide 
 [Suzuhara Lulu's Stomach Growl]
 
 Her stomach sometimes growls when she's streaming.
-She immediately admits that her stomach is growling because if it's audible and she didn't say anything she'd get more embarrassed. --Suzuhara Lulu wants to eat humans.-- (this was included in the original source, remove it if it's too much of a meme)
+She immediately admits that her stomach is growling because if it's audible and she didn't say anything she'd get more embarrassed. ~~Suzuhara Lulu wants to eat hum—.~~ (this was included in the original source, I'll remove it if it's too much of a meme)
 
 [Suzuhara Lulu's Random Cute Singing]
 
@@ -139,37 +141,36 @@ Super random trivia(by me): The first time she saw a spider on stream was in her
 
 In her Dark Souls 2 stream, she started singing to shake off her fear when she needed to get past a cluster of spiders to get an item.
 
-In her Rhythm Heaven stream, there was a spider-like insect in a stage where you have to sort items. She panicked and froze for a moment after seeing it. (The moment she touched the spider-like creature she said "disgusting")
+In her Rhythm Heaven stream, there was a spider-like insect in a stage where you have to sort items. She panicked and froze for a moment after seeing it. (The moment she touched the spider-like creature she said "Disgusting.")
 
-In her Katamari Damacy stream, right after she saw a spider web she hurriedly went past through it and she was prompted to go back.
+In her Katamari Damacy stream, right after she saw a spider web she hurriedly went past through it, but she was prompted to go back and get it.
 
-When she was in elementary school, when her sister tried to prank her with spiders, (practical joke context? needs better English) they had had a serious quarrel that caused her to leave the house for more than 3 hours. After that, she didn't talk to her sister for a week.
+When she was in elementary school, when Anehara tried to prank her with spiders, (practical joke context? needs better English) they had had a serious fight that caused her to leave the house for more than 3 hours. After that, she didn't talk to Anehara for a week.
 
 [Suzuhara Lulu's Memory]
 
 Suzuhara Lulu couldn't remember the names of her opponents well.
 
-Despite fighting the same enemy for hours, she couldn't remember their name so it's not rare for her to ask for their name right after beating them. (the following sentences look like speculation?:) She's too focused on the fight she doesn't even consider the names of her opponents, and it looks like she loses interests in them right after beating them. (although this isn't the case actually)
+Despite fighting the same enemy for hours, she couldn't remember their name so it's not rare for her to ask for their name right after beating them. She's too focused on the fight she doesn't even recognize the names of her opponents, and it looks like she loses interest in them right after beating them. (original source kinda weird, needs some checks)
 
-Her sense of direction is so terrible she often gets lost even in places she previously went to.
-She said that although she often gets lost in games, she has never gotten lost in real life.
+Her sense of direction is so terrible she often gets lost even in places she just previously went to. She said that although she often gets lost in games, she has never gotten lost in real life.
 
 [Luluspeak]
 
 She always inflects her words with -lulu on purpose, usually on verbs ending with ru.
 Examples: ohalulu, ganbalulu, arigalulu, inoruru, ikichi wo susururu; there's other cases like luluoboe from the word urooboe
 
-・Konlulu (see my dictionary entry for more information)
+・Konlulu (see the dictionary entry for more information)
 
-Note: Konlulu is always used as a noun or verb. (although it's possible to use it to describe things, as an adjective or adverb, but there are no cases of that usage so far)
+TL Note: Konlulu is always used as a noun or verb. (it's possible to use the word to describe things, as an adjective or adverb, but so far she hasn't done it yet)
 
 The word "Konlulu"/「こんるる～」 is used in a multiple ways including, but not limited to: first time meeting an enemy, striking first, attacking the opponent by surprise
 
-・Special usage of the word Konlulu
+・Special usage of the word Konlulu (Lost Ember stream)
 
-One special usage of the word "Konlulu" is when it's used to describe the "flow" of souls, like when transferring souls
+One new definition of the word "Konlulu" is "the flow of souls", used when she was transferring her soul between various animals in Lost Ember. 
 
-(note:)
+TL Note:
 魂流流/魂流々 from 魂/soul and 流/flow or current 
 Do note that while 流流/流々 means "style" or "workmanship", this isn't the case for Konlulu and is read as "flow flow" instead.
 
@@ -201,7 +202,7 @@ She said that when she was still starting it took her about two hours to make th
 
 Her favorite thumbnail is the one used for her third Super Ghouls 'N Ghost stream. 
 
-She said that she enjoys coming up with new thumbnail ideas and likes seeing everyone's reactions to them.
+She said that she enjoys coming up with new thumbnail ideas and likes hearing everyone's reactions to them.
 
 There are quite a lot of people within Nijisanji who praise her thumbnail-making skills.
 Here are some of the comments by other streamers:
@@ -213,7 +214,7 @@ Lize Helesta: These are seriously really unique.
 
 [Pink is No Good]
 
-This is what her customer said when she was selling her Kirby painting. Hearing such criticism was shocking to her and the viewers.
+This is what her customer told her when she was selling her Kirby painting in Passpartout. Hearing such criticism was shocking to her and the viewers that when the color pink shows in her streams the chat spams "Pink is no good./ピンクはあかん"
 
 [Youtube Gaming Week]
 
@@ -221,9 +222,9 @@ VTuber Fall Guys Party:
 
 She participated in a Fall Guys tournament featuring 26 VTubers including herself, and her team is named くるみわり/Kurumiwari (literally means nutcracker in Japanese), comprising the team members' names: Ku-zuha, Lu-lu, Mi-nato, Hima-wari.
 
-In the tournament, Honma Himawari won two crowns by herself, and the team won by a landslide, outdoing the 2nd place team by 16 points. (here's the link for her reaction when their victory is announced.) Her level of excitement was exceedingly higher than usual and she let out a shout for joy, something that's very rarely seen from her streams.
+In the tournament, Honma Himawari won two crowns by herself, and the team won by a landslide, outdoing the 2nd place team by 16 points. Her level of excitement was exceedingly higher than usual and she let out a shout for joy, something that's very rarely seen from her streams.
 
 Try! PS5:
 
-She participated in a sneak peek of the PS5, along with her colleague Mayuzumi Kai. The project consisted of various popular Japanese Youtubers, including Hikakin and Hanae Natsuki (a very popular Japanese seiyuu, known for his Tanjiro from Kimetsu no Yaiba).
+She participated in a sneak peek of the PS5, in which her Nijisanji colleague Mayuzumi Kai also participated (in their own respective channels). The project consisted of various popular Japanese Youtubers, including Hikakin and Hanae Natsuki (Tanjiro's seiyuu). Despite her participating in the sneak peek, she didn't win the preorder lottery for the PS5 so she still doesn't have it.
 
