@@ -179,9 +179,10 @@ Do note that while 流流/流々 means "style" or "workmanship", this isn't the 
 Example: "modotsute"もどつて from the word "modotte"/戻って
 
 ・Calling NPCs/enemies/bosses "children" (my entry)
+
 She uses the phrase この子/this child every time she refers to someone in game.
 
-・Using the Japanese counter word for small animals 匹 when counting human/humanoid characters instead of 人
+・Using the Japanese counter word for small animals 匹 when counting human/humanoid characters instead of 人 (my entry)
 
 Example: 
 Instead of using five people/５人, she'll use five critters/５匹 instead when counting people in game.
