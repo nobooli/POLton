@@ -7,16 +7,14 @@ date: 2020-11-12T18:35:19.723Z
 
 Nothing on her official introduction and bio says about her being a hardcore gamer, so it's a huge surprise to people coming in to see her stream for the first time that she's the kind of gamer who repeatedly plays the same game without getting burnt out.
 
-While she's watching her sister play games she herself also became a gamer.
+She always watched her sister play video games when they were little so she herself also began to love video games herself. 
 The first game her sister recommended her to play is Fatal Frame.
 
 At the time it took her *two years* to beat the game (she said she only really played it during her days off), but when she played it for the second time with Debidebi Debiru in a collab stream, it only took them 2 days.
 
-The only games she couldn't clear in the DS she borrowed from her sister are the Kanji test and English test. She talked about how she absolutely won't do brain exercises.
+The only games she couldn't clear in the DS she borrowed from her sister are the Kanji test and English test. She talked about how she absolutely won't do brain exercises. However, she promised to play brain exercises because she wanted to make up for a previous streaming accident, so she delivered and kept her promise by borrowing her sister's DS and streaming Brain Age.
 
-However, she promised to play brain exercises because she wanted to make up for a previous streaming accident, so she delivered and kept her promise by borrowing her sister's DS and streaming Brain Age.
-
-In the past, during the weekends, she and her sister used to go to the Internet cafe, buy a 10-hour package, and play Ragnarok Online. The other online game they played was Monster Hunter Frontier.
+In the past, during the weekends, she and her sister would often go to the Internet cafe, buy a 10-hour package, and play Ragnarok Online. The other online game they played was Monster Hunter Frontier.
 
 [Suzuhara Lulu and Monster Hunter]
 
@@ -114,7 +112,7 @@ She usually tilts her head in a slanting position and looks straight, eyes wide 
 
 [Suzuhara Lulu's Stomach Growl]
 
-Her stomach often growls when she's streaming.
+Her stomach sometimes growls when she's streaming.
 She immediately admits that her stomach is growling because if it's audible and she didn't say anything she'd get more embarrassed. --Suzuhara Lulu wants to eat humans.-- (this was included in the original source, remove it if it's too much of a meme)
 
 [Suzuhara Lulu's Random Cute Singing]
