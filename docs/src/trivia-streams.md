@@ -5,7 +5,7 @@ date: 2020-11-12T18:35:19.723Z
 
 [Games with Anehara]
 
-Nothing about her official introduction and bio says about her being a hardcore gamer, so it's a huge surprise to people coming in to see her stream for the first time that she's the kind of gamer who repeatedly plays the same game without getting burnt out.
+Nothing on her official introduction and bio says about her being a hardcore gamer, so it's a huge surprise to people coming in to see her stream for the first time that she's the kind of gamer who repeatedly plays the same game without getting burnt out.
 
 While she's watching her sister play games she herself also became a gamer.
 The first game her sister recommended her to play is Fatal Frame.
