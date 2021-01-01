@@ -8,7 +8,7 @@ Suzuhara Lulu Trivia (Herself)
 
 [Horror Movies and Horror Games]
 While she likes playing horror games herself, she said that she likes it better when she makes girls play horror games while enjoying their reactions and screams.
-During the 3D LizeLulu horror collab, she absolutely enjoyed seeing Lize Helesta's reaction so much that she almost couldn't control herself.
+During the 3D LizeLulu horror collab, she enjoyed seeing Lize Helesta's reaction so much that she almost couldn't control herself.
 
 She's not so fond of ghosts and apparitions because she can't hit them with physical attacks unlike zombies and such.
 
@@ -94,13 +94,13 @@ She never loses the house key and always makes sure the house is locked when she
 She was made fun by her father through LINE with a crying emoji after she misread a word. (might put japanese explanation here but idk if it's necessary for english readers)
 Her father once sent her a marshmallow. (Her father confirmed this.)
 
-[Suzuhara Lulu and Kanji] (incomplete)
+[Suzuhara Lulu and Kanji]
 She was made fun by her father through LINE with a crying emoji after she misread a word. (解熱剤)
 She asked if the kanji for "hinge" (蝶番) means something about butterflies(蝶)
 
 [Suzuhara Lulu's Health]
 She said she gets more energetic when she catches a fever.
-While she used to have a poor constitution in the past, it changed around 2-3 years ago and her normal body temperature rose up to --47--37 degrees Celsius. She doesn't catch a cold except for the times she gets a tonsilitis once a year. (She had tonsilitis and went on a break for ten days in May 2020)
+While she used to have a poor constitution in the past, it changed around 2-3 years ago and her normal body temperature rose up to --47--37 degrees Celsius. She doesn't catch a cold except for the times she gets a tonsillitis once a year. (She had tonsillitis and went on a break for ten days in May 2020)
 She thought of stocking up on food due to the typhoon and she ate some raw chopped up vegetables that are past their best before date. She didn't feel well and went to the hospital so she missed a stream. She held a (joke) press conference apologizing for making her viewers worried.
 
 [Suzuhara Lulu and Snacks]
