@@ -25,7 +25,7 @@ She said she wasn't good at playing Tic-Tac-Toe because she played it alone in t
 [Suzuhara Lulu's Preparation]
 To prepare for a VERY difficult stage in Donkey Kong Country 2, she maxed out her lives prior to starting the stream. Not only that, she drank Red Bull before starting the stream to psych herself up. (some random shit: she wasn't able to finish Animal Land in her first Donkey Kong Country Lost World stream, and it actually took her 3 hours to beat the stage)
 In Megaman X, she grinded lives to prepare for a difficult stage. (https://twitter.com/lulu_suzuhara/status/1145991936366432257)
-Little she did know that the game doesn't save the extra lives so when she started the stream she was shocked to see that the lives she grinded were gone.
+She didn't know that the game doesn't save the extra lives so when she started the stream she was shocked to see that the lives she grinded were gone.
 During the Fatal Frame collab with Debidebi Debiru, she wanted to see the true ending and perfect clear the game so they tried and tried again to trigger the event that unlocks the ending through a boss. (needs qc/tlc)
 In her Bloodborne stream, she stocked up on healing items until they maxed out before challenging a very difficult boss again.
 She wrote out notes for the event triggers that unlock the Shura ending in Sekiro.
@@ -125,10 +125,10 @@ Her sense of direction is so terrible she often gets lost even in places she pre
 She said that although she often gets lost in games, she has never gotten lost in real life.
 
 [Luluspeak]
-She always ends her sentences with -lulu on purpose, usually on verbs ending with ru. (something something ru-verb u-verb japanese grammar stuff)
+She always inflects her words with -lulu on purpose, usually on verbs ending with ru.
 Examples: ohalulu, ganbalulu, arigalulu, inoruru, ikichi wo susururu; there's other cases like luluoboe from the word urooboe
 
-・Konlulu (see my dictionary entry for more information, it needs some editing also)
+・Konlulu (see my dictionary entry for more information)
 Note: Konlulu is always used as a noun or verb. (although it's possible to use it to describe things like adjectives or adverbs, but there are no cases of that usage so far)
 The word "Konlulu"/「こんるる～」 is used in a multiple ways including, but not limited to: first time meeting an enemy, striking first, attacking the opponent by surprise
 
@@ -136,7 +136,10 @@ The word "Konlulu"/「こんるる～」 is used in a multiple ways including, b
 One special usage of the word "Konlulu" is when it's used to describe the "flow" of souls, like when transferring souls
 (Translator's note:)
 魂流流/魂流々 from 魂/soul and 流/flow or current 
-Do note that while 流流/流々 means "style" or "workmanship", this isn't the case for Konlulu and it's used like "flow flow" instead. (can someone explain this better lol)
+Do note that while 流流/流々 means "style" or "workmanship", this isn't the case for Konlulu and is read as "flow flow" instead.
+
+・Replacing words the small tsu っ with a big tsu つ on purpose. (my entry)
+Example: "modotsute"もどつて from the word "modotte"/戻って
 
 [Konlulu Time Bomb]
 When Kagami Hayato asked for new toy ideas for his company in one collab stream, Suzuhara Lulu gave a sales pitch about her product Konlulu Time Bomb. Ever since, 「こん...こん...」/"Kon... Kon..." has been used by the chat when the her stream is about to start (almost always 3 minutes prior start time) to imitate a ticking time bomb.
@@ -152,16 +155,16 @@ Her favorite thumbnail is the one used for her third Super Ghouls 'N Ghost strea
 
 She said that she enjoys coming up with new thumbnail ideas and likes seeing everyone's reactions to them.
 
-There are quite a lot of people within Nijisanji that praises her thumbnails.
+There are quite a lot of people within Nijisanji who praise her thumbnail-making skills.
 Here are some of the comments by other streamers:
 
-Takamiya Rion: I like the thumbnails from these parts (right when she was still beginning), Ah, these are irresistably good!
+Takamiya Rion: I like the thumbnails from these parts (when she Lulu still new), Ah, these are irresistably good!
 Maimoto Keisuke: Suzuhara Lulu is talented when it comes to making thumbnails.
 Debidebi Debiru: I like the images this girl makes so much.
-Lize Helesta: This is really, really, definitely unique.
+Lize Helesta: These are seriously really unique.
 
 [Pink is No Good]
-This is what her customer said when she's selling her Kirby painting. It came across as shocking to her and the viewers when she got such criticism.
+This is what her customer said when she was selling her Kirby painting. Hearing such criticism was shocking to her and the viewers.
 
 [Youtube Gaming Week]
 
