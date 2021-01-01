@@ -6,22 +6,30 @@ date: 2020-11-12T18:35:19.723Z
 [Games with Anehara]
 
 Nothing about her official introduction and bio says about her being a hardcore gamer, so it's a huge surprise to people coming in to see her stream for the first time that she's the kind of gamer who repeatedly plays the same game without getting burnt out.
+
 While she's watching her sister play games she herself also became a gamer.
 The first game her sister recommended her to play is Fatal Frame.
+
 At the time it took her *two years* to beat the game (she said she only really played it during her days off), but when she played it for the second time with Debidebi Debiru in a collab stream, it only took them 2 days.
+
 The only games she couldn't clear in the DS she borrowed from her sister are the Kanji test and English test. She talked about how she absolutely won't do brain exercises.
+
 However, she promised to play brain exercises because she wanted to make up for a previous streaming accident, so she delivered and kept her promise by borrowing her sister's DS and streaming Brain Age.
+
 In the past, during the weekends, she and her sister used to go to the Internet cafe, buy a 10-hour package, and play Ragnarok Online. The other online game they played was Monster Hunter Frontier.
 
-[Suzuhara Lulu's Monster Hunter]
+[Suzuhara Lulu and Monster Hunter]
 
 She had said her total recorded play hours in Monster Hunter was sickening.
 She played a lot of Monster Hunter on the PSP, although she said she never got really good at the game.
+
 The other platforms where she played Monster Hunter were the DS and the PS4. The weapons she used are the Twin Blades and the Bow.
 She played on the PSP so much that its LCD died out.
 
 [Solo Player Suzuhara Lulu]
+
 When she was younger, the only other person she plays video games with was her sister, and because she enjoys quietly playing games alone she played Mario Party (a multiplayer game) by herself.
+
 She said she wasn't good at playing Tic-Tac-Toe because she played it alone in the school playground when she was little.
 
 [Suzuhara Lulu's Preparation]
@@ -102,7 +110,7 @@ The last stream she played with lag was her fifth Sekiro stream on June 7, 2019,
 Her second monitor arrived on June 8, 2019 and the first stream she played lag-free was her third and final Splatterhouse stream.
 
 She often jinxes herself *immediately* after saying some inspirational stuff or when she's talking about how she's progressing well in the game. (Usually by falling)
-She usually tilts her head in a slanting position and looks straight, eyes wide open, into the viewer after a misplay or a careless mistake that causes her to die.
+She usually tilts her head in a slanting position and looks straight, eyes wide open, to the viewer after a careless misplay that causes her to die.
 
 [Suzuhara Lulu's Stomach Growl]
 
@@ -133,7 +141,7 @@ Super random trivia(by me): The first time she saw a spider on stream was in her
 
 In her Dark Souls 2 stream, she started singing to shake off her fear when she needed to get past a cluster of spiders to get an item.
 
-In her Rhythm Heaven stream, there was a spider-like insect in a stage where you have to sort items. She panicked and froze for a moment after seeing it. (The moment she touched the spider she said "disgusting")
+In her Rhythm Heaven stream, there was a spider-like insect in a stage where you have to sort items. She panicked and froze for a moment after seeing it. (The moment she touched the spider-like creature she said "disgusting")
 
 In her Katamari Damacy stream, right after she saw a spider web she hurriedly went past through it and she was prompted to go back.
 
@@ -154,17 +162,31 @@ She always inflects her words with -lulu on purpose, usually on verbs ending wit
 Examples: ohalulu, ganbalulu, arigalulu, inoruru, ikichi wo susururu; there's other cases like luluoboe from the word urooboe
 
 ・Konlulu (see my dictionary entry for more information)
+
 Note: Konlulu is always used as a noun or verb. (although it's possible to use it to describe things like adjectives or adverbs, but there are no cases of that usage so far)
+
 The word "Konlulu"/「こんるる～」 is used in a multiple ways including, but not limited to: first time meeting an enemy, striking first, attacking the opponent by surprise
 
 ・Special usage of the word Konlulu
 One special usage of the word "Konlulu" is when it's used to describe the "flow" of souls, like when transferring souls
-(Translator's note:)
+
+(note:)
 魂流流/魂流々 from 魂/soul and 流/flow or current 
 Do note that while 流流/流々 means "style" or "workmanship", this isn't the case for Konlulu and is read as "flow flow" instead.
 
 ・Replacing words the small tsu っ with a big tsu つ on purpose. (my entry)
+
 Example: "modotsute"もどつて from the word "modotte"/戻って
+
+・Calling NPCs/enemies/bosses "children" (my entry)
+She uses the phrase この子/this child every time she refers to someone in game.
+
+・Using the Japanese counter word for small animals 匹 when counting human/humanoid characters instead of 人
+
+Example: 
+Instead of using five people/５人, she'll use five critters/５匹 instead when counting people in game.
+
+
 
 [Konlulu Time Bomb]
 
