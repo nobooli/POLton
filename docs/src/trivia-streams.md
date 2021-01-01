@@ -82,7 +82,7 @@ In one chatting stream she was sent a marshmallow that challenges her to do some
 
 Monster Hunter World:
 
-She repeatedly challenged Maimoto Keisuke until the latter broke his nail during their Monster Hunter World collab stream. (I'm trying to incorporate the "breaking parts" reference from the original text in this sentence but I guess it's lost in translation. Needs an edit.)
+She repeatedly challenged Maimoto Keisuke until the latter broke his nail during their Monster Hunter World collab stream. (I'm trying to incorporate the "breaking parts" reference from the original text in this sentence but it's lost in translation. Needs an edit.)
 
 Super Mario Maker 2:
 
@@ -90,7 +90,7 @@ After failing one stage too many times, she was asked by Luigi if he could take 
 
 Cuphead:
 
-She was just about to do a "sneak peek" on one stage but she ended up retrying the stage until she cleared it.
+She was just supposed to do a sneak peek on one stage but she ended up retrying the stage until she cleared it.
 
 Super Mario 64:
 
@@ -115,7 +115,7 @@ She usually tilts her head in a slanting position and looks straight, eyes wide 
 [Suzuhara Lulu's Stomach Growl]
 
 Her stomach often growls when she's streaming.
-She immediately admits that her stomach is growling because if it's audible and she didn't say anything she'd get more embarrased. --Suzuhara Lulu wants to eat humans.-- (I want the Scripture to be free of memes, why would my JP nikis do this?)
+She immediately admits that her stomach is growling because if it's audible and she didn't say anything she'd get more embarrassed. --Suzuhara Lulu wants to eat humans.-- (this was included in the original source, remove it if it's too much of a meme)
 
 [Suzuhara Lulu's Random Cute Singing]
 
@@ -163,18 +163,19 @@ Examples: ohalulu, ganbalulu, arigalulu, inoruru, ikichi wo susururu; there's ot
 
 ・Konlulu (see my dictionary entry for more information)
 
-Note: Konlulu is always used as a noun or verb. (although it's possible to use it to describe things like adjectives or adverbs, but there are no cases of that usage so far)
+Note: Konlulu is always used as a noun or verb. (although it's possible to use it to describe things, as an adjective or adverb, but there are no cases of that usage so far)
 
 The word "Konlulu"/「こんるる～」 is used in a multiple ways including, but not limited to: first time meeting an enemy, striking first, attacking the opponent by surprise
 
 ・Special usage of the word Konlulu
+
 One special usage of the word "Konlulu" is when it's used to describe the "flow" of souls, like when transferring souls
 
 (note:)
 魂流流/魂流々 from 魂/soul and 流/flow or current 
 Do note that while 流流/流々 means "style" or "workmanship", this isn't the case for Konlulu and is read as "flow flow" instead.
 
-・Replacing words the small tsu っ with a big tsu つ on purpose. (my entry)
+・Replacing words with the small tsu っ in it with a big tsu つ on purpose. (my entry)
 
 Example: "modotsute"もどつて from the word "modotte"/戻って
 
@@ -184,8 +185,7 @@ She uses the phrase この子/this child every time she refers to someone in gam
 
 ・Using the Japanese counter word for small animals 匹 when counting human/humanoid characters instead of 人 (my entry)
 
-Example: 
-Instead of using five people/５人, she'll use five critters/５匹 instead when counting people in game.
+Example: Instead of using five people/５人, she'll use five critters/５匹 instead when counting people in game.
 
 
 
