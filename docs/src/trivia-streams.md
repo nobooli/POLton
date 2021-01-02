@@ -157,7 +157,7 @@ Suzuhara Lulu couldn't remember the names of her opponents well.
 
 Despite fighting the same enemy for hours, she couldn't remember their name so it's not rare for her to ask for their name right after beating them. She's too focused on the fight she doesn't even recognize the names of her opponents, and it looks like she loses interest in them right after beating them. (original source kinda weird, needs some checking)
 
-Her sense of direction is so terrible she often gets lost even in places she just previously went to. She said that although she often gets lost in games, she has never gotten lost in real life.
+[Her sense of direction is so terrible she often gets lost even in places she just previously went to. She said that although she often gets lost in games, she has never gotten lost in real life.](https://youtu.be/hTc629Bvez0?t=3120)
 
 [Luluspeak]
 
@@ -172,7 +172,7 @@ The word "Konlulu"/「こんるる～」 is used in a multiple ways including, b
 
 ・Special usage of the word Konlulu (Lost Ember stream)
 
-One new definition of the word "Konlulu" is "the flow of souls", used when she was transferring her soul between various animals in Lost Ember. 
+One new definition of the word "Konlulu" is "the flow of souls", [used when she was transferring her soul between various animals in Lost Ember.](https://youtu.be/-xC2uR-5iVc?t=915) 
 
 TL Note:
 魂流流/魂流々 from 魂/soul and 流/flow or current 
@@ -192,7 +192,7 @@ Example: Instead of using five people/５人, she'll use five critters/５匹 in
 
 
 
-[Konlulu Time Bomb]
+[[Konlulu Time Bomb](https://www.youtube.com/watch?v=lWTuz8JA8C8)]
 
 When Kagami Hayato asked for new toy ideas for his company in one collab stream, Suzuhara Lulu gave a sales pitch about her product Konlulu Time Bomb. Ever since, 「こん...こん...」/"Kon... Kon..." has been used by the chat when the her stream is about to start (always 3 minutes prior start time) to imitate a ticking time bomb.
 
@@ -206,19 +206,22 @@ She said that when she was still starting it took her about two hours to make th
 
 Her favorite thumbnail is the one used for her third Super Ghouls 'N Ghost stream. 
 
-She said that she enjoys coming up with new thumbnail ideas and likes hearing everyone's reactions to them.
+[She said that she enjoys coming up with new thumbnail ideas and likes hearing everyone's reactions to them.](https://youtu.be/aCZnDa-7Xvw?t=1700)
 
 There are quite a lot of people within Nijisanji who praise her thumbnail-making skills.
 Here are some of the comments by other streamers:
 
-Takamiya Rion: I like the thumbnails from these parts (when she Lulu still new), Ah, these are irresistibly good!
-Maimoto Keisuke: Suzuhara Lulu is talented when it comes to making thumbnails.
-Debidebi Debiru: I like the images this girl makes so much.
-Lize Helesta: These are seriously really unique.
+Takamiya Rion: [I like the thumbnails from these parts (when she Lulu still new), Ah, these are irresistibly good!](https://youtu.be/byAQlOzP9ag?t=2970)
+
+Maimoto Keisuke: [Suzuhara Lulu's thumbnail making is already a talent itself.](https://youtu.be/cZJxMd0UHGs?t=1090)
+
+Debidebi Debiru: [I like the images this girl makes so much.](https://twitter.com/debidebiru_sama/status/1130378339338743808)
+
+Lize Helesta: [It is seriously really unique.](https://youtu.be/xJ1zEYsQs4w?t=430)
 
 [Pink is No Good]
 
-This is what her customer told her when she was selling her Kirby painting in Passpartout. Hearing such criticism was shocking to her and the viewers that when the color pink shows up/gets mentioned in her streams the chat spams "Pink is no good./ピンクはあかん"
+[This is what her customer told her when she put her Kirby painting on saie in Passpartout.](https://youtu.be/gjpjyPNIi2c?t=5870) Hearing such criticism was shocking to her and the viewers that when the color pink shows up/gets mentioned in her streams the chat spams "Pink is no good./ピンクはあかん"
 
 [Youtube Gaming Week]
 
