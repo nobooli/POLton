@@ -90,8 +90,6 @@ She likes them because her father builds Gunplas, and they built some Gunplas to
 
 No one at her class likes Gundam so she never had anyone else to talk about it in school.
 
-She learned about the game Mobile Suit Gundam: Encounters in Space for the first time after being told by a viewer about it. (note to self: watch 2020/09/21 zatsudan to fact check)
-
 Personal Life:
 
 [Suzuhara Lulu and Beverages]
