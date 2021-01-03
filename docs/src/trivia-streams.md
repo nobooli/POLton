@@ -38,7 +38,7 @@ The other platforms where she played Monster Hunter were the DS and the PS4. The
 [She maxed out her lives off stream to prepare for an extremely difficult stage in Donkey Kong Country 2 (Animal Land).](https://twitter.com/lulu_suzuhara/status/1132254356990963713) (*)Not only that, she drank Red Bull before starting the stream to psych herself up.
 
 [In Megaman X, she farmed extra lives to prepare for a difficult stage.](https://twitter.com/lulu_suzuhara/status/1145991936366432257)
-She didn't know that the game doesn't save the extra lives so when she started the stream she was shocked to see that the extra lives she farmed were gone.
+[She didn't know that the game doesn't save the extra lives so she was shocked to see that the extra lives she farmed were gone.]
 
 [During the Fatal Frame collab with Debidebi Debiru, she wanted to see the true ending and perfect clear the game so they tried and tried again to trigger the event that unlocks the ending through beating a boss with strict conditions.](https://www.youtube.com/watch?v=cRer4kGBtto)
 
@@ -174,9 +174,9 @@ The word "Konlulu"/「こんるる～」 is used in a multiple ways including, b
 
 One new definition of the word "Konlulu" is "the flow of souls", [used when she was transferring her soul between various animals in Lost Ember.](https://youtu.be/-xC2uR-5iVc?t=915) 
 
-TL Note:
+Note:
 魂流流/魂流々 from 魂/soul and 流/flow or current 
-Do note that while 流流/流々 means "style" or "workmanship", this isn't the case for Konlulu and is read as "flow flow" instead.
+流流/流々 means "style" or "workmanship"; however, this isn't the case for Konlulu and is read as "flow flow" instead.
 
 ・(*)Replacing words with the small tsu っ in it with a big tsu つ on purpose.
 
@@ -233,5 +233,5 @@ In the tournament, Honma Himawari won two crowns by herself, and the team won by
 
 Try! PS5:
 
-She participated in a sneak peek of the PS5, in which her Nijisanji colleague Mayuzumi Kai also participated (in their own respective channels). The project consisted of various popular Japanese Youtubers, including Hikakin and Hanae Natsuki (Tanjiro's seiyuu). Despite her participating in the sneak peek, she didn't win the preorder lottery for the PS5 so she still doesn't have it.
+She participated in a sneak peek of the PS5, in which her Nijisanji colleague Mayuzumi Kai also participated (in their own respective channels). Despite her participating in the sneak peek, she didn't win the preorder lottery for the PS5 so she still doesn't have the console.
 
