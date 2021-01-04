@@ -5,7 +5,7 @@ date: 2020-11-01T16:15:11.872Z
 # Singing Stream Set List
 |Date|Songs|
 |:--------|:--------|
-|June 30, 2019|Renai Circulation|
+|[June 30, 2019](https://www.youtube.com/watch?v=x0fJci3Mtqc)|Renai Circulation|
 ||Natsumatsuri|
 ||Sorairo Days|
 ||Kimi no Shiranai Monogatari|
@@ -13,7 +13,7 @@ date: 2020-11-01T16:15:11.872Z
 ||Kawaranai Mono|
 ||Garnet|
 ||Platinum|
-|July 30, 2019|Seikan Hikou||
+|[July 30, 2019](https://www.youtube.com/watch?v=-5T-J3uE8cc)|Seikan Hikou||
 ||Sobakasu|
 ||Secret base \~Kimi ga Kureta Mono\~|
 ||Rouge no Densetsu|
@@ -21,15 +21,15 @@ date: 2020-11-01T16:15:11.872Z
 ||Secret of my heart|
 ||Akai Sweet Pea|
 ||Triangular|
-|August 29, 2019|Uchiage Hanabi|
-|September 28, 2019|Zankoku na Tenshi no Thesis|
+|[August 29, 2019](https://youtu.be/92210a1BLyU?t=3618)|Uchiage Hanabi|
+|[September 28, 2019](https://www.youtube.com/watch?v=CT09HxW18gw)|Zankoku na Tenshi no Thesis|
 ||DAN DAN Kokoro Hikareteku|
 ||Chouchou Musubi|
 ||Rain|
 ||Star|
 ||Lemon|
-|October 30, 2019|Country Road|
-|November 30, 2019|Bouken Desho Desho?|
+|[October 30, 2019](https://youtu.be/wdc6bY07jZs?t=2477)|Country Road|
+|[November 30, 2019](https://www.youtube.com/watch?v=3ZwmmQvl7so)|Bouken Desho Desho?|
 ||Kawaiku Naritai|
 ||Ojamajo Carnival!!|
 ||Venus to Jesus|
@@ -37,16 +37,16 @@ date: 2020-11-01T16:15:11.872Z
 ||God knows...|
 ||Tsuki no Waltz|
 ||Diamond Crevasse|
-|February 9, 2020|Tamashii no Refrain|
+|[February 9, 2020](https://www.youtube.com/watch?v=w8yYUufFQvI)|Tamashii no Refrain|
 ||PONPONPON|
 ||Valentine Kiss|
 ||Chocolate Disco|
 ||Polyrhythm|
 ||Mata Ashita|
 ||Hare Hare Yukai|
-|March 27, 2020|Koi|
+|[March 27, 2020](https://youtu.be/29nfCCThT2k?t=3412)|Koi|
 ||Renai Circulation|
-|May 1, 2020|Seikan Hikou|
+|[May 1, 2020](https://youtu.be/jvejvi2hyOo)|Seikan Hikou|
 ||Hare Hare Yukai|
 ||Sobakasu|
 ||Sousei no Aquarion|
@@ -55,7 +55,7 @@ date: 2020-11-01T16:15:11.872Z
 ||Ashita e no Tobira|
 ||Kawaranai Mono|
 ||Mata Ashita|
-|June 24, 2020|Blue Bird|
+|[June 24, 2020](https://www.youtube.com/watch?v=PPeiRPLxkuE)|Blue Bird|
 ||Natsumatsuri|
 ||Hajimete no Chuu|
 ||Natural ni Koi shite|
@@ -63,27 +63,33 @@ date: 2020-11-01T16:15:11.872Z
 ||Tsuki no Waltz|
 ||Good-bye days|
 ||Virtual to Live|
+|[November 28, 2020](https://youtu.be/wyAb9RHbwio?t=2080)|Maru Maru Mori Mori!|
+||CHE.R.RY|
+||Onegai Muscle|
+||Happy Jam Jam|
+||Overwhelming Presence(Attouteki Sonzaikan)|
 
 # List of Alcoholic Beverages Drunk on Stream
 |Date|Drink(EN)|Drink(JP)|
 |---------------|---------------|---------------|
-|June 24, 2019|Nikka Cidre Sweet|ニッカ シードル・スイート|
-|August 28, 2019|Horoyoi Ramune Sour (Summer Limited Edition)|ほろよい　（ラムネサワー）（夏季限定）|
-|January 27, 2020|Kirin Hyoketsu Tochigi-zan Skyberry (Limited Shipping)|キリン 氷結® 栃木産スカイベリー（限定出荷）|
-||Kirin The Strong Umeshiso Sour (Limited-time Offer) |キリン・ザ・ストロング 梅しそサワー（期間限定）|
-||Nihonsakari Onikoroshi 180ml|日本盛　鬼ころし 180ml|
-|February 4, 2020|Sapporo Otoko Ume Sour|サッポロ 男梅サワー|
-||Calpis Sour Limited-time Rich Luxury|『カルピスサワー』期間限定濃い贅沢|
-||Rakuen Wine Mini Pack (Red) 180ml|楽園 ワインミニパック（赤）180ml|
-|March 6, 2020|Lemondo Oni Lemon|檸檬堂 鬼レモン|
-||Horoyoi Hapikle Sour|ほろよい〈ハピクルサワー〉|
-||Kurokirishima PET 25% 200ml|黒霧島ペット 25度 200ml|
-|April 18, 2020|Aji ga Kawaru!? Lemon Sour (7-Eleven exclusive)|味が変わる!?レモンサワー（セブン限定）|
-||Kyohime Shuzo Kaminari Sandai Pack 180ml|京姫酒造 かみなり三代パック 180ml|
-|June 24, 2020|Kirin Hyoketsu Strong Aomori-zan Ringo Sekai Ichi (Limited Shipping)|キリン 氷結®ストロング 青森産りんご世界一（限定出荷）|
-|September 4, 2020|Kirin Hyoketsu Hachimitsu Lemon (Limited-time Offer)|キリン 氷結® はちみつレモン（期間限定）|
-||Kirin The Strong Shiikwasa Sour (Limited-time Offer)|キリン・ザ・ストロング シークヮーサーサワー（期間限定）|
-||Hokusetsu Sweet Devil 180ml Cup|北雪 スイートデビル 180mlカップ|
+|[June 24, 2019](https://www.youtube.com/watch?v=M1Lq9WgP6u0)|Nikka Cidre Sweet|[ニッカ シードル・スイート](https://www.asahibeer.co.jp/products/wine/brand/nikka/JNQ5N.html)|
+|[August 28, 2019](https://www.youtube.com/watch?v=92210a1BLyU)|Horoyoi Ramune Sour (Summer Limited Edition)|[ほろよい（ラムネサワー）（夏季限定）](https://www.suntory.co.jp/news/article/13471.html)|
+|[January 27, 2020](https://www.youtube.com/watch?v=oUX3L2sTdPA)|Kirin Hyoketsu Tochigi-zan Skyberry (Limited Shipping)|[キリン 氷結® 栃木産スカイベリー（限定出荷）](https://www.kirin.co.jp/company/news/2019/1030_01.html)|
+||Kirin The Strong Umeshiso Sour (Limited-time Offer) |[キリン・ザ・ストロング 梅しそサワー（期間限定）](https://www.kirin.co.jp/company/news/2019/1219_02.html)|
+||Nihonsakari Onikoroshi 180ml|[日本盛　鬼ころし 180ml](https://www.nihonsakari.co.jp/products/p/240)|
+|[February 4, 2020](https://www.youtube.com/watch?v=qm-W0Nvp4rg)|Sapporo Otoko Ume Sour|[サッポロ 男梅サワー](https://www.sapporobeer.jp/otokoume/)|
+||Calpis Sour Limited-time Rich Luxury|[『カルピスサワー』期間限定濃い贅沢](https://sp.asahibeer.co.jp/products/detail.psp.html?SITE=sour&CATEGORY=&BRAND=calpissour&ID=1R4C0)|
+||Rakuen Wine Mini Pack (Red) 180ml|[楽園 ワインミニパック（赤）180ml](https://onikoroshi.co.jp/product/wine/red/)|
+|[March 6, 2020](https://www.youtube.com/watch?v=HrKazte7wr0)|Lemondo Oni Lemon|[檸檬堂 鬼レモン](https://www.lemondo.jp/)|
+||Horoyoi Hapikle Sour|[ほろよい〈ハピクルサワー〉](https://products.suntory.co.jp/d/4901777344259/)|
+||Kurokirishima PET 25% 200ml|[黒霧島ペット 25度 200ml](https://www.kirishima.co.jp/news/2013-06-05/)|
+|[March 14, 2020](https://www.youtube.com/watch?v=TfWsonhXOAM)|Suntory Chantaile Sparkling Rose|[サントリー シャンテール スパークリングロゼ](https://www.family.co.jp/goods/alcohol/5810444.html)|
+|[April 18, 2020](https://www.youtube.com/watch?v=tpsR8LiPwx0)|Aji ga Kawaru!? Lemon Sour (7-Eleven exclusive)|[味が変わる!?レモンサワー（セブン限定）](https://plaza.rakuten.co.jp/petitmaruche/diary/202004160000/)|
+||Kyohime Shuzo Kaminari Sandai Pack 180ml|[京姫酒造 かみなり三代パック 180ml](https://plaza.rakuten.co.jp/petitmaruche/diary/202004160000/)|
+|[June 24, 2020](https://www.youtube.com/watch?v=RgRgrcNqxlY)|Kirin Hyoketsu Strong Aomori-zan Ringo Sekai Ichi (Limited Shipping)|[キリン 氷結®ストロング 青森産りんご世界一（限定出荷）](https://www.amazon.co.jp/%E3%82%AD%E3%83%AA%E3%83%B3-%E6%B0%B7%E7%B5%90%C2%AE%E3%82%B9%E3%83%88%E3%83%AD%E3%83%B3%E3%82%B0-%E9%9D%92%E6%A3%AE-%E7%94%A3%E3%82%8A%E3%82%93%E3%81%94%E4%B8%96%E7%95%8C%E4%B8%80%EF%BC%88%E9%99%90%E5%AE%9A%E5%87%BA%E8%8D%B7%EF%BC%89350ml-6%E6%9C%AC/dp/B089SRBKN9)|
+|[September 4, 2020](https://www.youtube.com/watch?v=6pQM6p0rXNg)|Kirin Hyoketsu Hachimitsu Lemon (Limited-time Offer)|[キリン 氷結® はちみつレモン（期間限定）](https://www.kirin.co.jp/company/news/2019/0529_01.html)|
+||Kirin The Strong Shekwasha Sour (Limited-time Offer)|[キリン・ザ・ストロング シークヮーサーサワー（期間限定）](https://kirinproducts.jp/alcohol/rtd/detail.html?id=4983)|
+||Hokusetsu Sweet Devil 180ml Cup|[北雪 スイートデビル 180mlカップ](http://shop.sake-hokusetsu.com/?pid=137210297)|
 
 # Monthly Total Hours Streamed
 
@@ -138,7 +144,7 @@ date: 2020-11-01T16:15:11.872Z
 7 hours 11 minutes
 
 ## December 2019
-[It's New Year's Eve! [Ghouls 'N Ghosts] The battle I won't lose until I clear it is right here! ](https://youtu.be/BFOtRhQoEFY)(placeholder translation)\
+[It's New Year's Eve! [Ghouls 'N Ghosts] The battle I won't lose until I clear it is right here! ](https://youtu.be/BFOtRhQoEFY)\
 11 hours 7 minutes (combined with the second half totaling 18 hours 12 minutes)
 
 ## January 2020
@@ -146,7 +152,7 @@ date: 2020-11-01T16:15:11.872Z
 9 hours 34 minutes
 
 ## February 2020
-[[Demon's Souls] #6 - It's OK for me finish it with this...!!!](https://youtu.be/AinRcloibZw) (placeholder translation)\
+[[Demon's Souls] #6 - It's OK for me finish it with this...!!!](https://youtu.be/AinRcloibZw)\
 10 hours 46 minutes (did a Ring Fit Adventure stream in the evening for 10 hours 18 minutes)
 
 ## March 2020
