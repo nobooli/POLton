@@ -1,5 +1,5 @@
 ---
-title: Trivia (Streams) *WIP*
+title: Trivia (Streams)
 date: 2020-11-12T18:35:19.723Z
 ---
 [Gamer Suzuhara Lulu]
