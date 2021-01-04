@@ -84,7 +84,7 @@ Tongue Twisters:
 
 Monster Hunter World:
 
-[She repeatedly challenged Maimoto Keisuke to an arm wrestling match until the latter broke his nail during their Monster Hunter World collab stream with Onomachi Haruka.](https://youtu.be/jU_31qzuVjU?t=960) (note: I was trying to incorporate the "breaking parts" mechanic from the original JP text in this sentence, but the reference gets lost in translation. This probably needs and edit.)
+[She repeatedly challenged Maimoto Keisuke to an arm wrestling match until the latter broke his nail during their Monster Hunter World collab stream with Onomachi Haruka.](https://youtu.be/jU_31qzuVjU?t=960) (note: I was trying to incorporate the "breaking parts" mechanic from the original JP text in this sentence, but the reference gets lost in translation. This probably needs an edit.)
 
 Super Mario Maker 2:
 
