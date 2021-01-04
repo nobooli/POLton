@@ -165,7 +165,6 @@ Three rabbits. One Netherland dwarf, one lop-eared rabbit, and one dwarf rabbit.
 
 A bearded dragon.
 
-NOTE:In her intro wiki entry, it's written that she's allergic to cats(it says animals in general but maybe it's only cats) and couldn't take care of them as pets. Somebody please confirm.
 
 [Lulu Shinkyo]
 
