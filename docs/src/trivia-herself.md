@@ -155,7 +155,7 @@ When she was little she used to eat Chateraise's mille crepe by eating it from t
 She crushes the lemon inside Sacre's lemon ice cream with a spoon before eating it.
 She likes freezing Meiji Apollo chocolate candies before eating them.
 
-When she's asked whether she's on the Mushroom Mountain team or the Bamboo Shoot Village team, (Japanese culture reference https://japantoday.com/category/features/food/rivalry-between-mushrooms-and-bamboo-shoots-in-japan-as-people-vote-for-their-favorite-chocolate) she said she likes the bamboo shoots more. However, after a very difficult battle with a bamboo-shoot-shaped enemy in Cuphead, she considered switching sides.
+When she's asked whether she's on the Mushroom Mountain team or the Bamboo Shoot Village team, ([Japanese pop culture context](https://japantoday.com/category/features/food/rivalry-between-mushrooms-and-bamboo-shoots-in-japan-as-people-vote-for-their-favorite-chocolate)) she said she likes the bamboo shoots more. However, after a very difficult battle with a bamboo-shoot-shaped enemy in Cuphead, she considered switching sides.
 
 [Suzuhara Lulu's Pets Owned History]
 
