@@ -56,7 +56,7 @@ She is proud of her button mashing ability. [It seems like she feels secure when
 [Suzuhara Lulu's Hat]
 
 She takes off her hat when she goes into serious mode.
-[She said that taking her hat off **feels** like she's 50 kilograms lighter.](https://youtu.be/IqpGEdn_unc?t=14910) (note: 体感 is used in the source so I translated it as "feel" and not "her hat weighs 50kg", confirm with the link in the JP wiki to check)
+[She said that taking her hat off **feels** like she's 50 kilograms lighter.](https://youtu.be/IqpGEdn_unc?t=14910)
 
 [Suzuhara Lulu's Brain on Video Games]
 
@@ -134,14 +134,14 @@ Because she has the tendency to do very long streams, [she once said she wanted 
 
 When she's about to end the stream she always gets an encore from the chat, hoping she plays some more. This is often followed by a Final Last Encore, or other variants (depending on how many times she got an encore)
 
-In her Mojipittan stream she found a word that sounds like her name, "ruru"（縷縷）, which means "continuing without pause".
-[It's really just like her streams.](https://youtu.be/XK0oPIg8_VM?t=10120)
+In her Mojipittan stream she found a word that sounds like her name, "ruru"（縷縷）, which means "a manner of continuing without pause".
+[She said it's just like her streams.](https://youtu.be/XK0oPIg8_VM?t=10120)
 
 [Suzuhara Lulu and Spiders]
 
 [The normally calm and collected Suzuhara Lulu loses her composure every time she sees spiders in games.](https://youtu.be/C5WSkGTht2o?t=2021) She said the reason for her fear of spiders was the spider movie she saw as a kid, and that they have too many eyes and legs.
 
-(*)The first time she saw a spider on stream was in her first Donkey Kong Country 2 stream where she first encountered Squitter, an Animal Friend ally. Then she explained how she's okay with bugs in general as long as they're not spiders.
+(*)[The first time she saw a spider on stream was in her first Donkey Kong Country 2 stream where she first encountered Squitter, an Animal Friend ally. Then she explained how she's okay with bugs in general as long as they're not spiders.](https://youtu.be/qikqCKubjoY?t=2586)
 
 [In her Dark Souls 2 stream, she started singing and such to shake off her fear when she needed to get past a cluster of spiders to get an item.](https://youtu.be/GyMJSP55cp0?t=715)
 
@@ -153,28 +153,26 @@ In her Mojipittan stream she found a word that sounds like her name, "ruru"（�
 
 [Suzuhara Lulu's Memory]
 
-Suzuhara Lulu couldn't remember the names of her opponents well.
-
-Despite fighting the same enemy for hours, she couldn't remember their name so it's not rare for her to ask for their name right after beating them. She's too focused on the fight she doesn't even recognize the names of her opponents, and it looks like she loses interest in them right after beating them. (original source kinda weird, needs some checking)
+Suzuhara Lulu couldn't remember the names of her opponents well. Despite fighting the same enemy for hours, she couldn't remember their name so it's not rare for her to ask for their name right after beating them. She's either too focused on fighting that she pays no attention to the names' of her opponents, or that she quickly loses interest right after beating them.
 
 [Her sense of direction is so terrible she often gets lost even in places she just previously went to. She said that although she often gets lost in games, she has never gotten lost in real life.](https://youtu.be/hTc629Bvez0?t=3120)
 
 [Luluspeak]
 
-She always inflects her words with -lulu on purpose, usually on verbs ending with ru.
-Examples: ohalulu, ganbalulu, arigalulu, inoruru, ikichi wo susururu; there's other cases like luluoboe from the word urooboe
+She always ends her words with -lulu on purpose, usually on verbs ending with ru.
+Examples: ohalulu, ganbalulu, arigalulu, inoruru (praying), ikichi wo susururu; there's other cases like luluoboe from the word urooboe
 
 ・Konlulu
 
-TL Note: Konlulu is always used as a noun or verb. (it's possible to use the word to describe things, as an adjective or adverb, but so far she hasn't done it yet)
+(*)Note: Konlulu is always used as a noun or verb. (it's possible to use the word to describe things, as an adjective or adverb, but so far she hasn't done it yet)
 
-The word "Konlulu"/「こんるる～」 is used in a multiple ways including, but not limited to: first time meeting an enemy, striking first, attacking the opponent by surprise
+The word "Konlulu"/「こんるる～」 is used in a multiple ways including, but not limited to: first time meeting an enemy, striking first, [attacking the opponent by surprise](https://youtu.be/7nJxsLNHtL0?t=800)
 
 ・Special usage of the word Konlulu (Lost Ember stream)
 
 One new definition of the word "Konlulu" is "the flow of souls", [used when she was transferring her soul between various animals in Lost Ember.](https://youtu.be/-xC2uR-5iVc?t=915) 
 
-Note:
+(*)Note:
 魂流流/魂流々 from 魂/soul and 流/flow or current 
 流流/流々 means "style" or "workmanship"; however, this isn't the case for Konlulu and is read as "flow flow" instead.
 
@@ -221,7 +219,7 @@ Lize Helesta: [It is seriously really unique.](https://youtu.be/xJ1zEYsQs4w?t=43
 
 [Pink is No Good]
 
-[This is what her customer told her when she put her Kirby painting on saie in Passpartout.](https://youtu.be/gjpjyPNIi2c?t=5870) Hearing such criticism was shocking to her and the viewers that when the color pink shows up/gets mentioned in her streams the chat spams "Pink is no good./ピンクはあかん"
+[This is what people passing by thought when she put her Kirby painting on saie in Passpartout.](https://youtu.be/gjpjyPNIi2c?t=5870) Hearing such criticism was shocking to her and the viewers that when the color pink shows up/gets mentioned in her streams the chat spams "Pink is no good./ピンクはあかん"
 
 [Youtube Gaming Week]
 
