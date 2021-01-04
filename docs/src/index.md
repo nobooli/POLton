@@ -20,6 +20,6 @@ Suzuhara Lulu is an art student
 
 [Lulu Trivia (WIP)](./trivia-herself)
 
-[Lulu Stream Trivia (WIP)](./trivia-streams)
+[Lulu Stream Trivia](./trivia-streams)
 
 <netlify-identity/>
