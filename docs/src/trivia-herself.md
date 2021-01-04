@@ -61,7 +61,7 @@ She can eat CoCo Ichibanya's curry at spicy level 4, but for her spicy level 10 
 
 She likes doing physical activity.
 
-She is can't swim, but she has a diving license. She also had some experience with riding horses.(she mentioned in a recent stream that she could do dog paddles)
+She can't swim, but she has a diving license. She also had some experience with riding horses.(she mentioned in a recent stream that she could do dog paddles)
 
 She went to the gym 3-4 times a week, with each session lasting 3-4 hours, for an entire year.
 
