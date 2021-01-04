@@ -38,7 +38,7 @@ The other platforms where she played Monster Hunter were the DS and the PS4. The
 [She maxed out her lives off stream to prepare for an extremely difficult stage in Donkey Kong Country 2 (Animal Land).](https://twitter.com/lulu_suzuhara/status/1132254356990963713) (*)Not only that, she drank Red Bull before starting the stream to psych herself up.
 
 [In Megaman X, she farmed extra lives to prepare for a difficult stage.](https://twitter.com/lulu_suzuhara/status/1145991936366432257)
-[She didn't know that the game doesn't save the extra lives so she was shocked to see that the extra lives she farmed were gone.]
+She didn't know that the game doesn't save the extra lives so she was shocked to see that the extra lives she farmed were gone.
 
 [During the Fatal Frame collab with Debidebi Debiru, she wanted to see the true ending and perfect clear the game so they tried and tried again to trigger the event that unlocks the ending through beating a boss with strict conditions.](https://www.youtube.com/watch?v=cRer4kGBtto)
 
