@@ -51,12 +51,12 @@ She didn't know that the game doesn't save the extra lives so she was shocked to
 [Rapid Fire Suzuhara Lulu]
 
 She is proud of her button mashing ability. [It seems like she feels secure when she does button mashing.](https://youtu.be/8iIxAakli3c?t=6236)
-[Her third controller wasn't able to endure her button mashing that it broke in less than a week after buying it.](https://youtu.be/jYdBcx96hXI?t=1650) （３代目のコントローラーin the original text, someone confirm）
+[Her third controller wasn't able to endure her button mashing that it broke in less than a week after buying it.](https://youtu.be/jYdBcx96hXI?t=1650) （note:３代目のコントローラーin the original text, someone confirm）
 
 [Suzuhara Lulu's Hat]
 
 She takes off her hat when she goes into serious mode.
-[She said that taking her hat off **feels** like she's 50 kilograms lighter.](https://youtu.be/IqpGEdn_unc?t=14910)
+[She said that taking her hat off feels like she's 50 kilograms lighter.](https://youtu.be/IqpGEdn_unc?t=14910)
 
 [Suzuhara Lulu's Brain on Video Games]
 
@@ -120,7 +120,7 @@ She usually tilts her head in a slanting position and looks straight, eyes wide 
 [Suzuhara Lulu's Stomach Growl]
 
 Her stomach sometimes growls when she's streaming.
-[She immediately admits that her stomach is growling when it's audible because if she stayed silent she'd get more embarrassed.](https://youtu.be/rg0UxxfeTn4?t=2247) ~~Suzuhara Lulu wants to eat hum—.~~ (this was included in the original source, I'll remove it if it's too much of a meme)
+[She immediately admits that her stomach is growling when it's audible because if she stayed silent she'd get more embarrassed.](https://youtu.be/rg0UxxfeTn4?t=2247) ~~Suzuhara Lulu wants to eat hum—.~~ (note: this was included in the original source, I'll remove it if it's too much of a meme)
 
 [Suzuhara Lulu's Random Cute Singing]
 
@@ -129,10 +129,10 @@ For example: Na~nka naika, nankanaika♪ or Yattatta♪Yattatta♪
 
 [Encore!]
 
-Because she has the tendency to do very long streams, [she once said she wanted a day to have around 72 hours.](https://youtu.be/ESxDh4mpyvo?t=720) It looks like she still isn't used to the hours in the human realm!
-(the JP wiki is full of memes...)
+Because she has a tendency to do very long streams, [she once said she wanted a day to have around 72 hours.](https://youtu.be/ESxDh4mpyvo?t=720) It looks like she still isn't used to the hours in the human realm!
+(note: the JP wiki is full of memes...)
 
-When she's about to end the stream she always gets an encore from the chat, hoping she plays some more. This is often followed by a Final Last Encore, or other variants (depending on how many times she got an encore)
+When she's about to end the stream she always gets an encore from the chat, hoping she plays some more. This is often followed by a Final Last Encore, or other variants depending on how many times she got an encore.
 
 In her Mojipittan stream she found a word that sounds like her name, "ruru"（縷縷）, which means "a manner of continuing without pause".
 [She said it's just like her streams.](https://youtu.be/XK0oPIg8_VM?t=10120)
@@ -180,7 +180,7 @@ One new definition of the word "Konlulu" is "the flow of souls", [used when she 
 
 Example: "modotsute"もどつて from the word "modotte"/戻って
 
-・(*)Calling NPCs/enemies/bosses "children" (my entry)
+・(*)Calling NPCs/enemies/bosses "children"
 
 She uses the phrase この子/this child every time she refers to someone in game.
 
