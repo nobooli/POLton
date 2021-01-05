@@ -2,7 +2,7 @@
 title: Data
 date: 2020-11-01T16:15:11.872Z
 ---
-# Singing Stream Set List
+# Stream Set List
 |Date|Songs|
 |:--------|:--------|
 |[June 30, 2019](https://www.youtube.com/watch?v=x0fJci3Mtqc)|Renai Circulation|
@@ -68,6 +68,16 @@ date: 2020-11-01T16:15:11.872Z
 ||Onegai Muscle|
 ||Happy Jam Jam|
 ||Overwhelming Presence(Attouteki Sonzaikan)|
+
+# Music Videos
+|Song Title|Date Released|Video Link|Notes|
+|---------------|---------------|---------------|
+|Koukaku Ouen V|December 22, 2019|【＃にじさんじ紅白応援合戦】紅白応援Vを13人で歌ってみた【オリジナルMV】|Done in collaboration with: Yuuki Chihiro, Higuchi Kaede, Shizuka Rin, Morinaka Kazaki, Sasaki Saku, Makaino Ririmu, Sister Cleaire, Takamiya Rion, Warabeda Meiji, Lize Helesta|
+|Overwhelming Presence/Attouteki Sonzaikan|March 3, 2020|3/18発売「SMASH The PAINT!!」収録曲【『圧　倒　的　存　在　感』鈴原るる／でびでび・でびる】公式ワンコーラスPV|Short Version, DebiLulu Collab Song|
+|Koi|March 29, 2020|【歌って踊ってみた】恋（3Dお披露目LIVE　ダンスVer）【にじさんじ/鈴原るる】||
+|Renai Circulation|March 31, 2020|【歌って踊ってみた】恋愛サーキュレーション（3Dお披露目LIVE）【にじさんじ/鈴原るる】||
+|Ichido Dake no Koi Nara|May 3, 2020|【歌ってみた】一度だけの恋なら【とこ尊楓リゼるる】|Done in collaboration with: Higuchi Kaede, Rindou Mikoto, Inui Toko, Lize Helesta|
+|Silent Majority|
 
 # List of Alcoholic Beverages Drunk on Stream
 |Date|Drink(EN)|Drink(JP)|
