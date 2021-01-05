@@ -16,7 +16,7 @@ Suzuhara Lulu is an art student
 
 [Milestones](./milestones)
 
-[Data](./some-data-will-fix-later)
+[Data](./data)
 
 [Lulu Trivia (WIP)](./trivia-herself)
 
