@@ -197,3 +197,7 @@ date: 2020-11-01T16:15:11.872Z
 ## September 2020
 [[Fall Guys] Tame (misspelled "team") Practice for the Tournament](https://youtu.be/sWu5xmSAgRA)\
 7 hours 18 minutes
+
+## October 2020
+[[Mario Kart 8 DX] Can a beginner get 1st place..?!](https://youtu.be/hIw6epIpgx4)\
+4 hours 9 minutes (streamed until October 9th, then on the 13th she announced her 1-month break from streaming)
