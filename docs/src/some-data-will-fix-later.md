@@ -69,15 +69,19 @@ date: 2020-11-01T16:15:11.872Z
 ||Happy Jam Jam|
 ||Overwhelming Presence(Attouteki Sonzaikan)|
 
-# Music Videos
+# Music Videos List
 |Song Title|Date Released|Video Link|Notes|
 |---------------|---------------|---------------|
-|Koukaku Ouen V|December 22, 2019|【＃にじさんじ紅白応援合戦】紅白応援Vを13人で歌ってみた【オリジナルMV】|Done in collaboration with: Yuuki Chihiro, Higuchi Kaede, Shizuka Rin, Morinaka Kazaki, Sasaki Saku, Makaino Ririmu, Sister Cleaire, Takamiya Rion, Warabeda Meiji, Lize Helesta|
-|Overwhelming Presence/Attouteki Sonzaikan|March 3, 2020|3/18発売「SMASH The PAINT!!」収録曲【『圧　倒　的　存　在　感』鈴原るる／でびでび・でびる】公式ワンコーラスPV|Short Version, DebiLulu Collab Song|
-|Koi|March 29, 2020|【歌って踊ってみた】恋（3Dお披露目LIVE　ダンスVer）【にじさんじ/鈴原るる】||
-|Renai Circulation|March 31, 2020|【歌って踊ってみた】恋愛サーキュレーション（3Dお披露目LIVE）【にじさんじ/鈴原るる】||
-|Ichido Dake no Koi Nara|May 3, 2020|【歌ってみた】一度だけの恋なら【とこ尊楓リゼるる】|Done in collaboration with: Higuchi Kaede, Rindou Mikoto, Inui Toko, Lize Helesta|
-|Silent Majority|
+|Koukaku Ouen V|December 22, 2019|[【＃にじさんじ紅白応援合戦】紅白応援Vを13人で歌ってみた【オリジナルMV】](https://www.youtube.com/watch?v=j_s6y2MCfnc)|Done in collaboration with: Yuuki Chihiro, Higuchi Kaede, Shizuka Rin, Morinaka Kazaki, Sasaki Saku, Makaino Ririmu, Sister Cleaire, Takamiya Rion, Warabeda Meiji, Lize Helesta|
+|Overwhelming Presence/Attouteki Sonzaikan|March 3, 2020|[3/18発売「SMASH The PAINT!!」収録曲【『圧　倒　的　存　在　感』鈴原るる／でびでび・でびる】公式ワンコーラスPV](https://www.youtube.com/watch?v=kyxSZovr9fY)|Short Version, DebiLulu Collab Song|
+|Koi|March 29, 2020|[【歌って踊ってみた】恋（3Dお披露目LIVE　ダンスVer）【にじさんじ/鈴原るる】](https://www.youtube.com/watch?v=RzvG2Lw_z18)||
+|Renai Circulation|March 31, 2020|[【歌って踊ってみた】恋愛サーキュレーション（3Dお披露目LIVE）【にじさんじ/鈴原るる】](https://www.youtube.com/watch?v=akDFz4EafzQ)||
+|Ichido Dake no Koi Nara|May 3, 2020|[【歌ってみた】一度だけの恋なら【とこ尊楓リゼるる】](https://www.youtube.com/watch?v=zokUrGt0iuc)|Done in collaboration with: Higuchi Kaede, Rindou Mikoto, Inui Toko, Lize Helesta|
+|Silent Majority|June 6, 2020|[サイレントマジョリティー /欅坂46 ₍covered by Nijisanji₎](https://www.youtube.com/watch?v=ZQ0U6oJBSmY)|Done in collaboration with: Tsukino Mito, Higuchi Kaede, Shizuka Rin, Yuuhi Riri, Akabane Youko, Honma Himawari|
+|Sobakasu|October 22, 2020|[「そばかす」short ver. -IMAGINATION vol.3 収録-](https://www.youtube.com/watch?v=6vgqnQdEETQ)|Short Version|
+|Motteke! Sailor Fuku|October 22, 2020|[【IMAGINATION vol.3】もってけ！セーラーふく -Short ver-【周防パトラ＆鈴原るる】](https://www.youtube.com/watch?v=qAoQV1fJELg)|Short Video, Done in collaboration with Suou Patra|
+|Oogoe Diamond|October 23, 2020|[【IMAGINATION vol.3】「大声ダイヤモンド」-Short ver-【vol.3 参加者集合曲】](https://www.youtube.com/watch?v=QH462lSa1Go)|Short Version, Done in collaboration with: Suzuka Utako, Inuyama Tamaki, Enomiya Milk, Suou Patra, Souya Ichika, Tsunomaki Watame, Matsuiro Matsuri|
+|Happy Birthday to You|November 27, 2020|[【Dearさいねママ】Happy Birthday to you 歌ってみた【#さいね姉妹 】](https://youtu.be/OG6DhRBl9as)|Done in collaboration with Kamishiro Kurea and Sephira Su|
 
 # List of Alcoholic Beverages Drunk on Stream
 |Date|Drink(EN)|Drink(JP)|
