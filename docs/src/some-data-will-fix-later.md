@@ -126,6 +126,7 @@ date: 2020-11-01T16:15:11.872Z
 | July 2020      | 61 hours 21 minutes  | 20 streams        | 8 streams                               | 0 appearances                 |
 | August 2020    | 80 hours 30 minutes  | 20 streams        | 16 streams                              | 1 appearance                  |
 | September 2020 | 82 hours 58 minutes  | 25 streams        | 11 streams                              | 1 appearance                  |
+| October 2020 | 13 hours 17 minutes | 6 Streams | 3 streams | 1 appearance|
 
 # Monthly Longest Streams
 
