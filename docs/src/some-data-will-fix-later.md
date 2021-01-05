@@ -71,7 +71,7 @@ date: 2020-11-01T16:15:11.872Z
 
 # Music Videos List
 |Song Title|Date Released|Video Link|Notes|
-|------------------------------|------------------------------|------------------------------|
+|---------------|---------------|---------------|---------------|
 |Koukaku Ouen V|December 22, 2019|[【＃にじさんじ紅白応援合戦】紅白応援Vを13人で歌ってみた【オリジナルMV】](https://www.youtube.com/watch?v=j_s6y2MCfnc)|Done in collaboration with: Yuuki Chihiro, Higuchi Kaede, Shizuka Rin, Morinaka Kazaki, Sasaki Saku, Makaino Ririmu, Sister Cleaire, Takamiya Rion, Warabeda Meiji, Lize Helesta|
 |Overwhelming Presence/Attouteki Sonzaikan|March 3, 2020|[3/18発売「SMASH The PAINT!!」収録曲【『圧　倒　的　存　在　感』鈴原るる／でびでび・でびる】公式ワンコーラスPV](https://www.youtube.com/watch?v=kyxSZovr9fY)|Short Version, DebiLulu Collab Song|
 |Koi|March 29, 2020|[【歌って踊ってみた】恋（3Dお披露目LIVE　ダンスVer）【にじさんじ/鈴原るる】](https://www.youtube.com/watch?v=RzvG2Lw_z18)||
