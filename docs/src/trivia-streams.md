@@ -219,7 +219,7 @@ Lize Helesta: [It is seriously really unique.](https://youtu.be/xJ1zEYsQs4w?t=43
 
 [Pink is No Good]
 
-[This is what people passing by thought when she put her Kirby painting on saie in Passpartout.](https://youtu.be/gjpjyPNIi2c?t=5870) Hearing such criticism was shocking to her and the viewers that when the color pink shows up/gets mentioned in her streams the chat spams "Pink is no good./ピンクはあかん"
+[This is what people passing by thought when she put her Kirby painting on sale in Passpartout.](https://youtu.be/gjpjyPNIi2c?t=5870) Hearing such criticism was shocking to her and the viewers that when the color pink shows up/gets mentioned in her streams the chat spams "Pink is no good./ピンクはあかん"
 
 [Youtube Gaming Week]
 
