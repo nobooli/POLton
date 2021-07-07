@@ -17,20 +17,20 @@
             {{$t('link.soundboard')}}
           </v-list-item-title>
         </v-list-item>
-        <v-list-item to="/bingo-generator">
+        <!-- <v-list-item to="/bingo-generator">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-grid</v-icon>
             {{$t('link.bingoGenerator')}}
           </v-list-item-title>
-        </v-list-item>
+        </v-list-item> -->
         <!-- <v-list-item href="/lulunomicon">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-book-open-page-variant</v-icon>
             {{$t('link.lulunomicon')}}
           </v-list-item-title>
         </v-list-item> -->
-        <v-divider></v-divider>
-        <v-list-item href="https://www.youtube.com/channel/UC_a1ZYZ8ZTXpjg9xUY9sj8w">
+        <!-- <v-divider></v-divider> -->
+        <!-- <v-list-item href="https://www.youtube.com/channel/UC_a1ZYZ8ZTXpjg9xUY9sj8w">
           <v-list-item-title>
             <v-icon left color="red">mdi-youtube</v-icon>鈴原るる【にじさんじ所属】
           </v-list-item-title>
@@ -39,7 +39,7 @@
           <v-list-item-title>
             <v-icon left color="blue">mdi-twitter</v-icon>@lulu_suzuhara
           </v-list-item-title>
-        </v-list-item>
+        </v-list-item> -->
         <v-divider></v-divider>
         <v-list-item to="/about">
           <v-list-item-title>
@@ -107,7 +107,7 @@
     <v-snackbar color="success" v-model="snackbarCopy">
       <span>{{$t('ui.copiedToClipboard', {value: $store.state.lastAudio})}}</span>
       <template v-slot:action="{attrs}">
-        <v-btn color="pink" text v-bind="attrs" @click="snackbarCopy = false">Close</v-btn>
+        <v-btn color="##bb2830" text v-bind="attrs" @click="snackbarCopy = false">Close</v-btn>
       </template>
     </v-snackbar>
   </v-app-bar>
@@ -164,6 +164,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>

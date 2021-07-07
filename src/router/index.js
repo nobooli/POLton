@@ -1,7 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import MainUI from "@/views/Main";
-import BingoGenerator from "@/views/BingoGenerator";
+import Soundboard from "@/views/Soundboard";
+import Messages from "@/views/Messages";
+//import BingoGenerator from "@/views/BingoGenerator";
 import About from "@/views/About";
 
 Vue.use(VueRouter);
@@ -15,11 +17,18 @@ const routes = [
     },
   },
   {
-    path: "/bingo-generator",
-    component: BingoGenerator,
+    path: "/Messages",
+    component: Messages,
     meta: {
-      title: "Bingo Generator ~ Konlulu",
+      title: "Messages",
     },
+  },
+  {
+    path: "/Soundboard",
+    component: Soundboard,
+    meta: {
+      title: "Soundboard"
+    }
   },
   {
     path: "/about",

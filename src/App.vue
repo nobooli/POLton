@@ -105,3 +105,9 @@ export default {
   },
 };
 </script>
+
+<style>
+#app {
+  background: url('/img/background-250x250.png');
+}
+</style>

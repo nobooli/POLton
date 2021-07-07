@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
-import zhHans from 'vuetify/es5/locale/zh-Hans'
 import en from 'vuetify/es5/locale/en'
 import ja from 'vuetify/es5/locale/ja'
 
@@ -19,18 +18,18 @@ export default new Vuetify({
         iconfont: 'mdi',
     },
     lang: {
-        locales: { zhHans, en, ja },
+        locales: { en, ja },
         current: 'en',
     },
     theme: {
         themes: {
             light: {
                 primary: '#2689ae', //主题色1
-                secondary: '#ff96aa', //主题色2
+                secondary: '#bb2830', //theme color
             },
             dark: { //夜间模式下的颜色
                 primary: '#2689ae', //主题色1
-                secondary: '#ff96aa', //主题色2
+                secondary: '#bb2830', //theme color
             }
         },
     }
