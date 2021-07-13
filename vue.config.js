@@ -4,15 +4,15 @@ module.exports = {
     ],
 
     pwa: {
-      name: 'Konlulu',
-      msTileColor: '#728bf3',
+      name: 'Pol',
+      msTileColor: '#bb2830',
       appleMobileWebAppCapable: 'yes',
       appleMobileWebAppStatusBarStyle: 'black',
       workboxPluginMode: 'InjectManifest',
       workboxOptions: {
         swSrc: 'src/service-worker.js'
       },
-      themeColor: '#728bf3'
+      themeColor: '#bb2830'
     },
     devServer: {
       overlay: {

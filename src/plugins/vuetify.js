@@ -24,11 +24,11 @@ export default new Vuetify({
     theme: {
         themes: {
             light: {
-                primary: '#2689ae', //主题色1
+                primary: '#3595e9', //主题色1
                 secondary: '#bb2830', //theme color
             },
             dark: { //夜间模式下的颜色
-                primary: '#2689ae', //主题色1
+                primary: '#3595e9', //主题色1
                 secondary: '#bb2830', //theme color
             }
         },

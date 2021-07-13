@@ -13,8 +13,20 @@
       <v-list>
         <v-list-item to="/">
           <v-list-item-title>
+            <v-icon left color="secondary">mdi-home</v-icon>
+            {{$t('Home')}}
+          </v-list-item-title >
+        </v-list-item>
+        <v-list-item to="/soundboard">
+          <v-list-item-title>
             <v-icon left color="secondary">mdi-volume-source</v-icon>
             {{$t('link.soundboard')}}
+          </v-list-item-title>
+        </v-list-item>
+        <v-list-item to="/Presents">
+          <v-list-item-title>
+            <v-icon left color="secondary">mdi-gift</v-icon>
+            {{$t('Presents')}}
           </v-list-item-title>
         </v-list-item>
         <!-- <v-list-item to="/bingo-generator">
@@ -47,12 +59,12 @@
             {{$t('link.about')}}
           </v-list-item-title>
         </v-list-item>
-        <v-list-item href="https://github.com/RomainLK/lulu-button">
+        <!-- <v-list-item href="https://github.com/RomainLK/lulu-button">
           <v-list-item-title>
             <v-icon left color="black">mdi-github</v-icon>
             {{$t("ui.helpdevelope")}}
           </v-list-item-title>
-        </v-list-item>
+        </v-list-item> -->
       </v-list>
     </v-menu>
     <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>

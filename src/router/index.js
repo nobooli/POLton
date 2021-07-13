@@ -1,8 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import MainUI from "@/views/Main";
+import Main from "@/views/Main";
 import Soundboard from "@/views/Soundboard";
-import Messages from "@/views/Messages";
+import Presents from "@/views/Submissions";
 //import BingoGenerator from "@/views/BingoGenerator";
 import About from "@/views/About";
 
@@ -11,16 +11,9 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    component: MainUI,
+    component: Main,
     meta: {
-      title: "Soundboard ~ Konlulu",
-    },
-  },
-  {
-    path: "/Messages",
-    component: Messages,
-    meta: {
-      title: "Messages",
+      title: "Pol",
     },
   },
   {
@@ -29,12 +22,19 @@ const routes = [
     meta: {
       title: "Soundboard"
     }
+  },  
+  {
+    path: "/Presents",
+    component: Presents,
+    meta: {
+      title: "Presents"
+    },
   },
   {
     path: "/about",
     component: About,
     meta: {
-      title: "About ~ Konlulu",
+      title: "About"
     },
   },
 ];

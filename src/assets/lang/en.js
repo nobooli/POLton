@@ -1,6 +1,6 @@
 module.exports = {
   ui: {
-    title: "Konlulu",
+    title: "Polka",
     mediacontorl: "Control Button",
     stopplay: "Stop",
     helptitle: "Help",
@@ -12,15 +12,15 @@ module.exports = {
     resetorder: "Clear the playlist",
     language: "Language",
     developerinfo:
-      "This site is made by fans. We are not related to Nijisanji or Ichikara in any way.",
+      "This is strictly a fan site. We have no relations to Cover Corp. nor Hololive.",
     repeatmode: "Loop playlist",
     betainfo:
       "2020/08/11, Bingo and redesign!",
-    info: "Konlulu fansite",
+    info: "Polka fansite",
     developer: "Original developer：Coceki",
     fork: "Forked by: Merun",
     credits: "Special Thanks：kahdeg, ztynz, Schtolteheim Reinbach IV, epic lod, Trout",
-    translationCredits: "Translation: Hololive Moments(EN)",
+    translationCredits: "Translation: ",
     entersomewords:
       "Please enter the sentence you want to generate(please don't write too long, it may lag)",
     generate: "Generate",
