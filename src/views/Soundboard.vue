@@ -34,9 +34,9 @@
         <v-icon>mdi-content-copy</v-icon>
       </v-btn>
     </v-bottom-navigation>
-    <v-row align="center" justify="center">
+    <!-- <v-row align="center" justify="center">
       <v-text-field color="" :value="$store.state.lastAudio" label="URL" readonly outlined></v-text-field>
-    </v-row>
+    </v-row> -->
     <v-row v-for="group in voices" :key="group.name">
       <v-col cols="12" class="ma-0 pa-0">
         <v-card class="ma-1 pa-0">

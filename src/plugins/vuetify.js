@@ -24,12 +24,21 @@ export default new Vuetify({
     theme: {
         themes: {
             light: {
-                primary: '#3595e9', //主题色1
-                secondary: '#bb2830', //theme color
+                primary: '#3595e9', // polka blue
+                secondary: '#bb2830', // polka red
             },
             dark: { //夜间模式下的颜色
-                primary: '#3595e9', //主题色1
-                secondary: '#bb2830', //theme color
+                primary: '#3595e9', // polka blue
+                secondary: '#bb2830', // polka red
+
+                // reference
+                // #3595e9 polka blue
+                // #bb2830 polka red
+                // #fe3c79 polka hot pink
+                // #fa85d3 polka pink
+                // #f8ed9e polka yellow
+                // #2cfff9 polka teal
+                // #9b6ba9 polka purple
             }
         },
     }

@@ -1,6 +1,6 @@
 ﻿module.exports = {
     ui: {
-        title: "こんるる~",
+        title: "ポルカ",
         mediacontorl: "コントロールボタン",
         stopplay: "再生を停止する",
         helptitle: "遊び方ぺこ?",

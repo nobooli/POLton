@@ -11,15 +11,19 @@ module.exports = {
     listempty: "Playlist is empty",
     resetorder: "Clear the playlist",
     language: "Language",
-    developerinfo:
-      "This is strictly a fan site. We have no relations to Cover Corp. nor Hololive.",
+    disclaimer:
+      "This is strictly a fan site. We are not related to Cover Corp. nor Hololive in any way.",
     repeatmode: "Loop playlist",
     betainfo:
       "2020/08/11, Bingo and redesign!",
     info: "Polka fansite",
-    developer: "Original developer：Coceki",
-    fork: "Forked by: Merun",
-    credits: "Special Thanks：kahdeg, ztynz, Schtolteheim Reinbach IV, epic lod, Trout",
+    developer: "Original developer(s)：Coceki, Merun",
+    fork: "Forked by: nobooli",
+    credits: "Project Leads: AsuKiri, Alexander124, Timekiller_74, Broom",
+    design: "Design: gokiburi",
+    art: "Art: hellscrossing, raim, gokiburi",
+    sound: "Audio: BunBun",
+    specialThanks: "Special Thanks to: Vee, Niels, BunBun, Hosu, AmamiyMio, nikki",
     translationCredits: "Translation: ",
     entersomewords:
       "Please enter the sentence you want to generate(please don't write too long, it may lag)",
