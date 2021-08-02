@@ -12,13 +12,16 @@
         resetorder: "プレイリストをクリア",
         language: "言語",
         orderplaymodehelp: "注文プレイの使用方法",
-        developerinfo: "このウェブサイトは愛好家によって設定されています、にじさんじとは何の関係もない",
+        disclaimer: "このウェブサイトは愛好家によって設定されています、カバーとホロライブは何の関係もないです。",
         repeatmode: "止まらないで（ループプレイ）",
-        betainfo: "2020/08/16 日本語ほにゃく。日本語はまだ学ぶ",
-        info: "こんるる",
-        developer: "開発者：Coceki",
-        fork: "Forked by: Merun",
-        credits: "特別な感謝：kahdeg, ztynz, Schtolteheim Reinbach IV, epic lod, Trout",
+        info: "ポルカファンサイト",
+        developer: "開発者：Coceki, Merun",
+        fork: "Forked by: nobooli",
+        credits: "プロジェクトリーダー：AsuKiri, Alexander124, Timekiller_74, Broom",
+        design: "デザイン：gokiburi",
+        art: "描：hellscrossing, raim, gokiburi",
+        sound: "オージオ：BunBun",
+        specialThanks: "特別な感謝：Vee, Niels, BunBun, Hosu, AmamiyMio, nikki",
         translationCredits: "ほにゃく：",
         generate: "ジエネレート",
         helpdevelope: "このウェブサイトの改善にご協力ください",
@@ -31,12 +34,8 @@
         copiedToClipboard: "{value}はこぴる",
     },
     link: {
-        soundboard: "るるボタン",
-        bingoGenerator: "ビンゴジエネレーター",
+        soundboard: "ぽるタン",
+        presents: "プレゼント",
         about: "ガラミ"
-    },
-    bingo: {
-        generate: 'ジエネレート',
-        download: 'ダウンロード'
     }
 }

@@ -2,8 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Main from "@/views/Main";
 import Soundboard from "@/views/Soundboard";
-import Presents from "@/views/Submissions";
-//import BingoGenerator from "@/views/BingoGenerator";
+import Presents from "@/views/Gallery";
 import About from "@/views/About";
 
 Vue.use(VueRouter);

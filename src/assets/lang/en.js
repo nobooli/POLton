@@ -14,8 +14,6 @@ module.exports = {
     disclaimer:
       "This is strictly a fan site. We are not related to Cover Corp. nor Hololive in any way.",
     repeatmode: "Loop playlist",
-    betainfo:
-      "2020/08/11, Bingo and redesign!",
     info: "Polka fansite",
     developer: "Original developer(s)：Coceki, Merun",
     fork: "Forked by: nobooli",
@@ -40,12 +38,7 @@ module.exports = {
   },
   link: {
     soundboard: "Soundboard",
-    bingoGenerator: "Bingo Generator",
-    lulunomicon: "Lulunomicon",
+    presents: "Presents",
     about: "About"
-  },
-  bingo: {
-    generate: 'Generate',
-    download: 'Download'
   }
-};
+}

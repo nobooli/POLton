@@ -26,32 +26,9 @@
         <v-list-item to="/Presents">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-gift</v-icon>
-            {{$t('Presents')}}
+            {{$t('link.presents')}}
           </v-list-item-title>
         </v-list-item>
-        <!-- <v-list-item to="/bingo-generator">
-          <v-list-item-title>
-            <v-icon left color="secondary">mdi-grid</v-icon>
-            {{$t('link.bingoGenerator')}}
-          </v-list-item-title>
-        </v-list-item> -->
-        <!-- <v-list-item href="/lulunomicon">
-          <v-list-item-title>
-            <v-icon left color="secondary">mdi-book-open-page-variant</v-icon>
-            {{$t('link.lulunomicon')}}
-          </v-list-item-title>
-        </v-list-item> -->
-        <!-- <v-divider></v-divider> -->
-        <!-- <v-list-item href="https://www.youtube.com/channel/UC_a1ZYZ8ZTXpjg9xUY9sj8w">
-          <v-list-item-title>
-            <v-icon left color="red">mdi-youtube</v-icon>鈴原るる【にじさんじ所属】
-          </v-list-item-title>
-        </v-list-item>
-        <v-list-item href="https://twitter.com/lulu_suzuhara">
-          <v-list-item-title>
-            <v-icon left color="blue">mdi-twitter</v-icon>@lulu_suzuhara
-          </v-list-item-title>
-        </v-list-item> -->
         <v-divider></v-divider>
         <v-list-item to="/about">
           <v-list-item-title>
@@ -59,41 +36,11 @@
             {{$t('link.about')}}
           </v-list-item-title>
         </v-list-item>
-        <!-- <v-list-item href="https://github.com/RomainLK/lulu-button">
-          <v-list-item-title>
-            <v-icon left color="black">mdi-github</v-icon>
-            {{$t("ui.helpdevelope")}}
-          </v-list-item-title>
-        </v-list-item> -->
       </v-list>
     </v-menu>
     <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>
     <pwa-update></pwa-update>
     <v-spacer />
-    <!-- <v-btn
-      v-if="$vuetify.breakpoint.mdAndUp"
-      class="ml-4 text-capitalize"
-      color="red"
-      @click="see('https://www.youtube.com/channel/UC_a1ZYZ8ZTXpjg9xUY9sj8w')"
-    >
-      <v-icon left>mdi-youtube</v-icon>鈴原るる【にじさんじ所属】
-    </v-btn>
-    <v-btn
-      v-if="$vuetify.breakpoint.mdAndUp"
-      class="ml-4 text-lowercase"
-      color="blue"
-      @click="see('https://twitter.com/lulu_suzuhara')"
-    >
-      <v-icon left>mdi-twitter</v-icon>@lulu_suzuhara
-    </v-btn>
-    <v-spacer></v-spacer>
-    <v-btn
-      v-if="$vuetify.breakpoint.mdAndUp"
-      @click="see('https://github.com/RomainLK/lulu-button')"
-    >
-      <v-icon left>mdi-github</v-icon>
-    </v-btn>-->
-
     <v-btn fab icon @click="darkMode()">
       <v-icon>{{darkmodeicon}}</v-icon>
     </v-btn>

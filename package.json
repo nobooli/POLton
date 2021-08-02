@@ -1,5 +1,5 @@
 {
-  "name": "lulubutton",
+  "name": "polton",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,11 +14,17 @@
     "@mdi/font": "^5.3.45",
     "@pwabuilder/pwaupdate": "^0.2.0",
     "core-js": "^3.6.5",
+    "cross-env": "^7.0.3",
+    "flag-icon-css": "^3.5.0",
+    "masonry-layout": "^4.2.2",
     "register-service-worker": "^1.7.1",
+    "simplelightbox": "^2.8.0",
     "vue": "^2.6.10",
     "vue-cookies": "^1.7.0",
     "vue-i18n": "^8.18.1",
+    "vue-masonry": "^0.13.0",
     "vue-router": "^3.3.2",
+    "vue-simple-lightbox": "^1.1.0",
     "vuetify": "^2.2.32",
     "vuex": "^3.4.0"
   },

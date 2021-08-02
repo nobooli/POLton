@@ -2,6 +2,7 @@ module.exports = {
     "transpileDependencies": [
         "vuetify"
     ],
+    runtimeCompiler: true,
 
     pwa: {
       name: 'Pol',
@@ -20,4 +21,5 @@ module.exports = {
         errors: false
       }
     }
+    // ,publicPath: '/POLton' // Don't leave uncommented while developing
 }
