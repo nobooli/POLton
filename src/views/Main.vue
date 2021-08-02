@@ -73,12 +73,12 @@
             img_hover: navi_zain_flag
           },
           { // gallery
-            link: "/Presents",
+            link: "POLton/Presents",
             img: navi_zain,
             img_hover: navi_zain_flag
           },
           { // soundboard
-            link: "/Soundboard",
+            link: "POLton/Soundboard",
             img: navi_zain,
             img_hover: navi_zain_flag
           },

@@ -168,6 +168,70 @@
             "en": "Whaaat",
             "ja": "ワーッ"
           }
+        },
+        {
+          "name": "Polka Oruka",
+          "path": "Lines/Other Lines/Polka Oruka.mp3",
+          "translation": {
+            "en": "Polka Oruka",
+            "ja": "ポルカおるか"
+          }
+        },
+        {
+          "name": "Ohapol",
+          "path": "Lines/Other Lines/Ohapol.mp3",
+          "translation": {
+            "en": "Ohapol",
+            "ja": "おはポル"
+          }
+        },
+        {
+          "name": "Polka Oruyo",
+          "path": "Lines/Other Lines/Polka Oruyo.mp3",
+          "translation": {
+            "en": "Polka Oruyo",
+            "ja": "ポルカおるよ！"
+          }
+        },
+        {
+          "name": "Polka Owaruka",
+          "path": "Lines/Other Lines/Polka Owaruka.mp3",
+          "translation": {
+            "en": "Polka Owaruka",
+            "ja": "ポルカ終わるか"
+          }
+        },
+        {
+          "name": "POLMAO",
+          "path": "Lines/POLglish/POLMAO.mp3",
+          "translation": {
+            "en": "POLMAO",
+            "ja": "ポルマオ"
+          }
+        },
+        {
+          "name": "YAGOO is Best Girl",
+          "path": "Lines/POLglish/YAGOO is Best Girl.mp3",
+          "translation": {
+            "en": "YAGOO is Best Girl",
+            "ja": "YAGOOイズベストガール"
+          }
+        },
+        {
+          "name": "Punai Punai",
+          "path": "Lines/Silly/Punai Punai.mp3",
+          "translation": {
+            "en": "Punai Punai",
+            "ja": "プナイプナイ"
+          }
+        },
+        {
+          "name": "Are You Ready",
+          "path": "Lines/POLglish/Are You Ready.mp3",
+          "translation": {
+            "en": "Are You Ready",
+            "ja": "Are You Ready"
+          }
         }
       ]
     },
@@ -417,6 +481,86 @@
             "en": "Polka Loses it",
             "ja": "レロレロレロレロ"
           }
+        },
+        {
+          "name": "Jaaan",
+          "path": "Noises/Other Noises/Jaaan.mp3",
+          "translation": {
+            "en": "Jaaan",
+            "ja": "ジャーン"
+          }
+        },
+        {
+          "name": "Mah",
+          "path": "Noises/Other Noises/Mah.mp3",
+          "translation": {
+            "en": "Mah",
+            "ja": "マ？！"
+          }
+        },
+        {
+          "name": "Owowow",
+          "path": "Noises/Other Noises/Owowow.mp3",
+          "translation": {
+            "en": "Owowow",
+            "ja": "アウアウアウ"
+          }
+        },
+        {
+          "name": "Poyon",
+          "path": "Noises/Other Noises/Poyon.mp3",
+          "translation": {
+            "en": "Poyon",
+            "ja": "ポヨン"
+          }
+        },
+        {
+          "name": "Pikun",
+          "path": "Noises/Other Noises/Pikun.mp3",
+          "translation": {
+            "en": "Pikun",
+            "ja": "ピクン"
+          }
+        },
+        {
+          "name": "Dedede",
+          "path": "Noises/Shenanigans/Dedede.mp3",
+          "translation": {
+            "en": "Dedede",
+            "ja": "デデデ"
+          }
+        },
+        {
+          "name": "Haaan",
+          "path": "Noises/Shenanigans/Haaan.mp3",
+          "translation": {
+            "en": "Haaan",
+            "ja": "ハーン！"
+          }
+        },
+        {
+          "name": "Fu Fuwa",
+          "path": "Noises/Shenanigans/Fu Fuwa.mp3",
+          "translation": {
+            "en": "Fu Fuwa",
+            "ja": "フーフワフワフワフワ"
+          }
+        },
+        {
+          "name": "Pasapasa",
+          "path": "Noises/Shenanigans/Pasapasa.mp3",
+          "translation": {
+            "en": "Pasapasa",
+            "ja": "パサパサ"
+          }
+        },
+        {
+          "name": "Sneeze Explosion",
+          "path": "Noises/Shenanigans/Sneeze Explosion.mp3",
+          "translation": {
+            "en": "Sneeze Explosion",
+            "ja": "嚏爆発"
+          }
         }
       ]
     },
@@ -434,6 +578,102 @@
             "en": "Pahpahpah",
             "ja": "パパパ"
           }
+        },
+        {
+          "name": "Chicken Song",
+          "path": "Singing/Humming/Chicken Song.mp3",
+          "translation": {
+            "en": "Chicken Song",
+            "ja": "チキンソング"
+          }
+        },
+        {
+          "name": "Doorbell Song",
+          "path": "Singing/Humming/Doorbell Song.mp3",
+          "translation": {
+            "en": "Doorbell Song",
+            "ja": "ドアベルソング"
+          }
+        },
+        {
+          "name": "Waiting Room BGM",
+          "path": "Singing/Humming/Waiting Room BGM.mp3",
+          "translation": {
+            "en": "Waiting Room BGM",
+            "ja": "控え室BGM"
+          }
+        },
+        {
+          "name": "Ditty 1",
+          "path": "Singing/Humming/Ditty 1.mp3",
+          "translation": {
+            "en": "Ditty 1",
+            "ja": "ドッドドド1"
+          }
+        },
+        {
+          "name": "Ditty 2",
+          "path": "Singing/Humming/Ditty 2.mp3",
+          "translation": {
+            "en": "Ditty 2",
+            "ja": "ドッドドド2"
+          }
+        },
+        {
+          "name": "Superchat Song",
+          "path": "Singing/Singing/Superchat Song.mp3",
+          "translation": {
+            "en": "Superchat Song",
+            "ja": "スパチャットありがとう～"
+          }
+        },
+        {
+          "name": "Doko Dungeon Song",
+          "path": "Singing/Singing/Doko Dungeon Song.mp3",
+          "translation": {
+            "en": "Doko Dungeon Song",
+            "ja": "どこどこダンジョン"
+          }
+        },
+        {
+          "name": "Geddan Song",
+          "path": "Singing/Singing/Geddan Song.mp3",
+          "translation": {
+            "en": "Geddan Song",
+            "ja": "Promise / 広瀬香美"
+          }
+        },
+        {
+          "name": "Japari Park ARK ver.",
+          "path": "Singing/Singing/Japari Park Ark ver.mp3",
+          "translation": {
+            "en": "Japari Park ARK ver.",
+            "ja": "ジャパリパーク(ARK)"
+          }
+        },
+        {
+          "name": "Shishiro Botan Song",
+          "path": "Singing/Singing/Shishiro Botan Song.mp3",
+          "translation": {
+            "en": "Shishiro Botan Song",
+            "ja": "獅白ぼたん歌"
+          }
+        },
+        {
+          "name": "SSS",
+          "path": "Singing/Singing/SSS.mp3",
+          "translation": {
+            "en": "SSS",
+            "ja": "SSS"
+          }
+        },
+        {
+          "name": "La-Lion",
+          "path": "Singing/Singing/La-Lion.mp3",
+          "translation": {
+            "en": "La-Lion",
+            "ja": "ララーイオン"
+          }
         }
       ]
     },
@@ -444,6 +684,310 @@
         "ja": "VA"
       },
       "voicelist": [
+        {
+          "name": "Minecraft Villager",
+          "path": "Voice Acting/Animals _ Characters/Minecraft Villager.mp3",
+          "translation": {
+            "en": "Minecraft Villager",
+            "ja": "マイクラ村人"
+          }
+        },
+        {
+          "name": "Idol Polka",
+          "path": "Voice Acting/Animals _ Characters/Idol Polka.mp3",
+          "translation": {
+            "en": "Idol Polka",
+            "ja": "アイドルポルカ"
+          }
+        },
+        {
+          "name": "Urusai Urusai Urusai",
+          "path": "Voice Acting/Animals _ Characters/Urusai Urusai Urusai.mp3",
+          "translation": {
+            "en": "Urusai Urusai Urusai",
+            "ja": "うるさいうるさいうるさーい!"
+          }
+        },
+        {
+          "name": "Mario Yahoo",
+          "path": "Voice Acting/Animals _ Characters/Mario Yahoo.mp3",
+          "translation": {
+            "en": "Mario Yahoo",
+            "ja": "イーヤッホー"
+          }
+        },
+        {
+          "name": "Classified Information",
+          "path": "Voice Acting/Animals _ Characters/Classified Information.mp3",
+          "translation": {
+            "en": "Classified Information",
+            "ja": "禁則事項"
+          }
+        },
+        {
+          "name": "Judgement Desu No",
+          "path": "Voice Acting/Animals _ Characters/Judgment Desu No.mp3",
+          "translation": {
+            "en": "Judgement Desu No",
+            "ja": "ジャッジメントですの"
+          }
+        },
+        {
+          "name": "Akarin",
+          "path": "Voice Acting/Animals _ Characters/Akarin.mp3",
+          "translation": {
+            "en": "Akarin",
+            "ja": "あーかりん"
+          }
+        },
+        {
+          "name": "Obaa-san",
+          "path": "Voice Acting/Animals _ Characters/Obaa-san.mp3",
+          "translation": {
+            "en": "Obaa-san",
+            "ja": "おばあさん"
+          }
+        },
+        {
+          "name": "Loli Pol",
+          "path": "Voice Acting/Animals _ Characters/Loli Pol.mp3",
+          "translation": {
+            "en": "Loli Pol",
+            "ja": "ロリポル"
+          }
+        },
+        {
+          "name": "POLKAR",
+          "path": "Voice Acting/Animals _ Characters/POLKAR.mp3",
+          "translation": {
+            "en": "POLKAR",
+            "ja": "ポールーカー"
+          }
+        },
+        {
+          "name": "Higurashi Laughter",
+          "path": "Voice Acting/Animals _ Characters/Higurashi Laughter.mp3",
+          "translation": {
+            "en": "Higurashi Laughter",
+            "ja": "ひぐらし笑"
+          }
+        },
+        {
+          "name": "Dokuro-chan",
+          "path": "Voice Acting/Animals _ Characters/Dokuro-chan.mp3",
+          "translation": {
+            "en": "Dokuro-chan",
+            "ja": "ドクロちゃん"
+          }
+        },
+        {
+          "name": "Minecraft Zombie",
+          "path": "Voice Acting/Animals _ Characters/Minecraft Zombie.mp3",
+          "translation": {
+            "en": "Minecraft Zombie",
+            "ja": "マイクラゾンビ"
+          }
+        },
+        {
+          "name": "Onee-san",
+          "path": "Voice Acting/Animals _ Characters/Onee-san.mp3",
+          "translation": {
+            "en": "Onee-san",
+            "ja": "お姉さん"
+          }
+        },
+        {
+          "name": "Polchama Greeting",
+          "path": "Voice Acting/Animals _ Characters/Polchama Greeting.mp3",
+          "translation": {
+            "en": "Polchama Greeting",
+            "ja": "ポルちゃま挨拶"
+          }
+        },
+        {
+          "name": "Ala Ala",
+          "path": "Voice Acting/Miscellaneous VA/Ala Ala.mp3",
+          "translation": {
+            "en": "Ala Ala",
+            "ja": "アッラアッラウフフフ"
+          }
+        },
+        {
+          "name": "Daipan",
+          "path": "Voice Acting/Miscellaneous VA/Daipan.mp3",
+          "translation": {
+            "en": "Daipan",
+            "ja": "ダイパン"
+          }
+        },
+        {
+          "name": "Poruporu",
+          "path": "Voice Acting/Miscellaneous VA/Poruporu.mp3",
+          "translation": {
+            "en": "Poruporu",
+            "ja": "ポルポル"
+          }
+        },
+        {
+          "name": "PANIK",
+          "path": "Voice Acting/Miscellaneous VA/PANIK.mp3",
+          "translation": {
+            "en": "PANIK",
+            "ja": "パニック！"
+          }
+        },
+        {
+          "name": "Bath Dinner or Polka",
+          "path": "Voice Acting/Miscellaneous VA/Bath Dinner or Polka.mp3",
+          "translation": {
+            "en": "Bath Dinner or Polka",
+            "ja": "お風呂にする？ご飯にする？それとも、ポ。ル。カ。"
+          }
+        },
+        {
+          "name": "Zako",
+          "path": "Voice Acting/Miscellaneous VA/Zako.mp3",
+          "translation": {
+            "en": "Zako",
+            "ja": "ざこ"
+          }
+        },
+        {
+          "name": "Polka Intro",
+          "path": "Voice Acting/Miscellaneous VA/Polka Intro.mp3",
+          "translation": {
+            "en": "Polka Intro",
+            "ja": "ポルカイントロダクション"
+          }
+        },
+        {
+          "name": "Ikemen Polka",
+          "path": "Voice Acting/Miscellaneous VA/Ikemen Polka.mp3",
+          "translation": {
+            "en": "Ikemen Polka",
+            "ja": "イケメンポルカ"
+          }
+        },
+        {
+          "name": "Drumroll",
+          "path": "Voice Acting/Miscellaneous VA/Drumroll.mp3",
+          "translation": {
+            "en": "Drumroll",
+            "ja": "ドラムロール"
+          }
+        },
+        {
+          "name": "Hello Youtube",
+          "path": "Voice Acting/Miscellaneous VA/Hello Youtube.mp3",
+          "translation": {
+            "en": "Hello Youtube",
+            "ja": "もしもしYoutube?"
+          }
+        },
+        {
+          "name": "Lamy",
+          "path": "Voice Acting/Other Vtubers/Lamy.mp3",
+          "translation": {
+            "en": "Lamy",
+            "ja": "ラミィ"
+          }
+        },
+        {
+          "name": "Nene",
+          "path": "Voice Acting/Other Vtubers/Nene.mp3",
+          "translation": {
+            "en": "Nene",
+            "ja": "ねね"
+          }
+        },
+        {
+          "name": "Botan",
+          "path": "Voice Acting/Other Vtubers/Botan.mp3",
+          "translation": {
+            "en": "Botan",
+            "ja": "ぼたん"
+          }
+        },
+        {
+          "name": "Watame",
+          "path": "Voice Acting/Other Vtubers/Watame.mp3",
+          "translation": {
+            "en": "Watame",
+            "ja": "わため"
+          }
+        },
+        {
+          "name": "Pekora",
+          "path": "Voice Acting/Other Vtubers/Pekora.mp3",
+          "translation": {
+            "en": "Pekora",
+            "ja": "ぺこら"
+          }
+        },
+        {
+          "name": "Korone",
+          "path": "Voice Acting/Other Vtubers/Korone.mp3",
+          "translation": {
+            "en": "Korone",
+            "ja": "ころね"
+          }
+        },
+        {
+          "name": "Luna",
+          "path": "Voice Acting/Other Vtubers/Luna.mp3",
+          "translation": {
+            "en": "Luna",
+            "ja": "ルーナ"
+          }
+        },
+        {
+          "name": "Marine",
+          "path": "Voice Acting/Other Vtubers/Marine.mp3",
+          "translation": {
+            "en": "Marine",
+            "ja": "マリン"
+          }
+        },
+        {
+          "name": "Miko",
+          "path": "Voice Acting/Other Vtubers/Miko.mp3",
+          "translation": {
+            "en": "Miko",
+            "ja": "みこ"
+          }
+        },
+        {
+          "name": "Roboco",
+          "path": "Voice Acting/Other Vtubers/Roboco.mp3",
+          "translation": {
+            "en": "Roboco",
+            "ja": "ロボ子"
+          }
+        },
+        {
+          "name": "Rushia",
+          "path": "Voice Acting/Other Vtubers/Rushia.mp3",
+          "translation": {
+            "en": "Rushia",
+            "ja": "るしあ"
+          }
+        },
+        {
+          "name": "Subaru",
+          "path": "Voice Acting/Other Vtubers/Subaru.mp3",
+          "translation": {
+            "en": "Subaru",
+            "ja": "スバル"
+          }
+        },
+        {
+          "name": "Towa",
+          "path": "Voice Acting/Other Vtubers/Towa.mp3",
+          "translation": {
+            "en": "Towa",
+            "ja": "トワ"
+          }
+        }
       ]
     }
   ]
