@@ -4,14 +4,14 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Lulunomicon ~ Konlulu',
+  title: 'POLton',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
 
-  dest: '../public/lulunomicon',
-  base: '/lulunomicon/',
+  dest: '../public/POLton',
+  base: '/POLton/',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -45,10 +45,10 @@ module.exports = {
       //   text: 'Config',
       //   link: '/config/'
       // },
-      {
-        text: 'Back to soundboard',
-        link: 'http://konlulu.faith'
-      }
+      // {
+      //   text: 'Back to soundboard',
+      //   link: 'http://konlulu.faith'
+      // }
     ],
     // sidebar: {
     //   '/guide/': [

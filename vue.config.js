@@ -20,6 +20,8 @@ module.exports = {
         warnings: false,
         errors: false
       }
-    }
-    // ,publicPath: '/POLton' // Don't leave uncommented while developing
+    },
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/POLton/' // Don't leave uncommented while developing
+      : '/'
 }
