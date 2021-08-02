@@ -11,26 +11,26 @@
         <v-app-bar-nav-icon v-on="menu" v></v-app-bar-nav-icon>
       </template>
       <v-list>
-        <v-list-item to="/">
+        <v-list-item :to="{ name: 'Main' }">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-home</v-icon>
             {{$t('Home')}}
           </v-list-item-title >
         </v-list-item>
-        <v-list-item to="/Soundboard">
+        <v-list-item :to="{ name: 'Soundboard'}">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-volume-source</v-icon>
             {{$t('link.soundboard')}}
           </v-list-item-title>
         </v-list-item>
-        <v-list-item to="/Presents">
+        <v-list-item :to="{ name: 'Presents' }">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-gift</v-icon>
             {{$t('link.presents')}}
           </v-list-item-title>
         </v-list-item>
         <v-divider></v-divider>
-        <v-list-item to="/about">
+        <v-list-item :to="{ name: 'About' }">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-information</v-icon>
             {{$t('link.about')}}

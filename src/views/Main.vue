@@ -32,11 +32,11 @@
         >
         <v-hover>
           <!-- <svg :src="link.img"> -->
-          <a :href="link.link">
+          <router-link :to="link.link">
             <img :src="hovered_zain === i ? link.img_hover : link.img" 
               @mouseover="hovered_zain = i" 
               @mouseleave="hovered_zain = null">
-          </a>
+          </router-link>
         </v-hover>
       </v-col>
       <v-spacer></v-spacer>
@@ -68,17 +68,17 @@
             img_hover: navi_zain_flag
           },
           { // trivia quiz
-            link: "#",
+            link: "/About",
             img: navi_zain,
             img_hover: navi_zain_flag
           },
           { // gallery
-            link: "POLton/Presents",
+            link: "/Presents",
             img: navi_zain,
             img_hover: navi_zain_flag
           },
           { // soundboard
-            link: "POLton/Soundboard",
+            link: "/Soundboard",
             img: navi_zain,
             img_hover: navi_zain_flag
           },
