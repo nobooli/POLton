@@ -17,20 +17,20 @@
             {{$t('Home')}}
           </v-list-item-title >
         </v-list-item>
-        <v-list-item to="/POLton/Soundboard">
+        <v-list-item to="/Soundboard">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-volume-source</v-icon>
             {{$t('link.soundboard')}}
           </v-list-item-title>
         </v-list-item>
-        <v-list-item to="/POLton/Presents">
+        <v-list-item to="/Presents">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-gift</v-icon>
             {{$t('link.presents')}}
           </v-list-item-title>
         </v-list-item>
         <v-divider></v-divider>
-        <v-list-item to="/POLton/about">
+        <v-list-item to="/about">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-information</v-icon>
             {{$t('link.about')}}

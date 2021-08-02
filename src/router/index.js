@@ -9,36 +9,28 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    redirect: { name: 'Home' }
-  },
-  {
-    path: "/POLton/",
-    name: 'Home',
+    path: "/",
     component: Main,
     meta: {
       title: "Pol",
     },
   },
   {
-    path: "/POLton/Soundboard",
-    name: 'Soundboard',
+    path: "/Soundboard",
     component: Soundboard,
     meta: {
       title: "Soundboard"
     }
   },  
   {
-    path: "/POLton/Presents",
-    name: 'Presents',
+    path: "/Presents",
     component: Presents,
     meta: {
       title: "Presents"
     },
   },
   {
-    path: "/POLton/about",
-    name: 'About',
+    path: "/about",
     component: About,
     meta: {
       title: "About"

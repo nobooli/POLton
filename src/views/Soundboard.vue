@@ -160,7 +160,7 @@ export default {
 
       let audio = new Audio();
       audio.preload = true;
-      audio.src = "voices/" + item.path;
+      audio.src = "/voices/" + item.path;
       this.$store.commit("setLastAudio", audio.src);
       this.voice = item;
       audio.volume = this.volume / 100;
@@ -168,14 +168,14 @@ export default {
     },
     playOnly(item) {
       let audio = new Audio();
-      audio.src = "voices/" + item.path;
+      audio.src = "/voices/" + item.path;
       audio.preload = true;
       this.voice = item;
       audio.play();
     },
     playSpecial() {
       let audio = new Audio();
-      audio.src = "voices/私货.mp3";
+      audio.src = "/voices/私货.mp3";
       audio.preload = true;
       audio.play();
     },
@@ -190,7 +190,7 @@ export default {
       let repeat = this.repeatmode;
       audio.preload = true;
       audio.loop = false;
-      audio.src = "voices/" + arry[i].path;
+      audio.src = "/voices/" + arry[i].path;
       audio.volume = this.volume / 100;
       audio.play();
       audio.addEventListener("ended", playEndedHandler, false);
@@ -198,14 +198,14 @@ export default {
         //序列播放实现
         i++;
         if (i < arry.length) {
-          audio.src = "voices/" + arry[i].path;
+          audio.src = "/voices/" + arry[i].path;
           //window.console.log(i);
           audio.play();
         } else {
           if (repeat == true) {
             //不要停不下来啊
             i = 0;
-            audio.src = "voices/" + arry[i].path;
+            audio.src = "/voices/" + arry[i].path;
             audio.play();
           }
         }
