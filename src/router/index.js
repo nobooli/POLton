@@ -10,6 +10,7 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
+    name: "Main",
     component: Main,
     meta: {
       title: "Pol",
@@ -17,6 +18,7 @@ const routes = [
   },
   {
     path: "/Soundboard",
+    name: "Soundboard",
     component: Soundboard,
     meta: {
       title: "Soundboard"
@@ -24,6 +26,7 @@ const routes = [
   },  
   {
     path: "/Presents",
+    name: "Presents",
     component: Presents,
     meta: {
       title: "Presents"
@@ -31,6 +34,7 @@ const routes = [
   },
   {
     path: "/about",
+    name: "About",
     component: About,
     meta: {
       title: "About"
