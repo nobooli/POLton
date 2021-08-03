@@ -8,7 +8,8 @@
     "build:docs": "cd docs && npm install && npm run build",
     "build:webapp": "vue-cli-service build",
     "build": "npm run build:docs && npm run build:webapp",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "@mdi/font": "^5.3.45",
@@ -42,7 +43,8 @@
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-vuetify": "^2.0.5",
     "vue-template-compiler": "^2.6.10",
-    "vuetify-loader": "^1.4.4"
+    "vuetify-loader": "^1.4.4",
+    "execa": "latest"
   },
   "eslintConfig": {
     "root": true,
