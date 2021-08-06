@@ -1,3 +1,67 @@
 {
-    "art_pieces": []
+    "art_pieces": [
+        {
+            "path": "/img/art/5th gen - 1st Anniversary (Omarun) - Forever9Nine.png",
+            "thumbnail": "/img/art/5th gen - 1st Anniversary (Omarun) - Forever9Nine_thumbnail.png",
+            "artist":"Forever9Nine",
+            "artist_discord":"",
+            "artist_twitter": "@_K_le"
+        },
+        {
+            "path": "/img/art/POL1st.png",
+            "thumbnail": "/img/art/POL1st_thumbnail.png",
+            "artist":"えびこ焼き",
+            "artist_discord":"yaki_ebiko#0001",
+            "artist_twitter": "@yaki_ebiko"
+        },
+        {
+            "path": "/img/art/PolAnni - Leslie Empty.png",
+            "thumbnail": "/img/art/PolAnni - Leslie Empty_thumbnail.png",
+            "artist":"Leslie Empty",
+            "artist_discord":"LeslieEmpty#5398",
+            "artist_twitter": ""
+        },
+        {
+            "path": "/img/art/Polka - Ryuran.png",
+            "thumbnail": "/img/art/Polka - Ryuran_thumbnail.png",
+            "artist":"Ryuran",
+            "artist_discord":"Ryukoshin#8997",
+            "artist_twitter": "@ryuraan"
+        },
+        {
+            "path": "/img/art/PolkaYear1 - Angel Garcia.png",
+            "thumbnail": "/img/art/PolkaYear1 - Angel Garcia_thumbnail.png",
+            "artist":"AnatoleSerial",
+            "artist_discord":"AnatoleSerial#9224",
+            "artist_twitter": ""
+        },
+        {
+            "path": "/img/art/ppol - Rinri Levaringe.png",
+            "thumbnail": "/img/art/ppol - Rinri Levaringe_thumbnail.png",
+            "artist":"Rinri",
+            "artist_discord":"Rinri#3119",
+            "artist_twitter": "@RinriLevaringe"
+        },
+        {
+            "path": "/img/art/Untitled_Artwork(POL_ACTUAL_actual_FINAL) - goki blatta.png",
+            "thumbnail": "/img/art/Untitled_Artwork(POL_ACTUAL_actual_FINAL) - goki blatta_thumbnail.png",
+            "artist":"gokiburi",
+            "artist_discord":"gokiburi#5555",
+            "artist_twitter": ""
+        },
+        {
+            "path": "/img/art/ポルカ1周年記念 - ジョン三郎.png",
+            "thumbnail": "/img/art/ポルカ1周年記念 - ジョン三郎_thumbnail.png",
+            "artist":"ジョン三郎【おまる座曲芸のくま】",
+            "artist_discord":"ジョン三郎＃9406",
+            "artist_twitter": "@John3rou"
+        },
+        {
+            "path": "/img/art/五期生一周年繪圖-POLKA - 三世吾郎.png",
+            "thumbnail": "/img/art/五期生一周年繪圖-POLKA - 三世吾郎_thumbnail.png",
+            "artist":"三世吾郎",
+            "artist_discord":"",
+            "artist_twitter": "@SanzeGorouART"
+        }
+    ]
 }

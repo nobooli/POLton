@@ -39,7 +39,7 @@ const routes = [
     meta: {
       title: "About"
     },
-  },
+  }
 ];
 
 const router = new VueRouter({
