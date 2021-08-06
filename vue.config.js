@@ -21,7 +21,8 @@ module.exports = {
         errors: false
       }
     },
-    publicPath: process.env.NODE_ENV === 'production'
-      ? '/POLton/' // Don't leave uncommented while developing
-      : '/'
+    publicPath: '/POLton/'
+//     publicPath: process.env.NODE_ENV === 'production'
+//       ? '/POLton/' // Don't leave uncommented while developing
+//       : '/'
 }
