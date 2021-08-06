@@ -17,44 +17,21 @@
                     :options="options">
                 </lightbox>
             </div>
-            <v-card v-for="art_piece in art_pieces" :key="art_piece.artist">
-                <v-card-title>{{ art_piece.artist }}</v-card-title>
-                <v-card-subtitle>{{ art_piece.artist_discord }} <br /> {{ art_piece.artist_twitter }}</v-card-subtitle>
-                <v-card-text>{{ art_piece.path }} <br /> {{ art_piece.thumbnail }}</v-card-text>
-            </v-card>
         </v-row>
         <v-divider></v-divider>
         <!-- messages -->
         <v-row>
             <div class=".messages-container">
-                <v-card v-for="message in messages" :key="message.name">
+                <v-card v-for="message in messages" :key="message.name" class="message">
                     <v-card-title>
                         {{ message.name }}
                         <span class="flag-icon flag-icon-us"></span>
                     </v-card-title>
                     <v-card-subtitle>{{ message.sns_tags }}</v-card-subtitle>
-                    <v-card-text>
+                    <v-card-text class="message-body">
                         {{ message.message }}
                     </v-card-text>
                 </v-card>
-                <div :v-for="(message, key) in messages" v-bind:key="key">
-                    <!-- <div class="profile">
-                        <div>
-                            <img class="pfp" :src="message.profile_pic" alt="" />
-                        </div>
-                        <div>
-                            <span>{{ message.name }}</span>
-                        </div>
-                        <div>
-                            <span class=""></span>
-                        </div>
-                    </div> -->
-                    <!-- <div class="msg">
-                        <blockquote>
-                            <p>{{ message.message }}</p>
-                        </blockquote>
-                    </div> -->
-                </div>
             </div> 
         </v-row>
     </v-container>
@@ -154,5 +131,14 @@ export default {
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
+}
+
+.message {
+    max-width: 33%;
+}
+
+.message-body {
+    max-width: 33%;
+    white-space: pre;
 }
 </style>
