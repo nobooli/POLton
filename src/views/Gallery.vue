@@ -6,7 +6,6 @@
                 <v-card-title>Art 美術館</v-card-title>
             </v-card>
         </v-row>
-        <v-divider></v-divider>
         <!-- gallery Lightbox -->
         <v-row>
             <div class=".gallery-container">
@@ -18,14 +17,19 @@
                 </lightbox>
             </div>
         </v-row>
-        <v-divider></v-divider>
+        <v-row class="title_card">
+            <v-card>
+                <v-card-title>Messages</v-card-title>
+            </v-card>
+        </v-row>
         <!-- messages -->
         <v-row>
             <div class=".messages-container">
                 <v-card v-for="message in messages" :key="message.name" class="message">
                     <v-card-title>
+                        <img class="profile-pic" :src="message.profile_pic">
                         {{ message.name }}
-                        <span class="flag-icon flag-icon-us"></span>
+                        <span :class="message.country_flag"></span>
                     </v-card-title>
                     <v-card-subtitle>{{ message.sns_tags }}</v-card-subtitle>
                     <v-card-text class="message-body">
@@ -140,5 +144,9 @@ export default {
 .message-body {
     max-width: 33%;
     white-space: pre;
+}
+
+.profile-pic {
+    max-width: 64px;
 }
 </style>
