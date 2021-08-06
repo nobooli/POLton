@@ -111,10 +111,10 @@
           }
         },
         { "name" : "Panik",
-          "path": "Lines/POLglish/Panik.mp3",
+          "path": "Lines/POLglish/Poltato_PC.mp3",
           "translation": {
-            "en": "Panik",
-            "ja": "パニック"
+            "en": "POLtato PC",
+            "ja": "ポルテトPC"
           }
         },
         { "name" : "Yes OMG",
@@ -125,7 +125,7 @@
           }
         },
         { "name" : "You are Mife",
-          "path": "Lines/POLGlish/You are Mife.mp3",
+          "path": "Lines/POLGlish/You_are_Mife.mp3",
           "translation": {
             "en": "You are Mife",
             "ja": "ユーアルマイフ"
@@ -211,7 +211,7 @@
         },
         {
           "name": "YAGOO is Best Girl",
-          "path": "Lines/POLglish/YAGOO is Best Girl.mp3",
+          "path": "Lines/POLglish/YAGOO_is_Best_Girl.mp3",
           "translation": {
             "en": "YAGOO is Best Girl",
             "ja": "YAGOOイズベストガール"
@@ -645,7 +645,7 @@
         },
         {
           "name": "Japari Park ARK ver.",
-          "path": "Singing/Singing/Japari Park Ark ver.mp3",
+          "path": "Singing/Singing/Japari_Park_Ark_ver.mp3",
           "translation": {
             "en": "Japari Park ARK ver.",
             "ja": "ジャパリパーク(ARK)"
