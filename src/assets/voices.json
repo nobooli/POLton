@@ -308,7 +308,7 @@
         },
         {
           "name": "Laugh 9",
-          "path": "Noises/Laughing/Laugh 9.mp3",
+          "path": "Noises/Laughing/Laugh_9.mp3",
           "translation": {
             "en": "Laugh 9",
             "ja": "笑9"
@@ -637,7 +637,7 @@
         },
         {
           "name": "Geddan Song",
-          "path": "Singing/Singing/Geddan Song.mp3",
+          "path": "Singing/Singing/Geddan_Song.mp3",
           "translation": {
             "en": "Geddan Song",
             "ja": "Promise / 広瀬香美"
