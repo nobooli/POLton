@@ -125,7 +125,7 @@
           }
         },
         { "name" : "You are Mife",
-          "path": "Lines/POLGlish/You_are_Mife.mp3",
+          "path": "Lines/POLglish/You_are_Mife.mp3",
           "translation": {
             "en": "You are Mife",
             "ja": "ユーアルマイフ"
@@ -211,7 +211,7 @@
         },
         {
           "name": "YAGOO is Best Girl",
-          "path": "Lines/POLglish/YAGOO_is_Best_Girl.mp3",
+          "path": "Lines/POLglish/Yagoo_is_Best_Girl.mp3",
           "translation": {
             "en": "YAGOO is Best Girl",
             "ja": "YAGOOイズベストガール"
@@ -476,7 +476,7 @@
         },
         {
           "name": "Polka Loses it",
-          "path": "Noises/Shenanigans/Polka_Loses_it.mp3",
+          "path": "Noises/Shenanigans/Polka_Loses_It.mp3",
           "translation": {
             "en": "Polka Loses it",
             "ja": "レロレロレロレロ"
@@ -645,7 +645,7 @@
         },
         {
           "name": "Japari Park ARK ver.",
-          "path": "Singing/Singing/Japari_Park_Ark_ver.mp3",
+          "path": "Singing/Singing/Japari_Park_ARK_Ver.mp3",
           "translation": {
             "en": "Japari Park ARK ver.",
             "ja": "ジャパリパーク(ARK)"
