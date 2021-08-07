@@ -52,9 +52,9 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: "history",
+  mode: "hash",
   routes,
-  base: process.env.BASE_URL
+  base: "/POLton/"
 });
 
 export default router;
