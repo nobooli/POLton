@@ -53,12 +53,6 @@
         :key="i"
         >
         <v-hover class="navi-zain">
-          <!-- <svg :src="link.img"> -->
-          <!-- <router-link v-if="i=4" @click.native="$topOfPage()">
-            <img :src="hovered_zain === i ? link.img_hover : link.img" 
-              @mouseover="hovered_zain = i" 
-              @mouseleave="hovered_zain = null">
-          </router-link> -->
           <router-link :to="link.link">
             <img :id="link.id"
               :src="hovered_zain === i ? link.img_hover : link.img" 
@@ -76,43 +70,37 @@
 </template>
 
 <script>
-  import bigtop from "../assets/img/bigtop-tent.svg"
-  import congrats_message from "../assets/img/congratulations-message.svg"
-  import crowd from "../assets/img/crowd-of-zains.svg"
 
   export default {
     data: function() {
       return {
-        bigtop: bigtop,
-        congrats_message: congrats_message,
-        crowd: crowd,
         hovered_zain: null,
-        flag_idle: "img/flag_idle_300.png",
-        flag_hover: "img/flag_hover_300.png",
-        tent: "img/TEMT WITH BOWS.png",
+        flag_idle: "img/flag_idle_150.png",
+        flag_hover: "img/flag_hover_150.png",
+        tent: "img/TEMT_WITH_BOWS_1000.png",
         links: [
           { // trivia quiz
             link: "/About",
-            img: "img/letter_idle_300.png",
-            img_hover: "img/letter_hover_300.png",
+            img: "img/letter_idle_150.png",
+            img_hover: "img/letter_hover_150.png",
             id: "letter-zain"
           },
           { // gallery
             link: "/Presents",
-            img: "img/gallery_idle_300.png",
-            img_hover: "img/gallery_hover_300.png",
+            img: "img/gallery_idle_150.png",
+            img_hover: "img/gallery_hover_150.png",
             id: "gallery-zain"
           },
           { // soundboard
             link: "/Soundboard",
-            img: "img/megaphone_idle_300.png",
-            img_hover: "img/megaphone_hover_300.png",
+            img: "img/megaphone_idle_150.png",
+            img_hover: "img/megaphone_hover_150.png",
             id: "megaphone-zain"
           },
-          { // top of page
+          { // Quiz
             link: "#",
-            img: "img/ball_idle_300.png",
-            img_hover: "img/ball_hover_300.png",
+            img: "img/quiz_idle_150.png",
+            img_hover: "img/quiz_hover_150.png",
             id: "ball-zain"
           }
         ],
