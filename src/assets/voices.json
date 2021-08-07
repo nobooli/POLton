@@ -4,7 +4,7 @@
       "name": "Lines",
       "translation": {
         "en": "Lines",
-        "ja": "ライン"
+        "ja": "セリフ"
       },
       "voicelist": [
         {
@@ -84,7 +84,7 @@
           "path": "Lines/Other Lines/Sumimasenyen.mp3",
           "translation": {
             "en": "Sumimasenyen",
-            "ja": "すみませんいぇん"
+            "ja": "すみま千円"
           }
         },
         {
@@ -128,7 +128,7 @@
           "path": "Lines/POLglish/You_are_Mife.mp3",
           "translation": {
             "en": "You are Mife",
-            "ja": "ユーアルマイフ"
+            "ja": "ユーアーマイフ"
           }
         },
         {
@@ -239,7 +239,7 @@
       "name": "Noises",
       "translation": {
         "en": "Noises",
-        "ja": "Sfx"
+        "ja": "効果音"
       },
       "voicelist": [
         {
@@ -327,7 +327,7 @@
           "path": "Noises/Other Noises/Chu.mp3",
           "translation": {
             "en": "Chu",
-            "ja": "ちゅう"
+            "ja": "チュッ"
           }
         },
         {
@@ -335,7 +335,7 @@
           "path": "Noises/Other Noises/Nyu.mp3",
           "translation": {
             "en": "Nyu",
-            "ja": "にゅう"
+            "ja": "にゅっ"
           }
         },
         {
@@ -447,7 +447,7 @@
           "path": "Noises/Shenanigans/Bipolar.mp3",
           "translation": {
             "en": "Bipolar",
-            "ja" : "双極性障害"
+            "ja" : "気分屋"
           }
         },
         {
@@ -559,7 +559,7 @@
           "path": "Noises/Shenanigans/Sneeze Explosion.mp3",
           "translation": {
             "en": "Sneeze Explosion",
-            "ja": "嚏爆発"
+            "ja": "くしゃみ爆発"
           }
         }
       ]
@@ -568,7 +568,7 @@
       "name": "Singing",
       "translation": {
         "en": "Singing",
-        "ja": "口ずさむ"
+        "ja": "メロディー"
       },
       "voicelist": [
         {
@@ -584,7 +584,7 @@
           "path": "Singing/Humming/Chicken Song.mp3",
           "translation": {
             "en": "Chicken Song",
-            "ja": "チキンソング"
+            "ja": "クッキング"
           }
         },
         {
@@ -600,7 +600,7 @@
           "path": "Singing/Humming/Waiting Room BGM.mp3",
           "translation": {
             "en": "Waiting Room BGM",
-            "ja": "控え室BGM"
+            "ja": "オープニング"
           }
         },
         {
@@ -624,7 +624,7 @@
           "path": "Singing/Singing/Superchat Song.mp3",
           "translation": {
             "en": "Superchat Song",
-            "ja": "スパチャットありがとう～"
+            "ja": "スーパーチャットありがとう〜"
           }
         },
         {
@@ -640,7 +640,7 @@
           "path": "Singing/Singing/Geddan_Song.mp3",
           "translation": {
             "en": "Geddan Song",
-            "ja": "Promise / 広瀬香美"
+            "ja": "ゲッダン"
           }
         },
         {
@@ -656,7 +656,7 @@
           "path": "Singing/Singing/Shishiro Botan Song.mp3",
           "translation": {
             "en": "Shishiro Botan Song",
-            "ja": "獅白ぼたん歌"
+            "ja": "獅白ぼたんの歌"
           }
         },
         {
@@ -672,7 +672,7 @@
           "path": "Singing/Singing/La-Lion.mp3",
           "translation": {
             "en": "La-Lion",
-            "ja": "ララーイオン"
+            "ja": "ららーいおん"
           }
         }
       ]
@@ -809,15 +809,15 @@
           "path": "Voice Acting/Miscellaneous VA/Ala Ala.mp3",
           "translation": {
             "en": "Ala Ala",
-            "ja": "アッラアッラウフフフ"
+            "ja": "あらあらうふふ"
           }
         },
         {
           "name": "Daipan",
           "path": "Voice Acting/Miscellaneous VA/Daipan.mp3",
           "translation": {
-            "en": "Daipan",
-            "ja": "ダイパン"
+            "en": "Slap",
+            "ja": "ビンタ"
           }
         },
         {
@@ -841,7 +841,7 @@
           "path": "Voice Acting/Miscellaneous VA/Bath Dinner or Polka.mp3",
           "translation": {
             "en": "Bath Dinner or Polka",
-            "ja": "お風呂にする？ご飯にする？それとも、ポ。ル。カ？"
+            "ja": "お風呂にする？ご飯にする？それとも、ポ・ル・カ？"
           }
         },
         {
@@ -849,7 +849,7 @@
           "path": "Voice Acting/Miscellaneous VA/Zako.mp3",
           "translation": {
             "en": "Zako",
-            "ja": "ざこ"
+            "ja": "雑魚"
           }
         },
         {
