@@ -10,20 +10,6 @@
           </v-card-title>
       </v-card>
     </v-row>
-    <!-- <v-row>
-      <v-spacer></v-spacer>
-      <v-col>
-        <img :src="bigtop" />
-      </v-col>
-      <v-spacer></v-spacer>
-    </v-row>
-    <v-row>
-      <v-spacer></v-spacer>
-      <v-col>
-        <img :src="crowd" />
-      </v-col>
-      <v-spacer></v-spacer>
-    </v-row> -->
     <v-row>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
@@ -40,7 +26,7 @@
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
-      <v-col>
+      <v-col style="max-width: 20%">
       <v-hover class="navi-zain">
         <a href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA" id="flag-zain">
           <img :src="hovered_zain === -1 ? flag_hover : flag_idle"
@@ -51,7 +37,7 @@
       </v-col>
       <v-col v-for="(link, i) in links"
         :key="i"
-        >
+        style="max-width: 20%">
         <v-hover class="navi-zain">
           <router-link :to="link.link">
             <img :id="link.id"
@@ -75,36 +61,43 @@
     data: function() {
       return {
         hovered_zain: null,
-        flag_idle: "img/flag_idle_150.png",
-        flag_hover: "img/flag_hover_150.png",
+        flag_idle: "img/flag_idle_300.png",
+        flag_hover: "img/flag_hover_300.png",
         tent: "img/TEMT_WITH_BOWS_1000.png",
         links: [
           { // trivia quiz
             link: "/About",
-            img: "img/letter_idle_150.png",
-            img_hover: "img/letter_hover_150.png",
-            id: "letter-zain"
+            img: "img/letter_idle_300.png",
+            img_hover: "img/letter_hover_300.png",
+            id: "letter-zain",
+            srcset: "",
+            srcset_hover: ""
           },
           { // gallery
             link: "/Presents",
-            img: "img/gallery_idle_150.png",
-            img_hover: "img/gallery_hover_150.png",
-            id: "gallery-zain"
+            img: "img/gallery_idle_300.png",
+            img_hover: "img/gallery_hover_300.png",
+            id: "gallery-zain",
+            srcset: "",
+            srcset_hover: ""
           },
           { // soundboard
             link: "/Soundboard",
-            img: "img/megaphone_idle_150.png",
-            img_hover: "img/megaphone_hover_150.png",
-            id: "megaphone-zain"
+            img: "img/megaphone_idle_300.png",
+            img_hover: "img/megaphone_hover_300.png",
+            id: "megaphone-zain",
+            srcset: "",
+            srcset_hover: ""
           },
           { // Quiz
-            link: "#",
-            img: "img/quiz_idle_150.png",
-            img_hover: "img/quiz_hover_150.png",
-            id: "ball-zain"
+            link: "/Quiz",
+            img: "img/quiz_idle_300.png",
+            img_hover: "img/quiz_hover_300.png",
+            id: "ball-zain",
+            srcset: "",
+            srcset_hover: ""
           }
-        ],
-
+        ]
       }
     },
     methods: {

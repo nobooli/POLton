@@ -4,20 +4,20 @@
         mediacontorl: "コントロールボタン",
         stopplay: "再生を停止する",
         helptitle: "遊び方ぺこ?",
-        openorderplaymode: "オンにする注文プレイ",
-        orderplaymode: "注文プレイ",
+        openorderplaymode: "再生リスト機能",
+        orderplaymode: "再生リスト",
         orderlistnow: "現在のプレイリスト",
         playthislist: "順番に再生",
-        listempty: "プレイリストは空ぺこ〜",
+        listempty: "プレイリストは空だね～",
         resetorder: "プレイリストをクリア",
         language: "言語",
         orderplaymodehelp: "注文プレイの使用方法",
-        disclaimer: "このウェブサイトは愛好家によって設定されています、カバーとホロライブは何の関係もないです。",
+        disclaimer: "このウェブサイトは愛好家によって設定されています、株式会社カバーとホロライブは何の関係もないです。",
         repeatmode: "止まらないで（ループプレイ）",
         info: "ポルカファンサイト",
         developer: "開発者：Coceki, Merun",
         fork: "Forked by: nobooli",
-        credits: "プロジェクトリーダー：AsuKiri, Alexander124, Timekiller_74, Broom",
+        credits: "プロジェクトリーダー：AsuKiri, Alexander124, Timekiller_74, Broom, Warthog",
         design: "デザイン：gokiburi",
         art: "描：hellscrossing, raim, gokiburi",
         sound: "オージオ：BunBun",
@@ -36,6 +36,7 @@
     link: {
         soundboard: "ぽるタン",
         presents: "プレゼント",
+        quiz: "クイズ",
         about: "ガラミ"
     }
 }

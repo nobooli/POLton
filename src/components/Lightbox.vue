@@ -23,8 +23,8 @@
 <template>
   <div>
     <div class="my-gallery" :class="album_class">
-      <a :href="image.src" v-for="(image,key) in images" v-bind:key="key">
-        <img :src="image.thumb" alt="" :title="image.title" :class="image_class" />
+      <a :href="image.path" v-for="(image,key) in images" v-bind:key="key">
+        <img :src="image.thumbnail" alt="" :title="image.artist" :class="image_class" />
       </a>
     </div>
   </div>

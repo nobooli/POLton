@@ -1,67 +1,81 @@
 {
     "art_pieces": [
         {
-            "path": "/img/art/5th gen - 1st Anniversary (Omarun) - Forever9Nine.png",
-            "thumbnail": "/img/art/5th gen - 1st Anniversary (Omarun) - Forever9Nine_thumbnail.png",
+            "path": "/img/art/Forever9Nine.png",
+            "thumbnail": "/img/art/Forever9Nine_thumbnail_400.png",
             "artist":"Forever9Nine",
             "artist_discord":"",
             "artist_twitter": "@_K_le"
         },
         {
-            "path": "/img/art/POL1st.png",
-            "thumbnail": "/img/art/POL1st_thumbnail.png",
+            "path": "/img/art/yaki_ebiko.png",
+            "thumbnail": "/img/art/yaki_ebiko_thumbnail_400.png",
             "artist":"えびこ焼き",
             "artist_discord":"yaki_ebiko#0001",
             "artist_twitter": "@yaki_ebiko"
         },
         {
-            "path": "/img/art/PolAnni - Leslie Empty.png",
-            "thumbnail": "/img/art/PolAnni - Leslie Empty_thumbnail.png",
+            "path": "/img/art/LeslieEmpty.png",
+            "thumbnail": "/img/art/LeslieEmpty_thumbnail_400.png",
             "artist":"Leslie Empty",
             "artist_discord":"LeslieEmpty#5398",
             "artist_twitter": ""
         },
         {
-            "path": "/img/art/Polka - Ryuran.png",
-            "thumbnail": "/img/art/Polka - Ryuran_thumbnail.png",
+            "path": "/img/art/Ryuran.png",
+            "thumbnail": "/img/art/Ryuran_thumbnail_400.png",
             "artist":"Ryuran",
             "artist_discord":"Ryukoshin#8997",
             "artist_twitter": "@ryuraan"
         },
         {
-            "path": "/img/art/PolkaYear1 - Angel Garcia.png",
-            "thumbnail": "/img/art/PolkaYear1 - Angel Garcia_thumbnail.png",
+            "path": "/img/art/AnatoleSerial.png",
+            "thumbnail": "/img/art/AnatoleSerial_thumbnail_400.png",
             "artist":"AnatoleSerial",
             "artist_discord":"AnatoleSerial#9224",
             "artist_twitter": ""
         },
         {
-            "path": "/img/art/ppol - Rinri Levaringe.png",
-            "thumbnail": "/img/art/ppol - Rinri Levaringe_thumbnail.png",
+            "path": "/img/art/Rinri.png",
+            "thumbnail": "/img/art/Rinri_thumbnail_400.png",
             "artist":"Rinri",
             "artist_discord":"Rinri#3119",
             "artist_twitter": "@RinriLevaringe"
         },
         {
-            "path": "/img/art/Untitled_Artwork(POL_ACTUAL_actual_FINAL) - goki blatta.png",
-            "thumbnail": "/img/art/Untitled_Artwork(POL_ACTUAL_actual_FINAL) - goki blatta_thumbnail.png",
+            "path": "/img/art/gokiburi.png",
+            "thumbnail": "/img/art/gokiburi_thumbnail_400.png",
             "artist":"gokiburi",
             "artist_discord":"gokiburi#5555",
             "artist_twitter": ""
         },
         {
-            "path": "/img/art/ポルカ1周年記念 - ジョン三郎.png",
-            "thumbnail": "/img/art/ポルカ1周年記念 - ジョン三郎_thumbnail.png",
+            "path": "/img/art/John3rou.png",
+            "thumbnail": "/img/art/John3rou_thumbnail_400.png",
             "artist":"ジョン三郎【おまる座曲芸のくま】",
             "artist_discord":"ジョン三郎＃9406",
             "artist_twitter": "@John3rou"
         },
         {
-            "path": "/img/art/五期生一周年繪圖-POLKA - 三世吾郎.png",
-            "thumbnail": "/img/art/五期生一周年繪圖-POLKA - 三世吾郎_thumbnail.png",
+            "path": "/img/art/SanzeGorou.png",
+            "thumbnail": "/img/art/SanzeGorou_thumbnail_400.png",
             "artist":"三世吾郎",
             "artist_discord":"",
             "artist_twitter": "@SanzeGorouART"
+        },
+        {
+            "path": "/img/art/hellscrossing.png",
+            "thumbnail": "/img/art/hellscrossing_thumbnail_400.png",
+            "artist":"hellscrossing",
+            "artist_discord":"hellscrossing#8166",
+            "artist_twitter": ""
+        },
+        {
+            "path": "/img/art/tokimi_yukikaze.png",
+            "thumbnail": "/img/art/tokimi_yukikaze_thumbnail_400.png",
+            "artist":"雪風ときみ",
+            "artist_discord":"雪風ときみ#8459",
+            "artist_twitter": "@tokimi_yukikaze"
         }
     ]
 }
