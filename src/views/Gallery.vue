@@ -32,7 +32,7 @@
                         <span :class="message.country_flag"></span>
                     </v-card-title>
                     <v-card-subtitle>{{ message.sns_tags }}</v-card-subtitle>
-                    <v-card-text class="message-body" v-if="message_jp === ''">
+                    <v-card-text class="message-body" v-if="!message_jp">
                         {{ message.message }}
                     </v-card-text>
                     <v-card-text class="message-body" v-else>
