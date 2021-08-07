@@ -1,42 +1,40 @@
 <template>
   <v-container>
-    <v-bottom-navigation fixed>
-      <v-slider
-        class="pt-4 ml-4"
-        style="width:75%"
-        v-model="volume"
-        :label="this.$t('ui.volume')"
-        thumb-label
-        max="100"
-        min="0"
-        dense
-        prepend-icon="mdi-volume-high"
-      ></v-slider>
-      <v-spacer />
-      <v-switch
-        class="mr-3"
-        v-model="orderplaymode"
-        inset
-        color="secondary"
-        :label="$t('ui.openorderplaymode')"
-      ></v-switch>
-
-      <v-btn :disabled="!orderplaymode" icon @click="orderdialog=true">
+    <div id="control-bar">
+      <div id="volume-bar">
+        <v-slider
+          class="pt-4 ml-4"
+          v-model="volume"
+          :label="this.$t('ui.volume')"
+          thumb-label
+          max="100"
+          min="0"
+          dense
+          prepend-icon="mdi-volume-high"
+        ></v-slider>
+      </div>
+      <div id="control-btns">
+        <v-switch
+          class="mr-3"
+          v-model="orderplaymode"
+          inset
+          color="secondary"
+          :label="$t('ui.openorderplaymode')"
+        ></v-switch>
+        <v-btn :disabled="!orderplaymode" icon @click="orderdialog=true">
         <v-badge color="secondary" :content="orderlist.length" :value=" orderlist.length" overlap>
           <v-icon>mdi-reorder-horizontal</v-icon>
         </v-badge>
-      </v-btn>
-      <v-btn
-        :disabled="!$store.state.lastAudio"
-        icon
-        @click="$store.dispatch('copyLastAudioToClipboard')"
-      >
-        <v-icon>mdi-content-copy</v-icon>
-      </v-btn>
-    </v-bottom-navigation>
-    <!-- <v-row align="center" justify="center">
-      <v-text-field color="" :value="$store.state.lastAudio" label="URL" readonly outlined></v-text-field>
-    </v-row> -->
+        </v-btn>
+        <v-btn
+          :disabled="!$store.state.lastAudio"
+          icon
+          @click="$store.dispatch('copyLastAudioToClipboard')"
+        >
+          <v-icon>mdi-content-copy</v-icon>
+        </v-btn>
+      </div>
+    </div>
     <v-row v-for="group in voices" :key="group.name">
       <v-col cols="12" class="ma-0 pa-0">
         <v-card class="ma-1 pa-0">
@@ -237,5 +235,35 @@ export default {
   white-space: normal !important;
   text-transform: none !important;
   display: inline-block;
+}
+
+#control-bar {
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  background-color: #1E1E1E;
+  width: 100%;
+  left: 0;
+  z-index: 999;
+  flex-direction: column;
+}
+
+#volume-bar {
+  flex: 1;
+}
+
+#control-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width:801px)  {
+  #control-bar {
+    flex-direction: row;
+  }
+  #volume-bar {
+    padding-right: 15px;
+  }
 }
 </style>
