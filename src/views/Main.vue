@@ -87,32 +87,32 @@
         congrats_message: congrats_message,
         crowd: crowd,
         hovered_zain: null,
-        flag_idle: "/img/flag_idle_300.png",
-        flag_hover: "/img/flag_hover_300.png",
-        tent: "/img/TEMT WITH BOWS.png",
+        flag_idle: "img/flag_idle_300.png",
+        flag_hover: "img/flag_hover_300.png",
+        tent: "img/TEMT WITH BOWS.png",
         links: [
           { // trivia quiz
             link: "/About",
-            img: "/img/letter_idle_300.png",
-            img_hover: "/img/letter_hover_300.png",
+            img: "img/letter_idle_300.png",
+            img_hover: "img/letter_hover_300.png",
             id: "letter-zain"
           },
           { // gallery
             link: "/Presents",
-            img: "/img/gallery_idle_300.png",
-            img_hover: "/img/gallery_hover_300.png",
+            img: "img/gallery_idle_300.png",
+            img_hover: "img/gallery_hover_300.png",
             id: "gallery-zain"
           },
           { // soundboard
             link: "/Soundboard",
-            img: "/img/megaphone_idle_300.png",
-            img_hover: "/img/megaphone_hover_300.png",
+            img: "img/megaphone_idle_300.png",
+            img_hover: "img/megaphone_hover_300.png",
             id: "megaphone-zain"
           },
           { // top of page
             link: "#",
-            img: "/img/ball_idle_300.png",
-            img_hover: "/img/ball_hover_300.png",
+            img: "img/ball_idle_300.png",
+            img_hover: "img/ball_hover_300.png",
             id: "ball-zain"
           }
         ],
