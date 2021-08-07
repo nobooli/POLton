@@ -36,6 +36,7 @@ module.exports = {
   link: {
     soundboard: "Soundboard",
     presents: "Presents",
+    messages: "Messages",
     quiz: "Quiz",
     about: "About"
   }

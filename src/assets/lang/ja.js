@@ -35,6 +35,7 @@
     link: {
         soundboard: "ぽるタン",
         presents: "プレゼント",
+        messages: "メッセージ",
         quiz: "クイズ",
         about: "ガラミ"
     }

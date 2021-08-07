@@ -29,6 +29,12 @@
             {{$t('link.presents')}}
           </v-list-item-title>
         </v-list-item>
+        <v-list-item :to="{ name: 'Messages' }">
+          <v-list-item-title>
+            <v-icon left color="secondary">mdi-email-outline</v-icon>
+            {{$t('link.messages')}}
+          </v-list-item-title>
+        </v-list-item>
         <v-list-item :to="{ name: 'Quiz' }">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-clipboard-text-outline</v-icon>

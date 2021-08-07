@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Main from "@/views/Main";
 import Soundboard from "@/views/Soundboard";
 import Presents from "@/views/Gallery";
+import Messages from "@/views/Messages";
 import Quiz from "@/views/Quiz";
 import About from "@/views/About";
 
@@ -32,6 +33,14 @@ const routes = [
     meta: {
       title: "Presents"
     },
+  },
+  {
+    path: "/Messages",
+    name: "Messages",
+    component: Messages,
+    meta: {
+      title: "Messages"
+    }
   },
   {
     path: "/Quiz",

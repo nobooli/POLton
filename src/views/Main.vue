@@ -66,7 +66,7 @@
         tent: "img/TEMT_WITH_BOWS_1000.png",
         links: [
           { // trivia quiz
-            link: "/About",
+            link: "/Messages",
             img: "img/letter_idle_300.png",
             img_hover: "img/letter_hover_300.png",
             id: "letter-zain",
