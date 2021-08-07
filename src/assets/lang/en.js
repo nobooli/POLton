@@ -21,11 +21,8 @@ module.exports = {
     design: "Design: gokiburi",
     art: "Art: hellscrossing, raim, gokiburi",
     sound: "Audio: BunBun",
-    specialThanks: "Special Thanks to: Vee, Niels, BunBun, Hosu, AmamiyMio, nikki",
+    specialThanks: "Special Thanks to: Vee, Niels, BunBun, Hosu, AmamiyMio, nikki, Warthog, mugichos",
     translationCredits: "Translation: ",
-    entersomewords:
-      "Please enter the sentence you want to generate(please don't write too long, it may lag)",
-    generate: "Generate",
     helpdevelope: "Help improve the website",
     volume: "Volume",
     addtohomescreen: "Add Lulu Button to home screen",
