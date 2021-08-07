@@ -2,77 +2,77 @@
     "art_pieces": [
         {
             "path": "img/art/Forever9Nine.png",
-            "thumbnail": "img/art/Forever9Nine_thumbnail_400.png",
+            "thumbnail": "img/art/Forever9Nine_thumbnail_300.png",
             "artist":"Forever9Nine",
             "artist_discord":"",
             "artist_twitter": "@_K_le"
         },
         {
             "path": "img/art/yaki_ebiko.png",
-            "thumbnail": "img/art/yaki_ebiko_thumbnail_400.png",
+            "thumbnail": "img/art/yaki_ebiko_thumbnail_300.png",
             "artist":"えびこ焼き",
             "artist_discord":"yaki_ebiko#0001",
             "artist_twitter": "@yaki_ebiko"
         },
         {
             "path": "img/art/LeslieEmpty.png",
-            "thumbnail": "img/art/LeslieEmpty_thumbnail_400.png",
+            "thumbnail": "img/art/LeslieEmpty_thumbnail_300.png",
             "artist":"Leslie Empty",
             "artist_discord":"LeslieEmpty#5398",
             "artist_twitter": ""
         },
         {
             "path": "img/art/Ryuran.png",
-            "thumbnail": "img/art/Ryuran_thumbnail_400.png",
+            "thumbnail": "img/art/Ryuran_thumbnail_300.png",
             "artist":"Ryuran",
             "artist_discord":"Ryukoshin#8997",
             "artist_twitter": "@ryuraan"
         },
         {
             "path": "img/art/AnatoleSerial.png",
-            "thumbnail": "img/art/AnatoleSerial_thumbnail_400.png",
+            "thumbnail": "img/art/AnatoleSerial_thumbnail_300.png",
             "artist":"AnatoleSerial",
             "artist_discord":"AnatoleSerial#9224",
             "artist_twitter": ""
         },
         {
             "path": "img/art/Rinri.png",
-            "thumbnail": "img/art/Rinri_thumbnail_400.png",
+            "thumbnail": "img/art/Rinri_thumbnail_300.png",
             "artist":"Rinri",
             "artist_discord":"Rinri#3119",
             "artist_twitter": "@RinriLevaringe"
         },
         {
             "path": "img/art/gokiburi.png",
-            "thumbnail": "img/art/gokiburi_thumbnail_400.png",
+            "thumbnail": "img/art/gokiburi_thumbnail_300.png",
             "artist":"gokiburi",
             "artist_discord":"gokiburi#5555",
             "artist_twitter": ""
         },
         {
             "path": "img/art/John3rou.png",
-            "thumbnail": "img/art/John3rou_thumbnail_400.png",
+            "thumbnail": "img/art/John3rou_thumbnail_300.png",
             "artist":"ジョン三郎【おまる座曲芸のくま】",
             "artist_discord":"ジョン三郎＃9406",
             "artist_twitter": "@John3rou"
         },
         {
             "path": "img/art/SanzeGorou.png",
-            "thumbnail": "img/art/SanzeGorou_thumbnail_400.png",
+            "thumbnail": "img/art/SanzeGorou_thumbnail_300.png",
             "artist":"三世吾郎",
             "artist_discord":"",
             "artist_twitter": "@SanzeGorouART"
         },
         {
             "path": "img/art/hellscrossing.png",
-            "thumbnail": "img/art/hellscrossing_thumbnail_400.png",
+            "thumbnail": "img/art/hellscrossing_thumbnail_300.png",
             "artist":"hellscrossing",
             "artist_discord":"hellscrossing#8166",
             "artist_twitter": ""
         },
         {
             "path": "img/art/tokimi_yukikaze.png",
-            "thumbnail": "img/art/tokimi_yukikaze_thumbnail_400.png",
+            "thumbnail": "img/art/tokimi_yukikaze_thumbnail_300.png",
             "artist":"雪風ときみ",
             "artist_discord":"雪風ときみ#8459",
             "artist_twitter": "@tokimi_yukikaze"
