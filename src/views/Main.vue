@@ -29,6 +29,18 @@
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
+      <img :src="tent" style="max-width: 60%">
+      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
+    </v-row>
+    <v-row>
+      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
+      <v-col>
       <v-hover class="navi-zain">
         <a href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA" id="flag-zain">
           <img :src="hovered_zain === -1 ? flag_hover : flag_idle"
@@ -36,6 +48,7 @@
             @mouseleave="hovered_zain = null">
         </a>
       </v-hover>
+      </v-col>
       <v-col v-for="(link, i) in links"
         :key="i"
         >
@@ -74,31 +87,32 @@
         congrats_message: congrats_message,
         crowd: crowd,
         hovered_zain: null,
-        flag_idle: "/img/flag_idle_150.png",
-        flag_hover: "/img/flag_hover_150.png",
+        flag_idle: "/img/flag_idle_300.png",
+        flag_hover: "/img/flag_hover_300.png",
+        tent: "/img/TEMT WITH BOWS.png",
         links: [
           { // trivia quiz
             link: "/About",
-            img: "/img/letter_idle_150.png",
-            img_hover: "/img/letter_hover_150.png",
+            img: "/img/letter_idle_300.png",
+            img_hover: "/img/letter_hover_300.png",
             id: "letter-zain"
           },
           { // gallery
             link: "/Presents",
-            img: "/img/gallery_idle_150.png",
-            img_hover: "/img/gallery_hover_150.png",
+            img: "/img/gallery_idle_300.png",
+            img_hover: "/img/gallery_hover_300.png",
             id: "gallery-zain"
           },
           { // soundboard
             link: "/Soundboard",
-            img: "/img/megaphone_idle_150.png",
-            img_hover: "/img/megaphone_hover_150.png",
+            img: "/img/megaphone_idle_300.png",
+            img_hover: "/img/megaphone_hover_300.png",
             id: "megaphone-zain"
           },
           { // top of page
             link: "#",
-            img: "/img/ball_idle_150.png",
-            img_hover: "/img/ball_hover_150.png",
+            img: "/img/ball_idle_300.png",
+            img_hover: "/img/ball_hover_300.png",
             id: "ball-zain"
           }
         ],

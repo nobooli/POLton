@@ -3,7 +3,7 @@
     <v-bottom-navigation fixed>
       <v-slider
         class="pt-4 ml-4"
-        style="width:20rem"
+        style="width:75%"
         v-model="volume"
         :label="this.$t('ui.volume')"
         thumb-label
