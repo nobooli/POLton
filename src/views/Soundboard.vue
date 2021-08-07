@@ -139,10 +139,14 @@ export default {
   },
   computed: {
     playlistUrl() {
-      return `${window.location.origin}?playlist=${this.orderlist.reduce(
-        (r, k) => `${!r ? r : r + ";"}${k.key}`,
-        ""
-      )}`;
+      var currentUrl = `${window.location}`;
+      var finalUrl = currentUrl.indexOf("playlist") < 0
+        ? `${window.location}?playlist=${this.orderlist.reduce(
+            (r, k) => `${!r ? r : r + ";"}${k.key}`,
+            ""
+          )}`
+        : currentUrl;
+      return finalUrl;
     },
   },
   methods: {
@@ -169,12 +173,6 @@ export default {
       audio.src = "voices/" + item.path;
       audio.preload = true;
       this.voice = item;
-      audio.play();
-    },
-    playSpecial() {
-      let audio = new Audio();
-      audio.src = "voices/私货.mp3";
-      audio.preload = true;
       audio.play();
     },
     deletelist(i) {
