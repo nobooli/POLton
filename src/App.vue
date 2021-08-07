@@ -108,6 +108,6 @@ export default {
 
 <style>
 #app {
-  background: url('img/background-250x250.png');
+  background: url('~@/assets/background-250x250.png');
 }
 </style>
