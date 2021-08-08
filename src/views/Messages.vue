@@ -56,7 +56,7 @@ export default {
 }
 
 .message {
-    background: white;
+    background: rgb(231, 196, 196);
     border: .25em solid #bb2830;
     padding: .75em;
     margin-bottom: 3em;
@@ -83,5 +83,6 @@ export default {
 .profile-pic {
     max-width: 64px;
     max-height: 64px;
+    border: 3px solid #3595e0;
 }
 </style>
