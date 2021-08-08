@@ -63,29 +63,4 @@ export default {
 .art-album a{
     max-height: 500px;
 }
-
-.messages-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.message {
-    max-width: 33%;
-}
-
-.message-body {
-    max-width: 33%;
-    white-space: pre;
-}
-
-.message-body > .v-divider {
-    margin: 1em;
-}
-
-.profile-pic {
-    max-width: 64px;
-    max-height: 64px;
-}
 </style>
