@@ -6,26 +6,30 @@
             </v-card>
         </v-row>
         <!-- messages -->
-        <v-row>
-            <div class=".messages-container">
-                <v-card v-for="message in messages" :key="message.name" class="message">
-                    <v-card-title>
-                        <img class="profile-pic" :src="message.profile_pic">
+        <div class=".messages-container" style="column-count: 3">
+            <div v-for="message in messages" :key="message.name" class="message">
+                <div class="profile">
+                    <div class="name">
                         {{ message.name }}
-                        <span :class="message.country_flag"></span>
-                    </v-card-title>
-                    <v-card-subtitle>{{ message.sns_tags }}</v-card-subtitle>
-                    <v-card-text class="message-body" v-if="!message_jp">
-                        {{ message.message }}
-                    </v-card-text>
-                    <v-card-text class="message-body" v-else>
-                        {{ message.message_jp }}
-                        <v-divider v-if="!(message.message_jp === '')"></v-divider>
-                        {{ message.message }}
-                    </v-card-text>
-                </v-card>
-            </div> 
-        </v-row>
+                        <span v-if="message.country_flag" :class="message.country_flag" style="right-align"></span>
+                        <div class="sns">
+                            <span class="sns-tags">{{ message.sns_tags }}</span>
+                        </div>
+                    </div>
+                    <div class="pfp">
+                        <img v-if="message.profile_pic" class="profile-pic" :src="message.profile_pic">
+                    </div>
+                </div>
+                <br />
+                <div class="message-text">
+                    {{ message.message }}
+                </div>
+                <div v-if="message.message_jp">
+                    <v-divider></v-divider>
+                    {{ message.message_jp }} 
+                </div>
+            </div>
+        </div> 
     </v-container>    
 </template>
 
@@ -47,19 +51,33 @@ export default {
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
+    flex-direction: column;
+    column-count: 3;
 }
 
 .message {
-    max-width: 33%;
+    background: white;
+    border: .25em solid #bb2830;
+    padding: .75em;
+    margin-bottom: 3em;
 }
 
-.message-body {
-    max-width: 33%;
-    white-space: pre;
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    font-size: 1.4em;
 }
 
-.message-body > .v-divider {
-    margin: 1em;
+.sns-tags {
+    font-size: .7em;
+    font-style: italic;
+    /* white-space: nowrap; */
+}
+
+.v-divider {
+    margin: 1em 0 1em 0;
 }
 
 .profile-pic {

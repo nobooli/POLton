@@ -10,13 +10,7 @@ import VueCookies from 'vue-cookies'
 import '@mdi/font/css/materialdesignicons.css'
 import './registerServiceWorker'
 import '@pwabuilder/pwaupdate'
-//import VueMasonryPlugin from 'vue-masonry'
-//import SimpleLightBox from 'vue-simple-lightbox'
 
-//Vue.use(VueMasonryPlugin);
-//var VueMasonryPlugin = window["vue-masonry-plugin"].VueMasonryPlugin
-//Vue.use(VueMasonryPlugin)
-//Vue.use(SimpleLightBox);
 Vue.use(VueCookies);
 Vue.config.productionTip = false;
 Vue.use(VueI18n);

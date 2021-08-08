@@ -7,7 +7,7 @@
     "serve:docs": "cd docs && npm run dev",
     "build:docs": "cd docs && npm install && npm run build",
     "build:webapp": "vue-cli-service build",
-    "build": "npm run build:docs && npm run build:webapp",
+    "build": "npm run build:webapp",
     "lint": "vue-cli-service lint",
     "deploy": "node scripts/gh-pages-deploy.js"
   },
@@ -17,15 +17,13 @@
     "core-js": "^3.6.5",
     "cross-env": "^7.0.3",
     "flag-icon-css": "^3.5.0",
-    "masonry-layout": "^4.2.2",
+    "imagesloaded": "^4.1.4",
     "register-service-worker": "^1.7.1",
     "simplelightbox": "^2.8.0",
     "vue": "^2.6.10",
     "vue-cookies": "^1.7.0",
     "vue-i18n": "^8.18.1",
-    "vue-masonry": "^0.13.0",
     "vue-router": "^3.3.2",
-    "vue-simple-lightbox": "^1.1.0",
     "vuetify": "^2.2.32",
     "vuex": "^3.4.0"
   },
@@ -39,12 +37,12 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "execa": "latest",
     "sass": "^1.26.8",
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-vuetify": "^2.0.5",
     "vue-template-compiler": "^2.6.10",
-    "vuetify-loader": "^1.4.4",
-    "execa": "latest"
+    "vuetify-loader": "^1.4.4"
   },
   "eslintConfig": {
     "root": true,

@@ -33,8 +33,8 @@
         copiedToClipboard: "{value}はこぴる",
     },
     link: {
-        soundboard: "ぽるタン",
-        presents: "プレゼント",
+        soundboard: "ぽるボタン",
+        presents: "イラスト",
         messages: "メッセージ",
         quiz: "クイズ",
         about: "ガラミ"
