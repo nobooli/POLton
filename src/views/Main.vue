@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="title_card">
       <v-card>
-          <v-card-title>
+          <v-card-title class="welcome-message">
             Congratulations on your 1st Anniversary Polka!
           </v-card-title>
           <v-card-title>
@@ -113,6 +113,10 @@
 </script>
 
 <style>
+.welcome-message {
+  overflow-wrap: normal;
+}
+
 .a {
   text-decoration: none;
 }
