@@ -1,9 +1,7 @@
 <template>
     <v-container>
         <div class="title-card">
-            <div class="title-text">
-                <span>Messages</span>
-            </div>
+            <h1 class="title-text">Messages</h1>
         </div>
         <!-- messages -->
         <div id="messages">
@@ -51,7 +49,10 @@ export default {
 
 <style>
 .title-card {
-    min-height: 15vh;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title-text {
@@ -79,12 +80,14 @@ export default {
 }
 
 #messages {
+    min-height: 15vh;
     column-gap: 1.25rem;
 }
 
 .message {
     padding: .75em;
     border-radius: 1%;
+    overflow: hidden;
 }
 
 .title-card, .message {
