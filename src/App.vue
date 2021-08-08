@@ -20,24 +20,26 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
-
     <Topbar></Topbar>
     <v-content app>
       <v-container fluid class="mb-10">
         <router-view></router-view>
       </v-container>
     </v-content>
-
+    <Footer></Footer>
   </v-app>
 </template>
 
 <script>
 import Topbar from "./components/Topbar.vue";
+import Footer from "./components/Footer.vue";
+
 export default {
   name: "App",
 
   components: {
     Topbar,
+    Footer
   },
 
   data: () => ({
