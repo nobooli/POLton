@@ -34,7 +34,6 @@ export default {
     data() {
         return {
             art_pieces: art_pieces.art_pieces,
-            thumbnail_sizes: "(max-width: 600px) 150px, 300px",
             options: {
                 closeText: "X",
                 captions: "true",
