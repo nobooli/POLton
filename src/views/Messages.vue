@@ -1,10 +1,10 @@
 <template>
     <v-container>
-        <v-row class="title_card">
-            <v-card>
-                <v-card-title>Messages</v-card-title>
-            </v-card>
-        </v-row>
+        <div class="title_card">
+            <div class="title_text">
+                Messages
+            </div>
+        </div>
         <!-- messages -->
         <div class=".messages-container" style="column-count: 3">
             <div v-for="message in messages" :key="message.name" class="message">
@@ -21,10 +21,10 @@
                     </div>
                 </div>
                 <br />
-                <div class="message-text">
+                <div class="message_text">
                     {{ message.message }}
                 </div>
-                <div v-if="message.message_jp">
+                <div v-if="message.message_jp" class="message_text">
                     <v-divider></v-divider>
                     {{ message.message_jp }} 
                 </div>
@@ -46,6 +46,19 @@ export default {
 </script>
 
 <style>
+.title_card {
+    background: #E7C4C4;
+    margin-bottom: 3em;
+    border: .3em solid #8f3c73;
+    min-height: 1%;
+}
+
+.title_text {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
 .messages-container {
     display: flex;
     flex-flow: row wrap;
@@ -56,10 +69,16 @@ export default {
 }
 
 .message {
-    background: rgb(231, 196, 196);
+    background: #E7C4C4;
     padding: .75em;
     margin-bottom: 3em;
     box-shadow: 5px 8px 20px -5px rgba(10,10,10,.75);
+    border: .3em solid #8f3c73;
+    border-radius: 1%
+}
+
+.title_text, .name, .message_text {
+    color: #661010;
 }
 
 .profile {
@@ -73,7 +92,7 @@ export default {
 .sns-tags {
     font-size: .7em;
     font-style: italic;
-    /* white-space: nowrap; */
+    color: #193d5c;
 }
 
 .v-divider {
@@ -83,7 +102,7 @@ export default {
 .profile-pic {
     max-width: 64px;
     max-height: 64px;
-    /* border: 3px solid #3595e0; */
     border-radius: 50%;
+    border: .15em solid #8f3c73;
 }
 </style>
