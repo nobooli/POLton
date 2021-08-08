@@ -2,11 +2,11 @@
     <v-container>
         <div class="title-card">
             <div class="title-text">
-                Messages
+                <span>Messages</span>
             </div>
         </div>
         <!-- messages -->
-        <div id="messages" class=".messages-container">
+        <div id="messages">
             <div v-for="message in messages" :key="message.name" class="message">
                 <div class="profile">
                     <div class="name">
@@ -26,8 +26,8 @@
                         {{ message.message }}
                     </p>
                 </div>
+                <hr v-if="message.message_jp" class="divider">
                 <div v-if="message.message_jp" class="message-text">
-                    <v-divider></v-divider>
                     <p>
                         {{ message.message_jp }} 
                     </p>
@@ -78,6 +78,10 @@ export default {
     }
 }
 
+#messages {
+    column-gap: 1.25rem;
+}
+
 .message {
     padding: .75em;
     border-radius: 1%;
@@ -106,7 +110,8 @@ export default {
     font-size: 1.4em;
 }
 
-.v-divider {
+.divider {
+    color: rgba(0, 0, 0, 0.12);
     margin: 1em 0 1em 0;
 }
 
