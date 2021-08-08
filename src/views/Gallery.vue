@@ -50,17 +50,9 @@ export default {
     justify-content: center;
 }
 
-.art {
-    max-width: 500px;
-}
-
 .art-album {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-}
-
-.art-album a {
-    max-height: 500px;
 }
 </style>
