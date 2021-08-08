@@ -6,7 +6,7 @@
             Congratulations on your 1st Anniversary Polka!
           </v-card-title>
           <v-card-title>
-            ポルカ、一周年おめでとうございます!
+            座長、一周年おめでとうございます!
           </v-card-title>
       </v-card>
     </div>
