@@ -1,32 +1,36 @@
 <template>
     <v-container>
-        <div class="title_card">
-            <div class="title_text">
+        <div class="title-card">
+            <div class="title-text">
                 Messages
             </div>
         </div>
         <!-- messages -->
-        <div class=".messages-container" style="column-count: 3">
+        <div id="messages" class=".messages-container">
             <div v-for="message in messages" :key="message.name" class="message">
                 <div class="profile">
                     <div class="name">
-                        {{ message.name }}
-                        <span v-if="message.country_flag" :class="message.country_flag" style="right-align"></span>
-                        <div class="sns">
-                            <span class="sns-tags">{{ message.sns_tags }}</span>
-                        </div>
-                    </div>
+                        <span>{{ message.name }}</span>
+                        <br>
+                        <span v-if="message.country_flag" 
+                            :class="message.country_flag" 
+                            style="right-align"></span>
+                   </div>
                     <div class="pfp">
                         <img v-if="message.profile_pic" class="profile-pic" :src="message.profile_pic">
                     </div>
                 </div>
                 <br />
-                <div class="message_text">
-                    {{ message.message }}
+                <div class="message-text">
+                    <p>
+                        {{ message.message }}
+                    </p>
                 </div>
-                <div v-if="message.message_jp" class="message_text">
+                <div v-if="message.message_jp" class="message-text">
                     <v-divider></v-divider>
-                    {{ message.message_jp }} 
+                    <p>
+                        {{ message.message_jp }} 
+                    </p>
                 </div>
             </div>
         </div> 
@@ -46,39 +50,52 @@ export default {
 </script>
 
 <style>
-.title_card {
-    background: #E7C4C4;
-    margin-bottom: 3em;
-    border: .3em solid #8f3c73;
-    min-height: 1%;
+.title-card {
+    min-height: 15vh;
 }
 
-.title_text {
+.title-text {
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 2rem;
 }
 
-.messages-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    column-count: 3;
+@media screen and ( min-width: 600px) {
+    #messages {
+        column-count: 1;
+    }
+}
+
+@media screen and ( min-width: 960px) {
+    #messages {
+        column-count: 2;
+    }
+}
+
+@media screen and ( min-width: 1280px) {
+    #messages {
+        column-count: 3;
+    }
 }
 
 .message {
-    background: #E7C4C4;
     padding: .75em;
+    border-radius: 1%;
+}
+
+.title-card, .message {
+    background: #E7C4C4;
     margin-bottom: 3em;
     box-shadow: 5px 8px 20px -5px rgba(10,10,10,.75);
     border: .3em solid #8f3c73;
-    border-radius: 1%
 }
 
-.title_text, .name, .message_text {
+.title-text, .name, .message-text {
     color: #661010;
+}
+
+.message-text {
+    white-space: pre-line;
 }
 
 .profile {
@@ -87,12 +104,6 @@ export default {
 }
 .name {
     font-size: 1.4em;
-}
-
-.sns-tags {
-    font-size: .7em;
-    font-style: italic;
-    color: #193d5c;
 }
 
 .v-divider {
