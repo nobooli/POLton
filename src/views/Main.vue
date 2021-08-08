@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row class="title_card">
+    <div class="title_card">
       <v-card>
           <v-card-title class="welcome-message">
             Congratulations on your 1st Anniversary Polka!
@@ -9,68 +9,57 @@
             ポルカ、一周年おめでとうございます!
           </v-card-title>
       </v-card>
-    </v-row>
-    <v-row>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-      <img :src="tent" style="max-width: 60%">
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-    </v-row>
-    <v-row>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-      <v-col style="max-width: 20%">
+    </div>
+    <div class="tent">
+      <img :src="tent" 
+        :srcset="tent_srcset"
+        :sizes="tent_sizes">
+    </div>
+    <div class="navi-zains">
       <v-hover class="navi-zain">
         <a href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA" id="flag-zain">
           <img :src="hovered_zain === -1 ? flag_hover : flag_idle"
             @mouseover="hovered_zain = -1"
-            @mouseleave="hovered_zain = null">
+            @mouseleave="hovered_zain = null"
+            :srcset="hovered_zain === -1 ? flag_srcset_hover : flag_srcset_hover"
+            :sizes="zain_sizes">
         </a>
       </v-hover>
-      </v-col>
-      <v-col v-for="(link, i) in links"
-        :key="i"
-        style="max-width: 20%">
-        <v-hover class="navi-zain">
-          <router-link :to="link.link">
-            <img :id="link.id"
-              :src="hovered_zain === i ? link.img_hover : link.img" 
-              @mouseover="hovered_zain = i" 
-              @mouseleave="hovered_zain = null">
-          </router-link>
-        </v-hover>
-      </v-col>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-      <v-spacer></v-spacer>
-    </v-row>
+      <v-hover class="navi-zain" v-for="(link, i) in links"
+      :key="i">
+        <router-link :to="link.link">
+          <img :id="link.id"
+            :src="hovered_zain === i ? link.img_hover : link.img" 
+            @mouseover="hovered_zain = i" 
+            @mouseleave="hovered_zain = null"
+            :srcset="hovered_zain === i ? link.srcset_hover : link.srcset"
+            :sizes="zain_sizes">
+        </router-link>
+      </v-hover>
+    </div>
   </v-container>
 </template>
 
 <script>
-
   export default {
     data: function() {
       return {
         hovered_zain: null,
+        zain_sizes: "(max-width: 600px) 75px, (max-width: 1280px) 150px, 300px",
         flag_idle: "img/flag_idle_300.png",
         flag_hover: "img/flag_hover_300.png",
+        flag_srcset: "img/flag_idle_75.png 75w, img/flag_idle_150.png 150w, img/flag_idle_300.png 300w",
+        flag_srcset_hover: "img/flag_idle_75.png 75w, img/flag_idle_300.png 300w",
         tent: "img/TEMT_WITH_BOWS_1000.png",
+        tent_srcset: "img/TEMT_WITH_BOWS_250.png 250w, img/TEMT_WITH_BOWS_500.png 500w, img/TEMT_WITH_BOWS_1000.png 1000w",
+        tent_sizes: "(max-width: 600px) 250px, (max-width: 1280px) 500px, 1000px",
         links: [
           { // trivia quiz
             link: "/Messages",
             img: "img/letter_idle_300.png",
             img_hover: "img/letter_hover_300.png",
             id: "letter-zain",
-            srcset: "",
+            srcset: "img/letter_idle_75.png 75w, img/letter_idle_150.png 150w, img/letter_idle_300.png 300w",
             srcset_hover: ""
           },
           { // gallery
@@ -78,7 +67,7 @@
             img: "img/gallery_idle_300.png",
             img_hover: "img/gallery_hover_300.png",
             id: "gallery-zain",
-            srcset: "",
+            srcset: "img/gallery_idle_75.png 75w, img/gallery_idle_150.png 150w, img/gallery_idle_300.png 300w",
             srcset_hover: ""
           },
           { // soundboard
@@ -86,7 +75,7 @@
             img: "img/megaphone_idle_300.png",
             img_hover: "img/megaphone_hover_300.png",
             id: "megaphone-zain",
-            srcset: "",
+            srcset: "img/megaphone_idle_75.png 75w, img/megaphone_idle_150.png 150w, img/megaphone_idle_300.png 300w",
             srcset_hover: ""
           },
           { // Quiz
@@ -94,7 +83,7 @@
             img: "img/quiz_idle_300.png",
             img_hover: "img/quiz_hover_300.png",
             id: "ball-zain",
-            srcset: "",
+            srcset: "img/quiz_idle_75.png 75w, img/quiz_idle_150.png 150w, img/quiz_idle_300.png 300w",
             srcset_hover: ""
           }
         ]
@@ -114,7 +103,7 @@
 
 <style>
 .welcome-message {
-  overflow-wrap: normal;
+  word-break: keep-all;
 }
 
 .a {
@@ -130,12 +119,9 @@
   display: inline-block;
 }
 
-.navi-zain {
-  max-width: 10%;
-  min-width: 50px;
-}
-
-.gallery-zain {
-  min-width: 50px;
+.title_card, .navi-zains, .tent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
