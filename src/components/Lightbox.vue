@@ -24,7 +24,12 @@
   <div>
     <div class="my-gallery" :class="album_class">
       <a :href="image.path" v-for="(image,key) in images" v-bind:key="key">
-        <img :src="image.thumbnail" alt="" :title="image.artist" :class="image_class" />
+        <img :src="image.thumbnail" 
+          alt="" 
+          :title="image.artist" 
+          :class="image_class"
+          :srcset="image.thumbnail_srcset"
+          :sizes="thumbnail_sizes" />
       </a>
     </div>
   </div>
@@ -68,7 +73,13 @@ export default{
       // eslint-disable-next-line no-console
       console.log('something')
     }
+  },
+  data() {
+    return {
+      thumbnail_sizes: "(max-width: 600px) 150px, 300px",
+    }
   }
+
 }
 </script>
 
