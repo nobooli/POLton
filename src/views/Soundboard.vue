@@ -2,6 +2,14 @@
   <v-container>
     <div id="control-bar">
       <div id="volume-bar">
+        <v-btn icon dark @click="mute">
+          <v-icon>
+            mdi-volume-off
+          </v-icon>
+        </v-btn>
+        <v-btn icon dark @click="stopplay">
+          <v-icon>mdi-square</v-icon>
+        </v-btn>
         <v-slider
           class="pt-4 ml-4"
           v-model="volume"
@@ -118,6 +126,8 @@ export default {
     repeatmode: false,
     arrysize: 0,
     volume: 50,
+    previousVolume: 0,
+    muted: false
   }),
   mounted() {
     for (const [gIndex, group] of Object.entries(voicelist.groups)) {
@@ -213,6 +223,16 @@ export default {
     stopplay() {
       this.audio.pause();
       i = 0;
+    },
+    mute() {
+      if (this.volume === 0) {
+        this.volume = this.previousVolume;
+      } else {
+        this.previousVolume = this.volume;
+        this.audio.pause();
+        this.audio.load();
+        this.volume = 0;
+      }
     },
   },
 };
