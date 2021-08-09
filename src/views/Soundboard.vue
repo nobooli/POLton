@@ -16,7 +16,7 @@
               ? 'mdi-volume-low' : 
               (this.volume < 66 ? 'mdi-volume-medium' : 'mdi-volume-high')) 
             : 'mdi-volume-off'"
-          @end="audio.volume = (isNaN(this.volume) || this.volume === 0) ? 0 : this.volume / 100"
+          @change="audio.volume = this.value / 100"
           @click:prepend="() => {
             if(!isNaN(this.volume) && this.volume > 0) {
               previousVolume = this.volume;
@@ -277,6 +277,10 @@ export default {
 
 #volume-bar {
   flex: 1;
+}
+
+#volume-bar > .v-input__slider {
+  margin-right: 16px;
 }
 
 #control-btns {
