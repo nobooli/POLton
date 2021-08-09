@@ -13,7 +13,7 @@
                         <span v-if="message.country_flag" 
                             :class="message.country_flag" 
                             style="right-align"></span>
-                   </div>
+                    </div>
                     <div class="pfp">
                         <img v-if="message.profile_pic" class="profile-pic" :src="message.profile_pic">
                     </div>
@@ -88,6 +88,8 @@ export default {
     padding: .75em;
     border-radius: 1%;
     overflow: hidden;
+    display: inline-block;
+    width: 100%;
 }
 
 .title-card, .message {
@@ -108,6 +110,8 @@ export default {
 .profile {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 4rem;
 }
 .name {
     font-size: 1.4em;
