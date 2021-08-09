@@ -1,22 +1,18 @@
 <template>
     <v-container>
         <!-- title -->
-        <v-row class="title_card">
-            <v-card>
-                <v-card-title>Art 美術館</v-card-title>
-            </v-card>
-        </v-row>
+        <div class="title-card">
+            <h1 class="title-text">Art イラスト</h1>
+        </div>
         <!-- gallery Lightbox -->
-        <v-row>
-            <div class=".gallery-container">
-                <lightbox id="art_gallery"
-                    :images="art_pieces"
-                    :image_class="'art'"
-                    :album_class="'art-album'"
-                    :options="options">
-                </lightbox>
-            </div>
-        </v-row>
+        <div class=".gallery-container">
+            <lightbox id="art_gallery"
+                :images="art_pieces"
+                :image_class="'art'"
+                :album_class="'art-album'"
+                :options="options">
+            </lightbox>
+        </div>
     </v-container>
 </template>
 
@@ -45,11 +41,6 @@ export default {
 </script>
 
 <style>
-.title_card {
-    display: flex;
-    justify-content: center;
-}
-
 .art-album {
     display: flex;
     flex-flow: row wrap;
