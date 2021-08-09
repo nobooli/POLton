@@ -9,13 +9,38 @@
           thumb-label
           max="100"
           min="0"
+          :key="sliderKey"
           dense
           :prepend-icon="this.volume 
             ? (this.volume < 33 
               ? 'mdi-volume-low' : 
               (this.volume < 66 ? 'mdi-volume-medium' : 'mdi-volume-high')) 
             : 'mdi-volume-off'"
-          @end="audio.volume = isNaN(this.volume) ? 0 : this.volume / 100"
+          @end="audio.volume = (isNaN(this.volume) || this.volume === 0) ? 0 : this.volume / 100"
+          @click:prepend="() => {
+            if(!isNaN(this.volume) && this.volume > 0) {
+              previousVolume = this.volume;
+              this.volume = audio.volume = 0;
+              audio.volume = 0;
+            } else {
+              this.volume = previousVolume;
+              audio.volume = previousVolume / 100;
+            }
+          }"
+          :append-icon="!audio.src 
+            ? 'mdi-play-outline' // gacha if no src set
+            : audio.ended && audio.paused ? 'mdi-replay'
+              : audio.paused ? 'mdi-play' : 'mdi-pause'"
+          @click:append="() => {
+            if (!audio.src) { return; }
+            if (audio.paused || audio.ended) { // an ended audio element will start over
+              audio.play();
+              audio.addEventListener('ended', () => { sliderKey += 1; }, false);
+              audio.addEventListener('seeking', () => { sliderKey += 1; }, false);
+            } else {
+              audio.pause();
+            }
+          }"
         ></v-slider>
       </div>
       <div id="control-btns">
@@ -123,7 +148,8 @@ export default {
     arrysize: 0,
     volume: 50,
     previousVolume: 0,
-    muted: false
+    muted: false,
+    sliderKey: 0
   }),
   mounted() {
     for (const [gIndex, group] of Object.entries(voicelist.groups)) {
@@ -170,6 +196,8 @@ export default {
       this.voice = item;
       this.audio.volume = this.volume / 100;
       this.audio.play();
+      this.audio.addEventListener("ended", () => { this.sliderKey += 1; }, false);
+      this.audio.addEventListener('seeking', () => { this.sliderKey += 1; }, false);
     },
     playOnly(item) {
       // this.audio = new Audio();
@@ -177,6 +205,8 @@ export default {
       this.audio.preload = true;
       this.voice = item;
       this.audio.play();
+      this.audio.addEventListener("ended", () => { this.sliderKey += 1; }, false);
+      this.audio.addEventListener('seeking', () => { this.sliderKey += 1; }, false);
     },
     deletelist(i) {
       //删除序列中的一个值
@@ -215,38 +245,9 @@ export default {
     },
     resetorder() {
       this.orderlist = [];
-    },
-    playButton() {
-      if (!this.audio.paused) { // was playing
-        this.audio.pause();
-        // set play button icon to mdi-play
-      }
-      if (this.audio.src) { // was paused or replayed
-        this.audio.play();
-        // set play button icon to mdi-pause
-      }
-      // no track selected, nothing playing. choose random track
-
-      // add event handler to the ended event to transform the play button into the mdi-replay icon
-      }
-    },
-    volumeButton() {
-      // attach this to @click:prepend
-      if (this.volume === 0) { // raise volume back previous level
-        this.volume = this.previousVolume;
-        // set volume button icon to mdi-volume
-      } else { // lower level of volume to zero, let audio keep playing
-        this.previousVolume = this.volume;
-        this.volume = 0;
-        // set volume button icon to mdi-volume-mute
-      }
-    },
-    volumeAdjustment(newVolume) {
-      // attach this to @end
-      this.volume = newVolume;
-      this.audio.volume = newVolume / 100;
     }
   }
+}
 </script>
 
 <style>
