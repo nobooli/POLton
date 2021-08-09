@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <div class="title-card">
-            <h1 class="title-text">Messages</h1>
+            <h1 class="title-text">{{$t('link.messages')}}</h1>
         </div>
         <!-- messages -->
         <div id="messages">

@@ -2,7 +2,7 @@
     <v-container>
         <!-- title -->
         <div class="title-card">
-            <h1 class="title-text">Art イラスト</h1>
+            <h1 class="title-text">{{$t('link.presents')}}</h1>
         </div>
         <!-- gallery Lightbox -->
         <div class=".gallery-container">

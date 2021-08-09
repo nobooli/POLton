@@ -1,6 +1,6 @@
 module.exports = {
   ui: {
-    title: "Polka",
+    title: "",
     mediacontorl: "Control Button",
     stopplay: "Stop",
     helptitle: "Help",
@@ -32,6 +32,7 @@ module.exports = {
       "This site supports PWA. You can add this sit to the home screen like normal apps and use it offline.",
     friendlinks: "friend links",
     copiedToClipboard: "Copied {value} to clipboard",
+    messages: "Messages",
   },
   link: {
     soundboard: "Soundboard",

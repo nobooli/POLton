@@ -1,6 +1,6 @@
 ﻿module.exports = {
     ui: {
-        title: "ポルカ",
+        title: "",
         mediacontorl: "コントロールボタン",
         stopplay: "停止",
         helptitle: "遊び方だね?",
@@ -31,6 +31,7 @@
         addtohomescreeninfo: "このウェブサイトはホロライブのファンによって運営されています。カバー株式会社およびホロライブとは一切関係ありません。",
         friendlinks: "リンク集",
         copiedToClipboard: "{value}はこぴる",
+        messages: "メッセージ",
     },
     link: {
         soundboard: "ぽるボタン",
