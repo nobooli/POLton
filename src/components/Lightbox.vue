@@ -26,7 +26,7 @@
       <a :href="image.path" v-for="(image,key) in images" v-bind:key="key">
         <img :src="image.thumbnail" 
           alt="" 
-          :title="image.artist" 
+          :title="image.artist_twitter" 
           :class="image_class"
           :srcset="image.thumbnail_srcset"
           :sizes="thumbnail_sizes" />
