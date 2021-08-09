@@ -2,15 +2,7 @@
   <v-container>
     <div id="control-bar">
       <div id="volume-bar">
-        <v-btn icon dark @click="muteButton">
-          <v-icon>
-            mdi-volume-off
-          </v-icon>
-        </v-btn>
-        <v-btn icon dark @click="stopButton">
-          <v-icon>mdi-square</v-icon>
-        </v-btn>
-        <v-slider
+       <v-slider id="volume_slider"
           class="pt-4 ml-4"
           v-model="volume"
           :label="this.$t('ui.volume')"
@@ -18,7 +10,12 @@
           max="100"
           min="0"
           dense
-          prepend-icon="mdi-volume-high"
+          :prepend-icon="this.volume 
+            ? (this.volume < 33 
+              ? 'mdi-volume-low' : 
+              (this.volume < 66 ? 'mdi-volume-medium' : 'mdi-volume-high')) 
+            : 'mdi-volume-off'"
+          @end="audio.volume = isNaN(this.volume) ? 0 : this.volume / 100"
         ></v-slider>
       </div>
       <div id="control-btns">
@@ -122,7 +119,6 @@ export default {
     orderdialog: false,
     orderlist: [],
     audio: new Audio(),
-    // activeAudio: new Audio(),
     repeatmode: false,
     arrysize: 0,
     volume: 50,
@@ -220,37 +216,35 @@ export default {
     resetorder() {
       this.orderlist = [];
     },
-    stopplay() {
-      this.audio.pause();
-      i = 0;
-    },
     playButton() {
-      if (!this.audio.paused) { // playing
+      if (!this.audio.paused) { // was playing
         this.audio.pause();
-        // transform button into play button (mdi-play)
+        // set play button icon to mdi-play
       }
-      if (this.audio.src) { // paused
+      if (this.audio.src) { // was paused or replayed
         this.audio.play();
-        // transform button into pause button (mdi-pause)
+        // set play button icon to mdi-pause
       }
       // no track selected, nothing playing. choose random track
 
-      // add event handler to the ended event to transform the play button into the replay button (mdi-replay)
+      // add event handler to the ended event to transform the play button into the mdi-replay icon
       }
-    },
-    stopButton() {
-      this.audio.pause();
-      this.audio.load();
     },
     volumeButton() {
-      if (this.volume === 0) {
+      // attach this to @click:prepend
+      if (this.volume === 0) { // raise volume back previous level
         this.volume = this.previousVolume;
-      } else {
+        // set volume button icon to mdi-volume
+      } else { // lower level of volume to zero, let audio keep playing
         this.previousVolume = this.volume;
-        this.audio.pause();
-        this.audio.load();
         this.volume = 0;
+        // set volume button icon to mdi-volume-mute
       }
+    },
+    volumeAdjustment(newVolume) {
+      // attach this to @end
+      this.volume = newVolume;
+      this.audio.volume = newVolume / 100;
     }
   }
 </script>
