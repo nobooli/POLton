@@ -2,12 +2,12 @@
   <v-container>
     <div id="control-bar">
       <div id="volume-bar">
-        <v-btn icon dark @click="mute">
+        <v-btn icon dark @click="muteButton">
           <v-icon>
             mdi-volume-off
           </v-icon>
         </v-btn>
-        <v-btn icon dark @click="stopplay">
+        <v-btn icon dark @click="stopButton">
           <v-icon>mdi-square</v-icon>
         </v-btn>
         <v-slider
@@ -224,7 +224,25 @@ export default {
       this.audio.pause();
       i = 0;
     },
-    mute() {
+    playButton() {
+      if (!this.audio.paused) { // playing
+        this.audio.pause();
+        // transform button into play button (mdi-play)
+      }
+      if (this.audio.src) { // paused
+        this.audio.play();
+        // transform button into pause button (mdi-pause)
+      }
+      // no track selected, nothing playing. choose random track
+
+      // add event handler to the ended event to transform the play button into the replay button (mdi-replay)
+      }
+    },
+    stopButton() {
+      this.audio.pause();
+      this.audio.load();
+    },
+    volumeButton() {
       if (this.volume === 0) {
         this.volume = this.previousVolume;
       } else {
