@@ -114,6 +114,7 @@ export default {
     orderdialog: false,
     orderlist: [],
     //helpdialog: false,
+    activeAudio: new Audio(),
     repeatmode: false,
     arrysize: 0,
     volume: 50,
@@ -128,7 +129,7 @@ export default {
     const playlist = this.$route.query.playlist;
     if (playlist) {
       this.orderplaymode = true;
-      playlist
+      playlist // push each parameter from the GET request into orderList
         .split(";")
         .map((v) => v.split(","))
         .forEach(([gIndex, vIndex]) => {
@@ -139,13 +140,9 @@ export default {
   },
   computed: {
     playlistUrl() {
-      var currentUrl = `${window.location}`;
-      var finalUrl = currentUrl.indexOf("playlist") < 0
-        ? `${window.location}?playlist=${this.orderlist.reduce(
-            (r, k) => `${!r ? r : r + ";"}${k.key}`,
-            ""
-          )}`
-        : currentUrl;
+      var url = window.location.origin + window.location.pathname;
+      var finalUrl = `${url}?playlist=${this.orderlist.reduce(
+            (r, k) => `${!r ? r : r + ";"}${k.key}`, "" )}`;
       return finalUrl;
     },
   },
