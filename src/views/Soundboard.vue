@@ -105,7 +105,7 @@
 import voicelist from "../assets/voices.json";
 import { copyToClipboard } from "@/common/clipboard";
 
-var audio = new Audio();
+// var audio = new Audio();
 var i = 0;
 export default {
   data: () => ({
@@ -113,8 +113,8 @@ export default {
     orderplaymode: false,
     orderdialog: false,
     orderlist: [],
-    //helpdialog: false,
-    activeAudio: new Audio(),
+    audio: new Audio(),
+    // activeAudio: new Audio(),
     repeatmode: false,
     arrysize: 0,
     volume: 50,
@@ -141,6 +141,7 @@ export default {
   computed: {
     playlistUrl() {
       var url = window.location.origin + window.location.pathname;
+      // build GET request
       var finalUrl = `${url}?playlist=${this.orderlist.reduce(
             (r, k) => `${!r ? r : r + ";"}${k.key}`, "" )}`;
       return finalUrl;
@@ -157,20 +158,19 @@ export default {
         window.console.log(this.orderlist);
       }
 
-      let audio = new Audio();
-      audio.preload = true;
-      audio.src = "voices/" + item.path;
-      this.$store.commit("setLastAudio", audio.src);
+      this.audio.preload = true;
+      this.audio.src = "voices/" + item.path;
+      this.$store.commit("setLastAudio", this.audio.src);
       this.voice = item;
-      audio.volume = this.volume / 100;
-      audio.play();
+      this.audio.volume = this.volume / 100;
+      this.audio.play();
     },
     playOnly(item) {
-      let audio = new Audio();
-      audio.src = "voices/" + item.path;
-      audio.preload = true;
+      // this.audio = new Audio();
+      this.audio.src = "voices/" + item.path;
+      this.audio.preload = true;
       this.voice = item;
-      audio.play();
+      this.audio.play();
     },
     deletelist(i) {
       //删除序列中的一个值
@@ -178,28 +178,28 @@ export default {
     },
     orderplay() {
       i = 0;
-      audio = new Audio();
+      // this.audio = new Audio();
       let arry = this.orderlist;
       let repeat = this.repeatmode;
-      audio.preload = true;
-      audio.loop = false;
-      audio.src = "voices/" + arry[i].path;
-      audio.volume = this.volume / 100;
-      audio.play();
-      audio.addEventListener("ended", playEndedHandler, false);
+      this.audio.preload = true;
+      this.audio.loop = false;
+      this.audio.src = "voices/" + arry[i].path;
+      this.audio.volume = this.volume / 100;
+      this.audio.play();
+      this.audio.addEventListener("ended", playEndedHandler, false);
       function playEndedHandler() {
         //序列播放实现
         i++;
         if (i < arry.length) {
-          audio.src = "voices/" + arry[i].path;
+          this.audio.src = "voices/" + arry[i].path;
           //window.console.log(i);
-          audio.play();
+          this.audio.play();
         } else {
           if (repeat == true) {
             //不要停不下来啊
             i = 0;
-            audio.src = "voices/" + arry[i].path;
-            audio.play();
+            this.audio.src = "voices/" + arry[i].path;
+            this.audio.play();
           }
         }
       }
@@ -211,7 +211,7 @@ export default {
       this.orderlist = [];
     },
     stopplay() {
-      audio.pause();
+      this.audio.pause();
       i = 0;
     },
   },
