@@ -1,7 +1,7 @@
 {
     "art_pieces": [
         {
-            "path": "img/art/Forever9Nine.png",
+            "path": "img/art/Forever9Nine_half.png",
             "thumbnail": "img/art/thumbnails/Forever9Nine_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/Forever9Nine_thumbnail_150.png 150w, img/art/thumbnails/Forever9Nine_thumbnail_300.png 300w",
             "artist":"Forever9Nine",
@@ -9,7 +9,7 @@
             "artist_twitter": "@_K_le"
         },
         {
-            "path": "img/art/yaki_ebiko.png",
+            "path": "img/art/yaki_ebiko_half.png",
             "thumbnail": "img/art/thumbnails/yaki_ebiko_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/yaki_ebiko_thumbnail_150.png 150w, img/art/thumbnails/yaki_ebiko_thumbnail_300.png 300w",
             "artist":"えびこ焼き",
@@ -17,7 +17,7 @@
             "artist_twitter": "@yaki_ebiko"
         },
         {
-            "path": "img/art/LeslieEmpty.png",
+            "path": "img/art/LeslieEmpty_half.png",
             "thumbnail": "img/art/thumbnails/LeslieEmpty_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/LeslieEmpty_thumbnail_150.png 150w, img/art/thumbnails/LeslieEmpty_thumbnail_300.png 300w",
             "artist":"Leslie Empty",
@@ -33,7 +33,7 @@
             "artist_twitter": "@ryuraan"
         },
         {
-            "path": "img/art/AnatoleSerial.png",
+            "path": "img/art/AnatoleSerial_half.png",
             "thumbnail": "img/art/thumbnails/AnatoleSerial_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/AnatoleSerial_thumbnail_150.png 150w, img/art/thumbnails/AnatoleSerial_thumbnail_300.png 300w",
             "artist":"AnatoleSerial",
@@ -41,7 +41,7 @@
             "artist_twitter": ""
         },
         {
-            "path": "img/art/Rinri.png",
+            "path": "img/art/Rinri_half.png",
             "thumbnail": "img/art/thumbnails/Rinri_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/Rinri_thumbnail_150.png 150w, img/art/thumbnails/Rinri_thumbnail_300.png 300w",
             "artist":"Rinri",
@@ -49,7 +49,7 @@
             "artist_twitter": "@RinriLevaringe"
         },
         {
-            "path": "img/art/gokiburi.png",
+            "path": "img/art/gokiburi_half.png",
             "thumbnail": "img/art/thumbnails/gokiburi_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/gokiburi_thumbnail_150.png 150w, img/art/thumbnails/gokiburi_thumbnail_300.png 300w",
             "artist":"gokiburi",
@@ -57,7 +57,7 @@
             "artist_twitter": ""
         },
         {
-            "path": "img/art/John3rou.png",
+            "path": "img/art/John3rou_half.png",
             "thumbnail": "img/art/thumbnails/John3rou_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/John3rou_thumbnail_150.png 150w, img/art/thumbnails/John3rou_thumbnail_300.png 300w",
             "artist":"ジョン三郎【おまる座曲芸のくま】",
@@ -65,7 +65,7 @@
             "artist_twitter": "@John3rou"
         },
         {
-            "path": "img/art/SanzeGorou.png",
+            "path": "img/art/SanzeGorou_half.png",
             "thumbnail": "img/art/thumbnails/SanzeGorou_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/SanzeGorou_thumbnail_150.png 150w, img/art/thumbnails/SanzeGorou_thumbnail_300.png 300w",
             "artist":"三世吾郎",
@@ -73,7 +73,7 @@
             "artist_twitter": "@SanzeGorouART"
         },
         {
-            "path": "img/art/hellscrossing.png",
+            "path": "img/art/hellscrossing_half.png",
             "thumbnail": "img/art/thumbnails/hellscrossing_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/hellscrossing_thumbnail_150.png 150w, img/art/thumbnails/hellscrossing_thumbnail_300.png 300w",
             "artist":"hellscrossing",
@@ -81,7 +81,7 @@
             "artist_twitter": ""
         },
         {
-            "path": "img/art/tokimi_yukikaze.png",
+            "path": "img/art/tokimi_yukikaze_half.png",
             "thumbnail": "img/art/thumbnails/tokimi_yukikaze_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/tokimi_yukikaze_thumbnail_150.png 150w, img/art/thumbnails/tokimi_yukikaze_thumbnail_300.png 300w",
             "artist":"雪風ときみ",
