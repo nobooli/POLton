@@ -85,7 +85,9 @@ export default{
 
 <style>
 .my-gallery a img {
-  border: 2px solid #fff;
+  margin: 1.4em;
+  border: .3em solid #8f3c73;
+  background: white;
   -webkit-transition: -webkit-transform .15s ease;
   -moz-transition: -moz-transform .15s ease;
   -o-transition: -o-transform .15s ease;
