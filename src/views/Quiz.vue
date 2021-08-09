@@ -4,9 +4,3 @@
         height="100%"
         frameborder="0"></iframe>
 </template>
-
-<style>
-.container {
-    height: 100%;
-}
-</style>
