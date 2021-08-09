@@ -251,9 +251,8 @@ export default {
         this.audio.load();
         this.volume = 0;
       }
-    },
-  },
-};
+    }
+  }
 </script>
 
 <style>
