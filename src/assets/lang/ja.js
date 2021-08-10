@@ -1,6 +1,7 @@
 ﻿module.exports = {
     ui: {
         title: "",
+        scrollingTitle: "座長、一周年おめでとうございます!",
         mediacontorl: "コントロールボタン",
         stopplay: "停止",
         helptitle: "遊び方だね?",

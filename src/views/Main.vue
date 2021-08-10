@@ -2,8 +2,19 @@
   <v-container>
     <div class="main-title-card">
       <div class="ticket_card">
-        <div class="title_text">
-          <h1>座長、一周年おめでとうございます! Congratulations on your 1st Anniversary Polka!</h1>
+        <div>
+          <p class="title_text">
+            <span>{{$t('ui.scrollingTitle')}}</span>
+          </p>
+          <p class="title_text second_title">
+            <span>{{$t('ui.scrollingTitle')}}</span>
+          </p>
+          <p class="title_text third_title">
+            <span>{{$t('ui.scrollingTitle')}}</span>
+          </p>
+          <!-- <p class="title_text fourth_title">
+            <span>Congratulations on your 1st Anniversary Polka!</span>
+          </p> -->
         </div>
       </div>
     </div>
@@ -132,55 +143,99 @@
   width: 100%;
 }
 
-h1 {
-  text-align: center;
-  color: #f8ed9e;
+.title_text {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
 }
 
 .title_text {
-  overflow: hidden;
-  padding-right: 1em;
-  padding-left: 1em;
-  white-space: nowrap;
-  margin: 0 auto;
+  color: #f8ed9e;
+  font-weight: 500;
+  font-size: 2em;
 }
 
-.title_text h1 {
-  animation: title_text 30s linear infinite;
-  /* transform: translate3d(0, 0, 0); */
+.title_text span {
+  display: inline-block;
+  padding-left: 100%;
 }
 
-
-/* @media screen and (min-width: 600px ) {
-  .title_text h1 {
-    animation: title_text 30s linear infinite;
+@media screen and (max-width: 600px) {
+  .title_text span {
+    animation: title_text 8s linear infinite;
   }
 
-  @keyframes title_text {
-    0% { transform: translate3d(100%, 0); }
-    100% { transform: translate3d(-100%, 0); }
+  .second_title span {
+    visibility: hidden;
   }
-} */
 
-/* @media screen and (min-width: 960px ) {
-  .title_text h1 {
+  .third_title span {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .title_text span {
+    animation: title_text 14s linear infinite;
+  }
+
+  .second_title span {
+    animation-delay: 7s;
+  }
+
+  .third_title span {
+    visibility: hidden;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+  .title_text span {
+    animation: title_text 16s linear infinite;
+  }
+
+  .second_title span {
+    animation-delay: 8s;
+  }
+
+  .third_title span {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .title_text span {
     animation: title_text 20s linear infinite;
   }
+
+  .second_title span {
+    animation-delay: 10s;
+  }
+
+  .third_title span {
+    visibility: hidden;
+  }
 }
 
-@media screen and (min-width: 1280px ) {
-  .title_text h1 {
-    animation: title_text 20s linear infinite;
+@media screen and (min-width: 1920px) {
+  .title_text span {
+    animation: title_text 24s linear infinite;
   }
-} */
+
+  .second_title span {
+    animation-delay: 8s;
+  }
+
+  .third_title span {
+    animation-delay: 16s;
+    visibility: visible;
+  }
+}
 
 @keyframes title_text {
-  0% { 
-    /* transform: translate(100%, 0);  */
-    transform: translateX(100%); 
-  }
   100% { 
-    /* transform: translate(-100%, 0);  */
     transform: translateX(-100%); 
   }
 }

@@ -1,6 +1,7 @@
 module.exports = {
   ui: {
     title: "",
+    scrollingTitle: "Congratulations on your 1st Anniversary Polka!",
     mediacontorl: "Control Button",
     stopplay: "Stop",
     helptitle: "Help",
