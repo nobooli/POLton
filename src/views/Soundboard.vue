@@ -177,9 +177,6 @@ export default {
       var finalUrl = `${url}?playlist=${this.orderlist.reduce(
             (r, k) => `${!r ? r : r + ";"}${k.key}`, "" )}`;
       return finalUrl;
-    },
-    themeBackgroundColor() {
-      return this.$vuetify.theme.dark ? '#FFFFFF' : '#1E1E1E';
     }
   },
   methods: {
