@@ -279,7 +279,7 @@ export default {
   flex: 1;
 }
 
-#volume-bar > .v-input__slider {
+#volume-bar > .v-input__slider, #control-btns {
   margin-right: 16px;
 }
 
