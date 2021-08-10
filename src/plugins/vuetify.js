@@ -9,7 +9,7 @@ Vue.use(Vuetify);
 Vue.component('my-component', {
     methods: {
         changeLocale() {
-            this.$vuetify.lang.current = 'en'
+            this.$vuetify.lang.current = 'ja'
         },
     },
 })
