@@ -3,8 +3,7 @@
     <div class="main-title-card">
       <div class="ticket_card">
         <div class="title_text">
-          <h1>座長、一周年おめでとうございます!</h1>
-          <h1>Congratulations on your 1st Anniversary Polka!</h1>
+          <h1>座長、一周年おめでとうございます! Congratulations on your 1st Anniversary Polka!</h1>
         </div>
       </div>
     </div>
@@ -125,24 +124,64 @@
 
 .ticket_card { /* this will be the border + shape */
   position: relative;
-  background:repeating-linear-gradient(
-    90deg,
-    white,
-    white 3em,
-    #e7595a 3em,
-    #e7595a 6em
-  );
-  border: .4em solid #222e77;
+  background: #46403f;
+  border: .6em double #f8ed9e;
   border-radius: .3em;
-  padding: 3em;
+  /* padding: 3em; */
+  padding: 3em 0 3em 0;
+  width: 100%;
 }
 
 h1 {
   text-align: center;
-  color: black;
+  color: #f8ed9e;
 }
 
 .title_text {
-  text-orientation: sideways;
+  overflow: hidden;
+  padding-right: 1em;
+  padding-left: 1em;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+.title_text h1 {
+  animation: title_text 30s linear infinite;
+  /* transform: translate3d(0, 0, 0); */
+}
+
+
+/* @media screen and (min-width: 600px ) {
+  .title_text h1 {
+    animation: title_text 30s linear infinite;
+  }
+
+  @keyframes title_text {
+    0% { transform: translate3d(100%, 0); }
+    100% { transform: translate3d(-100%, 0); }
+  }
+} */
+
+/* @media screen and (min-width: 960px ) {
+  .title_text h1 {
+    animation: title_text 20s linear infinite;
+  }
+}
+
+@media screen and (min-width: 1280px ) {
+  .title_text h1 {
+    animation: title_text 20s linear infinite;
+  }
+} */
+
+@keyframes title_text {
+  0% { 
+    /* transform: translate(100%, 0);  */
+    transform: translateX(100%); 
+  }
+  100% { 
+    /* transform: translate(-100%, 0);  */
+    transform: translateX(-100%); 
+  }
 }
 </style>
