@@ -16,7 +16,7 @@
               ? 'mdi-volume-low' : 
               (this.volume < 66 ? 'mdi-volume-medium' : 'mdi-volume-high')) 
             : 'mdi-volume-off'"
-          @change="audio.volume = this.value / 100"
+          @input="(newVolume) => { audio.volume = newVolume / 100; }"
           @click:prepend="() => {
             if(!isNaN(this.volume) && this.volume > 0) {
               previousVolume = this.volume;
@@ -28,7 +28,7 @@
             }
           }"
           :append-icon="!audio.src 
-            ? 'mdi-play-outline' // gacha if no src set
+            ? 'mdi-play-outline' // don't play if none set
             : audio.ended && audio.paused ? 'mdi-replay'
               : audio.paused ? 'mdi-play' : 'mdi-pause'"
           @click:append="() => {
