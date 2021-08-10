@@ -1,14 +1,12 @@
 <template>
   <v-container>
-    <div class="title_card">
-      <v-card>
-          <v-card-title class="welcome-message">
-            Congratulations on your 1st Anniversary Polka!
-          </v-card-title>
-          <v-card-title>
-            座長、一周年おめでとうございます!
-          </v-card-title>
-      </v-card>
+    <div class="main-title-card">
+      <div class="ticket_card">
+        <div class="title_text">
+          <h1>座長、一周年おめでとうございます!</h1>
+          <h1>Congratulations on your 1st Anniversary Polka!</h1>
+        </div>
+      </div>
     </div>
     <div class="tent">
       <img :src="tent" 
@@ -119,9 +117,32 @@
   display: inline-block;
 }
 
-.title_card, .navi-zains, .tent {
+.main-title-card, .navi-zains, .tent {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.ticket_card { /* this will be the border + shape */
+  position: relative;
+  background:repeating-linear-gradient(
+    90deg,
+    white,
+    white 3em,
+    #e7595a 3em,
+    #e7595a 6em
+  );
+  border: .4em solid #222e77;
+  border-radius: .3em;
+  padding: 3em;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.title_text {
+  text-orientation: sideways;
 }
 </style>
