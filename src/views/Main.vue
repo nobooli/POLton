@@ -6,15 +6,6 @@
           <p class="title_text">
             <span>{{$t('ui.scrollingTitle')}}</span>
           </p>
-          <p class="title_text second_title">
-            <span>{{$t('ui.scrollingTitle')}}</span>
-          </p>
-          <p class="title_text third_title">
-            <span>{{$t('ui.scrollingTitle')}}</span>
-          </p>
-          <!-- <p class="title_text fourth_title">
-            <span>Congratulations on your 1st Anniversary Polka!</span>
-          </p> -->
         </div>
       </div>
     </div>
@@ -60,7 +51,7 @@
         flag_srcset_hover: "img/flag_hover_75.png 75w, img/flag_hover_150.png 150w, img/flag_hover_300.png 300w",
         tent: "img/TEMT_WITH_BOWS_1000.png",
         tent_srcset: "img/TEMT_WITH_BOWS_250.png 250w, img/TEMT_WITH_BOWS_500.png 500w, img/TEMT_WITH_BOWS_1000.png 1000w",
-        tent_sizes: "(max-width: 600px) 250px, (max-width: 1280px) 500px, 1000px",
+        tent_sizes: "(max-width: 600px) 250px, (max-width: 1280px) 500px, 800px",
         links: [
           { // trivia quiz
             link: "/Messages",
@@ -160,78 +151,41 @@
 .title_text span {
   display: inline-block;
   padding-left: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: title_text;
 }
 
 @media screen and (max-width: 599px) {
   .title_text span {
-    animation: title_text 12s linear infinite;
-  }
-
-  .second_title span {
-    visibility: hidden;
-  }
-
-  .third_title span {
-    visibility: hidden;
+    animation-duration: 12s;
   }
 }
 
 @media screen and (min-width: 600px) {
   .title_text span {
-    animation: title_text 14s linear infinite;
+    animation-duration: 14s
   }
-
-  .second_title span {
-    animation-delay: 7s;
-  }
-
-  .third_title span {
-    visibility: hidden;
-  }
-
 }
 
 @media screen and (min-width: 960px) {
   .title_text span {
-    animation: title_text 16s linear infinite;
-  }
-
-  .second_title span {
-    animation-delay: 8s;
-  }
-
-  .third_title span {
-    visibility: hidden;
+    animation-duration: 16s;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .title_text span {
-    animation: title_text 20s linear infinite;
+    animation-duration: 20s;
   }
 
-  .second_title span {
-    animation-delay: 10s;
-  }
-
-  .third_title span {
-    visibility: hidden;
-  }
 }
 
 @media screen and (min-width: 1920px) {
   .title_text span {
-    animation: title_text 24s linear infinite;
+    animation-duration: 24s;
   }
 
-  .second_title span {
-    animation-delay: 8s;
-  }
-
-  .third_title span {
-    animation-delay: 16s;
-    visibility: visible;
-  }
 }
 
 @keyframes title_text {
@@ -241,7 +195,7 @@
 }
 
 .navi-zain img {
-	animation-duration: 8s/*1.6s*/;
+	animation-duration: 8s;
   animation-iteration-count: infinite;
 	transform-origin: bottom;
   animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
@@ -277,11 +231,13 @@
     11.4%  { transform: scale(1,1)      translateY(-7px); } /* 1.6s, 57% */
     12.8%  { transform: scale(1,1)      translateY(0); } /* 1.6s, 64% */
     20% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
+    100% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
     /* remainder of 8 seconds */
   }
 
   @keyframes letter_bounce {
     /* 1.6 seconds of waiting */
+    0%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     20%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     22%  { transform: scale(1.1,.9)   translateY(0); } /* 1.6s, 10% */
     26%  { transform: scale(.9,1.1)   translateY(-40px); } /* 1.6s, 30% */
@@ -289,11 +245,13 @@
     31.4%  { transform: scale(1,1)      translateY(-7px); } /* 1.6s, 57% */
     32.8%  { transform: scale(1,1)      translateY(0); } /* 1.6s, 64% */
     40% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
+    100% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
     /* remainder of 8 seconds */
   }
 
   @keyframes gallery_bounce {
     /* 3.2 seconds of waiting */
+    0%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     40%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     42%  { transform: scale(1.1,.9)   translateY(0); } /* 1.6s, 10% */
     46%  { transform: scale(.9,1.1)   translateY(-40px); } /* 1.6s, 30% */
@@ -301,11 +259,13 @@
     51.4%  { transform: scale(1,1)      translateY(-7px); } /* 1.6s, 57% */
     52.8%  { transform: scale(1,1)      translateY(0); } /* 1.6s, 64% */
     60% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
+    100% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
     /* remainder of 8 seconds */
   }
 
   @keyframes megaphone_bounce {
     /* 4.8 seconds of waiting */
+    0%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     60%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     62%  { transform: scale(1.1,.9)   translateY(0); } /* 1.6s, 10% */
     66%  { transform: scale(.9,1.1)   translateY(-40px); } /* 1.6s, 30% */
@@ -313,11 +273,13 @@
     71.4%  { transform: scale(1,1)      translateY(-7px); } /* 1.6s, 57% */
     72.8%  { transform: scale(1,1)      translateY(0); } /* 1.6s, 64% */
     80% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
+    100% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
     /* remainder of 8 seconds */
   }
 
   @keyframes quiz_bounce {
     /* 6.4 seconds of waiting */
+    0%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     80%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     82%  { transform: scale(1.1,.9)   translateY(0); } /* 1.6s, 10% */
     86%  { transform: scale(.9,1.1)   translateY(-60px); } /* 1.6s, 30% */
@@ -338,11 +300,13 @@
     11.4%  { transform: scale(1,1)      translateY(-7px); } /* 1.6s, 57% */
     12.8%  { transform: scale(1,1)      translateY(0); } /* 1.6s, 64% */
     20% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
+    100% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
     /* remainder of 8 seconds */
   }
 
   @keyframes letter_bounce {
     /* 1.6 seconds of waiting */
+    0%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     20%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     22%  { transform: scale(1.1,.9)   translateY(0); } /* 1.6s, 10% */
     26%  { transform: scale(.9,1.1)   translateY(-100px); } /* 1.6s, 30% */
@@ -350,11 +314,13 @@
     31.4%  { transform: scale(1,1)      translateY(-7px); } /* 1.6s, 57% */
     32.8%  { transform: scale(1,1)      translateY(0); } /* 1.6s, 64% */
     40% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
+    100% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
     /* remainder of 8 seconds */
   }
 
   @keyframes gallery_bounce {
     /* 3.2 seconds of waiting */
+    0%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     40%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     42%  { transform: scale(1.1,.9)   translateY(0); } /* 1.6s, 10% */
     46%  { transform: scale(.9,1.1)   translateY(-100px); } /* 1.6s, 30% */
@@ -362,27 +328,31 @@
     51.4%  { transform: scale(1,1)      translateY(-7px); } /* 1.6s, 57% */
     52.8%  { transform: scale(1,1)      translateY(0); } /* 1.6s, 64% */
     60% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
+    100% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
     /* remainder of 8 seconds */
   }
 
   @keyframes megaphone_bounce {
     /* 4.8 seconds of waiting */
+    0%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     60%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     62%  { transform: scale(1.1,.9)   translateY(0); } /* 1.6s, 10% */
     66%  { transform: scale(.9,1.1)   translateY(-100px); } /* 1.6s, 30% */
-    50%  { transform: scale(1.05,.95) translateY(0); } /* 1.6s, 50% */
+    70%  { transform: scale(1.05,.95) translateY(0); } /* 1.6s, 50% */
     71.4%  { transform: scale(1,1)      translateY(-7px); } /* 1.6s, 57% */
     72.8%  { transform: scale(1,1)      translateY(0); } /* 1.6s, 64% */
     80% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
+    100% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
     /* remainder of 8 seconds */
   }
 
   @keyframes quiz_bounce {
     /* 6.4 seconds of waiting */
+    0%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     80%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     82%  { transform: scale(1.1,.9)   translateY(0); } /* 1.6s, 10% */
     86%  { transform: scale(.9,1.1)   translateY(-100px); } /* 1.6s, 30% */
-    70%  { transform: scale(1.05,.95) translateY(0); } /* 1.6s, 50% */
+    90%  { transform: scale(1.05,.95) translateY(0); } /* 1.6s, 50% */
     91.4%  { transform: scale(1,1)      translateY(-7px); } /* 1.6s, 57% */
     92.8%  { transform: scale(1,1)      translateY(0); } /* 1.6s, 64% */
     100% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
