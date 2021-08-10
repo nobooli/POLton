@@ -1,6 +1,13 @@
 {
     "messages": [
         {
+            "name": "Bog",
+            "profile_pic": "img/profile-pic/Bog.png",
+            "country_flag": "flag-icon flag-icon-gb",
+            "message": "Happy Anniversary Polka!!!\n\nIts been a quick year for the circus! I cannot wait for what's to come!\nI have recently started learning Japanese in order to be able to chat during your streams. Ill do my best!\nYour message of keep smiling regardless of what problems you face has helped me through the rough times of late, so for that thank you!\n\nSincerely,\n\nLuke",
+            "message_jp": "ポルカ、一周年記念おめでとう！！！\n\nもう一年が経ったか。これからの企画や配信たのしみ！\nあのね、最近配信中でコメントできるように日本語の勉強始まったよ。がんばる！\n\n辛いとき、苦しいときこそ笑って生きようって言ったポルカはこの困難な時期に私を救われて本当にありがとう！\n\nLukeより"
+        },
+        {
             "name": "hellscrossing",
             "profile_pic": "img/profile-pic/1F_JU_FAAc6r4VK2NL2ZKEMNutYxOb_ln.png",
             "country_flag": "flag-icon flag-icon-us",
