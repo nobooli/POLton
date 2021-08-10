@@ -97,7 +97,7 @@ export default {
     langs: [
       { title: "English", src: "en", isready: true },
       //{ title: "简体中文", src: "zhHans", isready: false },
-      { title: "日本語(ベータ版)", src: "ja", isready: true },
+      { title: "日本語", src: "ja", isready: true },
     ],
   }),
   methods: {
