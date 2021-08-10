@@ -225,8 +225,7 @@ export default {
       this.audio.src = "voices/" + arry[i].path;
       this.audio.volume = this.volume / 100;
       this.audio.play();
-      this.audio.addEventListener("ended", playEndedHandler, false);
-      function playEndedHandler() {
+      this.audio.addEventListener("ended", () => {
         //序列播放实现
         i++;
         if (i < arry.length) {
@@ -234,20 +233,23 @@ export default {
           //window.console.log(i);
           this.audio.play();
         } else {
-          if (repeat == true) {
+          if (repeat && i === arry.length) {
             //不要停不下来啊
             i = 0;
             this.audio.src = "voices/" + arry[i].path;
             this.audio.play();
           }
         }
-      }
+      }, false);
     },
     copyPlaylist() {
       copyToClipboard(this.playlistUrl);
     },
     resetorder() {
       this.orderlist = [];
+    },
+    stopplay() {
+      this.audio.pause();
     }
   }
 }
