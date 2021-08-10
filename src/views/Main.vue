@@ -162,9 +162,9 @@
   padding-left: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
   .title_text span {
-    animation: title_text 8s linear infinite;
+    animation: title_text 12s linear infinite;
   }
 
   .second_title span {
