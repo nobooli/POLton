@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <div id="control-bar">
+    <div id="control-bar" :class="this.$vuetify.theme.dark ? 'dark-mode' : 'light-mode'">
       <div id="volume-bar">
        <v-slider id="volume_slider"
           class="pt-4 ml-4"
@@ -178,6 +178,9 @@ export default {
             (r, k) => `${!r ? r : r + ";"}${k.key}`, "" )}`;
       return finalUrl;
     },
+    themeBackgroundColor() {
+      return this.$vuetify.theme.dark ? '#FFFFFF' : '#1E1E1E';
+    }
   },
   methods: {
     resolveI18n(obj) {
@@ -268,12 +271,15 @@ export default {
   bottom: 0;
   position: fixed;
   display: flex;
-  background-color: #1E1E1E;
+  /* background-color: #1E1E1E; */
   width: 100%;
   left: 0;
   z-index: 999;
   flex-direction: column;
 }
+
+div .dark-mode { background-color: #1E1E1E;}
+div .light-mode { background-color: #FFFFFF; }
 
 #volume-bar {
   flex: 1;
