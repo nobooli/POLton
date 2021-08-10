@@ -49,16 +49,16 @@ export default {
 
 <style>
 .title-card {
-    height: 5rem;
+    height: 5em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .title-text {
-    font-size: 1.25rem;
+    font-size: 1.25em;
     font-weight: 500;
-    line-height: 2rem;
+    line-height: 2em;
 }
 
 @media screen and ( min-width: 600px) {
@@ -81,7 +81,7 @@ export default {
 
 #messages {
     min-height: 15vh;
-    column-gap: 1.25rem;
+    column-gap: 1.25em;
 }
 
 .message {
@@ -111,7 +111,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4rem;
+    height: 4em;
 }
 .name {
     font-size: 1.4em;
