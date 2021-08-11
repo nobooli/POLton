@@ -118,8 +118,11 @@ export default {
 }
 
 .divider {
-    color: rgba(0, 0, 0, 0.12);
+    background-color: #8f3c73;
+    /* color: rgba(0, 0, 0, 0.12); */
     margin: 1em 0 1em 0;
+    border: none;
+    height: .12em;
 }
 
 .profile-pic {
