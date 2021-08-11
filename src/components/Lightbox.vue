@@ -29,7 +29,8 @@
           :title="image.artist_twitter" 
           :class="image_class"
           :srcset="image.thumbnail_srcset"
-          :sizes="thumbnail_sizes" />
+          :sizes="thumbnail_sizes"
+        />
       </a>
     </div>
   </div>
@@ -109,5 +110,9 @@ export default{
 
 .align-center {
   text-align: center;
+}
+
+.sl-caption, .sl-close, .sl-counter, .sl-current, .sl-total{
+  font-family: "Roboto", sans-serif;
 }
 </style>
