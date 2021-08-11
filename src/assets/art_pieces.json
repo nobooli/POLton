@@ -84,9 +84,17 @@
             "path": "img/art/tokimi_yukikaze_half.png",
             "thumbnail": "img/art/thumbnails/tokimi_yukikaze_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/tokimi_yukikaze_thumbnail_150.png 150w, img/art/thumbnails/tokimi_yukikaze_thumbnail_300.png 300w",
-            "artist":"雪風ときみ",
+            "artist": "雪風ときみ",
             "artist_twitter": "@tokimi_yukikaze",
             "message": "座長、デビュー1周年おめでとうございます！🎉\n\n今までただ漫然と灰色の日々を過ごしていたボクだけど、出会ったその時から、目に映る世界がまるでキラキラと色付いたように感じられました\n楽しいことも嬉しいこともそうじゃないこともたくさんあったけど、この1年時間が経つのが光の矢のようにあっという間で、笑ったり泣いたり感情ジェットコースターみたいでしたw\nこの世界に生まれてきてくれて、ボクの前に顕れてくれて、ほんとに本当にありがとう願わくば、この喜びと感謝と祝福が、少しでも貴女の元に届きますように\nそしてこれから先も貴女の行く道が素敵なものになりますように\n\nポルカ、好きだよ、大好き、愛してんで "
+        },
+        {
+            "path": "img/art/Turtle.png",
+            "thumbnail": "img/art/thumbnails/Turtle_thumbnail_300.png",
+            "thumbnail_srcset": "img/art/thumbnails/Turtle_thumbnail_150.png 150w img/art/thumbnails/Turtle_thumbnail_300.png 300w",
+            "artist": "Turtle",
+            "artist_twitter": "Turtle",
+            "message": ""
         }
     ]
 }
