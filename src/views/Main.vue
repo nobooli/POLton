@@ -289,7 +289,7 @@
     80%   { transform: scale(1,1)      translateY(0); } /* 1.6s, 0% */
     82%  { transform: scale(1.1,.9)   translateY(0); } /* 1.6s, 10% */
     86%  { transform: scale(.9,1.1)   translateY(-60px); } /* 1.6s, 30% */
-    70%  { transform: scale(1.05,.95) translateY(0); } /* 1.6s, 50% */
+    90%  { transform: scale(1.05,.95) translateY(0); } /* 1.6s, 50% */
     91.4%  { transform: scale(1,1)      translateY(-7px); } /* 1.6s, 57% */
     92.8%  { transform: scale(1,1)      translateY(0); } /* 1.6s, 64% */
     100% { transform: scale(1,1)      translateY(0); } /* 1.6s, 100% */
