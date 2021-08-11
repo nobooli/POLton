@@ -23,7 +23,10 @@
 <template>
   <div>
     <div class="my-gallery" :class="album_class">
-      <a :href="image.path" v-for="(image,key) in images" v-bind:key="key">
+      <a :href="image.path" v-for="(image,key) in images" v-bind:key="key"
+        :artist="image.artist"
+        :message="image.message"
+        >
         <img :src="image.thumbnail" 
           alt="" 
           :title="image.artist_twitter" 
@@ -31,6 +34,10 @@
           :srcset="image.thumbnail_srcset"
           :sizes="thumbnail_sizes"
         />
+        <!-- <div class="artist-message">
+          <div class="artist-name">{{ image.artist }}</div>
+          <div class="caption-text">{{ image.message }}</div>
+        </div> -->
       </a>
     </div>
   </div>
