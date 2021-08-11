@@ -50,7 +50,7 @@
         flag_srcset: "img/flag_idle_75.png 75w, img/flag_idle_150.png 150w, img/flag_idle_300.png 300w",
         flag_srcset_hover: "img/flag_hover_75.png 75w, img/flag_hover_150.png 150w, img/flag_hover_300.png 300w",
         tent: "img/TEMT_WITH_BOWS_1000.png",
-        tent_srcset: "img/TEMT_WITH_BOWS_250.png 250w, img/TEMT_WITH_BOWS_500.png 500w, img/TEMT_WITH_BOWS_1000.png 1000w",
+        tent_srcset: "img/TEMT_WITH_BOWS_250.png 250w, img/TEMT_WITH_BOWS_500.png 500w, img/TEMT_WITH_BOWS_800.png 800w",
         tent_sizes: "(max-width: 600px) 250px, (max-width: 1280px) 500px, 800px",
         links: [
           { // trivia quiz
