@@ -39,7 +39,10 @@
   </v-container>
 </template>
 
+
 <script>
+import AOS from 'aos'
+
   export default {
     data: function() {
       return {
@@ -94,6 +97,12 @@
           top: 0, 
           left: 0, 
           behavior: 'smooth'
+        });
+      },
+      AOSInit() {
+        this.aos = AOS;
+        this.aos.init({
+          duration: 1200
         });
       }
     }

@@ -5,7 +5,7 @@
         </div>
         <!-- messages -->
         <div id="messages">
-            <div v-for="message in messages" :key="message.name" class="message">
+            <div v-for="message in messages" :key="message.name" class="message" data-aos="fade-up">
                 <div class="profile">
                     <div class="name">
                         <span>{{ message.name }}</span>
@@ -37,13 +37,27 @@
 
 <script>
 import messages from "../assets/messages.json";
+import AOS from 'aos';
 
 export default {
     data() {
         return {
             messages: messages.messages
         }
-    }    
+    },
+    methods: {
+        AOSInit() {
+          this.aos = AOS;
+          this.aos.init({
+            duration: 400
+          });
+        }
+    },
+    mounted() {
+        this.$nextTick(() => {
+            this.AOSInit();
+        });
+    }
 }
 </script>
 
