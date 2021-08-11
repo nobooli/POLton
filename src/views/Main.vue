@@ -3,7 +3,7 @@
     <div class="main-title-card">
       <div class="ticket_card">
         <div>
-          <p class="title_text">
+          <p class="title_text" style="margin-bottom:0px;">
             <span>{{$t('ui.scrollingTitle')}}</span>
           </p>
         </div>
@@ -141,16 +141,14 @@
   background: #46403f;
   border: .6em double #f8ed9e;
   border-radius: .3em;
-  /* padding: 3em; */
-  padding: 3em 0 3em 0;
-  width: 100%;
+  /* padding: 3em 0 3em 0; */
 }
 
 .title_text {
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
 }
 
