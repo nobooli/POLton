@@ -1,19 +1,19 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Main from "@/views/Main";
-import Soundboard from "@/views/Soundboard";
 import Presents from "@/views/Gallery";
 import Messages from "@/views/Messages";
-import Quiz from "@/views/Quiz";
-import About from "@/views/About";
 
 Vue.use(VueRouter);
+
+function lazyLoad(view) {
+  return() => import(`@/views/${view}.vue`)
+}
 
 const routes = [
   {
     path: "/",
     name: "Main",
-    component: Main,
+    component: lazyLoad('Main'),
     meta: {
       title: "Pol"
     },
@@ -21,20 +21,20 @@ const routes = [
   {
     path: "/Soundboard",
     name: "Soundboard",
-    component: Soundboard,
+    component: lazyLoad('Soundboard'),
     meta: {
       title: "Soundboard"
     }
   },  
-  {
+  { // can't lazy load yet because Gallery refers to CSS defined in Messages
     path: "/Presents",
     name: "Presents",
-    component: Presents,
+    component: Presents, 
     meta: {
       title: "Presents"
     },
   },
-  {
+  { // can't lazy load yet because Gallery refers to CSS defined in Messages
     path: "/Messages",
     name: "Messages",
     component: Messages,
@@ -45,7 +45,7 @@ const routes = [
   {
     path: "/Quiz",
     name: "Quiz",
-    component: Quiz,
+    component: lazyLoad('Quiz'),
     meta: {
       title: "Quiz"
     },
@@ -53,7 +53,7 @@ const routes = [
   {
     path: "/about",
     name: "About",
-    component: About,
+    component: lazyLoad('About'),
     meta: {
       title: "About"
     },
