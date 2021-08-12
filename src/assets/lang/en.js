@@ -26,7 +26,7 @@ module.exports = {
     bookArt: "Book Cover Art: Forever9Nine",
     bookLayout: "Book Layout Design: Caudy, Sephi",
     art: "Artists: hellscrossing, raim, gokiburi, Forever9Nine, えびこ焼き, Leslie Empty, Ryuran, AnatoleSerial, Rinri, ジョン三郎, 三世吾郎, 雪風ときみ",
-    specialThanks: "Special Thanks to: Niels, Hosu, AmamiyaMio, nikki, NyakOfThePolpol, PovertyMiko, Ortrus",
+    specialThanks: "Special Thanks to: Niels, Hosu, AmamiyaMio, CST, nikki, NyakOfThePolpol, PovertyMiko, Ortrus, Warthog",
 
     helpdevelope: "Help improve the website",
     volume: "Volume",
