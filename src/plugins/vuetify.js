@@ -19,7 +19,7 @@ export default new Vuetify({
     },
     lang: {
         locales: { en, ja },
-        current: 'en',
+        current: 'ja',
     },
     theme: {
         themes: {
