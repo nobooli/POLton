@@ -10,12 +10,12 @@
       </div>
     </div>
     <br />
-    <div class="tent">
+    <div class="tent" data-aos="zoom-in">
       <img :src="tent" 
         :srcset="tent_srcset"
         :sizes="tent_sizes">
     </div>
-    <div class="navi-zains">
+    <div class="navi-zains" data-aos="fade-up">
       <v-hover class="navi-zain">
         <a href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA" id="flag-zain">
           <img :src="hovered_zain === -1 ? flag_hover : flag_idle"
@@ -105,10 +105,15 @@ import AOS from 'aos'
       AOSInit() {
         this.aos = AOS;
         this.aos.init({
-          duration: 1200,
+          duration: 1000,
           disable: "mobile"
         });
       }
+    },
+    mounted() {
+      this.$nextTick(() => {
+        this.AOSInit();
+      });
     }
   }
 </script>
