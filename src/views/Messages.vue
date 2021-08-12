@@ -12,7 +12,7 @@
         <br />
         <!-- messages -->
         <div id="messages">
-            <div v-for="message in messages" :key="message.name" class="message" data-aos="fade-up">
+            <div v-for="(message, i) in messages" :key="message.name" class="message" data-aos="fade-up">
                 <div class="profile">
                     <div class="name">
                         <span>{{ message.name }}</span>

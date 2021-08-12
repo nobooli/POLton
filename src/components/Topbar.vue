@@ -50,6 +50,11 @@
         </v-list-item>
       </v-list>
     </v-menu>
+    <a href="https://www.nepolabo.fans/">
+      <v-btn plain>
+        NPLB
+      </v-btn>
+    </a>
     <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>
     <pwa-update></pwa-update>
     <v-spacer />
