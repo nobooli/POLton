@@ -82,7 +82,7 @@
           <v-container>
             <v-row no-gutters>
               <v-btn
-                class="ma-2 btn"
+                class="ma-2 btn soundboard-btn"
                 v-for="voice in group.voicelist"
                 :key="voice.name"
                 raised
@@ -302,6 +302,12 @@ div .light-mode { background-color: #FFFFFF; }
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.soundboard-btn > span {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 @media (min-width:801px)  {
