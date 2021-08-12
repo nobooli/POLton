@@ -19,6 +19,7 @@
 <script>
 import art_pieces from "../assets/art_pieces.json";
 
+import AOS from 'aos';
 import Lightbox from "../components/Lightbox";
 
 import "flag-icon-css/css/flag-icon.css"
@@ -36,6 +37,19 @@ export default {
                 captionPosition: "bottom"
             }
         }
+    },
+    methods: {
+        AOSInit() {
+          this.aos = AOS;
+          this.aos.init({
+            duration: 400
+          });
+        }
+    },
+    mounted() {
+        this.$nextTick(() => {
+            this.AOSInit();
+        });
     }
 }
 </script>
