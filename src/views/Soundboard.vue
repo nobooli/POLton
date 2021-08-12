@@ -75,7 +75,7 @@
         </v-btn>
       </div>
     </div>
-    <v-row v-for="group in voices" :key="group.name">
+    <v-row v-for="(group, i) in voices" :key="group.name" data-aos="zoom-in" :data-aos-delay="i * 100">
       <v-col cols="12" class="ma-0 pa-0">
         <v-card class="ma-1 pa-0">
           <v-card-title>{{resolveI18n(group.translation)}}</v-card-title>
@@ -143,7 +143,10 @@
 
 <script>
 import voicelist from "../assets/voices.json";
+
 import { copyToClipboard } from "@/common/clipboard";
+
+import AOS from 'aos';
 
 // var audio = new Audio();
 var i = 0;
@@ -162,6 +165,10 @@ export default {
     sliderKey: 0
   }),
   mounted() {
+    this.$nextTick(() => {
+      this.AOSInit();
+    });
+
     for (const [gIndex, group] of Object.entries(voicelist.groups)) {
       for (const [vIndex, voice] of Object.entries(group.voicelist)) {
         voice.key = `${gIndex},${vIndex}`;
@@ -257,6 +264,13 @@ export default {
     },
     stopplay() {
       this.audio.pause();
+    },
+    AOSInit() {
+      this.aos = AOS;
+      this.aos.init({
+        duration: 1000,
+        disable: "mobile"
+      });
     }
   }
 }
