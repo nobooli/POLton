@@ -24,11 +24,11 @@ export default new Vuetify({
     theme: {
         themes: {
             light: {
-                primary: '#3595e9', // polka blue
+                primary: '#bb2830', // polka blue
                 secondary: '#bb2830', // polka red
             },
             dark: { //夜间模式下的颜色
-                primary: '#3595e9', // polka blue
+                primary: '#bb2830', // polka blue
                 secondary: '#bb2830', // polka red
 
                 // reference

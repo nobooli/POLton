@@ -136,9 +136,8 @@ export default {
     box-shadow: 5px 8px 20px -5px rgba(10,10,10,.75);
 }
 
-/* .title-text,  */
 .name, .message-text {
-    color: #661010;
+    color: rgb(41, 0, 88);
 }
 
 .message-text {
@@ -147,8 +146,7 @@ export default {
 }
 
 .profile, .message-text {
-    background: white;
-    opacity: .95;
+    background-color: rgba(255, 255, 255, 0.99)
 }
 
 .profile {
@@ -166,7 +164,6 @@ export default {
 
 .divider {
     background-color: #1145a7;
-    /* color: rgba(0, 0, 0, 0.12); */
     margin: 1em 0 1em 0;
     border: none;
     height: .2em;
@@ -180,6 +177,6 @@ export default {
     max-width: 64px;
     max-height: 64px;
     border-radius: 50%;
-    border: .15em solid #8f3c73;
+    background-color: rgba(255, 255, 255, 1);
 }
 </style>
