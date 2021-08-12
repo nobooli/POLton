@@ -91,7 +91,7 @@
         {
             "path": "img/art/Turtle.png",
             "thumbnail": "img/art/thumbnails/Turtle_thumbnail_300.png",
-            "thumbnail_srcset": "img/art/thumbnails/Turtle_thumbnail_150.png 150w img/art/thumbnails/Turtle_thumbnail_300.png 300w",
+            "thumbnail_srcset": "img/art/thumbnails/Turtle_thumbnail_150.png 150w, img/art/thumbnails/Turtle_thumbnail_300.png 300w",
             "artist": "Turtle",
             "artist_twitter": "Turtle",
             "message": ""
