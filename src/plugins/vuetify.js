@@ -24,11 +24,11 @@ export default new Vuetify({
     theme: {
         themes: {
             light: {
-                primary: '#bb2830', // polka blue
+                primary: '#bb2830', // affects the top bar's color
                 secondary: '#bb2830', // polka red
             },
             dark: { //夜间模式下的颜色
-                primary: '#bb2830', // polka blue
+                primary: '#bb2830', // affects the top bar's color
                 secondary: '#bb2830', // polka red
 
                 // reference

@@ -26,7 +26,8 @@
       <a :href="image.path" v-for="(image,key) in images" v-bind:key="key"
         :artist="image.artist"
         :message="image.message"
-        data-aos="fade-in">
+        data-aos="zoom-in"
+      >
         <img :src="image.thumbnail" 
           alt="" 
           :title="image.artist_twitter" 

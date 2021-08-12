@@ -40,8 +40,9 @@ export default {
             art_pieces: art_pieces.art_pieces,
             options: {
                 closeText: "X",
-                captions: "true",
-                captionPosition: "bottom"
+                captionPosition: "bottom",
+                swipeClose: false,
+                docClose: false
             }
         }
     },

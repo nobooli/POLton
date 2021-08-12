@@ -52,7 +52,10 @@
     </v-menu>
     <a href="https://www.nepolabo.fans/">
       <v-btn plain>
-        NPLB
+        <span id="ne" class="glowing">N</span>
+        <span id="po" class="glowing">P</span>
+        <span id="la" class="glowing">L</span>
+        <span id="bo" class="glowing">B</span>
       </v-btn>
     </a>
     <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>
@@ -65,7 +68,7 @@
       <template v-slot:activator="{on:menu}">
         <v-fab-transition>
           <v-btn v-on="menu" fab icon>
-            <v-icon>mdi-earth</v-icon>
+            <v-icon >mdi-earth</v-icon>
           </v-btn>
         </v-fab-transition>
       </template>
@@ -83,7 +86,7 @@
     <v-snackbar color="success" v-model="snackbarCopy">
       <span>{{$t('ui.copiedToClipboard', {value: $store.state.lastAudio})}}</span>
       <template v-slot:action="{attrs}">
-        <v-btn color="##bb2830" text v-bind="attrs" @click="snackbarCopy = false">Close</v-btn>
+        <v-btn color="#bb2830" text v-bind="attrs" @click="snackbarCopy = false">Close</v-btn>
       </template>
     </v-snackbar>
   </v-app-bar>
@@ -140,3 +143,28 @@ export default {
   },
 };
 </script>
+
+<style>
+#ne { color: #ffcc00; }
+#po { color: red; }
+#la { color: blue; }
+#bo { color: gray; }
+
+.glowing {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+      color: #fff;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  }
+  
+  to {
+     color: gray;
+    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  }
+}
+
+
+</style>
