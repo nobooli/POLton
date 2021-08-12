@@ -24,7 +24,8 @@
                         {{ message.message }}
                     </p>
                 </div>
-                <hr v-if="message.message_jp" class="divider">
+                <!-- <hr v-if="message.message_jp" class="divider"> -->
+                <br v-if="message.message_jp">
                 <div v-if="message.message_jp" class="message-text">
                     <p>
                         {{ message.message_jp }} 
@@ -104,39 +105,67 @@ export default {
     overflow: hidden;
     display: inline-block;
     width: 100%;
+    background: repeating-linear-gradient(
+        -45deg,
+        #bb2830,
+        #bb2830 10px,
+        white 10px,
+        white 20px
+    );
+
+    border: #1145a7 solid .25em;
+}
+
+.title-card {
+    background: #bc627d;
+    border: .3em solid #f2db7e;
+    border-radius: 1%;
+    color: #f2db7e;
 }
 
 .title-card, .message {
-    background: #E7C4C4;
     margin-bottom: 3em;
     box-shadow: 5px 8px 20px -5px rgba(10,10,10,.75);
-    border: .3em solid #8f3c73;
 }
 
-.title-text, .name, .message-text {
+/* .title-text,  */
+.name, .message-text {
     color: #661010;
 }
 
 .message-text {
     white-space: pre-line;
+    padding: 1em;
+}
+
+.profile, .message-text {
+    background: white;
+    opacity: .95;
 }
 
 .profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4em;
+    height: 5em;
+    padding: 1em;
+    border-radius: 1%;
 }
+
 .name {
     font-size: 1.1em;
 }
 
 .divider {
-    background-color: #8f3c73;
+    background-color: #1145a7;
     /* color: rgba(0, 0, 0, 0.12); */
     margin: 1em 0 1em 0;
     border: none;
-    height: .12em;
+    height: .2em;
+}
+
+.pfp {
+    margin-top: .4em;
 }
 
 .profile-pic {

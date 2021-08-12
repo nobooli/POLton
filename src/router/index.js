@@ -1,5 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import Main from "@/views/Main";
 import Presents from "@/views/Gallery";
 import Messages from "@/views/Messages";
 
@@ -13,7 +14,7 @@ const routes = [
   {
     path: "/",
     name: "Main",
-    component: lazyLoad('Main'),
+    component: Main,
     meta: {
       title: "Pol"
     },
