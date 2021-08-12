@@ -105,7 +105,8 @@ import AOS from 'aos'
       AOSInit() {
         this.aos = AOS;
         this.aos.init({
-          duration: 1200
+          duration: 1200,
+          disable: "mobile"
         });
       }
     }
