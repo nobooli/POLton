@@ -15,7 +15,7 @@
         :srcset="tent_srcset"
         :sizes="tent_sizes">
     </div>
-    <div class="navi-zains" data-aos="fade-up">
+    <div class="navi-zains" data-aos="fade-down">
       <v-hover class="navi-zain">
         <a href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA" id="flag-zain">
           <img :src="hovered_zain === -1 ? flag_hover : flag_idle"
@@ -27,7 +27,8 @@
         </a>
       </v-hover>
       <v-hover class="navi-zain" v-for="(link, i) in links"
-      :key="i">
+        :key="i" 
+        data-aos="fade-down">
         <router-link :to="link.link">
           <img :id="link.id"
             :src="hovered_zain === i ? link.img_hover : link.img" 
