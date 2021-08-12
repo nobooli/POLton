@@ -25,14 +25,13 @@
                         <img v-if="message.profile_pic" class="profile-pic" :src="message.profile_pic">
                     </div>
                 </div>
-                <br />
+                <hr class="divider" />
                 <div class="message-text">
                     <p>
                         {{ message.message }}
                     </p>
                 </div>
-                <!-- <hr v-if="message.message_jp" class="divider"> -->
-                <br v-if="message.message_jp">
+                <hr v-if="message.message_jp" class="divider">
                 <div v-if="message.message_jp" class="message-text">
                     <p>
                         {{ message.message_jp }} 
@@ -162,11 +161,19 @@ export default {
     font-size: 1.1em;
 }
 
-.divider {
-    background-color: #1145a7;
-    margin: 1em 0 1em 0;
-    border: none;
-    height: .2em;
+.divider { border: none; }
+.divider:after {
+    height: .25em;
+    display: block;
+    content: " ";
+    background: repeating-linear-gradient(
+        to right,
+        rgba(17, 69, 167, 1) 0,
+        rgba(17, 69, 167, 1) .75em,
+        rgba(255, 255, 255, 0) .75em,
+        rgba(255, 255, 255, 0) 1.5em
+    );
+    margin: 1em -.75em 1em -.75em;
 }
 
 .pfp {
