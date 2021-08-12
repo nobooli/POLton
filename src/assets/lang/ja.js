@@ -44,6 +44,7 @@
         presents: "イラスト",
         messages: "メッセージ",
         quiz: "クイズ",
-        about: "ガラミ"
+        about: "ガラミ",
+        nplb: "ねぽらぼ"
     }
 }

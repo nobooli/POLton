@@ -45,6 +45,7 @@ module.exports = {
     presents: "Illustrations",
     messages: "Messages",
     quiz: "Quiz",
-    about: "About"
+    about: "About",
+    nplb: "NePoLaBo"
   }
 }

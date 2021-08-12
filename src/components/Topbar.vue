@@ -48,16 +48,15 @@
             {{$t('link.about')}}
           </v-list-item-title>
         </v-list-item>
+        <v-list-item href="https://www.nepolabo.fans">
+          <v-list-item-title>
+            <v-icon left color="secondary" class="clover">mdi-clover</v-icon>
+            {{$t('link.nplb')}}
+          </v-list-item-title>
+        </v-list-item>
+
       </v-list>
     </v-menu>
-    <a href="https://www.nepolabo.fans/">
-      <v-btn plain>
-        <span id="ne" class="glowing">N</span>
-        <span id="po" class="glowing">P</span>
-        <span id="la" class="glowing">L</span>
-        <span id="bo" class="glowing">B</span>
-      </v-btn>
-    </a>
     <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>
     <pwa-update></pwa-update>
     <v-spacer />
@@ -145,26 +144,5 @@ export default {
 </script>
 
 <style>
-#ne { color: #ffcc00; }
-#po { color: red; }
-#la { color: blue; }
-#bo { color: gray; }
-
-.glowing {
-  animation: glow 2s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from {
-      color: #fff;
-    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
-  }
-  
-  to {
-     color: gray;
-    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
-  }
-}
-
-
+.clover { transform: rotateY(0deg) rotate(45deg); }
 </style>
