@@ -10,7 +10,7 @@
           </div>
         </div>
         <br />
-        <div data-aos="zoom-in" data-aos-delay="1000">
+        <div data-aos="zoom-in" data-aos-delay="1500">
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmOsjndPd0qBXFVxhKIik3mxkgBlQAKUMyU_PAlTaBmTrWkg/formResponse?embedded=true"
               width="100%"
               height="100%"
@@ -35,7 +35,7 @@ export default {
       AOSInit() {
         this.aos = AOS;
         this.aos.init({
-          duration: 1000,
+          duration: 1500,
           disable: "mobile"
         });
       }
