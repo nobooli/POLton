@@ -1,9 +1,16 @@
 <template>
     <v-container>
         <!-- title -->
-        <div class="title-card">
-            <h1 class="title-text">{{$t('link.presents')}}</h1>
+        <div class="main-title-card">
+          <div class="ticket_card">
+            <div>
+              <p class="title_text" style="margin-bottom:0px;">
+                <span>{{$t('link.presents')}}</span>
+              </p>
+            </div>
+          </div>
         </div>
+        <br />
         <!-- gallery Lightbox -->
         <div class=".gallery-container">
             <lightbox id="art_gallery"

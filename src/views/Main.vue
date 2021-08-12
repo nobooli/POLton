@@ -9,6 +9,7 @@
         </div>
       </div>
     </div>
+    <br />
     <div class="tent">
       <img :src="tent" 
         :srcset="tent_srcset"
@@ -21,7 +22,8 @@
             @mouseover="hovered_zain = -1"
             @mouseleave="hovered_zain = null"
             :srcset="hovered_zain === -1 ? flag_srcset_hover : flag_srcset"
-            :sizes="zain_sizes">
+            :sizes="zain_sizes"
+            class="jumping-zain">
         </a>
       </v-hover>
       <v-hover class="navi-zain" v-for="(link, i) in links"
@@ -32,7 +34,8 @@
             @mouseover="hovered_zain = i" 
             @mouseleave="hovered_zain = null"
             :srcset="hovered_zain === i ? link.srcset_hover : link.srcset"
-            :sizes="zain_sizes">
+            :sizes="zain_sizes"
+            class="jumping-zain">
         </router-link>
       </v-hover>
     </div>
@@ -370,4 +373,5 @@ import AOS from 'aos'
     /* remainder of 8 seconds */
   }
 }
+
 </style>

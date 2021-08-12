@@ -1,5 +1,15 @@
 <template>
   <v-container>
+    <div class="main-title-card">
+      <div class="ticket_card">
+        <div>
+          <p class="title_text" style="margin-bottom:0px;">
+            <span>{{$t('link.soundboard')}}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <br />
     <div id="control-bar" :class="this.$vuetify.theme.dark ? 'dark-mode' : 'light-mode'">
       <div id="volume-bar">
        <v-slider id="volume_slider"

@@ -1,8 +1,15 @@
 <template>
     <v-container>
-        <div class="title-card">
-            <h1 class="title-text">{{$t('link.messages')}}</h1>
+        <div class="main-title-card">
+          <div class="ticket_card">
+            <div>
+              <p class="title_text" style="margin-bottom:0px;">
+                <span>{{$t('link.messages')}}</span>
+              </p>
+            </div>
+          </div>
         </div>
+        <br />
         <!-- messages -->
         <div id="messages">
             <div v-for="message in messages" :key="message.name" class="message" data-aos="fade-up">
