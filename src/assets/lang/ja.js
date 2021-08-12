@@ -35,6 +35,7 @@
         messages: "メッセージ",
     },
     link: {
+        home:"ホーム",
         soundboard: "ぽるボタン",
         presents: "イラスト",
         messages: "メッセージ",

@@ -14,7 +14,7 @@
         <v-list-item :to="{ name: 'Main' }">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-home</v-icon>
-            {{$t('Home')}}
+            {{$t('link.home')}}
           </v-list-item-title >
         </v-list-item>
         <v-list-item :to="{ name: 'Soundboard'}">

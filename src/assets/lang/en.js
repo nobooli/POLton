@@ -40,6 +40,7 @@ module.exports = {
     messages: "Messages",
   },
   link: {
+    home: "Home",
     soundboard: "Soundboard",
     presents: "Illustrations",
     messages: "Messages",
