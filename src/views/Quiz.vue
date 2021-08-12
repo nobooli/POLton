@@ -15,15 +15,24 @@
             height="100%"
             frameborder="0"
             id="pol-quiz"
-            ></iframe>
+            >
+          <!-- <input hidden id="quizTakerId" name="quizTakerId" value="{{ uuid }}"> -->
+        </iframe>
     </v-container>
 </template>
 
 <script>
+// import { v4 as uuidv4 } from 'uuid';
+
 export default {
     setup() {
         
     },
+    // data() {
+      // return {
+      //   uuid: uuidv4()
+      // }
+    // }
 }
 </script>
 
