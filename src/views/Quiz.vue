@@ -11,20 +11,26 @@
         </div>
         <br />
         <div data-aos="zoom-in" data-aos-delay="1500">
+          <!-- <iframe :src="'https://docs.google.com/forms/d/e/1FAIpQLScfRnEEdS-VSwQzkea_5OwV83NK5VzieqeDwl7n6wlnrJmL_A/viewform?usp=pp_url&entry.1439456151=' + uuid + '&embedded=true'" 
+            width="640" 
+            height="648" 
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0"
+          >Wird geladen…</iframe> -->
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmOsjndPd0qBXFVxhKIik3mxkgBlQAKUMyU_PAlTaBmTrWkg/formResponse?embedded=true"
               width="100%"
               height="100%"
               frameborder="0"
-              id="pol-quiz"
               >
             <!-- <input hidden id="quizTakerId" name="quizTakerId" value="{{ uuid }}"> -->
-          </iframe>
+          <!-- </iframe> -->
         </div>
     </v-container>
 </template>
 
 <script>
-// import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 import AOS from 'aos';
 
 export default {
@@ -44,12 +50,12 @@ export default {
       this.$nextTick(() => {
         this.AOSInit();
       });
+    },
+    data() {
+      return {
+        uuid: uuidv4()
+      }
     }
-    // data() {
-      // return {
-      //   uuid: uuidv4()
-      // }
-    // }
 }
 </script>
 
