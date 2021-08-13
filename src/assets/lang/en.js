@@ -49,6 +49,7 @@ module.exports = {
     messages: "Messages",
     quiz: "Quiz",
     about: "About",
+    channel: "Polka's Channel",
     nplb: "NePoLaBo"
   }
 }

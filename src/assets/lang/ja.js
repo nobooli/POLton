@@ -45,6 +45,7 @@
         messages: "メッセージ",
         quiz: "クイズ",
         about: "ガラミ",
+        channel: "座長のチャンネル",
         nplb: "ねぽらぼ"
     }
 }

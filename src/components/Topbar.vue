@@ -42,6 +42,12 @@
           </v-list-item-title>
         </v-list-item>
         <v-divider></v-divider>
+        <!-- <v-list-item href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA">
+          <v-list-item-title>
+            <v-icon left color="secondary">mdi-youtube</v-icon>
+            {{$t('link.channel')}}
+          </v-list-item-title>
+        </v-list-item> -->
         <v-list-item href="https://www.nepolabo.fans">
           <v-list-item-title>
             <v-icon left color="secondary" class="clover">mdi-clover</v-icon>
