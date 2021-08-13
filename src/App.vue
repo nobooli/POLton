@@ -6,17 +6,20 @@
         <router-view></router-view>
       </v-container>
     </v-content>
+    <Footer></Footer>
   </v-app>
 </template>
 
 <script>
 import Topbar from "./components/Topbar.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
 
   components: {
-    Topbar
+    Topbar,
+    Footer
   },
 
   data: () => ({

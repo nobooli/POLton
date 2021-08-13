@@ -147,8 +147,8 @@
           "name" : "Oh Yeah",
           "path": "Lines/POLglish/Oh_Yeah.mp3",
           "translation": {
-            "en": "Oh Yeah",
-            "ja": "Oh Yeah"
+            "en": "Oh Yeah!",
+            "ja": "Oh Yeah!"
           }
         },
         { 
@@ -180,7 +180,7 @@
           "path": "Lines/POLglish/Welcome_to_Hell.mp3",
           "translation": {
             "en": "Welcome to Hell",
-            "ja": "ウェルカムツヘル"
+            "ja": "ウェルカムツーヘル"
           }
         },
         {
@@ -587,7 +587,7 @@
           "path": "Noises/Other Noises/Disbelief.mp3",
           "translation": {
             "en": "Disbelief",
-            "ja": "はっ-?!"
+            "ja": "はぁっー！?"
           }
         },
         {
@@ -980,8 +980,8 @@
           "name": "Exasperated Ara Ara",
           "path": "Voice Acting/Miscellaneous VA/Exasperated_Ara_Ara.mp3",
           "translation": {
-            "en": "Exasperated Ara Ara",
-            "ja": "(Expasperated?)あらあら"
+            "en": "Smug (Cheeky) Ara Ara",
+            "ja": "生意気なあらあら"
           }
         },
 

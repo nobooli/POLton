@@ -19,14 +19,14 @@
         developer: "開発者：Coceki, Merun",
 
         credits: "舞台係： Broom, Asukiri, Alexander124, Timekiller, Nobooli",
-        fork: "ウェブサイト: nobooli, gokiburi",
+        fork: "ウェブサイト: nobooli, gokiburi, Warthog",
         design: "ウェブサイト素材： Hellscrossing, Raim, gokiburi",
         sound: "サウンドボード音響監督：BunBun",
         translationCredits: "翻訳とQC：Theldeon, CST, Darth Revan, Fads, Vanilla Thunder, Taichan, BaKamen, chimatta, Mugichos, vtange, kurapan",
-        bookArt: "スペシャルプレゼントイラスト: Forever9Nine",
-        bookLayout: "スペシャルプレゼントデザイン: Forever9Nine",
+        presentArt: "スペシャルプレゼントイラスト: Forever9Nine",
+        presentLayout: "スペシャルプレゼントデザイン: Forever9Nine",
         art: "イラスト：hellscrossing, raim, gokiburi, Forever9Nine, えびこ焼き, Leslie Empty, Ryuran, AnatoleSerial, Rinri, ジョン三郎, 三世吾郎, 雪風ときみ",
-        specialThanks: "Special Thanks： Niels, Hosu, AmamiyaMio, CST, nikki, NyakOfThePolpol, PovertyMiko, Ortrus, Warthog",
+        specialThanks: "Special Thanks： Niels, Hosu, AmamiyaMio, CST, nikki, NyakOfThePolpol, PovertyMiko, Ortrus",
 
         helpdevelope: "このウェブサイトの改善にご協力ください",
         volume: "ボリューム",
