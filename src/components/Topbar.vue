@@ -57,6 +57,28 @@
 
       </v-list>
     </v-menu>
+    <!-- <div class="bgm_slider">
+      <v-slider id="bgm-slider"
+        v-model="volume"
+        :prepend-icon="this.volume
+          ? (this.volume < 33
+            ? 'mdi-volume-low' :
+            (this.volume < 66 ? 'mdi-volume-medium' : 'mdi-volume-high'))
+          : 'mdi-volume-off'"
+        @input="(newVolume) => { audio.volume = newVolume / 100; }"
+        @click:prepend="() => {
+            if(!isNaN(this.volume) && this.volume > 0) {
+              previousVolume = this.volume;
+              this.volume = audio.volume = 0;
+              audio.volume = 0;
+            } else {
+              this.volume = previousVolume;
+              audio.volume = previousVolume / 100;
+            }
+        }"
+      >
+      </v-slider>
+    </div> -->
     <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>
     <pwa-update></pwa-update>
     <v-spacer />
@@ -106,7 +128,19 @@ export default {
       //{ title: "简体中文", src: "zhHans", isready: false },
       { title: "日本語", src: "ja", isready: true },
     ],
+    // audio: new Audio("voices/Singing/Humming/Waiting Room BGM.mp3"),
+    // volume: 5,
+    // previousVolume: 0,
+    // muted: false
   }),
+  mounted() {
+    // this.audio.volume = this.volume / 100;
+    // this.audio.preload = true;
+    // this.audio.loop = true;
+    // if (this.audio.paused || this.audio.ended) {
+    //   this.audio.play();
+    // }
+  },
   methods: {
     changeLang(e) {
       this.$i18n.locale = e;
@@ -145,4 +179,13 @@ export default {
 
 <style>
 .clover { transform: rotateY(0deg) rotate(45deg); }
+
+.bgm_slider { margin-top: 20px; }
+@media screen and (max-width: 600px) {
+  .bgm_slider { width: 40%; }
+}
+
+@media screen and (min-width: 600px) {
+  .bgm_slider { width: 10%; }
+}
 </style>
