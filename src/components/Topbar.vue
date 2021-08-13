@@ -42,19 +42,12 @@
           </v-list-item-title>
         </v-list-item>
         <v-divider></v-divider>
-        <v-list-item :to="{ name: 'About' }">
-          <v-list-item-title>
-            <v-icon left color="secondary">mdi-information</v-icon>
-            {{$t('link.about')}}
-          </v-list-item-title>
-        </v-list-item>
         <v-list-item href="https://www.nepolabo.fans">
           <v-list-item-title>
             <v-icon left color="secondary" class="clover">mdi-clover</v-icon>
             {{$t('link.nplb')}}
           </v-list-item-title>
         </v-list-item>
-
       </v-list>
     </v-menu>
     <!-- <div class="bgm_slider">
