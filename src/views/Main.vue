@@ -15,30 +15,32 @@
         :srcset="tent_srcset"
         :sizes="tent_sizes">
     </div>
-    <div class="navi-zains" data-aos="fade-down">
-      <v-hover class="navi-zain">
-        <a href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA" id="flag-zain">
-          <img :src="hovered_zain === -1 ? flag_hover : flag_idle"
-            @mouseover="hovered_zain = -1"
-            @mouseleave="hovered_zain = null"
-            :srcset="hovered_zain === -1 ? flag_srcset_hover : flag_srcset"
-            :sizes="zain_sizes"
-            class="jumping-zain">
-        </a>
-      </v-hover>
-      <v-hover class="navi-zain" v-for="(link, i) in links"
-        :key="i" 
-        data-aos="fade-down">
-        <router-link :to="link.link">
-          <img :id="link.id"
-            :src="hovered_zain === i ? link.img_hover : link.img" 
-            @mouseover="hovered_zain = i" 
-            @mouseleave="hovered_zain = null"
-            :srcset="hovered_zain === i ? link.srcset_hover : link.srcset"
-            :sizes="zain_sizes"
-            class="jumping-zain">
-        </router-link>
-      </v-hover>
+    <div data-aos="fade-down">
+      <div class="navi-zains">
+        <v-hover class="navi-zain">
+          <a href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA" id="flag-zain">
+            <img :src="hovered_zain === -1 ? flag_hover : flag_idle"
+              @mouseover="hovered_zain = -1"
+              @mouseleave="hovered_zain = null"
+              :srcset="hovered_zain === -1 ? flag_srcset_hover : flag_srcset"
+              :sizes="zain_sizes"
+              class="jumping-zain">
+          </a>
+        </v-hover>
+        <v-hover class="navi-zain" v-for="(link, i) in links"
+          :key="i" 
+        >
+          <router-link :to="link.link">
+            <img :id="link.id"
+              :src="hovered_zain === i ? link.img_hover : link.img" 
+              @mouseover="hovered_zain = i" 
+              @mouseleave="hovered_zain = null"
+              :srcset="hovered_zain === i ? link.srcset_hover : link.srcset"
+              :sizes="zain_sizes"
+              class="jumping-zain">
+          </router-link>
+        </v-hover>
+      </div>
     </div>
   </v-container>
 </template>
@@ -214,7 +216,6 @@ import AOS from 'aos'
   .title_text span {
     animation-duration: 24s;
   }
-
 }
 
 @keyframes title_text {
@@ -224,6 +225,7 @@ import AOS from 'aos'
 }
 
 .navi-zain img {
+  animation-delay: 1s;
 	animation-duration: 8s;
   animation-iteration-count: infinite;
 	transform-origin: bottom;
