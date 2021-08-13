@@ -24,7 +24,7 @@
               frameborder="0"
               >
             <!-- <input hidden id="quizTakerId" name="quizTakerId" value="{{ uuid }}"> -->
-          <!-- </iframe> -->
+          </iframe>
         </div>
     </v-container>
 </template>
