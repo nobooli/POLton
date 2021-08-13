@@ -103,32 +103,84 @@
             "ja": "ヘイガイズ"
           }
         },
-        { "name" : "Nice",
+        { 
+          "name" : "Nice",
           "path": "Lines/POLglish/Nice.mp3",
           "translation": {
             "en": "Nice",
             "ja": "ナイス"
           }
         },
-        { "name" : "Panik",
+        { 
+          "name" : "Panik",
           "path": "Lines/POLglish/Poltato_PC.mp3",
           "translation": {
             "en": "POLtato PC",
             "ja": "ポルテトPC"
           }
         },
-        { "name" : "Yes OMG",
+        { 
+          "name" : "Yes OMG",
           "path": "Lines/POLglish/Yes OMG.mp3",
           "translation": {
             "en": "Yes OMG",
             "ja": "イエスオーマイゴッド"
           }
         },
-        { "name" : "You are Mife",
+        { 
+          "name" : "You are Mife",
           "path": "Lines/POLglish/You_are_Mife.mp3",
           "translation": {
             "en": "You are Mife",
             "ja": "ユーアーマイフ"
+          }
+        },
+        { 
+          "name" : "Flert",
+          "path": "Lines/POLglish/Flert.mp3",
+          "translation": {
+            "en": "Flert",
+            "ja": "Are you free tonight?"
+          }
+        },
+        { 
+          "name" : "Oh Yeah",
+          "path": "Lines/POLglish/Oh_Yeah.mp3",
+          "translation": {
+            "en": "Oh Yeah",
+            "ja": "Oh Yeah"
+          }
+        },
+        { 
+          "name" : "Okaaay",
+          "path": "Lines/POLglish/Okaaay.mp3",
+          "translation": {
+            "en": "Okaaay",
+            "ja": "オケー"
+          }
+        },
+        { 
+          "name" : "Passion English",
+          "path": "Lines/POLglish/Passion_English.mp3",
+          "translation": {
+            "en": "Passion English",
+            "ja": "パッションイングリッシュ"
+          }
+        },
+        { 
+          "name" : "Smol Smol",
+          "path": "Lines/POLglish/Smol_Smol.mp3",
+          "translation": {
+            "en": "Smol Smol",
+            "ja": "スモールスモール"
+          }
+        },
+        { 
+          "name" : "Welcome to Hell",
+          "path": "Lines/POLglish/Welcome_to_Hell.mp3",
+          "translation": {
+            "en": "Welcome to Hell",
+            "ja": "ウェルカムツヘル"
           }
         },
         {
@@ -199,6 +251,14 @@
           "translation": {
             "en": "Polka Owaruka",
             "ja": "ポルカ終わるか"
+          }
+        },
+        {
+          "name": "Yabe",
+          "path": "Lines/Other Lines/Yabe.mp3",
+          "translation": {
+            "en": "Yabe",
+            "ja": "やべ"
           }
         },
         {
@@ -523,6 +583,14 @@
           }
         },
         {
+          "name": "Disbelief",
+          "path": "Noises/Other Noises/Disbelief.mp3",
+          "translation": {
+            "en": "Disbelief",
+            "ja": "はっ-?!"
+          }
+        },
+        {
           "name": "Dedede",
           "path": "Noises/Shenanigans/Dedede.mp3",
           "translation": {
@@ -560,6 +628,14 @@
           "translation": {
             "en": "Sneeze Explosion",
             "ja": "くしゃみ爆発"
+          }
+        },
+        {
+          "name": "Haha",
+          "path": "Noises/Shenanigans/Haha.mp3",
+          "translation": {
+            "en": "Haha",
+            "ja": "はは!"
           }
         }
       ]
@@ -805,10 +881,18 @@
           }
         },
         {
-          "name": "Ala Ala",
-          "path": "Voice Acting/Miscellaneous VA/Ala Ala.mp3",
+          "name": "Moo",
+          "path": "Voice Acting/Animals _ Characters/Moo.mp3",
           "translation": {
-            "en": "Ala Ala",
+            "en": "Moo",
+            "ja": "モーモー"
+          }
+        },
+        {
+          "name": "Ala Ala",
+          "path": "Voice Acting/Miscellaneous VA/Ara_Ara.mp3",
+          "translation": {
+            "en": "Ara Ara",
             "ja": "あらあらうふふ"
           }
         },
@@ -884,6 +968,23 @@
             "ja": "もしもしYoutube?"
           }
         },
+        {
+          "name": "Cute Ara Ara",
+          "path": "Voice Acting/Miscellaneous VA/Cute_Ara_Ara.mp3",
+          "translation": {
+            "en": "Cute Ara Ara",
+            "ja": "かわいいあらあら"
+          }
+        },
+        {
+          "name": "Exasperated Ara Ara",
+          "path": "Voice Acting/Miscellaneous VA/Exasperated_Ara_Ara.mp3",
+          "translation": {
+            "en": "Exasperated Ara Ara",
+            "ja": "(Expasperated?)あらあら"
+          }
+        },
+
         {
           "name": "Lamy",
           "path": "Voice Acting/Other Vtubers/Lamy.mp3",

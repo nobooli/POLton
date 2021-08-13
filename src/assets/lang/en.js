@@ -21,7 +21,7 @@ module.exports = {
     credits: "Stage Hands: Broom, AsuKiri, Alexander124, Timekiller, Nobooli",
     fork: "Website: nobooli, gokiburi",
     design: "Website Art: Hellscrossing, Raim, gokiburi",
-    sound: "Soundboard Sound Manager: BunBun",
+    sound: "Sound Director: BunBun",
     translationCredits: "Translation & QC: Theldeon, CST, Darth Revan, Fads, Vanilla Thunder, Taichan, BaKamen, chimatta, Mugichos, vtange, kurapan",
     bookArt: "Book Cover Art: Forever9Nine",
     bookLayout: "Book Layout Design: Caudy, Sephi",
