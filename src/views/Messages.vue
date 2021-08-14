@@ -84,7 +84,7 @@ export default {
 
 .message {
 	padding: 0.75em;
-	border-radius: 1%;
+	border-radius: 0.5rem;
 	overflow: hidden;
 	display: inline-block;
 	width: 100%;
@@ -95,15 +95,11 @@ export default {
 		white 10px,
 		white 20px
 	);
-
+	margin-bottom: 2em;
+	box-shadow: 5px 8px 20px -5px rgba(10, 10, 10, 0.75);
 	border: #1145a7 solid 0.25em;
 }
 
-.message {
-	margin-bottom: 2em;
-	box-shadow: 5px 8px 20px -5px rgba(10, 10, 10, 0.75);
-	display: block;
-}
 .message-body {
 	background: white;
 	padding: 1rem;
