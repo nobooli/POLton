@@ -15,7 +15,7 @@
 					:key="i"
 					class="credit-group-member"
 				>
-					<span>{{ member.name }}</span>
+					<span>{{ member.name }} <a v-if="member.twitter" :href="member.twitter.url">{{ member.twitter.tag }}</a></span>
 				</div>
 			</div>
 		</div>
