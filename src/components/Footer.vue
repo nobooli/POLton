@@ -15,7 +15,12 @@
 					:key="i"
 					class="credit-group-member"
 				>
-					<span>{{ member.name }} <a v-if="member.twitter" :href="member.twitter.url">{{ member.twitter.tag }}</a></span>
+					<span>
+						{{ member.name }}
+						<a v-if="member.twitter" :href="member.twitter.url">
+							{{ member.twitter.tag }}
+						</a>
+					</span>
 				</div>
 			</div>
 		</div>
@@ -54,7 +59,7 @@ export default {
 	padding: 3rem 2rem;
 	max-width: 1440px;
 	margin: auto;
-	column-width: 17.5em;
+	column-width: 12em;
 }
 
 .credit-group {
