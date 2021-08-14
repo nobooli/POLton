@@ -64,11 +64,14 @@ export default {
 
 .credit-group {
 	overflow: hidden;
-	margin-bottom: 1.25em;
+	margin-bottom: 1.5em;
 }
 
 .credit-group-name {
+	color: #7c1a1f;
 	font-size: 1.25em;
+	margin-bottom: 0.2em;
+	font-weight: 500;
 }
 
 #disclaimer {
