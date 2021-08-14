@@ -33,12 +33,12 @@ export default {
 		showSidebar: false,
 	}),
 	mounted() {
-		let timeNow = new Date();
-		let hours = timeNow.getHours();
-		if (hours < 6 || hours > 18) {
-			this.$store.commit("change_dark_mode");
-			this.$vuetify.theme.dark = this.$store.state.dark_mode;
-		}
+		// let timeNow = new Date();
+		// let hours = timeNow.getHours();
+		// if (hours < 6 || hours > 18) {
+		// 	this.$store.commit("change_dark_mode");
+		// 	this.$vuetify.theme.dark = this.$store.state.dark_mode;
+		// }
 		window.onbeforeinstallprompt = (e) => {
 			this.prompt = true;
 			this.deferred = e;
