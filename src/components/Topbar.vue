@@ -1,6 +1,5 @@
 <template>
   <v-app-bar
-    :collapse-on-scroll="$vuetify.breakpoint.smAndDown"
     app
     :color="night"
     dark
