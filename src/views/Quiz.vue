@@ -9,12 +9,14 @@
 				</div>
 			</div>
 		</div>
-		<br />
-		<div>
-			<v-btn :to="{ name: 'QuizJP' }">日本語</v-btn>
-			<v-btn :to="{ name: 'QuizZH' }">繁體中文</v-btn>
-			<v-btn :to="{ name: 'QuizEN' }">English</v-btn>
-		</div>
+		<section class="quiz-intro-body">
+			<h2 class="quiz-lang-title">Select a language</h2>
+			<div class="quiz-languages">
+				<v-btn class="quiz-lang-btn" :to="{ name: 'QuizJP' }">日本語</v-btn>
+				<v-btn class="quiz-lang-btn" :to="{ name: 'QuizZH' }">繁體中文</v-btn>
+				<v-btn class="quiz-lang-btn" :to="{ name: 'QuizEN' }">English</v-btn>
+			</div>
+		</section>
 	</v-container>
 </template>
 
@@ -43,9 +45,7 @@ export default {
 		document.head.appendChild(tweetButton);
 	},
 	data() {
-		return {
-
-		};
+		return {};
 	},
 };
 </script>
@@ -53,5 +53,30 @@ export default {
 <style>
 iframe {
 	height: 100vh;
+}
+
+.quiz-intro-body {
+	min-height: 50vh;
+	margin-top: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.quiz-lang-title {
+	text-align: center;
+	font-size: 2.25rem;
+}
+
+.quiz-languages {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5rem 0;
+}
+
+.quiz-lang-btn {
+	margin: 0 1rem;
 }
 </style>
