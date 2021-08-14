@@ -27,7 +27,7 @@
         addtohomescreeninfo: "このウェブサイトはホロライブのファンによって運営されています。カバー株式会社およびホロライブとは一切関係ありません。",
         friendlinks: "リンク集",
         copiedToClipboard: "{value}はこぴる",
-        messages: "メッセージ",
+        messages: "メッセージ"
     },
     link: {
         home:"ホーム",

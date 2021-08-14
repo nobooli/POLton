@@ -50,6 +50,22 @@
             ]
         },
         {
+            "name": "bgm",
+            "translation": {
+                "en":"BGM",
+                "ja":"BGM"
+            },
+            "members": [
+                { 
+                    "name": "Konosan",
+                    "twitter": {
+                        "tag": "@onorikyu",
+                        "url": "https://twitter.com/onorikyu"
+                    }
+                }
+            ]
+        },
+        {
             "name": "tl_and_qc",
             "translation": {
                 "en":"Translation & QC",
