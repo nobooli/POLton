@@ -4,7 +4,7 @@
             "name": "stage_hands",
             "translation": {
                 "en":"Stage Hands",
-                "jp":"舞台係"
+                "ja":"舞台係"
             },
             "members": [
                 { "name": "Broom" },
@@ -18,7 +18,7 @@
             "name": "website_dev",
             "translation": {
                 "en":"Website",
-                "jp":"ウェブサイト"
+                "ja":"ウェブサイト"
             },
             "members": [
                 { "name": "nobooli" },
@@ -31,7 +31,7 @@
             "name": "website_art",
             "translation": {
                 "en":"Website Art",
-                "jp":"ウェブサイト素材"
+                "ja":"ウェブサイト素材"
             },
             "members": [
                 { "name": "hellscrossing" },
@@ -43,7 +43,7 @@
             "name": "sound_director",
             "translation": {
                 "en":"Website Sound Director",
-                "jp":"サウンドボード音響監督"
+                "ja":"サウンドボード音響監督"
             },
             "members": [
                 { "name": "BunBun" }
@@ -53,7 +53,7 @@
             "name": "tl_and_qc",
             "translation": {
                 "en":"Translation & QC",
-                "jp":"翻訳とQC"
+                "ja":"翻訳とQC"
             },
             "members": [
                 { "name": "Theldeon" },
@@ -74,7 +74,7 @@
             "name": "special_present_art",
             "translation": {
                 "en":"Special Present Art",
-                "jp":"スペシャルプレゼントイラスト"
+                "ja":"スペシャルプレゼントイラスト"
             },
             "members": [
                 { "name": "Forever9Nine" }
@@ -84,7 +84,7 @@
             "name": "special_present_design",
             "translation": {
                 "en":"Special Present Design",
-                "jp":"スペシャルプレゼントデザイン"
+                "ja":"スペシャルプレゼントデザイン"
             },
             "members": [
                 { "name": "Caudy" },
@@ -95,7 +95,7 @@
             "name": "artists",
             "translation": {
                 "en":"Artists",
-                "jp":"イラスト"
+                "ja":"イラスト"
             },
             "members": [
                 { "name": "hellscrossing" },
@@ -116,7 +116,7 @@
             "name": "special_thanks",
             "translation": {
                 "en":"Special Thanks",
-                "jp":"スペシャルサンクス"
+                "ja":"スペシャルサンクス"
             },
             "members": [
                 { "name": "Niels" },
