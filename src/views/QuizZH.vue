@@ -1,15 +1,5 @@
 <template>
 	<v-container>
-		<div class="main-title-card">
-			<div class="ticket_card">
-				<div>
-					<p class="title_text" style="margin-bottom:0px;">
-						<span>{{ $t("link.quiz") }}</span>
-					</p>
-				</div>
-			</div>
-		</div>
-		<br />
 		<div data-aos="zoom-in" data-aos-delay="1500">
 			<v-btn @click="getScoreTweet()">
 				<v-icon>

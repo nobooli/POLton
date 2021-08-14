@@ -1,11 +1,5 @@
 <template>
 	<v-container>
-		<div class="ticket_card">
-			<h3 class="title_text" style="margin-bottom:0px;">
-				<span>{{ title_text }}</span>
-				<!-- <span>{{ $t("link.soundboard") }}</span> -->
-			</h3>
-		</div>
 		<Header :banner_image="banner"></Header>
 
 		<div class="tent" data-aos="zoom-in">
@@ -42,6 +36,12 @@
 					</router-link>
 				</v-hover>
 			</div>
+		</div>
+		<div class="ticket_card">
+			<h3 class="title_text" style="margin-bottom:0px;">
+				<span>{{ title_text }}</span>
+				<!-- <span>{{ $t("link.soundboard") }}</span> -->
+			</h3>
 		</div>
 	</v-container>
 </template>

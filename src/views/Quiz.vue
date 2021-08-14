@@ -1,14 +1,6 @@
 <template>
 	<v-container>
-		<div class="main-title-card">
-			<div class="ticket_card">
-				<div>
-					<p class="title_text" style="margin-bottom:0px;">
-						<span>{{ $t("link.quiz") }}</span>
-					</p>
-				</div>
-			</div>
-		</div>
+		<Header :banner_image="banner"></Header>
 		<section class="quiz-intro-body">
 			<h2 class="quiz-lang-title">Select a language</h2>
 			<div class="quiz-languages">
@@ -21,9 +13,13 @@
 </template>
 
 <script>
+import Header from "../components/Header";
 import AOS from "aos";
 
 export default {
+	components: {
+		Header,
+	},
 	setup() {},
 	methods: {
 		AOSInit() {
@@ -45,7 +41,9 @@ export default {
 		document.head.appendChild(tweetButton);
 	},
 	data() {
-		return {};
+		return {
+			banner: "img/quiz.png",
+		};
 	},
 };
 </script>

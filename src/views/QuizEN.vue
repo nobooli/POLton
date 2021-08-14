@@ -1,15 +1,5 @@
 <template>
 	<v-container>
-		<div class="main-title-card">
-			<div class="ticket_card">
-				<div>
-					<p class="title_text" style="margin-bottom:0px;">
-						<span>{{ $t("link.quiz") }}</span>
-					</p>
-				</div>
-			</div>
-		</div>
-		<br />
 		<div data-aos="zoom-in" data-aos-delay="1500">
 			<v-btn @click="getScoreTweet()">
 				<v-icon>
@@ -17,7 +7,11 @@
 				</v-icon>
 			</v-btn>
 			<iframe
-				:src="'https://docs.google.com/forms/d/e/1FAIpQLScYsLUoD5RMPGxY_m9kB-jD4A8vF_J0JQWg-q___toNYaPf5g/viewform?usp=pp_url&entry.231184758=' + uuid + '&embedded=true'"
+				:src="
+					'https://docs.google.com/forms/d/e/1FAIpQLScYsLUoD5RMPGxY_m9kB-jD4A8vF_J0JQWg-q___toNYaPf5g/viewform?usp=pp_url&entry.231184758=' +
+						uuid +
+						'&embedded=true'
+				"
 				width="100%"
 				height="100%"
 				frameborder="0"
@@ -42,13 +36,20 @@ export default {
 			});
 		},
 		getScoreTweet() {
-			fetch("https://script.google.com/macros/s/AKfycbzejN74f_F5jk7gLoSLcIvJtwxI9EkQzXcpi6oXj8cqGuiQp0k23xFCZANlOrLFCu7SjA/exec?id=" + this.uuid)
-				.then(response => response.json())
-				.then(receivedScore => {
-					var score = receivedScore <= 0 ? "" : "" + receivedScore + " / 100%0A";
-					window.location.href = "https://twitter.com/intent/tweet?text=" + score + "%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz"
+			fetch(
+				"https://script.google.com/macros/s/AKfycbzejN74f_F5jk7gLoSLcIvJtwxI9EkQzXcpi6oXj8cqGuiQp0k23xFCZANlOrLFCu7SjA/exec?id=" +
+					this.uuid
+			)
+				.then((response) => response.json())
+				.then((receivedScore) => {
+					var score =
+						receivedScore <= 0 ? "" : "" + receivedScore + " / 100%0A";
+					window.location.href =
+						"https://twitter.com/intent/tweet?text=" +
+						score +
+						"%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz";
 				});
-		}
+		},
 	},
 	mounted() {
 		this.$nextTick(() => {
@@ -63,9 +64,9 @@ export default {
 	data() {
 		return {
 			uuid: uuidv4(),
-			url: ''
+			url: "",
 		};
-	}
+	},
 };
 </script>
 
