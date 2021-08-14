@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<Header :banner_image="banner" :title_text="title_text"></Header>
+		<Header :banner_image="banner"></Header>
 		<!-- messages -->
 		<div id="messages">
 			<div
@@ -55,7 +55,6 @@ export default {
 	data() {
 		return {
 			banner: "img/otegami.png",
-			title_text: "Messages",
 			messages: messages.messages,
 		};
 	},
