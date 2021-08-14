@@ -1,7 +1,7 @@
 {
     "credits": [
         {
-            "name": "StageHands",
+            "name": "stage_hands",
             "translation": {
                 "en":"Stage Hands",
                 "jp":"舞台係"
@@ -15,7 +15,7 @@
             ]
         },
         {
-            "name": "Website",
+            "name": "website_dev",
             "translation": {
                 "en":"Website",
                 "jp":"ウェブサイト"
@@ -23,11 +23,12 @@
             "members": [
                 { "name": "nobooli" },
                 { "name": "gokiburi" },
-                { "name": "Warthog" }
+                { "name": "Warthog" },
+                { "name": "Matthew Tao" }
             ]
         },
         {
-            "name": "Website Art",
+            "name": "website_art",
             "translation": {
                 "en":"Website Art",
                 "jp":"ウェブサイト素材"
@@ -39,7 +40,7 @@
             ]
         },
         {
-            "name": "Sound Director",
+            "name": "sound_director",
             "translation": {
                 "en":"Website Sound Director",
                 "jp":"サウンドボード音響監督"
@@ -49,7 +50,7 @@
             ]
         },
         {
-            "name": "Translation & QC",
+            "name": "tl_and_qc",
             "translation": {
                 "en":"Translation & QC",
                 "jp":"翻訳とQC"
@@ -70,7 +71,7 @@
             ]
         },
         {
-            "name": "Special Present Art",
+            "name": "special_present_art",
             "translation": {
                 "en":"Special Present Art",
                 "jp":"スペシャルプレゼントイラスト"
@@ -80,7 +81,7 @@
             ]
         },
         {
-            "name": "Special Present Design",
+            "name": "special_present_design",
             "translation": {
                 "en":"Special Present Design",
                 "jp":"スペシャルプレゼントデザイン"
@@ -91,7 +92,7 @@
             ]
         },
         {
-            "name": "Artists",
+            "name": "artists",
             "translation": {
                 "en":"Artists",
                 "jp":"イラスト"
@@ -112,7 +113,7 @@
             ]
         },
         {
-            "name": "Special Thanks",
+            "name": "special_thanks",
             "translation": {
                 "en":"Special Thanks",
                 "jp":"スペシャルサンクス"
