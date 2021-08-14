@@ -1,18 +1,21 @@
 <template>
-    <div id="credits">
-        <div v-for="group in credits" :key="group.name"
-            class="credit-group"
-        >
-            <div class="credit-group-name">
-                <span>{{ resolveI18n(group.translation) }}</span>
-            </div>
-            <div v-for="(member, i) in group.members" :key="i"
-                class="credit-group-member"
+    <div>
+        <div id="credits">
+            <div v-for="group in credits" :key="group.name"
+                class="credit-group"
+                :id="group.name"
             >
-                <span>{{ member.name }}</span>
+                <div class="credit-group-name">
+                    <span>{{ resolveI18n(group.translation) }}</span>
+                </div>
+                <div v-for="(member, i) in group.members" :key="i"
+                    class="credit-group-member"
+                >
+                    <span>{{ member.name }}</span>
+                </div>
             </div>
         </div>
-        <div>
+        <div id="disclaimer">
             <span>{{ $t('ui.disclaimer') }}</span>
         </div>
     </div>
@@ -36,5 +39,7 @@ export default {
 </script>
 
 <style>
-
+#credits {
+    column-count: 4;
+}
 </style>
