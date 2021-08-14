@@ -83,11 +83,9 @@ main {
 }
 
 #app {
-	background: 
-    /* linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), */ url("~@/assets/polpattern2b.png");
+	background: white;
+	background-image: url("~@/assets/polpattern2b2.png");
+	background-repeat: repeat;
 	font-family: "Poppins", sans-serif;
 }
 
