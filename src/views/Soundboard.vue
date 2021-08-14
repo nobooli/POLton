@@ -1,26 +1,29 @@
 <template>
 	<v-container>
 		<Header :banner_image="banner" :title_text="title_text"></Header>
-		<v-row v-for="group in voices" :key="group.name" data-aos="fade-up">
-			<v-col cols="12" class="ma-0 pa-0">
-				<v-card class="ma-1 pa-0">
-					<v-card-title>{{ resolveI18n(group.translation) }}</v-card-title>
-					<v-container>
-						<v-row no-gutters>
-							<v-btn
-								class="ma-2 btn soundboard-btn"
-								v-for="voice in group.voicelist"
-								:key="voice.name"
-								raised
-								color="secondary"
-								@click="play(voice)"
-								>{{ resolveI18n(voice.translation) }}</v-btn
-							>
-						</v-row>
-					</v-container>
-				</v-card>
-			</v-col>
-		</v-row>
+		<section
+			class="sound-section"
+			v-for="group in voices"
+			:key="group.name"
+			data-aos="fade-up"
+		>
+			<v-card class="pa-0">
+				<v-card-title>{{ resolveI18n(group.translation) }}</v-card-title>
+				<v-container>
+					<v-row no-gutters>
+						<v-btn
+							class="ma-2 btn soundboard-btn"
+							v-for="voice in group.voicelist"
+							:key="voice.name"
+							raised
+							color="secondary"
+							@click="play(voice)"
+							>{{ resolveI18n(voice.translation) }}</v-btn
+						>
+					</v-row>
+				</v-container>
+			</v-card>
+		</section>
 
 		<v-dialog v-model="orderdialog" max-width="800">
 			<v-toolbar dark color="primary">
@@ -370,6 +373,10 @@ export default {
 	white-space: normal !important;
 	text-transform: none !important;
 	display: inline-block;
+}
+
+.sound-section {
+	margin-bottom: 2rem;
 }
 
 #control-bar {
