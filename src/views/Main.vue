@@ -39,7 +39,7 @@
 		</div>
 		<div class="ticket_card">
 			<h3 class="title_text" style="margin-bottom:0px;">
-				<span>{{ title_text }}</span>
+				<span>{{ $t("ui.welcome") }}</span>
 				<!-- <span>{{ $t("link.soundboard") }}</span> -->
 			</h3>
 		</div>
@@ -57,7 +57,7 @@ export default {
 	data: function() {
 		return {
 			banner: "img/omapol_1shuu.png",
-			title_text: "Welcome",
+			// title_text: "Welcome",
 
 			hovered_zain: null,
 			zain_sizes: "(max-width: 600px) 75px, (max-width: 1280px) 150px, 300px",
