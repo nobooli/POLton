@@ -269,20 +269,6 @@ export default {
 			this.voice = item;
 			this.audio.volume = this.volume / 100;
 			this.audio.play();
-			this.audio.addEventListener(
-				"ended",
-				() => {
-					this.sliderKey += 1;
-				},
-				false
-			);
-			this.audio.addEventListener(
-				"seeking",
-				() => {
-					this.sliderKey += 1;
-				},
-				false
-			);
 		},
 		playOnly(item) {
 			// this.audio = new Audio();
@@ -290,20 +276,6 @@ export default {
 			this.audio.preload = true;
 			this.voice = item;
 			this.audio.play();
-			this.audio.addEventListener(
-				"ended",
-				() => {
-					this.sliderKey += 1;
-				},
-				false
-			);
-			this.audio.addEventListener(
-				"seeking",
-				() => {
-					this.sliderKey += 1;
-				},
-				false
-			);
 		},
 		deletelist(i) {
 			//删除序列中的一个值
