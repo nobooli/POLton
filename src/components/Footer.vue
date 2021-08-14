@@ -68,7 +68,7 @@ export default {
 	max-width: 1440px;
 	margin: auto;
 	column-width: clamp(12em, 20vw, 20em);
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }
 
 .credit-group {
