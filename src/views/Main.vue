@@ -107,7 +107,7 @@ export default {
 				},
 				{
 					// Quiz
-					link: "/Quiz",
+					link: "/quiz",
 					img: "img/quiz_idle_300.png",
 					img_hover: "img/quiz_hover_300.png",
 					id: "quiz-zain",
