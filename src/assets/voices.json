@@ -625,6 +625,14 @@
 					}
 				},
 				{
+					"name": "Drumroll",
+					"path": "Noises/Other Noises/Drumroll.mp3",
+					"translation": {
+						"en": "Drumroll",
+						"ja": "ドラムロール"
+					}
+				},
+				{
 					"name": "Dedede",
 					"path": "Noises/Shenanigans/Dedede.mp3",
 					"translation": {
@@ -971,14 +979,6 @@
 					}
 				},
 				{
-					"name": "PANIK",
-					"path": "Voice Acting/Miscellaneous VA/PANIK.mp3",
-					"translation": {
-						"en": "PANIK",
-						"ja": "パニック！"
-					}
-				},
-				{
 					"name": "Bath Dinner or Polka",
 					"path": "Voice Acting/Miscellaneous VA/Bath Dinner or Polka.mp3",
 					"translation": {
@@ -1010,15 +1010,7 @@
 						"ja": "イケメンポルカ"
 					}
 				},
-				{
-					"name": "Drumroll",
-					"path": "Voice Acting/Miscellaneous VA/Drumroll.mp3",
-					"translation": {
-						"en": "Drumroll",
-						"ja": "ドラムロール"
-					}
-				},
-				{
+			{
 					"name": "Hello Youtube",
 					"path": "Voice Acting/Miscellaneous VA/Hello Youtube.mp3",
 					"translation": {
@@ -1061,10 +1053,18 @@
 
 				{
 					"name": "Morning Alarm",
-					"path": "Voice Acting/Miscellaneous VA/Morning_Alarm.mp3",
+					"path": "Noises/Other Noises/Morning_Alarm.mp3",
 					"translation": {
 						"en": "Morning Alarm",
 						"ja": "朝の目覚まし"
+					}
+				},
+				{
+					"name": "PANIK",
+					"path": "Noises/Shenanigans/PANIK.mp3",
+					"translation": {
+						"en": "PANIK",
+						"ja": "パニック！"
 					}
 				},
 				{
