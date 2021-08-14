@@ -76,7 +76,10 @@ export default {
 		messageLines() {
 			let newMessages = [...this.messages];
 			newMessages.map((msg) => {
-				return (msg.message = msg.message.split(/\r\n|\r|\n/g));
+				if (!Array.isArray(msg.message)) {
+					msg.message = msg.message.split(/\r\n|\r|\n/g);
+				}
+				return msg.message;
 			});
 			return newMessages;
 		},
