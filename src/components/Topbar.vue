@@ -58,6 +58,7 @@
     <div class="bgm_slider">
       <v-slider id="bgm-slider"
         v-model="volume"
+        label="BGM"
         :disabled="this.disabled"
         :prepend-icon="this.volume
           ? (this.volume < 33
