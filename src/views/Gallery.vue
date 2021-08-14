@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<Header :banner_image="banner" :title_text="title_text"></Header>
+		<Header :banner_image="banner"></Header>
 		<!-- gallery Lightbox -->
 		<div class=".gallery-container">
 			<lightbox
@@ -32,7 +32,6 @@ export default {
 	data() {
 		return {
 			banner: "img/irasuto.png",
-			title_text: "Gallery",
 			art_pieces: art_pieces.art_pieces,
 			options: {
 				closeText: "X",
