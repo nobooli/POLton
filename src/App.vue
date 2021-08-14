@@ -74,6 +74,8 @@ export default {
 <style src="aos/dist/aos.css"></style>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
+
 main {
 	width: 100%;
 	max-width: 1140px;
@@ -86,5 +88,6 @@ main {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), */ url("~@/assets/polpattern2b.png");
+	font-family: "Poppins", sans-serif;
 }
 </style>
