@@ -45,7 +45,7 @@ export default {
 			fetch("https://script.google.com/macros/s/AKfycbyljtN8fUV1oySysXGp_HyI6oF0ermZ9XyAmq_7Q8luA1Ye5ijj34x8w4_kAYMA8gYe/exec" + this.uuid)
 				.then(response => response.json())
 				.then(receivedScore => {
-					var score = receivedScore <= 0 ? "" + receivedScore + " / 100%0A";
+					var score = receivedScore <= 0 ? "" : "" + receivedScore + " / 100%0A";
 					window.location.href = "https://twitter.com/intent/tweet?text=" + score + "%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz"
 				});
 		}
