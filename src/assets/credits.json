@@ -11,7 +11,7 @@
                 { "name": "Broom" },
                 { "name": "Asukiri" },
                 { "name": "Alexander124" },
-                { "name": "Nobooli" }
+                { "name": "nobooli" }
             ]
         },
         {
@@ -21,7 +21,6 @@
                 "ja":"ウェブサイト"
             },
             "members": [
-                { "name": "nobooli" },
                 { "name": "gokiburi" },
                 { "name": "Warthog" },
                 { "name": "Matthew Tao" }
