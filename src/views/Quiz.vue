@@ -67,7 +67,6 @@ iframe {
 .quiz-lang-title {
 	text-align: center;
 	font-size: 2.25rem;
-	animation: letterStretch 1s ease infinite alternate;
 }
 
 .quiz-languages {
@@ -79,14 +78,5 @@ iframe {
 
 .quiz-lang-btn {
 	margin: 0 1rem;
-}
-
-@keyframes letterStretch {
-	0% {
-		transform: scale(0.95, 1.15);
-	}
-	100% {
-		transform: scale(1.15, 1);
-	}
 }
 </style>
