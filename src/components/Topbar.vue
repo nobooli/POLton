@@ -58,6 +58,7 @@
     <div class="bgm_slider">
       <v-slider id="bgm-slider"
         v-model="volume"
+        :disabled="this.disabled"
         :prepend-icon="this.volume
           ? (this.volume < 33
             ? 'mdi-volume-low' :
@@ -156,7 +157,8 @@ export default {
     muted: false,
     fromRoute: null,
     toRoute: null,
-    pausedOrEnded: false
+    pausedOrEnded: false,
+    disabled: false
   }),
   watch: {
     $route (to, from) {

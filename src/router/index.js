@@ -52,6 +52,28 @@ const routes = [
     },
   },
   {
+    path: "/Quiz/jp",
+    name: "QuizJP",
+    component: lazyLoad('QuizJP'),
+    meta: {
+      title: "Quiz"
+    },
+  },  {
+    path: "/Quiz/zh",
+    name: "QuizZH",
+    component: lazyLoad('QuizZH'),
+    meta: {
+      title: "Quiz"
+    },
+  },  {
+    path: "/Quiz/en",
+    name: "QuizEN",
+    component: lazyLoad('QuizEN'),
+    meta: {
+      title: "Quiz"
+    },
+  },
+  {
     path: "/about",
     name: "About",
     component: lazyLoad('About'),
