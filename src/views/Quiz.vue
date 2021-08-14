@@ -19,13 +19,17 @@
             marginwidth="0"
           >Wird geladen…</iframe> -->
 			<iframe
-				src="https://docs.google.com/forms/d/e/1FAIpQLScmOsjndPd0qBXFVxhKIik3mxkgBlQAKUMyU_PAlTaBmTrWkg/formResponse?embedded=true"
+				:src="'https://docs.google.com/forms/d/e/1FAIpQLSdlQBXOUHs85egImCgkCq44ZUnFHEW5FAizrOVDxQus7xW-rQ/viewform?usp=pp_url&entry.1934587175=' + uuid + '&embedded=true'"
 				width="100%"
 				height="100%"
 				frameborder="0"
 			>
-				<!-- <input hidden id="quizTakerId" name="quizTakerId" value="{{ uuid }}"> -->
 			</iframe>
+			<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" 
+				class="twitter-share-button" 
+				data-size="large"
+				:data-text="this.results" 
+				data-show-count="false">Tweet</a>
 		</div>
 	</v-container>
 </template>
@@ -49,10 +53,16 @@ export default {
 		this.$nextTick(() => {
 			this.AOSInit();
 		});
+		let tweetButton = document.createElement("script");
+		tweetButton.setAttribute("src", "https://platform.twitter.com/widgets.js");
+		tweetButton.setAttribute("async", "");
+		tweetButton.setAttribute("charset", "utf-8");
+		document.head.appendChild(tweetButton);
 	},
 	data() {
 		return {
 			uuid: uuidv4(),
+			results: "" // replace with score on quiz
 		};
 	},
 };
