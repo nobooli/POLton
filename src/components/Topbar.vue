@@ -65,13 +65,30 @@
           : 'mdi-volume-off'"
         @input="(newVolume) => { audio.volume = newVolume / 100; }"
         @click:prepend="() => {
-            if(!isNaN(this.volume) && this.volume > 0) {
-              previousVolume = this.volume;
-              this.volume = audio.volume = 0;
-              audio.volume = 0;
-            } else {
-              this.volume = previousVolume;
-              audio.volume = previousVolume / 100;
+            if(!isNaN(this.volume) && this.volume > 0) { // fade out the audio
+              previousVolume = this.volume; // store previous volume
+              interval = setinterval(() => {
+                this.volume -= 1;
+                if(this.volume <= 0) {
+                  this.volume = 0;
+                  audio.volume = 0;
+                  this.muted = true;
+                  clearinterval(interval);
+                } else if (audio.volume > 0) {
+                  audio.volume -= .01;
+                }
+              }, 20);
+            } else { // fade in the audio
+              interval = setinterval(() => {
+                this.volume += 1;
+                audio.volume += .01;
+                if(this.volume = previousVolume) {
+                  this.muted = false;
+                  clearinterval(interval);
+                } else if (audio.volume < previousVolume / 100){
+                  audio.volume += .01;
+                }
+              }, 20);
             }
         }"
       >
@@ -125,14 +142,41 @@ export default {
     audio: new Audio("voices/Singing/Humming/Waiting Room BGM.mp3"), // change to appropriate BGM file
     volume: 5,
     previousVolume: 0,
-    muted: false
+    muted: false,
+    fromRoute: null,
+    toRoute: null,
+    pausedOrEnded: false
   }),
+  watch: {
+    $route (to, from) {
+      if (isNaN(to) && isNaN(from)) {
+        this.volume = 0;
+        this.muted = true;
+      } 
+      this.toRoute = to;
+      this.fromRoute = from;
+    }
+  },
   mounted() {
-    this.audio.volume = this.volume / 100;
     this.audio.preload = true;
     this.audio.loop = true;
+    if (isNaN(this.to) && isNaN(this.from)) { // Loading page by directly navigating, mute
+      this.volume = 0;
+      this.muted = true;
+      this.previousVolume = 5;
+    } else { // if they navigated to the sounboard, mute
+      this.previousVolume = this.volume;
+      this.volume = 0;
+      this.muted = true;
+    }
+
+    this.audio.volume = this.volume / 100;
+
     if (this.audio.paused || this.audio.ended) {
+      this.pausedOrEnded = true;
       this.audio.play();
+    } else {
+      this.pausedOrEnded = false;
     }
   },
   methods: {
@@ -151,6 +195,12 @@ export default {
       copyToClipboard(this.$store.state.lastAudio);
       this.snackbarCopy = true;
     },
+    setinterval(func, interval) {
+      return setInterval(func, interval);
+    },
+    clearinterval(interval) {
+      clearInterval(interval);
+    }
   },
   computed: {
     darkmodeicon: {

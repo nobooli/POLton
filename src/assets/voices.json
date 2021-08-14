@@ -183,6 +183,22 @@
             "ja": "ウェルカムツーヘル"
           }
         },
+        { 
+          "name" : "Hallelujah",
+          "path": "Lines/POLglish/Hallelujah.mp3",
+          "translation": {
+            "en": "Hallelujah",
+            "ja": "ハレルヤ"
+          }
+        },
+        { 
+          "name" : "I Love You",
+          "path": "Lines/POLglish/I_Love_You.mp3",
+          "translation": {
+            "en": "I Love You",
+            "ja": "アイラブユー"
+          }
+        },
         {
           "name": "Bananaisu",
           "path": "Lines/Silly/Bananaisu.mp3",
@@ -259,6 +275,14 @@
           "translation": {
             "en": "Yabe",
             "ja": "やべ"
+          }
+        },
+        {
+          "name": "Baka",
+          "path": "Lines/Other Lines/Baka.mp3",
+          "translation": {
+            "en": "Baka",
+            "ja": "ばか"
           }
         },
         {
@@ -380,6 +404,14 @@
           "translation": {
             "en": "Laugh 10",
             "ja": "笑10"
+          }
+        },
+        {
+          "name": "Laugh 11",
+          "path": "Noises/Laughing/Laugh_11.mp3",
+          "translation": {
+            "en": "Laugh 11",
+            "ja": "笑11"
           }
         },
         {
@@ -637,6 +669,22 @@
             "en": "Haha",
             "ja": "はは!"
           }
+        },
+        {
+          "name": "Croak",
+          "path": "Noises/Shenanigans/Croak.mp3",
+          "translation": {
+            "en": "Croak",
+            "ja": "ケロケロ"
+          }
+        },
+        {
+          "name": "Idol Noises",
+          "path": "Noises/Shenanigans/Idol_Noises.mp3",
+          "translation": {
+            "en": "Idol Noises",
+            "ja": "アイドル"
+          }
         }
       ]
     },
@@ -889,11 +937,27 @@
           }
         },
         {
-          "name": "Ala Ala",
+          "name": "FM Polka",
+          "path": "Voice Acting/Animals _ Characters/FM_Polka.mp3",
+          "translation": {
+            "en": "FM Polka",
+            "ja": "FMポルカ"
+          }
+        },
+        {
+          "name": "Gyaru",
+          "path": "Voice Acting/Animals _ Characters/Gyaru.mp3",
+          "translation": {
+            "en": "Gyaru",
+            "ja": "ギャル"
+          }
+        },
+        {
+          "name": "Ala Ala 1",
           "path": "Voice Acting/Miscellaneous VA/Ara_Ara.mp3",
           "translation": {
-            "en": "Ara Ara",
-            "ja": "あらあらうふふ"
+            "en": "Ara Ara 1",
+            "ja": "あらあらうふふ 1"
           }
         },
         {
@@ -984,7 +1048,23 @@
             "ja": "生意気なあらあら"
           }
         },
+        {
+          "name": "Ara Ara 2",
+          "path": "Voice Acting/Miscellaneous VA/Ara_Ara_2.mp3",
+          "translation": {
+            "en": "Ara Ara 2",
+            "ja": "あらあら"
+          }
+        },
 
+        {
+          "name": "Morning Alarm",
+          "path": "Voice Acting/Miscellaneous VA/Morning_Alarm.mp3",
+          "translation": {
+            "en": "Morning Alarm",
+            "ja": "アラームSE"
+          }
+        },
         {
           "name": "Lamy",
           "path": "Voice Acting/Other Vtubers/Lamy.mp3",
