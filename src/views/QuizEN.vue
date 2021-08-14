@@ -11,6 +11,11 @@
 		</div>
 		<br />
 		<div data-aos="zoom-in" data-aos-delay="1500">
+			<v-btn @click="getScoreTweet()">
+				<v-icon>
+					mdi-twitter
+				</v-icon>
+			</v-btn>
 			<iframe
 				:src="'https://docs.google.com/forms/d/e/1FAIpQLScYsLUoD5RMPGxY_m9kB-jD4A8vF_J0JQWg-q___toNYaPf5g/viewform?usp=pp_url&entry.231184758=' + uuid + '&embedded=true'"
 				width="100%"
@@ -18,11 +23,6 @@
 				frameborder="0"
 			>
 			</iframe>
-			<v-btn @click="getScoreTweet()">
-				<v-icon>
-					mdi-twitter
-				</v-icon>
-			</v-btn>
 		</div>
 	</v-container>
 </template>
