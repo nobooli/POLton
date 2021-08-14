@@ -79,7 +79,7 @@ export default {
 <style>
 #messages {
 	column-gap: 2em;
-	column-width: 35ch;
+	column-width: 30ch;
 }
 
 .message {
@@ -107,7 +107,7 @@ export default {
 
 .profile .name p {
 	margin: 0;
-	font-weight: 500;
+	font-weight: 600;
 	color: #290058;
 }
 
