@@ -78,12 +78,9 @@
       >
       </v-slider>
     </div>
-    <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>
+    <!-- <v-toolbar-title>Courtesy of Konosan <a href="https://twitter.com/onorikyu">@onorikyu</a></v-toolbar-title> -->
     <pwa-update></pwa-update>
     <v-spacer />
-    <v-btn fab icon @click="darkMode()">
-      <v-icon>{{darkmodeicon}}</v-icon>
-    </v-btn>
     <v-menu transition="slide-y-transition" bottom offset-y>
       <template v-slot:activator="{on:menu}">
         <v-fab-transition>
@@ -181,10 +178,15 @@ export default {
 
 .bgm_slider { margin-top: 20px; }
 @media screen and (max-width: 600px) {
-  .bgm_slider { width: 40%; }
+  .bgm_slider { min-width: 40%; }
 }
 
 @media screen and (min-width: 600px) {
-  .bgm_slider { width: 10%; }
+  .bgm_slider { min-width: 10%; }
+}
+
+.bgm_credit {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>
