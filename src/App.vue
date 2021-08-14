@@ -90,4 +90,18 @@ main {
     ), */ url("~@/assets/polpattern2b.png");
 	font-family: "Poppins", sans-serif;
 }
+
+/* scrollbar properties */
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: #b88c8c;
+}
+::-webkit-scrollbar-thumb {
+	background: #7c1a1f;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #bb2830;
+}
 </style>
