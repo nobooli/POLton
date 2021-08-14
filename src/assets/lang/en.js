@@ -19,18 +19,6 @@ module.exports = {
     developer: "Original developer(s)：Coceki, Merun",
     fork: "Forked by: nobooli",
 
-    credits: "Stage Hands: Broom, AsuKiri, Alexander124, Timekiller, Nobooli",
-
-    stageHands: "Stage Hands: Broom, AsuKiri, Alexander124, Timekiller, Nobooli",
-    website: "Website: nobooli, gokiburi, Warthog",
-    design: "Website Art: Hellscrossing, Raim, gokiburi",
-    sound: "Sound Director: BunBun",
-    translationCredits: "Translation & QC: Theldeon, CST, Darth Revan, Fads, Vanilla Thunder, Taichan, BaKamen, chimatta, Mugichos, vtange, kurapan",
-    presentArt: "Special Present Art: Forever9Nine",
-    presentLayout: "Special Present Design: Caudy, Sephi",
-    art: "Artists: hellscrossing, raim, gokiburi, Forever9Nine, えびこ焼き, Leslie Empty, Ryuran, AnatoleSerial, Rinri, ジョン三郎, 三世吾郎, 雪風ときみ",
-    specialThanks: "Special Thanks to: Niels, Hosu, AmamiyaMio, CST, nikki, NyakOfThePolpol, PovertyMiko, Ortrus",
-
     helpdevelope: "Help improve the website",
     volume: "Volume",
     addtohomescreen: "Add Lulu Button to home screen",
