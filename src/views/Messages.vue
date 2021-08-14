@@ -4,7 +4,7 @@
 		<!-- messages -->
 		<div id="messages">
 			<div
-				v-for="message in messages"
+				v-for="message in messageLines"
 				:key="message.name"
 				class="message"
 				data-aos="fade-up"
@@ -27,8 +27,8 @@
 					</div>
 					<div class="divider"></div>
 					<div class="message-text">
-						<p>
-							{{ message.message }}
+						<p v-for="(line, i) in message.message" v-bind:key="i">
+							{{ line }}
 						</p>
 					</div>
 					<div v-if="message.message_jp" class="divider"></div>
@@ -71,6 +71,15 @@ export default {
 		this.$nextTick(() => {
 			this.AOSInit();
 		});
+	},
+	computed: {
+		messageLines() {
+			let newMessages = [...this.messages];
+			newMessages.map((msg) => {
+				return (msg.message = msg.message.split(/\r\n|\r|\n/g));
+			});
+			return newMessages;
+		},
 	},
 };
 </script>
