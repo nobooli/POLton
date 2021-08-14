@@ -80,7 +80,7 @@ export default {
 	color: #7c1a1f;
 	font-size: 1.25em;
 	margin-bottom: 0.2em;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 #disclaimer {

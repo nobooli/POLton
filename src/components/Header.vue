@@ -59,10 +59,9 @@ export default {
 	margin: auto;
 	white-space: nowrap;
 	overflow: hidden;
-	/* position: absolute; */
 	width: 100%;
-	color: #1e1e1e;
-	font-weight: 500;
+	color: #7c1a1f;
+	font-weight: 900;
 	font-size: 3em;
 }
 
