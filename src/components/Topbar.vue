@@ -126,20 +126,20 @@ export default {
     audio: new Audio("bgm/1.wav"), // change to appropriate BGM file
     volume: 5,
     previousVolume: 0,
-    muted: false,
     fromRoute: null,
     toRoute: null,
     pausedOrEnded: false,
     disabled: false
   }),
   watch: {
-    $route (to, from) {
-      if (isNaN(to) && isNaN(from)) {
-        this.volume = 0;
-        this.muted = true;
-      } 
-      this.toRoute = to;
-      this.fromRoute = from;
+    $route () {
+      if (this.$route.name === 'Soundboard') {
+        this.audio.volume = 0;
+        this.disabled = true;
+      } else {
+        this.audio.volume = this.volume / 100;
+        this.disabled = false;
+      }
     }
   },
   mounted() {
