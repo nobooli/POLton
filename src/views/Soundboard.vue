@@ -94,7 +94,6 @@
 					thumb-label
 					max="100"
 					min="0"
-					:key="sliderKey"
 					dense
 					:prepend-icon="
 						this.volume
@@ -139,20 +138,6 @@
 							if (audio.paused || audio.ended) {
 								// an ended audio element will start over
 								audio.play();
-								audio.addEventListener(
-									'ended',
-									() => {
-										sliderKey += 1;
-									},
-									false
-								);
-								audio.addEventListener(
-									'seeking',
-									() => {
-										sliderKey += 1;
-									},
-									false
-								);
 							} else {
 								audio.pause();
 							}
@@ -217,7 +202,6 @@ export default {
 		volume: 50,
 		previousVolume: 0,
 		muted: false,
-		sliderKey: 0,
 	}),
 	mounted() {
 		this.$nextTick(() => {
