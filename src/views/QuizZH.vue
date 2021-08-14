@@ -11,6 +11,11 @@
 		</div>
 		<br />
 		<div data-aos="zoom-in" data-aos-delay="1500">
+			<v-btn @click="getScoreTweet()">
+				<v-icon>
+					mdi-twitter
+				</v-icon>
+			</v-btn>
 			<iframe
 				:src="'https://docs.google.com/forms/d/e/1FAIpQLSdlQBXOUHs85egImCgkCq44ZUnFHEW5FAizrOVDxQus7xW-rQ/viewform?usp=pp_url&entry.378588067=' + uuid + '&embedded=true'"
 				width="100%"
@@ -18,13 +23,6 @@
 				frameborder="0"
 			>
 			</iframe>
-			<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" 
-				class="twitter-share-button" 
-				data-size="large" 
-				:data-text="this.results" 
-				data-hashtags="polquiz" 
-				data-url="nepolabo.fans" 
-				data-show-count="false">Tweet</a>
 		</div>
 	</v-container>
 </template>
@@ -43,6 +41,14 @@ export default {
 				disable: "mobile",
 			});
 		},
+		getScoreTweet() {
+			fetch("https://script.google.com/macros/s/AKfycbyljtN8fUV1oySysXGp_HyI6oF0ermZ9XyAmq_7Q8luA1Ye5ijj34x8w4_kAYMA8gYe/exec" + this.uuid)
+				.then(response => response.json())
+				.then(receivedScore => {
+					var score = receivedScore <= 0 ? "" + receivedScore + " / 100%0A";
+					window.location.href = "https://twitter.com/intent/tweet?text=" + score + "%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz"
+				});
+		}
 	},
 	mounted() {
 		this.$nextTick(() => {
@@ -56,7 +62,8 @@ export default {
 	},
 	data() {
 		return {
-			uuid: uuidv4()
+			uuid: uuidv4(),
+			url: ''
 		};
 	},
 };

@@ -66,41 +66,13 @@
           : 'mdi-volume-off'"
         @input="(newVolume) => { audio.volume = newVolume / 100; }"
         @click:prepend="() => {
-            if(!isNaN(this.volume) && this.volume > 0) { // fade out the audio
-              previousVolume = this.volume; // store previous volume
-              interval = setinterval(() => {
-                this.volume -= 1;
-                if(this.volume <= 0) {
-                  this.volume = 0;
-                  audio.volume = 0;
-                  this.muted = true;
-                  clearinterval(interval);
-                } else if (audio.volume > 0) {
-                  audio.volume -= .01;
-                }
-              }, 25);
-            } else { // fade in the previous volume, or if previousVolume is 0, fade in until you hit 5
-              if (previousVolume === 0) {
-                interval = setinterval(() => {
-                  this.volume += 1;
-                  if (this.volume = 5) {
-                    audio.volume = .05;
-                    this.muted = false;
-                    clearinterval(interval);
-                  } else if (audio.volume = 0) {
-                    audio.volume += .01;
-                  }
-                }, 50);
-              } else { // previousVolume was not 0
-                interval = setinterval(() => {
-                  this.volume += 1;
-                  audio.volume += .01;
-                  if (this.volume === previousVolume) {
-                    this.muted = false;
-                    clearinterval(interval);
-                  }
-                }, 25);
-              }
+            if(!isNaN(this.volume) && this.volume > 0) { // mute
+              previousVolume = this.volume;
+              this.volume = audio.volume = 0;
+              audio.volume = 0;
+            } else { // unmute
+              this.volume = previousVolume;
+              audio.volume = previousVolume / 100;
             }
         }"
       >
@@ -173,16 +145,6 @@ export default {
   mounted() {
     this.audio.preload = true;
     this.audio.loop = true;
-    if (isNaN(this.to) && isNaN(this.from)) { // Loading page by directly navigating, mute
-      this.volume = 0;
-      this.muted = true;
-      this.previousVolume = 5;
-    } else { // if they navigated to the sounboard, mute
-      this.previousVolume = this.volume;
-      this.volume = 0;
-      this.muted = true;
-    }
-
     this.audio.volume = this.volume / 100;
 
     if (this.audio.paused || this.audio.ended) {
@@ -208,12 +170,6 @@ export default {
       copyToClipboard(this.$store.state.lastAudio);
       this.snackbarCopy = true;
     },
-    setinterval(func, interval) {
-      return setInterval(func, interval);
-    },
-    clearinterval(interval) {
-      clearInterval(interval);
-    }
   },
   computed: {
     darkmodeicon: {
