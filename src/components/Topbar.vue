@@ -77,18 +77,29 @@
                 } else if (audio.volume > 0) {
                   audio.volume -= .01;
                 }
-              }, 20);
-            } else { // fade in the audio
-              interval = setinterval(() => {
-                this.volume += 1;
-                audio.volume += .01;
-                if(this.volume = previousVolume) {
-                  this.muted = false;
-                  clearinterval(interval);
-                } else if (audio.volume < previousVolume / 100){
+              }, 25);
+            } else { // fade in the previous volume, or if previousVolume is 0, fade in until you hit 5
+              if (previousVolume === 0) {
+                interval = setinterval(() => {
+                  this.volume += 1;
+                  if (this.volume = 5) {
+                    audio.volume = .05;
+                    this.muted = false;
+                    clearinterval(interval);
+                  } else if (audio.volume = 0) {
+                    audio.volume += .01;
+                  }
+                }, 50);
+              } else { // previousVolume was not 0
+                interval = setinterval(() => {
+                  this.volume += 1;
                   audio.volume += .01;
-                }
-              }, 20);
+                  if (this.volume === previousVolume) {
+                    this.muted = false;
+                    clearinterval(interval);
+                  }
+                }, 25);
+              }
             }
         }"
       >
