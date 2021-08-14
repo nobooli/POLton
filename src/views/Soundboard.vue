@@ -8,7 +8,9 @@
 			data-aos="fade-up"
 		>
 			<v-card class="pa-0">
-				<v-card-title>{{ resolveI18n(group.translation) }}</v-card-title>
+				<v-card-title class="sound-section-title">{{
+					resolveI18n(group.translation)
+				}}</v-card-title>
 				<v-container>
 					<v-row no-gutters>
 						<v-btn
@@ -348,6 +350,12 @@ div .dark-mode {
 }
 div .light-mode {
 	background-color: #ffffff;
+}
+
+.sound-section-title {
+	color: #7c1a1f;
+	font-size: 1.25em;
+	font-weight: 600;
 }
 
 #volume-bar {
