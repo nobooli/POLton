@@ -1,0 +1,132 @@
+{
+    "credits": [
+        {
+            "name": "StageHands",
+            "translation": {
+                "en":"Stage Hands",
+                "jp":"舞台係"
+            },
+            "members": [
+                { "name": "Broom" },
+                { "name": "Asukiri" },
+                { "name": "Alexander124" },
+                { "name": "Timekiller" },
+                { "name": "Nobooli" }
+            ]
+        },
+        {
+            "name": "Website",
+            "translation": {
+                "en":"Website",
+                "jp":"ウェブサイト"
+            },
+            "members": [
+                { "name": "nobooli" },
+                { "name": "gokiburi" },
+                { "name": "Warthog" }
+            ]
+        },
+        {
+            "name": "Website Art",
+            "translation": {
+                "en":"Website Art",
+                "jp":"ウェブサイト素材"
+            },
+            "members": [
+                { "name": "hellscrossing" },
+                { "name": "raim" },
+                { "name": "gokiburi" }
+            ]
+        },
+        {
+            "name": "Sound Director",
+            "translation": {
+                "en":"Website Sound Director",
+                "jp":"サウンドボード音響監督"
+            },
+            "members": [
+                { "name": "BunBun" }
+            ]
+        },
+        {
+            "name": "Translation & QC",
+            "translation": {
+                "en":"Translation & QC",
+                "jp":"翻訳とQC"
+            },
+            "members": [
+                { "name": "Theldeon" },
+                { "name": "CST" },
+                { "name": "Darth Revan" },
+                { "name": "Fads" },
+                { "name": "Vanilla Thunder" },
+                { "name": "Taichan" },
+                { "name": "BaKamen" },
+                { "name": "chimatta" },
+                { "name": "Mugichos" },
+                { "name": "vtange" },
+                { "name": "kurapan" },
+                { "name": "Vee" }
+            ]
+        },
+        {
+            "name": "Special Present Art",
+            "translation": {
+                "en":"Special Present Art",
+                "jp":"スペシャルプレゼントイラスト"
+            },
+            "members": [
+                { "name": "Forever9Nine" }
+            ]
+        },
+        {
+            "name": "Special Present Design",
+            "translation": {
+                "en":"Special Present Design",
+                "jp":"スペシャルプレゼントデザイン"
+            },
+            "members": [
+                { "name": "Caudy" },
+                { "name": "Sephi" }
+            ]
+        },
+        {
+            "name": "Artists",
+            "translation": {
+                "en":"Artists",
+                "jp":"イラスト"
+            },
+            "members": [
+                { "name": "hellscrossing" },
+                { "name": "raim" },
+                { "name": "gokiburi" },
+                { "name": "Forever9Nine" },
+                { "name": "えびこ焼き" },
+                { "name": "Leslie Empty" },
+                { "name": "Ryuran" },
+                { "name": "AnatoleSerial" },
+                { "name": "Rinri" },
+                { "name": "ジョン三郎" },
+                { "name": "三世吾郎" },
+                { "name": "雪風ときみ" }
+            ]
+        },
+        {
+            "name": "Special Thanks",
+            "translation": {
+                "en":"Special Thanks",
+                "jp":"スペシャルサンクス"
+            },
+            "members": [
+                { "name": "Niels" },
+                { "name": "Hosu" },
+                { "name": "AmamiyaMio" },
+                { "name": "nikki" },
+                { "name": "NyakOfThePolpol焼き" },
+                { "name": "PovertyMiko" },
+                { "name": "Ortrus" },
+                { "name": "nonJerry" }
+            ]
+        },
+    ]
+}
