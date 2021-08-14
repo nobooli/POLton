@@ -45,8 +45,9 @@ export default {
 @media screen and (min-width: 1280px) { #credits { column-count: 4; } }
 
 #credits { 
-    border-top: #1145a7 solid .25em; 
+    border-top: #bb2830 solid .25em; 
     color: #bb2830;
+    padding-top: 1.25em;
 }
 
 .credit-group { 
@@ -57,6 +58,7 @@ export default {
 .credit-group-name { font-size: 1.25em; }
 
 #disclaimer { 
+    color: black;
     margin-top: 1.3em;
     font-size: 1.4em 
 }
