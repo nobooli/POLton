@@ -1,16 +1,6 @@
 <template>
 	<v-container>
-		<div class="main-title-card">
-			<div class="ticket_card">
-				<div>
-					<p class="title_text" style="margin-bottom:0px;">
-						<span>{{ $t("link.soundboard") }}</span>
-					</p>
-				</div>
-			</div>
-		</div>
-		<br />
-
+		<Header :banner_image="banner" :title_text="title_text"></Header>
 		<v-row v-for="group in voices" :key="group.name" data-aos="fade-up">
 			<v-col cols="12" class="ma-0 pa-0">
 				<v-card class="ma-1 pa-0">
@@ -199,6 +189,7 @@
 
 <script>
 import voicelist from "../assets/voices.json";
+import Header from "../components/Header";
 
 import { copyToClipboard } from "@/common/clipboard";
 
@@ -207,7 +198,12 @@ import AOS from "aos";
 // var audio = new Audio();
 var i = 0;
 export default {
+	components: {
+		Header,
+	},
 	data: () => ({
+		banner: "img/polbotan.png",
+		title_text: "Soundboard",
 		voices: voicelist.groups,
 		orderplaymode: false,
 		orderdialog: false,

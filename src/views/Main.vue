@@ -1,7 +1,7 @@
 <template>
 	<v-container>
 		<Header :banner_image="banner" :title_text="title_text"></Header>
-		<br />
+
 		<div class="tent" data-aos="zoom-in">
 			<img :src="tent" :srcset="tent_srcset" :sizes="tent_sizes" />
 		</div>
@@ -51,7 +51,7 @@ export default {
 	data: function() {
 		return {
 			banner: "img/omapol_1shuu.png",
-			title_text: "filler",
+			title_text: "Welcome",
 
 			hovered_zain: null,
 			zain_sizes: "(max-width: 600px) 75px, (max-width: 1280px) 150px, 300px",
