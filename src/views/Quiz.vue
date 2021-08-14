@@ -83,10 +83,10 @@ iframe {
 
 @keyframes letterStretch {
 	0% {
-		letter-spacing: 0em;
+		transform: scale(0.95, 1.15);
 	}
 	100% {
-		letter-spacing: 0.05em;
+		transform: scale(1.15, 1);
 	}
 }
 </style>
