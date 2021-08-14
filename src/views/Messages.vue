@@ -19,13 +19,11 @@
 							style="right-align"
 						></span>
 					</div>
-					<div class="pfp">
-						<img
-							v-if="message.profile_pic"
-							class="profile-pic"
-							:src="message.profile_pic"
-						/>
-					</div>
+					<img
+						v-if="message.profile_pic"
+						class="profile-pic"
+						:src="message.profile_pic"
+					/>
 				</div>
 				<hr class="divider" />
 				<div class="message-text">
@@ -163,8 +161,7 @@ export default {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 5em;
-	padding: 1em;
+	padding: 0.3em 1em;
 	border-radius: 1%;
 }
 
@@ -191,10 +188,6 @@ export default {
 		rgba(255, 255, 255, 0) 1.5em
 	);
 	margin: 1em -0.75em 1em -0.75em;
-}
-
-.pfp {
-	margin-top: 0.4em;
 }
 
 .profile-pic {
