@@ -9,33 +9,34 @@
 				class="message"
 				data-aos="fade-up"
 			>
-				<div class="profile">
-					<div class="name">
-						<span>{{ message.name }}</span>
-						<br />
-						<span
-							v-if="message.country_flag"
-							:class="message.country_flag"
-							style="right-align"
-						></span>
+				<div class="message-body">
+					<div class="profile">
+						<div class="name">
+							<span
+								v-if="message.country_flag"
+								:class="message.country_flag"
+								style="right-align"
+							></span>
+							<p>{{ message.name }}</p>
+						</div>
+						<img
+							v-if="message.profile_pic"
+							class="profile-pic"
+							:src="message.profile_pic"
+						/>
 					</div>
-					<img
-						v-if="message.profile_pic"
-						class="profile-pic"
-						:src="message.profile_pic"
-					/>
-				</div>
-				<hr class="divider" />
-				<div class="message-text">
-					<p>
-						{{ message.message }}
-					</p>
-				</div>
-				<hr v-if="message.message_jp" class="divider" />
-				<div v-if="message.message_jp" class="message-text">
-					<p>
-						{{ message.message_jp }}
-					</p>
+					<div class="divider"></div>
+					<div class="message-text">
+						<p>
+							{{ message.message }}
+						</p>
+					</div>
+					<div v-if="message.message_jp" class="divider"></div>
+					<div v-if="message.message_jp" class="message-text">
+						<p>
+							{{ message.message_jp }}
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -76,40 +77,9 @@ export default {
 </script>
 
 <style>
-.title-card {
-	height: 5em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.title-text {
-	font-size: 1.25em;
-	font-weight: 500;
-	line-height: 2em;
-}
-
-@media screen and (min-width: 600px) {
-	#messages {
-		column-count: 1;
-	}
-}
-
-@media screen and (min-width: 960px) {
-	#messages {
-		column-count: 2;
-	}
-}
-
-@media screen and (min-width: 1280px) {
-	#messages {
-		column-count: 3;
-	}
-}
-
 #messages {
-	min-height: 15vh;
-	column-gap: 1.25em;
+	column-gap: 2em;
+	column-width: 35ch;
 }
 
 .message {
@@ -129,71 +99,75 @@ export default {
 	border: #1145a7 solid 0.25em;
 }
 
-.title-card {
-	background: #bc627d;
-	border: 0.3em solid #f2db7e;
-	border-radius: 1%;
-	color: #f2db7e;
+.message {
+	margin-bottom: 2em;
+	box-shadow: 5px 8px 20px -5px rgba(10, 10, 10, 0.75);
+	display: block;
+}
+.message-body {
+	background: white;
+	padding: 1rem;
 }
 
-.title-card,
-.message {
-	margin-bottom: 3em;
-	box-shadow: 5px 8px 20px -5px rgba(10, 10, 10, 0.75);
+.profile .name p {
+	margin: 0;
+	font-weight: 500;
+	color: #290058;
+}
+
+.profile .name .flag-icon {
+	margin-right: 0.4rem;
 }
 
 .name,
 .message-text {
-	color: rgb(41, 0, 88);
+	color: #422168;
 }
 
 .message-text {
-	white-space: pre-line;
-	padding: 1em;
+	margin-bottom: 1rem;
 }
 
-.profile,
-.message-text {
-	background-color: rgba(255, 255, 255, 0.99);
+.message .message-text p {
+	line-height: 1.4;
+	margin-bottom: 0.4em;
 }
 
 .profile {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0.3em 1em;
-	border-radius: 1%;
+	margin-bottom: 1.5rem;
 }
 
 .name {
 	font-size: 1.1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .flag-icon {
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 3px 4px rgba(0, 0, 0, 0.2);
+	height: min-content;
 }
 
 .divider {
-	border: none;
-}
-.divider:after {
-	height: 0.25em;
-	display: block;
-	content: " ";
+	width: 100%;
+	margin: 0 auto 1rem auto;
+	height: 2px;
 	background: repeating-linear-gradient(
 		to right,
-		rgba(17, 69, 167, 1) 0,
-		rgba(17, 69, 167, 1) 0.75em,
-		rgba(255, 255, 255, 0) 0.75em,
-		rgba(255, 255, 255, 0) 1.5em
+		#4580ed 0,
+		#4580ed 0.75em,
+		#ffffff 0.75em,
+		#ffffff 1.5em
 	);
-	margin: 1em -0.75em 1em -0.75em;
 }
 
 .profile-pic {
 	max-width: 64px;
 	max-height: 64px;
 	border-radius: 50%;
-	background-color: rgba(255, 255, 255, 1);
 }
 </style>
