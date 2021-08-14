@@ -39,7 +39,25 @@ export default {
 </script>
 
 <style>
-#credits {
-    column-count: 4;
+@media screen and (min-width: 300px) { #credits { column-count: 1; } }
+@media screen and (min-width: 600px) { #credits { column-count: 2; } }
+@media screen and (min-width: 960px) { #credits { column-count: 3; } }
+@media screen and (min-width: 1280px) { #credits { column-count: 4; } }
+
+#credits { 
+    border-top: #1145a7 solid .25em; 
+    color: #bb2830;
+}
+
+.credit-group { 
+    overflow: hidden; 
+    margin-bottom: 1.25em;
+}
+
+.credit-group-name { font-size: 1.25em; }
+
+#disclaimer { 
+    margin-top: 1.3em;
+    font-size: 1.4em 
 }
 </style>
