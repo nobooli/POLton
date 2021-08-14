@@ -172,6 +172,10 @@ export default {
 	font-size: 1.1em;
 }
 
+.flag-icon {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
 .divider {
 	border: none;
 }
