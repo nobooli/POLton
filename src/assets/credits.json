@@ -42,7 +42,7 @@
         {
             "name": "sound_director",
             "translation": {
-                "en":"Website Sound Director",
+                "en":"Sound Director",
                 "ja":"サウンドボード音響監督"
             },
             "members": [
