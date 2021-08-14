@@ -22,7 +22,6 @@
 				<v-icon>
 					mdi-twitter
 				</v-icon>
-				Tweet
 			</v-btn>
 		</div>
 	</v-container>
