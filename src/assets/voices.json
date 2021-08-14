@@ -318,6 +318,14 @@
 						"en": "Are You Ready",
 						"ja": "Are You Ready"
 					}
+				},
+				{
+					"name": "PANIK",
+					"path": "Lines/POLglish/PANIK.mp3",
+					"translation": {
+						"en": "PANIK",
+						"ja": "パニック！"
+					}
 				}
 			]
 		},
@@ -1057,14 +1065,6 @@
 					"translation": {
 						"en": "Morning Alarm",
 						"ja": "朝の目覚まし"
-					}
-				},
-				{
-					"name": "PANIK",
-					"path": "Noises/Shenanigans/PANIK.mp3",
-					"translation": {
-						"en": "PANIK",
-						"ja": "パニック！"
 					}
 				},
 				{
