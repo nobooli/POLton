@@ -31,11 +31,6 @@ export default {
 </script>
 
 <style>
-.main-title-card {
-	/* fills the space minus header */
-	height: calc(100vh - 56px);
-}
-
 .ticket_card {
 	/* this will be the border + shape */
 	position: relative;
@@ -105,8 +100,8 @@ export default {
 
 .banner-img {
 	width: 100%;
-	height: 100%;
+	max-height: 70vh;
 	object-fit: contain;
-	object-position: top;
+	object-position: center top;
 }
 </style>
