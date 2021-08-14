@@ -204,6 +204,12 @@ export default {
 		previousVolume: 0,
 		muted: false,
 	}),
+	beforeRouteLeave: function(to, from, next) {
+		if (!this.audio.paused) {
+			this.audio.pause();
+		}
+		return next();
+	},
 	mounted() {
 		this.$nextTick(() => {
 			this.AOSInit();
