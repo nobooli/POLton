@@ -11,10 +11,6 @@ export default {
 			type: String,
 			required: true,
 		},
-		title_text: {
-			type: String,
-			required: true,
-		},
 	},
 	data: function() {
 		return {};

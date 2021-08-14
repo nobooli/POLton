@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<Header :banner_image="banner" :title_text="title_text"></Header>
+		<Header :banner_image="banner"></Header>
 		<section
 			class="sound-section"
 			v-for="group in voices"
@@ -191,7 +191,6 @@ export default {
 	},
 	data: () => ({
 		banner: "img/polbotan.png",
-		title_text: "Soundboard",
 		voices: voicelist.groups,
 		orderplaymode: false,
 		orderdialog: false,
