@@ -64,7 +64,8 @@
             ? 'mdi-volume-low' :
             (this.volume < 66 ? 'mdi-volume-medium' : 'mdi-volume-high'))
           : 'mdi-volume-off'"
-        @input="(newVolume) => { audio.volume = newVolume / 100; }"
+        append-icon="mdi-record-circle"
+        @input="(newVolume) => { this.audio.volume = newVolume / 100; }"
         @click:prepend="() => {
             if(!isNaN(this.volume) && this.volume > 0) { // mute
               previousVolume = this.volume;
@@ -74,6 +75,11 @@
               this.volume = previousVolume;
               audio.volume = previousVolume / 100;
             }
+        }"
+        @click:append="() => {
+          if (audio.paused) {
+            audio.play();
+          } 
         }"
       >
       </v-slider>
