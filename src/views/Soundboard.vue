@@ -10,6 +10,84 @@
 			</div>
 		</div>
 		<br />
+
+		<v-row v-for="group in voices" :key="group.name" data-aos="fade-up">
+			<v-col cols="12" class="ma-0 pa-0">
+				<v-card class="ma-1 pa-0">
+					<v-card-title>{{ resolveI18n(group.translation) }}</v-card-title>
+					<v-container>
+						<v-row no-gutters>
+							<v-btn
+								class="ma-2 btn soundboard-btn"
+								v-for="voice in group.voicelist"
+								:key="voice.name"
+								raised
+								color="secondary"
+								@click="play(voice)"
+								>{{ resolveI18n(voice.translation) }}</v-btn
+							>
+						</v-row>
+					</v-container>
+				</v-card>
+			</v-col>
+		</v-row>
+
+		<v-dialog v-model="orderdialog" max-width="800">
+			<v-toolbar dark color="primary">
+				<v-btn icon dark @click="(orderdialog = false), stopplay()">
+					<v-icon>mdi-close</v-icon>
+				</v-btn>
+				<v-toolbar-title>{{ $t("ui.orderplaymode") }}</v-toolbar-title>
+				<v-spacer></v-spacer>
+			</v-toolbar>
+			<v-card class="pa-1">
+				<v-toolbar dense>
+					<v-text-field
+						hide-details
+						single-line
+						:value="playlistUrl"
+						readonly
+					></v-text-field>
+
+					<v-btn icon @click="copyPlaylist">
+						<v-icon>mdi-content-copy</v-icon>
+					</v-btn>
+				</v-toolbar>
+				<p class="title font-weight-blod">{{ $t("ui.orderlistnow") }}</p>
+				<v-chip
+					v-for="(selected, index) in orderlist"
+					:key="'list' + index"
+					class="ma-2"
+					close
+					color="secondary"
+					text-color="white"
+					@click:close="deletelist(index)"
+					@click="playOnly(selected)"
+					>{{ resolveI18n(selected.translation) }}
+				</v-chip>
+				<v-switch
+					class="ml-3 mt-2"
+					v-model="repeatmode"
+					inset
+					color="secondary"
+					:label="$t('ui.repeatmode')"
+				>
+				</v-switch>
+				<v-card-actions v-if="orderlist.length > 0">
+					<v-btn raised color="primary" @click="orderplay">{{
+						$t("ui.playthislist")
+					}}</v-btn>
+					<v-btn text color="secondary" @click="stopplay">{{
+						$t("ui.stopplay")
+					}}</v-btn>
+					<v-divider></v-divider>
+					<v-btn text color="red" @click="resetorder">{{
+						$t("ui.resetorder")
+					}}</v-btn>
+				</v-card-actions>
+				<p v-else>{{ $t("ui.listempty") }}</p>
+			</v-card>
+		</v-dialog>
 		<div
 			id="control-bar"
 			:class="this.$vuetify.theme.dark ? 'dark-mode' : 'light-mode'"
@@ -116,83 +194,6 @@
 				</v-btn>
 			</div>
 		</div>
-		<v-row v-for="group in voices" :key="group.name" data-aos="fade-up">
-			<v-col cols="12" class="ma-0 pa-0">
-				<v-card class="ma-1 pa-0">
-					<v-card-title>{{ resolveI18n(group.translation) }}</v-card-title>
-					<v-container>
-						<v-row no-gutters>
-							<v-btn
-								class="ma-2 btn soundboard-btn"
-								v-for="voice in group.voicelist"
-								:key="voice.name"
-								raised
-								color="secondary"
-								@click="play(voice)"
-								>{{ resolveI18n(voice.translation) }}</v-btn
-							>
-						</v-row>
-					</v-container>
-				</v-card>
-			</v-col>
-		</v-row>
-
-		<v-dialog v-model="orderdialog" max-width="800">
-			<v-toolbar dark color="primary">
-				<v-btn icon dark @click="(orderdialog = false), stopplay()">
-					<v-icon>mdi-close</v-icon>
-				</v-btn>
-				<v-toolbar-title>{{ $t("ui.orderplaymode") }}</v-toolbar-title>
-				<v-spacer></v-spacer>
-			</v-toolbar>
-			<v-card class="pa-1">
-				<v-toolbar dense>
-					<v-text-field
-						hide-details
-						single-line
-						:value="playlistUrl"
-						readonly
-					></v-text-field>
-
-					<v-btn icon @click="copyPlaylist">
-						<v-icon>mdi-content-copy</v-icon>
-					</v-btn>
-				</v-toolbar>
-				<p class="title font-weight-blod">{{ $t("ui.orderlistnow") }}</p>
-				<v-chip
-					v-for="(selected, index) in orderlist"
-					:key="'list' + index"
-					class="ma-2"
-					close
-					color="secondary"
-					text-color="white"
-					@click:close="deletelist(index)"
-					@click="playOnly(selected)"
-					>{{ resolveI18n(selected.translation) }}
-				</v-chip>
-				<v-switch
-					class="ml-3 mt-2"
-					v-model="repeatmode"
-					inset
-					color="secondary"
-					:label="$t('ui.repeatmode')"
-				>
-				</v-switch>
-				<v-card-actions v-if="orderlist.length > 0">
-					<v-btn raised color="primary" @click="orderplay">{{
-						$t("ui.playthislist")
-					}}</v-btn>
-					<v-btn text color="secondary" @click="stopplay">{{
-						$t("ui.stopplay")
-					}}</v-btn>
-					<v-divider></v-divider>
-					<v-btn text color="red" @click="resetorder">{{
-						$t("ui.resetorder")
-					}}</v-btn>
-				</v-card-actions>
-				<p v-else>{{ $t("ui.listempty") }}</p>
-			</v-card>
-		</v-dialog>
 	</v-container>
 </template>
 
@@ -377,12 +378,10 @@ export default {
 
 #control-bar {
 	bottom: 0;
-	position: fixed;
+	position: sticky;
 	display: flex;
 	/* background-color: #1E1E1E; */
 	width: 100%;
-	left: 0;
-	z-index: 999;
 	flex-direction: column;
 }
 
