@@ -27,8 +27,10 @@
 			</iframe>
 			<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" 
 				class="twitter-share-button" 
-				data-size="large"
+				data-size="large" 
 				:data-text="this.results" 
+				data-hashtags="polquiz" 
+				data-url="nepolabo.fans" 
 				data-show-count="false">Tweet</a>
 		</div>
 	</v-container>
@@ -62,7 +64,7 @@ export default {
 	data() {
 		return {
 			uuid: uuidv4(),
-			results: "" // replace with score on quiz
+			results: "12 / 60" // replace with score on quiz
 		};
 	},
 };
