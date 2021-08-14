@@ -64,7 +64,7 @@
             ? 'mdi-volume-low' :
             (this.volume < 66 ? 'mdi-volume-medium' : 'mdi-volume-high'))
           : 'mdi-volume-off'"
-        append-icon="mdi-record-circle"
+        append-icon="mdi-play"
         @input="(newVolume) => { this.audio.volume = newVolume / 100; }"
         @click:prepend="() => {
             if(!isNaN(this.volume) && this.volume > 0) { // mute
