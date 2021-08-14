@@ -78,7 +78,6 @@
       >
       </v-slider>
     </div>
-    <!-- <v-toolbar-title>Courtesy of Konosan <a href="https://twitter.com/onorikyu">@onorikyu</a></v-toolbar-title> -->
     <pwa-update></pwa-update>
     <v-spacer />
     <v-menu transition="slide-y-transition" bottom offset-y>

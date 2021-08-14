@@ -58,7 +58,10 @@
             "members": [
                 { 
                     "name": "Konosan",
-                    "twitter": "@onorikyu"
+                    "twitter": {
+                        "tag": "@onorikyu",
+                        "url": "https://twitter.com/onorikyu"
+                    }
                 }
             ]
         },
