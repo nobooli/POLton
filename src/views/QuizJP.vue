@@ -42,7 +42,7 @@ export default {
 			});
 		},
 		getScoreTweet() {
-			fetch("https://script.google.com/macros/s/AKfycbzejN74f_F5jk7gLoSLcIvJtwxI9EkQzXcpi6oXj8cqGuiQp0k23xFCZANlOrLFCu7SjA/exec?id=" + this.uuid)
+			fetch("https://script.google.com/macros/s/AKfycbxku96HYoeRiyA7RBBFl3pqT5xU3Yhl7JpgJYRBzC-XTYxMQAOrLgVKfYT0Mvqu9XpA/exec" + this.uuid)
 				.then(response => response.json())
 				.then(receivedScore => {
 					var score = receivedScore <= 0 ? "" : receivedScore + " / 100%0A";
