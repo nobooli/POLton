@@ -42,12 +42,12 @@
           </v-list-item-title>
         </v-list-item>
         <v-divider></v-divider>
-        <!-- <v-list-item href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA">
+        <v-list-item href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA">
           <v-list-item-title>
             <v-icon left color="secondary">mdi-youtube</v-icon>
             {{$t('link.channel')}}
           </v-list-item-title>
-        </v-list-item> -->
+        </v-list-item>
         <v-list-item href="https://www.nepolabo.fans">
           <v-list-item-title>
             <v-icon left color="secondary" class="clover">mdi-clover</v-icon>
@@ -56,7 +56,7 @@
         </v-list-item>
       </v-list>
     </v-menu>
-    <!-- <div class="bgm_slider">
+    <div class="bgm_slider">
       <v-slider id="bgm-slider"
         v-model="volume"
         :prepend-icon="this.volume
@@ -77,7 +77,7 @@
         }"
       >
       </v-slider>
-    </div> -->
+    </div>
     <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>
     <pwa-update></pwa-update>
     <v-spacer />
@@ -127,18 +127,18 @@ export default {
       //{ title: "简体中文", src: "zhHans", isready: false },
       { title: "日本語", src: "ja", isready: true },
     ],
-    // audio: new Audio("voices/Singing/Humming/Waiting Room BGM.mp3"), // change to appropriate BGM file
-    // volume: 5,
-    // previousVolume: 0,
-    // muted: false
+    audio: new Audio("voices/Singing/Humming/Waiting Room BGM.mp3"), // change to appropriate BGM file
+    volume: 5,
+    previousVolume: 0,
+    muted: false
   }),
   mounted() {
-    // this.audio.volume = this.volume / 100;
-    // this.audio.preload = true;
-    // this.audio.loop = true;
-    // if (this.audio.paused || this.audio.ended) {
-    //   this.audio.play();
-    // }
+    this.audio.volume = this.volume / 100;
+    this.audio.preload = true;
+    this.audio.loop = true;
+    if (this.audio.paused || this.audio.ended) {
+      this.audio.play();
+    }
   },
   methods: {
     changeLang(e) {
