@@ -83,7 +83,7 @@ export default {
 
 main {
 	width: 100%;
-	max-width: 1140px;
+	/* max-width: 1140px; */
 	margin: auto;
 }
 

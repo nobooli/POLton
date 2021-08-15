@@ -1,5 +1,5 @@
 <template>
-	<v-container>
+	<v-container fluid>
 		<Header :banner_image="banner"></Header>
 		<!-- messages -->
 		<div id="messages">
@@ -91,8 +91,9 @@ export default {
 
 <style>
 #messages {
-	column-gap: 2em;
-	column-width: 30ch;
+	/* column-gap: 2em; */
+	/* column-width: 30ch; */
+	column-count: 1;
 }
 
 .message {
@@ -179,4 +180,17 @@ export default {
 	max-height: 64px;
 	border-radius: 50%;
 }
+
+@media (min-width: 481px) {
+	#messages {
+		column-count: 2;
+	}
+}
+
+@media (min-width: 769px) {
+	#messages {
+		column-count: 3;
+	}
+}
+
 </style>
