@@ -24,12 +24,13 @@
   <div>
     <div class="my-gallery" :class="album_class">
       <div v-for="(image,key) in images" v-bind:key="key">
-        <div class="illust_thumbnail">
+        <div class="illust_thumbnail"
+            data-aos="zoom-in"
+            data-aos-once="true"
+        >
           <a :href="image.path"
             :artist="image.artist"
             :message="image.message"
-            data-aos="zoom-in"
-            data-aos-once="true"
           >
             <img :src="image.thumbnail" 
               alt="" 
