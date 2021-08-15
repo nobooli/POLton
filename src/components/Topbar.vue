@@ -81,6 +81,7 @@
 				@input="
 					(newVolume) => {
 						this.audio.volume = newVolume / 100;
+						this.storage.setItem('volume', newVolume);
 					}
 				"
 				@click:prepend="
@@ -163,13 +164,14 @@ export default {
 			{ title: "日本語", src: "ja", isready: true },
 		],
 		audio: new Audio("bgm/BGM.mp3"), // change to appropriate BGM file
-		volume: 5,
+		volume: 10,
 		previousVolume: 0,
 		fromRoute: null,
 		toRoute: null,
 		pausedOrEnded: false,
 		disabled: false,
-		state: store.state
+		state: store.state,
+		storage: null
 	}),
 	watch: {
 		$route() {
@@ -190,6 +192,10 @@ export default {
 	mounted() {
 		this.audio.preload = true;
 		this.audio.loop = true;
+		if(localStorage.getItem("volume") !== null) {
+		    this.volume = localStorage.getItem("volume");
+		}
+		this.storage = localStorage;
 		this.audio.volume = this.volume / 100;
 		this.$root.$on("preloader_start_bgm", () => {
 			if (this.audio.paused || this.audio.ended) {
