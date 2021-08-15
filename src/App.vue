@@ -1,5 +1,7 @@
 <template>
 	<v-app id="app">
+		<div class="preloader-left"></div>
+		<div class="preloader-right"></div>
 		<Topbar></Topbar>
 		<main>
 			<v-content app>
@@ -85,6 +87,44 @@ main {
 	background-image: url("~@/assets/polpattern2b2.png");
 	background-repeat: repeat;
 	font-family: "Poppins", sans-serif;
+}
+
+.preloader-left {
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	height: 100%;
+	width: 50%;
+	animation: curtain 1.5s ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;
+	background-image: url("/img/curtain_end.png");
+	background-size: cover;
+	background-position: bottom right;
+}
+
+.preloader-right {
+	position: fixed;
+	z-index: 999;
+	right: 0;
+	height: 100%;
+	width: 50%;
+	animation: curtain 1.5s ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;
+	background-image: url("/img/curtain_end.png");
+	background-size: cover;
+	background-position: bottom right;
+	transform: scaleX(-1);
+}
+
+@keyframes curtain {
+	0% {
+		width: 50%;
+	}
+	100% {
+		width: 0;
+	}
 }
 
 /* scrollbar properties */
