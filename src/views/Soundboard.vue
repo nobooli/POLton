@@ -186,6 +186,7 @@ import { copyToClipboard } from "@/common/clipboard";
 import AOS from "aos";
 
 // var audio = new Audio();
+var playlistAudio = new Audio();
 var i = 0;
 export default {
 	components: {
@@ -275,29 +276,30 @@ export default {
 		},
 		orderplay() {
 			i = 0;
+			playlistAudio = new Audio();
 			// this.audio = new Audio();
 			let arry = this.orderlist;
 			let repeat = this.repeatmode;
-			this.audio.preload = true;
-			this.audio.loop = false;
-			this.audio.src = "voices/" + arry[i].path;
-			this.audio.volume = this.volume / 100;
-			this.audio.play();
-			this.audio.addEventListener(
+			playlistAudio.preload = true;
+			playlistAudio.loop = false;
+			playlistAudio.src = "voices/" + arry[i].path;
+			playlistAudio.volume = this.volume / 100;
+			playlistAudio.play();
+			playlistAudio.addEventListener(
 				"ended",
 				() => {
 					//序列播放实现
 					i++;
 					if (i < arry.length) {
-						this.audio.src = "voices/" + arry[i].path;
+						playlistAudio.src = "voices/" + arry[i].path;
 						//window.console.log(i);
-						this.audio.play();
+						playlistAudio.play();
 					} else {
 						if (repeat && i === arry.length) {
 							//不要停不下来啊
 							i = 0;
-							this.audio.src = "voices/" + arry[i].path;
-							this.audio.play();
+							playlistAudio.src = "voices/" + arry[i].path;
+							playlistAudio.play();
 						}
 					}
 				},
@@ -311,7 +313,7 @@ export default {
 			this.orderlist = [];
 		},
 		stopplay() {
-			this.audio.pause();
+			playlistAudio.pause();
 		},
 		AOSInit() {
 			this.aos = AOS;
