@@ -169,7 +169,6 @@ export default {
 		toRoute: null,
 		pausedOrEnded: true,
 		disabled: false,
-		state: store.state,
 		storage: null
 	}),
 	watch: {
