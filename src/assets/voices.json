@@ -104,11 +104,19 @@
 					}
 				},
 				{
-					"name": "Nice",
+					"name": "Nice 1",
 					"path": "Lines/POLglish/Nice.mp3",
 					"translation": {
-						"en": "Nice",
-						"ja": "ナイス"
+						"en": "Nice 1",
+						"ja": "ナイス１"
+					}
+				},
+				{
+					"name": "Nice 2",
+					"path": "Lines/POLglish/Nice_2.mp3",
+					"translation": {
+						"en": "Nice 2",
+						"ja": "ナイス２"
 					}
 				},
 				{
@@ -325,6 +333,14 @@
 					"translation": {
 						"en": "PANIK",
 						"ja": "パニック！"
+					}
+				},
+				{
+					"name": "I have a Dream",
+					"path": "Lines/POLglish/I_Have_a_Dream.mp3",
+					"translation": {
+						"en": "I have a Dream",
+						"ja": "I have a Dream"
 					}
 				}
 			]
