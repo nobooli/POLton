@@ -182,6 +182,7 @@ export default {
 		if (this.audio.paused || this.audio.ended) {
 			this.pausedOrEnded = true;
 			this.audio.play();
+			this.pausedOrEnded = this.audio.paused;
 		} else {
 			this.pausedOrEnded = false;
 		}
