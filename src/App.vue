@@ -1,9 +1,7 @@
 <template>
 	<v-app id="app">
-		<div class="preloader preloader-left"
-		></div>
-		<div class="preloader preloader-right"
-		></div>
+		<div class="preloader preloader-left"></div>
+		<div class="preloader preloader-right"></div>
 		<Topbar></Topbar>
 		<main>
 			<v-content app>
@@ -86,7 +84,7 @@ export default {
 			}
 			e.classList.toggle('page-loaded');
 		}
-	},
+	}
 };
 </script>
 
