@@ -1,5 +1,6 @@
 <template>
 	<div>
+		<div class="drooping_banner"></div>
 		<Header :banner_image="banner"></Header>
 
 		<div class="tent" data-aos="zoom-in">
@@ -144,6 +145,31 @@ export default {
 </script>
 
 <style>
+.drooping_banner {
+	width: 100vw;
+	height: 5rem;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	background-image: url("/img/banner-tile.png");
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+
+@media screen and (min-width: 600px) {
+	.drooping_banner {
+		height: 7.5rem;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.drooping_banner {
+		height: 10rem;
+	}
+}
+
 .welcome-message {
 	word-break: keep-all;
 }
