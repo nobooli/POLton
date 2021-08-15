@@ -40,6 +40,11 @@
 						{{ $t("link.quiz") }}
 					</v-list-item-title>
 				</v-list-item>
+				<v-list-item 
+					href="">
+						<v-icon left color="secondary">mdi-gift</v-icon>
+						{{ $t("link.present") }}
+				</v-list-item>
 				<v-divider></v-divider>
 				<v-list-item
 					href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA"
