@@ -70,9 +70,9 @@ export default {
 	mounted() {
 		try {
 			if (this.options != undefined) {
-				new SimpleLightbox(".illust_card a", this.options);
+				new SimpleLightbox(".illust_thumbnail a", this.options);
 			} else {
-				new SimpleLightbox(".illust_card a");
+				new SimpleLightbox(".illust_thumbnail a");
 			}
 		} catch (e) {
 			// eslint-disable-next-line no-console
