@@ -41,7 +41,7 @@
 					</v-list-item-title>
 				</v-list-item>
 				<v-list-item 
-					href="https://drive.google.com/file/d/1lh00qlG92xj8NAwP7PyPzT3wiBwW0d0U/view?usp=sharing">
+					href="">
 						<v-icon left color="secondary">mdi-gift</v-icon>
 						{{ $t("link.present") }}
 				</v-list-item>
@@ -182,13 +182,14 @@ export default {
 				this.disabled = false;
 			}
 		},
-		state:  function() {
-			if (store.state.is_audio_playing) {
-				this.audio.play();
+		state: function() {
+			if (this.noBgmStart !== !store.state.playBgmOnCurtains) {
+				this.noBgmStart = !this.noBgmStart;
 			}
 		}
 	},
 	mounted() {
+		this.noBgmStart = this.$store.state.playBgmOnCurtains;
 		this.$root.$on("no_preloader_bgm", () => {
 			this.noBgmStart = true;
 		})
@@ -243,6 +244,11 @@ export default {
 				}
 			},
 		},
+		playBgmOnCurtains: {
+			get: function() {
+				return this.$store.state.playBgmOnCurtains;
+			}
+		}
 	},
 };
 </script>

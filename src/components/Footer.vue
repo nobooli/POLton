@@ -26,7 +26,7 @@
 			</div>
 			<div>
 				<v-hover class="navi-zain">
-					<a href="https://drive.google.com/file/d/1lh00qlG92xj8NAwP7PyPzT3wiBwW0d0U/view?usp=sharing">
+					<a href="">
 						<img id="bouquet_zain" 
 							@click="scrolltotop"
 							:src="hovered_zain ? ball_hover : ball_idle"
