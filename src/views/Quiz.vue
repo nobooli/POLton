@@ -2,7 +2,6 @@
 	<v-container>
 		<Header :banner_image="banner"></Header>
 		<section class="quiz-intro-body">
-			<h2 class="quiz-lang-title">Select a language</h2>
 			<div class="quiz-languages">
 				<v-btn class="quiz-lang-btn" :to="{ name: 'QuizJP' }">日本語</v-btn>
 				<v-btn class="quiz-lang-btn" :to="{ name: 'QuizZH' }">繁體中文</v-btn>
@@ -68,7 +67,8 @@ iframe {
 }
 
 .quiz-languages {
-	display: flex;
+	display: grid;
+	/* display: flex; */
 	justify-content: center;
 	align-items: center;
 	margin: 5rem 0;
@@ -76,5 +76,12 @@ iframe {
 
 .quiz-lang-btn {
 	margin: 0 1rem;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
 }
+
+.quiz-lang-btn { min-height: 64px; }
+.quiz-lang-btn > * { font-size: 2em; height: 48px; }
+
+
 </style>
