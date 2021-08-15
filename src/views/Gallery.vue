@@ -59,7 +59,7 @@ export default {
 <style>
 .art-album {
 	display: grid;
-	grid-gap: 1rem;
+	grid-gap: 2rem;
 	grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
 	margin: 0 1rem;
 	place-items: center;
