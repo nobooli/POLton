@@ -126,22 +126,26 @@
 					:append-icon="
 						!audio.src
 							? 'mdi-play-outline' // don't play if none set
-							: audio.ended && audio.paused
-							? 'mdi-replay'
-							: audio.paused
-							? 'mdi-play'
-							: 'mdi-pause'
+							: this.ended
+								? 'mdi-replay'
+								: this.paused
+									? 'mdi-play'
+									: 'mdi-pause'
 					"
 					@click:append="
 						() => {
 							if (!audio.src) {
 								return;
 							}
-							if (audio.paused || audio.ended) {
+							if (this.ended || this.paused) {
 								// an ended audio element will start over
+								// a paused audio element will continue
 								audio.play();
+								this.paused = false;
+								this.ended = false;
 							} else {
 								audio.pause();
+								this.paused = true;
 							}
 						}
 					"
@@ -204,6 +208,9 @@ export default {
 		volume: 50,
 		previousVolume: 0,
 		muted: false,
+		paused: false,
+		ended: false,
+		src: ""
 	}),
 	beforeRouteLeave: function(to, from, next) {
 		if (!this.audio.paused) {
@@ -214,6 +221,11 @@ export default {
 	mounted() {
 		this.$nextTick(() => {
 			this.AOSInit();
+		});
+
+		this.audio.addEventListener("ended", () => {
+			this.paused = true;
+			this.ended = true;
 		});
 
 		for (const [gIndex, group] of Object.entries(voicelist.groups)) {
@@ -257,11 +269,13 @@ export default {
 			}
 
 			this.audio.preload = true;
-			this.audio.src = "voices/" + item.path;
+			this.audio.src = this.src = "voices/" + item.path;
 			this.$store.commit("setLastAudio", this.audio.src);
 			this.voice = item;
 			this.audio.volume = this.volume / 100;
 			this.audio.play();
+			this.paused = false;
+			this.ended = false;
 		},
 		playOnly(item) {
 			// this.audio = new Audio();
