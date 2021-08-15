@@ -39,7 +39,7 @@ module.exports = {
     messages: "Messages",
     quiz: "Quiz",
     about: "About",
-    channel: "Polka's Channel",
+    channel: "Polka Ch.",
     nplb: "NePoLaBo"
   }
 }
