@@ -148,7 +148,6 @@
 
 <script>
 import { copyToClipboard } from "@/common/clipboard";
-import store from '@/store';
 
 export default {
 	props: {
@@ -170,7 +169,6 @@ export default {
 		toRoute: null,
 		pausedOrEnded: true,
 		disabled: false,
-		state: store.state,
 		storage: null
 	}),
 	watch: {
