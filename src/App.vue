@@ -1,7 +1,11 @@
 <template>
 	<v-app id="app">
-		<div class="preloader-left"></div>
-		<div class="preloader-right"></div>
+		<div class="preloader-left"
+			@click="$event.target.classList.toggle('page-loaded')"
+		></div>
+		<div class="preloader-right"
+			@click="$event.target.classList.toggle('page-loaded')"
+		></div>
 		<Topbar></Topbar>
 		<main>
 			<v-content app>
@@ -31,6 +35,7 @@ export default {
 		addtoscreendialog: false,
 		links: [],
 		showSidebar: false,
+		loaded: false
 	}),
 	mounted() {
 		// let timeNow = new Date();
