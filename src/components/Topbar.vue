@@ -61,6 +61,7 @@
 			<v-slider
 				id="bgm-slider"
 				v-model="volume"
+				label="BGM"
 				:disabled="this.disabled"
 				:prepend-icon="
 					this.volume
@@ -71,7 +72,7 @@
 							: 'mdi-volume-high'
 						: 'mdi-volume-off'
 				"
-				append-icon="mdi-record-circle"
+				append-icon="mdi-play"
 				@input="
 					(newVolume) => {
 						this.audio.volume = newVolume / 100;
@@ -150,7 +151,7 @@ export default {
 			//{ title: "简体中文", src: "zhHans", isready: false },
 			{ title: "日本語", src: "ja", isready: true },
 		],
-		audio: new Audio("bgm/1.wav"), // change to appropriate BGM file
+		audio: new Audio("bgm/BGM.mp3"), // change to appropriate BGM file
 		volume: 5,
 		previousVolume: 0,
 		fromRoute: null,

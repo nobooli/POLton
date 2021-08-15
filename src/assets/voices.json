@@ -318,6 +318,14 @@
 						"en": "Are You Ready",
 						"ja": "Are You Ready"
 					}
+				},
+				{
+					"name": "PANIK",
+					"path": "Lines/POLglish/PANIK.mp3",
+					"translation": {
+						"en": "PANIK",
+						"ja": "パニック！"
+					}
 				}
 			]
 		},
@@ -1023,7 +1031,7 @@
 					"path": "Voice Acting/Miscellaneous VA/Ara_Ara.mp3",
 					"translation": {
 						"en": "Ara Ara 1",
-						"ja": "あらあらうふふ 1"
+						"ja": "あらあら１"
 					}
 				},
 				{
@@ -1031,7 +1039,7 @@
 					"path": "Voice Acting/Miscellaneous VA/Ara_Ara_2.mp3",
 					"translation": {
 						"en": "Ara Ara 2",
-						"ja": "あらあら"
+						"ja": "あらあら２"
 					}
 				},
 				{
@@ -1057,14 +1065,6 @@
 					"translation": {
 						"en": "Morning Alarm",
 						"ja": "朝の目覚まし"
-					}
-				},
-				{
-					"name": "PANIK",
-					"path": "Noises/Shenanigans/PANIK.mp3",
-					"translation": {
-						"en": "PANIK",
-						"ja": "パニック！"
 					}
 				},
 				{
