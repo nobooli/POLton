@@ -15,37 +15,33 @@ ARISING FROM, // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE // SOFTWARE.
 
 <template>
-	<div>
-		<div class="my-gallery" :class="album_class">
-			<div v-for="(image, key) in images" v-bind:key="key" data-aos="fade-up">
-				<div class="illust_thumbnail">
-					<a :href="image.path" :artist="image.artist" :message="image.message">
-						<img
-							:src="image.thumbnail"
-							:alt="image.artist_twitter"
-							:class="image_class"
-							:srcset="image.thumbnail_srcset"
-							:sizes="thumbnail_sizes"
-						/>
-					</a>
-				</div>
-				<div>
-					<div class="illust_profile">
-						<img class="profile-pic" :src="image.profile_pic" />
-					</div>
-					<div>
-						<a
-							v-if="image.artist_twitter_link"
-							:href="image.artist_twitter_link"
-						>
-							<v-icon>mdi-twitter</v-icon>
-							{{ image.artist_twitter }}
-						</a>
-						<span v-if="!image.artist_twitter_link">
-							{{ image.artist_twitter }}
-						</span>
-					</div>
-				</div>
+	<div :class="album_class">
+		<div
+			class="illust_card"
+			v-for="(image, key) in images"
+			v-bind:key="key"
+			data-aos="fade-up"
+		>
+			<div class="illust_thumbnail">
+				<a :href="image.path" :artist="image.artist" :message="image.message">
+					<img
+						:src="image.thumbnail"
+						:alt="image.artist_twitter"
+						:class="image_class"
+						:srcset="image.thumbnail_srcset"
+						:sizes="thumbnail_sizes"
+					/>
+				</a>
+			</div>
+			<div class="illust_profile">
+				<img class="profile-pic" :src="image.profile_pic" />
+				<a v-if="image.artist_twitter_link" :href="image.artist_twitter_link">
+					<v-icon>mdi-twitter</v-icon>
+					{{ image.artist_twitter }}
+				</a>
+				<span v-if="!image.artist_twitter_link">
+					{{ image.artist_twitter }}
+				</span>
 			</div>
 		</div>
 	</div>
@@ -97,38 +93,18 @@ export default {
 </script>
 
 <style>
-.my-gallery a img {
-	margin: 1.4em;
+.illust_card {
 	border: 0.3em solid white;
 	background: white;
-	-webkit-transition: -webkit-transform 0.15s ease;
-	-moz-transition: -moz-transform 0.15s ease;
-	-o-transition: -o-transform 0.15s ease;
-	-ms-transition: -ms-transform 0.15s ease;
-	transition: transform 0.15s ease;
-	position: relative;
+	max-width: 300px;
 }
-.my-gallery a:hover img {
-	-webkit-transform: scale(1.05);
-	-moz-transform: scale(1.05);
-	-o-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	transform: scale(1.05);
-	z-index: 5;
-}
-.my-gallery a.big img {
-	width: 40%;
+
+.illust_thumbnail img {
+	width: 100%;
+	height: 100%;
 }
 
 .align-center {
 	text-align: center;
-}
-
-.sl-caption,
-.sl-close,
-.sl-counter,
-.sl-current,
-.sl-total {
-	font-family: "Roboto", sans-serif;
 }
 </style>

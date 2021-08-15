@@ -1,18 +1,16 @@
 <template>
-	<v-container>
+	<div>
 		<Header :banner_image="banner"></Header>
 		<!-- gallery Lightbox -->
-		<div class=".gallery-container">
-			<lightbox
-				id="art_gallery"
-				:images="art_pieces"
-				:image_class="'art'"
-				:album_class="'art-album'"
-				:options="options"
-			>
-			</lightbox>
-		</div>
-	</v-container>
+		<lightbox
+			id="art_gallery"
+			:images="art_pieces"
+			:image_class="'art'"
+			:album_class="'art-album'"
+			:options="options"
+		>
+		</lightbox>
+	</div>
 </template>
 
 <script>
@@ -60,8 +58,10 @@ export default {
 
 <style>
 .art-album {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+	margin: 0 1rem;
+	place-items: center;
 }
 </style>
