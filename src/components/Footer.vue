@@ -24,6 +24,19 @@
 					</span>
 				</div>
 			</div>
+			<div>
+				<v-hover class="navi-zain">
+					<img id="ball_zain" 
+						@click="scrolltotop"
+						:src="hovered_zain ? ball_hover : ball_idle"
+						@mouseover="hovered_zain = true"
+						@mouseleave="hovered_zain = false"
+						:srcset="hovered_zain ? ball_srcset_hover : ball_srcset"
+						:sizes="zain_sizes"
+						class="jumping-zain"
+					/>
+				</v-hover>
+			</div>
 		</div>
 		<div id="disclaimer">
 			<span>{{ $t("ui.disclaimer") }}</span>
@@ -38,12 +51,23 @@ export default {
 	data: function() {
 		return {
 			credits: credits.credits,
+			hovered_zain: false,
+			zain_sizes: "300px",
+			ball_idle: "img/ball_idle_300.png",
+			ball_hover: "img/ball_hover_300.png",
+			ball_srcset:
+				"img/ball_idle_300.png 300w",
+			ball_srcset_hover:
+				"img/ball_hover_300.png 300w",
 		};
 	},
 	methods: {
 		resolveI18n(obj) {
 			return obj[this.$i18n.locale];
 		},
+		scrolltotop() {
+			window.scrollTo({top: 0, behavior: 'smooth'});
+		}
 	},
 };
 </script>
@@ -89,5 +113,13 @@ export default {
 	font-size: 1.25em;
 	font-style: italic;
 	text-align: center;
+}
+
+#ball_zain {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	#ball_zain { width: 100%; }
 }
 </style>
