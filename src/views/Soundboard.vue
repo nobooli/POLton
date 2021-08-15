@@ -169,13 +169,20 @@
 						<v-icon>mdi-reorder-horizontal</v-icon>
 					</v-badge>
 				</v-btn>
-				<v-btn
-					:disabled="!$store.state.lastAudio"
-					icon
-					@click="$store.dispatch('copyLastAudioToClipboard')"
-				>
-					<v-icon>mdi-content-copy</v-icon>
-				</v-btn>
+				<v-tooltip top>
+					<template v-slot:activator="{ on, attrs }">
+						<v-btn
+							:disabled="!$store.state.lastAudio"
+							icon
+							v-bind="attrs"
+							v-on="on"
+							@click="$store.dispatch('copyLastAudioToClipboard')"
+						>
+							<v-icon>mdi-content-copy</v-icon>
+						</v-btn>
+					</template>
+					<span>Copy Clip Url</span>
+				</v-tooltip>
 			</div>
 		</div>
 	</v-container>

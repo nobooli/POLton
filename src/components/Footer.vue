@@ -26,7 +26,7 @@
 			</div>
 			<div>
 				<v-hover class="navi-zain">
-					<a href="">
+					<a href="https://nepolabo.fans/book/">
 						<img id="bouquet_zain" 
 							@click="scrolltotop"
 							:src="hovered_zain ? ball_hover : ball_idle"
