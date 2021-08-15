@@ -1,7 +1,7 @@
 {
     "art_pieces": [
         {
-            "path": "img/art/Forever9Nine_half.png",
+            "path": "img/art/forever9nine.png",
             "thumbnail": "img/art/thumbnails/Forever9Nine_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/Forever9Nine_thumbnail_150.png 150w, img/art/thumbnails/Forever9Nine_thumbnail_300.png 300w",
             "artist":"Forever9Nine",
@@ -11,7 +11,7 @@
             "message": "Congratulation on 1st Anniversary, Omarun!"
         },
         {
-            "path": "img/art/yaki_ebiko_half.png",
+            "path": "img/art/yaki_ebiko.png",
             "thumbnail": "img/art/thumbnails/yaki_ebiko_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/yaki_ebiko_thumbnail_150.png 150w, img/art/thumbnails/yaki_ebiko_thumbnail_300.png 300w",
             "artist":"えびこ焼き",
@@ -21,7 +21,7 @@
             "message": "I really love your voice since the first day. You bring us joy and energy during a difficult time for everyone. \nAs a Zain I talk very little, I know a bit JP so I was able to understand most of the contents but can't type fast enough in JP, but I always laugh with you. Thanks for all the contents. "
         },
         {
-            "path": "img/art/LeslieEmpty_half.png",
+            "path": "img/art/LeslieEmpty.png",
             "thumbnail": "img/art/thumbnails/LeslieEmpty_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/LeslieEmpty_thumbnail_150.png 150w, img/art/thumbnails/LeslieEmpty_thumbnail_300.png 300w",
             "artist":"Leslie Empty",
@@ -41,7 +41,7 @@
             "message": "For a while, I tried to watch your streams every day. I really like your voice, your way of singing, your joy of living, in short, I like everything about you! Especially since I'm a fan of Legend of Polka. From the bottom of my heart, thank you Polka-chan... I love you!"
         },
         {
-            "path": "img/art/AnatoleSerial_half.png",
+            "path": "img/art/AnatoleSerial.png",
             "thumbnail": "img/art/thumbnails/AnatoleSerial_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/AnatoleSerial_thumbnail_150.png 150w, img/art/thumbnails/AnatoleSerial_thumbnail_300.png 300w",
             "artist":"AnatoleSerial",
@@ -51,7 +51,7 @@
             "message": "Congratulations on your First Anniversary! Let's have more fun on the second year!"
         },
         {
-            "path": "img/art/Rinri_half.png",
+            "path": "img/art/Rinri.png",
             "thumbnail": "img/art/thumbnails/Rinri_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/Rinri_thumbnail_150.png 150w, img/art/thumbnails/Rinri_thumbnail_300.png 300w",
             "artist":"Rinri",
@@ -61,7 +61,7 @@
             "message": "Happy anniversary Polka!!! Your stream is the best! I love everything about you. Keep it up, I will always be watching you forever!"
         },
         {
-            "path": "img/art/gokiburi_half.png",
+            "path": "img/art/gokiburi.png",
             "thumbnail": "img/art/thumbnails/gokiburi_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/gokiburi_thumbnail_150.png 150w, img/art/thumbnails/gokiburi_thumbnail_300.png 300w",
             "artist":"gokiburi",
@@ -71,7 +71,7 @@
             "message": "Congratulations on 1 year!! I'm glad I'm part of the Omaruza...Polka's circus will last forever!"
         },
         {
-            "path": "img/art/John3rou_half.png",
+            "path": "img/art/john3rou.png",
             "thumbnail": "img/art/thumbnails/John3rou_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/John3rou_thumbnail_150.png 150w, img/art/thumbnails/John3rou_thumbnail_300.png 300w",
             "artist":"ジョン三郎【おまる座曲芸のくま】",
@@ -81,7 +81,7 @@
             "message": "Congratulation on 1st Anniversary, Omarun!"
         },
         {
-            "path": "img/art/SanzeGorou_half.png",
+            "path": "img/art/SanzeGorou.png",
             "thumbnail": "img/art/thumbnails/SanzeGorou_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/SanzeGorou_thumbnail_150.png 150w, img/art/thumbnails/SanzeGorou_thumbnail_300.png 300w",
             "artist":"三世吾郎",
@@ -91,7 +91,7 @@
             "message": "恭喜ポルカ出道一周年了!!\"ポルカの伝説\"真的很有趣，是我每個禮拜最期待的節目!!希望妳能一直快樂的直播下去，謝謝妳 "
         },
         {
-            "path": "img/art/hellscrossing_half.png",
+            "path": "img/art/hellscrossing.png",
             "thumbnail": "img/art/thumbnails/hellscrossing_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/hellscrossing_thumbnail_150.png 150w, img/art/thumbnails/hellscrossing_thumbnail_300.png 300w",
             "artist":"hellscrossing",
@@ -101,7 +101,7 @@
             "message": " Congratulations, Polka! I'm excited to watch you even more in the future!"
         },
         {
-            "path": "img/art/tokimi_yukikaze_half.png",
+            "path": "img/art/tokimi_yukikaze.png",
             "thumbnail": "img/art/thumbnails/tokimi_yukikaze_thumbnail_300.png",
             "thumbnail_srcset": "img/art/thumbnails/tokimi_yukikaze_thumbnail_150.png 150w, img/art/thumbnails/tokimi_yukikaze_thumbnail_300.png 300w",
             "artist": "雪風ときみ",
