@@ -40,7 +40,7 @@
 		</div>
 		<div class="ticket_card">
 			<h3 class="title_text" style="margin-bottom:0px;">
-				<span>{{ $t("ui.welcome") }}</span>
+				<span>{{ $t("ui.scrollingTitle") }}</span>
 				<!-- <span>{{ $t("link.soundboard") }}</span> -->
 			</h3>
 		</div>
