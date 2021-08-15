@@ -1,6 +1,6 @@
 <template>
 	<div id="footer">
-		<h2>Credits</h2>
+		<h2>{{ $t("ui.credits") }}</h2>
 		<div id="credits">
 			<div
 				v-for="group in credits"

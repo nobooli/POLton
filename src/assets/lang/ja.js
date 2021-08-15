@@ -3,6 +3,7 @@
         title: "",
         welcome: "ようこそ",
         scrollingTitle: "座長、一周年おめでとうございます!",
+        credits: "クレジット",
         mediacontorl: "コントロールボタン",
         stopplay: "停止",
         helptitle: "遊び方だね?",

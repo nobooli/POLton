@@ -3,6 +3,7 @@ module.exports = {
     title: "",
     welcome: "Welcome",
     scrollingTitle: "Congratulations on your 1st Anniversary Polka!",
+    credits: "Credits",
     mediacontorl: "Control Button",
     stopplay: "Stop",
     helptitle: "Help",
