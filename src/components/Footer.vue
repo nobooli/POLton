@@ -26,7 +26,7 @@
 			</div>
 			<div>
 				<v-hover class="navi-zain">
-					<img id="ball_zain" 
+					<img id="bouquet_zain" 
 						@click="scrolltotop"
 						:src="hovered_zain ? ball_hover : ball_idle"
 						@mouseover="hovered_zain = true"
@@ -53,12 +53,12 @@ export default {
 			credits: credits.credits,
 			hovered_zain: false,
 			zain_sizes: "300px",
-			ball_idle: "img/ball_idle_300.png",
-			ball_hover: "img/ball_hover_300.png",
+			ball_idle: "img/bouquetzain2_300.png",
+			ball_hover: "img/bouquetzain2_300.png",
 			ball_srcset:
-				"img/ball_idle_300.png 300w",
+				"img/bouquetzain2_300.png 300w",
 			ball_srcset_hover:
-				"img/ball_hover_300.png 300w",
+				"img/bouquetzain2_300.png 300w",
 		};
 	},
 	methods: {
@@ -115,11 +115,14 @@ export default {
 	text-align: center;
 }
 
-#ball_zain {
-	cursor: pointer;
+#bouquet_zain {
+	margin-left: -65px;
 }
 
 @media screen and (max-width: 600px) {
-	#ball_zain { width: 100%; }
+	#bouquet_zain { 
+		width: 100%; 
+		margin-left: 35px;
+	}
 }
 </style>
