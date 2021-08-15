@@ -294,4 +294,6 @@ export default {
 	align-items: center;
 	justify-content: center;
 }
+
+.tent { margin-top: -10% }
 </style>
