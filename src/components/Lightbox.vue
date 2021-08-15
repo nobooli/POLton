@@ -75,9 +75,9 @@ export default {
 	mounted() {
 		try {
 			if (this.options != undefined) {
-				new SimpleLightbox(".my-gallery a", this.options);
+				new SimpleLightbox(".illust_card a", this.options);
 			} else {
-				new SimpleLightbox(".my-gallery a");
+				new SimpleLightbox(".illust_card a");
 			}
 		} catch (e) {
 			// eslint-disable-next-line no-console
@@ -113,14 +113,16 @@ export default {
 	padding: 0.5rem;
 }
 
-.illust_profile a {
+.illust_profile a,
+.illust_profile span {
 	align-items: center;
 	display: flex;
 	justify-content: center;
+	text-decoration: none;
 }
 
 .illust_profile p {
-	margin: 0 !important;
+	margin: 0 0 0 0.3rem !important;
 }
 
 .align-center {
