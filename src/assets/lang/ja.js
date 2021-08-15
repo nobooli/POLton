@@ -38,7 +38,7 @@
         messages: "メッセージ",
         quiz: "クイズ",
         about: "ガラミ",
-        channel: "ポルカのチャンネル",
+        channel: "Polka Ch.",
         nplb: "ねぽらぼ"
     }
 }

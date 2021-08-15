@@ -21,6 +21,7 @@
 							:sizes="zain_sizes"
 							class="jumping-zain"
 						/>
+						<div class="nameplate flag_nameplate">{{ $t('link.channel') }}</div>
 					</a>
 				</v-hover>
 				<v-hover class="navi-zain" v-for="(link, i) in links" :key="i">
@@ -34,6 +35,16 @@
 							:sizes="zain_sizes"
 							class="jumping-zain"
 						/>
+						<div class="nameplate flag_nameplate">
+							{{ link.id === 'letter-zain'
+								? $t('link.messages') 
+								: link.id === 'gallery-zain'
+									? $t('link.presents') 
+									: link.id === 'megaphone-zain'
+										? $t('link.soundboard') 
+										:  $t('link.quiz') 
+							}}
+						</div>
 					</router-link>
 				</v-hover>
 			</div>
@@ -72,6 +83,8 @@ export default {
 			tent_srcset:
 				"img/TEMT_WITH_BOWS_250.png 250w, img/TEMT_WITH_BOWS_500.png 500w, img/TEMT_WITH_BOWS_800.png 800w",
 			tent_sizes: "(max-width: 600px) 250px, (max-width: 1280px) 500px, 800px",
+			nameplate: "img/nameplate-300.png",
+			nameplate_srcset: "img/nameplate-75.png 75w, img/nameplate-150.png 150, img/nameplate-300.png 300",
 			links: [
 				{
 					// trivia quiz
@@ -279,19 +292,66 @@ export default {
 	flex-wrap: wrap;
 }
 
-@media screen and (min-width: 600px) {
+.flag_nameplate { 
+	background-image: url("/POLton/img/nameplate-75.png");
+	height: 19;
+	width: 75;
+}
+
+@media screen and (max-width: 599px) {
 	.navi-zains {
 		margin-top: -10em;
+		padding-bottom: 6px;
+	}
+
+	.navi-zain {
+		padding-left: 3px;
+	}
+
+	.nameplate { 
+		padding-top: 3px;	
+		font-size: .60em
 	}
 }
+
+@media screen and (min-width: 600px) {
+	.navi-zains {
+		padding-bottom: 6px;
+	}
+
+	.flag_nameplate { 
+		background-image: url("/POLton/img/nameplate-150.png");
+		height: 38px;
+		width: 150;
+	}
+
+	.nameplate { 
+		padding-top: 10px;	
+		font-size: .8em;
+	}
+
+}
+
 @media screen and (min-width: 960px) {
 	.navi-zains {
 		margin-top: -10em;
 	}
+
 }
+
 @media screen and (min-width: 1280px) {
 	.navi-zains {
 		margin-top: -20em;
+	}
+
+	.nameplate { 
+		padding-top: 18px;	
+		font-size: 1.50em;
+	}
+	.flag_nameplate { 
+		background-image: url("/POLton/img/nameplate-300.png");
+		height: 75px;
+		width: 300px;
 	}
 }
 
@@ -303,4 +363,8 @@ export default {
 }
 
 .tent { margin-top: -15% }
+.nameplate {
+	color: black;
+	text-align: center;
+}
 </style>
