@@ -41,7 +41,7 @@
 					</v-list-item-title>
 				</v-list-item>
 				<v-list-item 
-					href="">
+					href="https://nepolabo.fans/book/">
 						<v-icon left color="secondary">mdi-gift</v-icon>
 						{{ $t("link.present") }}
 				</v-list-item>
