@@ -72,7 +72,7 @@
 							: 'mdi-volume-high'
 						: 'mdi-volume-off'
 				"
-				append-icon="mdi-play"
+				:append-icon="this.pausedOrEnded ? 'mdi-play' : 'mdi-pause'"
 				@input="
 					(newVolume) => {
 						this.audio.volume = newVolume / 100;
@@ -96,6 +96,10 @@
 					() => {
 						if (audio.paused) {
 							audio.play();
+							pausedOrEnded = false;
+						} else {
+							audio.pause();
+							pausedOrEnded = true;
 						}
 					}
 				"
@@ -178,6 +182,7 @@ export default {
 		if (this.audio.paused || this.audio.ended) {
 			this.pausedOrEnded = true;
 			this.audio.play();
+			this.pausedOrEnded = this.audio.paused;
 		} else {
 			this.pausedOrEnded = false;
 		}
