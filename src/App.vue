@@ -1,7 +1,8 @@
 <template>
 	<v-app id="app">
-		<v-btn x-large class="preloader-volume-toggle">
-			BGM?
+		<v-btn large class="preloader-volume-toggle"
+			@click="toggleBgmAutoPlay()">
+				{{ this.bgmStart ? "BGM On" : "BGM Off" }}
 		</v-btn>
 		<div class="preloader preloader-left"></div>
 		<div class="preloader preloader-right"></div>
@@ -36,7 +37,8 @@ export default {
 		links: [],
 		showSidebar: false,
 		loaded: false,
-		state: store.state
+		state: store.state,
+		bgmStart: true
 	}),
 	mounted() {
 		// let timeNow = new Date();
@@ -56,7 +58,9 @@ export default {
 		const preloaders = document.querySelectorAll('.preloader')
 		preloaders.forEach((elem) => {
 			elem.addEventListener('click', (event) => {
-				this.$root.$emit("preloader_start_bgm");
+				if (this.bgmStart) {
+					this.$root.$emit("preloader_start_bgm");
+				}
 				this.openCurtains(event.target)
 			})
 		});
@@ -81,16 +85,20 @@ export default {
 			window.location.href = e;
 		},
 		openCurtains(e) {
-			if (e.classList.contains("preloader-left")) {
+			if (e.classList.contains("preloader-left") && !e.classList.contains("page-loaded")) {
 				var rightCurtain = document.getElementsByClassName("preloader-right")[0];
 				rightCurtain.classList.toggle('page-loaded');
-			} else { // we clicked right curtain
+			} else if (!e.classList.contains("page-loaded")) { // we clicked right curtain
 				var leftCurtain = document.getElementsByClassName("preloader-left")[0];
 				leftCurtain.classList.toggle('page-loaded');
 			}
+			document.getElementsByClassName("preloader-volume-toggle")[0].classList.toggle('hide-preloader-volume-toggle');
 			e.classList.toggle('page-loaded');
 			// this.state.openCurtains = true;
 			// store.toggleAudio();
+		},
+		toggleBgmAutoPlay() {
+			this.bgmStart = !this.bgmStart;
 		}
 	}
 };
@@ -153,6 +161,10 @@ main {
 .page-loaded {
 	animation: curtain 1.5s ease-out;
 	animation-fill-mode: forwards;
+}
+
+.hide-preloader-volume-toggle {
+	visibility: hidden;
 }
 
 @keyframes curtain {

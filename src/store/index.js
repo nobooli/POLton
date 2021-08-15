@@ -10,8 +10,6 @@ export default new Vuex.Store({
         dark_icon: "mdi-moon-waning-crescent",
         lastAudio: '',
         notifications: [],
-        curtainsOpen: false,
-        // is_audio_playing: true
     },
     mutations: {
         change_dark_mode(state) {
@@ -31,10 +29,5 @@ export default new Vuex.Store({
             copyToClipboard(state.lastAudio);
         },
     },
-    // methods: {
-    //     toggleAudio() {
-    //         this.state.is_audio_playing = true;
-    //     }
-    // },
     modules: {}
 })

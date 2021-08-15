@@ -183,13 +183,10 @@ export default {
 				this.disabled = false;
 			}
 		},
-		state:  function() {
-			if (store.state.is_audio_playing) {
-				this.audio.play();
-			}
-		}
 	},
 	mounted() {
+		this.noBgmStart = this.$store.state.playBgmOnCurtains;
+
 		this.audio.preload = true;
 		this.audio.loop = true;
 		if(localStorage.getItem("volume") !== null) {
@@ -197,6 +194,11 @@ export default {
 		}
 		this.storage = localStorage;
 		this.audio.volume = this.volume / 100;
+
+		if (this.noBgmStart) {
+			this.pausedOrEnded = true;
+			return;
+		}
 		this.$root.$on("preloader_start_bgm", () => {
 			if (this.audio.paused || this.audio.ended) {
 				this.pausedOrEnded = true;
