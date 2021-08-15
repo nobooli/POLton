@@ -1,10 +1,10 @@
 <template>
 	<v-app id="app">
 		<div class="preloader-left"
-			@click="$event.target.classList.toggle('page-loaded')"
+			@click="openCurtains($event.target)"
 		></div>
 		<div class="preloader-right"
-			@click="$event.target.classList.toggle('page-loaded')"
+			@click="openCurtains($event.target)"
 		></div>
 		<Topbar></Topbar>
 		<main>
@@ -72,6 +72,16 @@ export default {
 		See(e) {
 			window.location.href = e;
 		},
+		openCurtains(e) {
+			if (e.classList.contains("preloader-left")) {
+				var rightCurtain = document.getElementsByClassName("preloader-right")[0];
+				rightCurtain.classList.toggle('page-loaded');
+			} else { // we clicked right curtain
+				var leftCurtain = document.getElementsByClassName("preloader-left")[0];
+				leftCurtain.classList.toggle('page-loaded');
+			}
+			e.classList.toggle('page-loaded');
+		}
 	},
 };
 </script>
