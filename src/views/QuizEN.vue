@@ -6,6 +6,7 @@
 					mdi-twitter
 				</v-icon>
 			</v-btn>
+			<span>{{ this.score }}</span>
 			<iframe
 				:src="
 					'https://docs.google.com/forms/d/e/1FAIpQLScYsLUoD5RMPGxY_m9kB-jD4A8vF_J0JQWg-q___toNYaPf5g/viewform?usp=pp_url&entry.231184758=' +
@@ -53,17 +54,11 @@ export default {
 				.then((json) => {
 					var receivedScore = json[0];
 
-					var score =
-						receivedScore <= 0 ? "" : "" + receivedScore + " / 100%0A";
-					window.open("https://twitter.com/intent/tweet?text=" + score + "%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz"
-)
-					// var x = this.browser.windows.create({
-					// 	url: "https://twitter.com/intent/tweet?text=" + score + "%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz"
-					// });
-					// window.location.href =
-					// 	"https://twitter.com/intent/tweet?text=" +
-					// 	score +
-					// 	"%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz";
+					var audio = new Audio("/voices/Lines/POLglish/Oh_Yeah.mp3");
+					audio.play();
+
+					var score = receivedScore <= 0 ? "" : "" + receivedScore + " / 100%0A";
+					this.url = "https://twitter.com/intent/tweet?text=" + score + "%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz";
 				});
 		},
 	},
@@ -81,6 +76,7 @@ export default {
 		return {
 			uuid: uuidv4(),
 			url: "",
+			score: ""
 		};
 	},
 };
