@@ -95,9 +95,6 @@ main {
 	left: 0;
 	height: 100%;
 	width: 50%;
-	animation: curtain 1.5s ease-out;
-	animation-fill-mode: forwards;
-	animation-delay: 1.5s;
 	background-image: url("/img/curtain_end.png");
 	background-size: cover;
 	background-position: bottom right;
@@ -109,13 +106,15 @@ main {
 	right: 0;
 	height: 100%;
 	width: 50%;
-	animation: curtain 1.5s ease-out;
-	animation-fill-mode: forwards;
-	animation-delay: 1.5s;
 	background-image: url("/img/curtain_end.png");
 	background-size: cover;
 	background-position: bottom right;
 	transform: scaleX(-1);
+}
+
+.page-loaded {
+	animation: curtain 1.5s ease-out;
+	animation-fill-mode: forwards;
 }
 
 @keyframes curtain {
