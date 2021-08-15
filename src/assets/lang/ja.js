@@ -37,6 +37,7 @@
         presents: "イラスト",
         messages: "メッセージ",
         quiz: "クイズ",
+        present: "スペシャルプレゼント",
         about: "ガラミ",
         channel: "Polka Ch.",
         nplb: "ねぽらぼ"
