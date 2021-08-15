@@ -1,5 +1,8 @@
 <template>
 	<v-app id="app">
+		<v-btn x-large class="preloader-volume-toggle">
+			BGM?
+		</v-btn>
 		<div class="preloader preloader-left"></div>
 		<div class="preloader preloader-right"></div>
 		<Topbar></Topbar>
@@ -111,9 +114,16 @@ main {
 	font-family: "Poppins", sans-serif;
 }
 
+.preloader-volume-toggle {
+	position: fixed;
+	z-index: 9;
+	left: 0;
+	top: 0;
+	float: right;
+}
 .preloader-left {
 	position: fixed;
-	z-index: 999;
+	z-index: 8;
 	left: 0;
 	height: 100%;
 	width: 50%;
@@ -125,7 +135,7 @@ main {
 
 .preloader-right {
 	position: fixed;
-	z-index: 999;
+	z-index: 998;
 	right: 0;
 	height: 100%;
 	width: 50%;
