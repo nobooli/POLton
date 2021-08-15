@@ -36,9 +36,11 @@ DEALINGS IN THE // SOFTWARE.
 				<span v-if="!image.artist_twitter_link">
 					<p>{{ image.artist_twitter }}</p>
 				</span>
-				<a :href="'/messages/#' + image.artist">
+				<router-link
+					:to="'Messages/#' + image.artist" 
+				>
 					<img class="profile-pic" :src="image.profile_pic" />
-				</a>
+				</router-link>
 			</div>
 		</div>
 	</div>
