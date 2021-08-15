@@ -1,10 +1,8 @@
 <template>
 	<v-app id="app">
-		<div class="preloader-left"
-			@click="openCurtains($event.target)"
+		<div class="preloader preloader-left"
 		></div>
-		<div class="preloader-right"
-			@click="openCurtains($event.target)"
+		<div class="preloader preloader-right"
 		></div>
 		<Topbar></Topbar>
 		<main>
@@ -52,6 +50,12 @@ export default {
 		if (this.$cookies.isKey("Lang")) {
 			this.$i18n.locale = this.$cookies.get("Lang");
 		}
+		const preloaders = document.querySelectorAll('.preloader')
+		preloaders.forEach((elem) => {
+			elem.addEventListener('click', (event) => {
+				this.openCurtains(event.target)
+			})
+		});
 	},
 	methods: {
 		handleScroll() {
@@ -113,6 +117,7 @@ main {
 	background-image: url("/POLton/img/curtain_end.png");
 	background-size: cover;
 	background-position: bottom right;
+	background-color: rgba(0,0,0,0.9);
 }
 
 .preloader-right {
@@ -125,6 +130,11 @@ main {
 	background-size: cover;
 	background-position: bottom right;
 	transform: scaleX(-1);
+	background-color: rgba(0,0,0,0.9);
+}
+
+.preloader-right.page-loaded, .preloader-left.page-loaded {
+	background-color: initial;
 }
 
 .page-loaded {
