@@ -309,7 +309,7 @@ export default {
 	}
 
 	.nameplate { 
-		padding-top: 3px;	
+		padding-top: 3px;
 		font-size: .60em
 	}
 }
@@ -364,9 +364,16 @@ export default {
 
 .tent { margin-top: -15% }
 .nameplate {
-	color: black;
+	#color: #ffef75;
+	color: #ffffff;
+	text-shadow: 1px 1px 3px rgba(128, 0, 0, 0.8);
 	text-align: center;
+	font-weight: 600;
 }
+
+.navi-zain {
+		text-decoration: none;
+	}
 
 .quizframe {
     background-color: rgba(255,255,255,0.8);
