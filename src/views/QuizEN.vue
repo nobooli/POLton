@@ -45,17 +45,26 @@ export default {
 		},
 		getScoreTweet() {
 			fetch(
-				"https://script.google.com/macros/s/AKfycbzejN74f_F5jk7gLoSLcIvJtwxI9EkQzXcpi6oXj8cqGuiQp0k23xFCZANlOrLFCu7SjA/exec?id=" +
+				"https://script.google.com/macros/s/AKfycbxDSRdI5SAbqe0913KofKTchhv55_NBMEb5Pebgcic-btylAYfq1WifO1Mcs_lUyCyk4A/exec?id=" +
 					this.uuid
 			)
-				.then((response) => response.json())
-				.then((receivedScore) => {
+				.then((response) => {
+					response.json()
+				})
+				.then((json) => {
+					var receivedScore = json[0];
+
 					var score =
 						receivedScore <= 0 ? "" : "" + receivedScore + " / 100%0A";
-					window.location.href =
-						"https://twitter.com/intent/tweet?text=" +
-						score +
-						"%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz";
+					window.open("https://twitter.com/intent/tweet?text=" + score + "%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz"
+)
+					// var x = this.browser.windows.create({
+					// 	url: "https://twitter.com/intent/tweet?text=" + score + "%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz"
+					// });
+					// window.location.href =
+					// 	"https://twitter.com/intent/tweet?text=" +
+					// 	score +
+					// 	"%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz";
 				});
 		},
 	},
