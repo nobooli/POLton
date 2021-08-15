@@ -34,14 +34,14 @@ DEALINGS IN THE // SOFTWARE.
 				</a>
 			</div>
 			<div class="illust_profile">
-				<img class="profile-pic" :src="image.profile_pic" />
 				<a v-if="image.artist_twitter_link" :href="image.artist_twitter_link">
 					<v-icon>mdi-twitter</v-icon>
-					{{ image.artist_twitter }}
+					<p>{{ image.artist_twitter }}</p>
 				</a>
 				<span v-if="!image.artist_twitter_link">
-					{{ image.artist_twitter }}
+					<p>{{ image.artist_twitter }}</p>
 				</span>
+				<img class="profile-pic" :src="image.profile_pic" />
 			</div>
 		</div>
 	</div>
@@ -97,11 +97,30 @@ export default {
 	border: 0.3em solid white;
 	background: white;
 	max-width: 300px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 6px 8px rgba(0, 0, 0, 0.4);
+	width: 100%;
 }
 
 .illust_thumbnail img {
 	width: 100%;
 	height: 100%;
+}
+
+.illust_profile {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	padding: 0.5rem;
+}
+
+.illust_profile a {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.illust_profile p {
+	margin: 0 !important;
 }
 
 .align-center {
