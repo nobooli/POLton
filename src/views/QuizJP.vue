@@ -1,12 +1,11 @@
 <template>
 	<v-container>
 		<div data-aos="zoom-in" data-aos-delay="1500">
-			<v-btn @click="getScoreTweet()">
+			<v-btn>
 				<v-icon>
 					mdi-twitter
 				</v-icon>
 			</v-btn>
-			<span>{{ this.score }}</span>
 			<iframe
 				:src="
 					'https://docs.google.com/forms/d/e/1FAIpQLSeT6QRsCYLZUhHSpvUn_GqigBP1xap59TnjBQ-PwxxpuwK3oQ/viewform?usp=pp_url&entry.1421225021=' +
@@ -43,25 +42,7 @@ export default {
 					this.aos.refresh();
 				});
 			});
-		},
-		getScoreTweet() {
-			fetch(
-				"https://script.google.com/macros/s/AKfycbyeam0tNYJ7lu2egW2AgD9PsZbV-_ABpmmnyyIAf9AZDyk6VqID6Z-6jkItZlerH19h/exec?id=" +
-					this.uuid
-			)
-				.then((response) => {
-					response.json()
-				})
-				.then((json) => {
-					var receivedScore = json[0];
-
-					var audio = new Audio("/voices/Lines/POLglish/Oh_Yeah.mp3");
-					audio.play();
-
-					var score = receivedScore <= 0 ? "" : "" + receivedScore + " / 100%0A";
-					this.url = "https://twitter.com/intent/tweet?text=" + score + "%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz";
-				});
-		},
+		}
 	},
 	mounted() {
 		this.$nextTick(() => {
@@ -75,9 +56,7 @@ export default {
 	},
 	data() {
 		return {
-			uuid: uuidv4(),
-			url: "",
-			score: ""
+			uuid: uuidv4()
 		};
 	},
 };
