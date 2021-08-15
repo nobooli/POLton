@@ -225,7 +225,7 @@ export default {
 
 .bgm_slider {
 	margin-top: 20px;
-	width: clamp(9.5rem, 30%, 25rem);
+	width: clamp(12rem, 30%, 25rem);
 }
 
 .bgm_credit {
