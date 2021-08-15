@@ -17,12 +17,12 @@ DEALINGS IN THE // SOFTWARE.
 <template>
 	<div>
 		<div class="my-gallery" :class="album_class">
-			<div v-for="(image, key) in images" v-bind:key="key">
-				<div class="illust_thumbnail" data-aos="fade-up">
+			<div v-for="(image, key) in images" v-bind:key="key" data-aos="fade-up">
+				<div class="illust_thumbnail">
 					<a :href="image.path" :artist="image.artist" :message="image.message">
 						<img
 							:src="image.thumbnail"
-							alt=""
+							:alt="image.artist_twitter"
 							:class="image_class"
 							:srcset="image.thumbnail_srcset"
 							:sizes="thumbnail_sizes"
