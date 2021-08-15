@@ -15,6 +15,7 @@
 <script>
 import Topbar from "./components/Topbar.vue";
 import Footer from "./components/Footer.vue";
+import store from "@/store";
 
 export default {
 	name: "App",
@@ -31,7 +32,8 @@ export default {
 		addtoscreendialog: false,
 		links: [],
 		showSidebar: false,
-		loaded: false
+		loaded: false,
+		state: store.state
 	}),
 	mounted() {
 		// let timeNow = new Date();
@@ -51,6 +53,7 @@ export default {
 		const preloaders = document.querySelectorAll('.preloader')
 		preloaders.forEach((elem) => {
 			elem.addEventListener('click', (event) => {
+				this.$root.$emit("preloader_start_bgm");
 				this.openCurtains(event.target)
 			})
 		});
@@ -83,6 +86,8 @@ export default {
 				leftCurtain.classList.toggle('page-loaded');
 			}
 			e.classList.toggle('page-loaded');
+			// this.state.openCurtains = true;
+			// store.toggleAudio();
 		}
 	}
 };

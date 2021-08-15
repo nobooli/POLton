@@ -40,6 +40,11 @@
 						{{ $t("link.quiz") }}
 					</v-list-item-title>
 				</v-list-item>
+				<v-list-item 
+					href="">
+						<v-icon left color="secondary">mdi-gift</v-icon>
+						{{ $t("link.present") }}
+				</v-list-item>
 				<v-divider></v-divider>
 				<v-list-item
 					href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA"
@@ -142,6 +147,8 @@
 
 <script>
 import { copyToClipboard } from "@/common/clipboard";
+import store from '@/store';
+
 export default {
 	props: {
 		value: {
@@ -162,6 +169,7 @@ export default {
 		toRoute: null,
 		pausedOrEnded: false,
 		disabled: false,
+		state: store.state
 	}),
 	watch: {
 		$route() {
@@ -173,19 +181,25 @@ export default {
 				this.disabled = false;
 			}
 		},
+		state:  function() {
+			if (store.state.is_audio_playing) {
+				this.audio.play();
+			}
+		}
 	},
 	mounted() {
 		this.audio.preload = true;
 		this.audio.loop = true;
 		this.audio.volume = this.volume / 100;
-
-		if (this.audio.paused || this.audio.ended) {
-			this.pausedOrEnded = true;
-			this.audio.play();
-			this.pausedOrEnded = this.audio.paused;
-		} else {
-			this.pausedOrEnded = false;
-		}
+		this.$root.$on("preloader_start_bgm", () => {
+			if (this.audio.paused || this.audio.ended) {
+				this.pausedOrEnded = true;
+				this.audio.play();
+				this.pausedOrEnded = this.audio.paused;
+			} else {
+				this.pausedOrEnded = false;
+			}
+		});
 	},
 	methods: {
 		changeLang(e) {

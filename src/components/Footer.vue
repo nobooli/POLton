@@ -26,15 +26,17 @@
 			</div>
 			<div>
 				<v-hover class="navi-zain">
-					<img id="bouquet_zain" 
-						@click="scrolltotop"
-						:src="hovered_zain ? ball_hover : ball_idle"
-						@mouseover="hovered_zain = true"
-						@mouseleave="hovered_zain = false"
-						:srcset="hovered_zain ? ball_srcset_hover : ball_srcset"
-						:sizes="zain_sizes"
-						class="jumping-zain"
-					/>
+					<a href="">
+						<img id="bouquet_zain" 
+							@click="scrolltotop"
+							:src="hovered_zain ? ball_hover : ball_idle"
+							@mouseover="hovered_zain = true"
+							@mouseleave="hovered_zain = false"
+							:srcset="hovered_zain ? ball_srcset_hover : ball_srcset"
+							:sizes="zain_sizes"
+							class="jumping-zain"
+						/>
+					</a>
 				</v-hover>
 			</div>
 		</div>

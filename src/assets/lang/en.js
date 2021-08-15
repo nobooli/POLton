@@ -38,6 +38,7 @@ module.exports = {
     presents: "Illustrations",
     messages: "Messages",
     quiz: "Quiz",
+    present: "Special Present",
     about: "About",
     channel: "Polka Ch.",
     nplb: "NePoLaBo"

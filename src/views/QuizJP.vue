@@ -1,12 +1,11 @@
 <template>
 	<v-container>
 		<div data-aos="zoom-in" data-aos-delay="1500">
-			<v-btn @click="getScoreTweet()">
+			<v-btn href="https://twitter.com/intent/tweet?text=%E3%82%B5%E3%83%BC%E3%82%AB%E3%82%B9%E3%81%AE%E9%80%9F%E5%BA%A6%E3%81%AB%E4%BB%98%E3%81%84%E3%81%A6%E8%A1%8C%E3%81%91%E3%81%A6%E3%82%8B%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%81%8B%EF%BC%9F%E3%81%93%E3%81%AE%20%23OmaPolQuiz%20%23%E5%B0%BE%E4%B8%B8%E3%83%9D%E3%83%AB%E3%82%AB%E4%B8%80%E5%91%A8%E5%B9%B4%E3%82%AF%E3%82%A4%E3%82%BA%20%E3%81%A7%E3%83%9D%E3%83%AB%E3%82%AB%E7%9F%A5%E8%AD%98%E3%82%92%E7%A2%BA%E8%AA%8D%EF%BC%81https%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz" target="_blank">
 				<v-icon>
 					mdi-twitter
 				</v-icon>
 			</v-btn>
-			<span>{{ this.score }}</span>
 			<iframe
 				:src="
 					'https://docs.google.com/forms/d/e/1FAIpQLSeT6QRsCYLZUhHSpvUn_GqigBP1xap59TnjBQ-PwxxpuwK3oQ/viewform?usp=pp_url&entry.1421225021=' +
@@ -43,25 +42,7 @@ export default {
 					this.aos.refresh();
 				});
 			});
-		},
-		getScoreTweet() {
-			fetch(
-				"https://script.google.com/macros/s/AKfycbyeam0tNYJ7lu2egW2AgD9PsZbV-_ABpmmnyyIAf9AZDyk6VqID6Z-6jkItZlerH19h/exec?id=" +
-					this.uuid
-			)
-				.then((response) => {
-					response.json()
-				})
-				.then((json) => {
-					var receivedScore = json[0];
-
-					var audio = new Audio("/voices/Lines/POLglish/Oh_Yeah.mp3");
-					audio.play();
-
-					var score = receivedScore <= 0 ? "" : "" + receivedScore + " / 100%0A";
-					this.url = "https://twitter.com/intent/tweet?text=" + score + "%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz";
-				});
-		},
+		}
 	},
 	mounted() {
 		this.$nextTick(() => {
@@ -75,9 +56,7 @@ export default {
 	},
 	data() {
 		return {
-			uuid: uuidv4(),
-			url: "",
-			score: ""
+			uuid: uuidv4()
 		};
 	},
 };

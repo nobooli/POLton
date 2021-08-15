@@ -72,15 +72,15 @@ const routes = [
     meta: {
       title: "Quiz"
     },
-  },
-  {
-    path: "/about",
-    name: "About",
-    component: lazyLoad('About'),
-    meta: {
-      title: "About"
-    },
-  }
+  }//,
+  // {
+  //   path: "/about",
+  //   name: "About",
+  //   component: lazyLoad('About'),
+  //   meta: {
+  //     title: "About"
+  //   },
+  // }
 ];
 
 const router = new VueRouter({
