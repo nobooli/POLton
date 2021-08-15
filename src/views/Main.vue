@@ -203,6 +203,7 @@ export default {
 	padding: 0.5rem 0;
 	box-shadow: 0 1px 2px #f8ee9e23, 0 2px 4px #f8ee9e23, 0 4px 8px #f8ee9e23,
 		0 8px 16px #f8ee9e23, 0 16px 32px #f8ee9e23, 0 32px 64px #f8ee9e23;
+	/* left: 50%; */
 }
 
 /* dot pattern on the border */
@@ -228,6 +229,61 @@ export default {
 	color: #7c1a1f;
 	font-weight: 900;
 	font-size: 3em;
+}
+
+/* @media screen and (max-width:599px) {
+	.ticket_card {
+		max-width: 300px;
+		margin-left: -150px;
+		height: 36px;
+		border: .5em solid #bb2830;
+		box-shadow: 0 1px 2px #f8ee9e23, 0 2px 4px #f8ee9e23, 0 2px 4px #f8ee9e23,
+			0 8px 8px #f8ee9e23, 0 8px 16px #f8ee9e23, 0 16px 32px #f8ee9e23;
+	}
+
+	.ticket_card:after {
+
+		border: .5em dotted white;
+		border-image-source: url("/POLton/img/border_dot.svg");
+		border-image-slice: 33% 33%;
+		border-image-repeat: round;
+		filter: drop-shadow(0 0 4px white);
+	}
+	.ticket_card > * {
+		margin-top: -12px;
+	}
+} */
+
+
+@media (max-width: 600px) {
+    /* prevent ticket card border from taking too much space */
+    .ticket_card {
+        border-width: 1em;
+        border-radius: 0.15rem;
+    }
+	.ticket_card > * {
+		font-size: 1em;
+	}
+    .ticket_card:after {
+        border-width: 0.5em;
+		top: -.5em;
+		left: -.4em;
+		right: -.4em;
+		bottom: -.5em;
+    }
+}
+
+@media (max-width:1200px) {
+	max-width: 800px;
+}
+
+/* lrg */
+@media (min-width: 2000px) {
+    /* prevent ticket card from getting too long */
+    .ticket_card {
+        max-width: 1600px;
+        margin: auto;
+    }
 }
 
 .title_text span {
@@ -364,7 +420,7 @@ export default {
 
 .tent { margin-top: -15% }
 .nameplate {
-	#color: #ffef75;
+	color: #ffef75;
 	color: #ffffff;
 	text-shadow: 1px 1px 3px rgba(128, 0, 0, 0.8);
 	text-align: center;
@@ -378,5 +434,4 @@ export default {
 .quizframe {
     background-color: rgba(255,255,255,0.8);
 }
-
 </style>
