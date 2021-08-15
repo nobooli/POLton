@@ -2,7 +2,7 @@
     ui: {
         title: "",
         welcome: "ようこそ",
-        scrollingTitle: "座長、一周年おめでとうございます!",
+        scrollingTitle: "座長、一周年おめでとうございます！　　　　　座員をクリックしてくださいね～",
         credits: "クレジット",
         mediacontorl: "コントロールボタン",
         stopplay: "停止",
