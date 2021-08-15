@@ -41,7 +41,7 @@
 					</v-list-item-title>
 				</v-list-item>
 				<v-list-item 
-					href="">
+					href="https://drive.google.com/file/d/1lh00qlG92xj8NAwP7PyPzT3wiBwW0d0U/view?usp=sharing">
 						<v-icon left color="secondary">mdi-gift</v-icon>
 						{{ $t("link.present") }}
 				</v-list-item>
@@ -169,7 +169,8 @@ export default {
 		toRoute: null,
 		pausedOrEnded: false,
 		disabled: false,
-		state: store.state
+		state: store.state,
+		noBgmStart: false
 	}),
 	watch: {
 		$route() {
@@ -188,9 +189,18 @@ export default {
 		}
 	},
 	mounted() {
+		this.$root.$on("no_preloader_bgm", () => {
+			this.noBgmStart = true;
+		})
+
 		this.audio.preload = true;
 		this.audio.loop = true;
 		this.audio.volume = this.volume / 100;
+
+		if (this.noBgmStart) { 
+			this.pausedOrEnded = true; 
+			return; 
+		}
 		this.$root.$on("preloader_start_bgm", () => {
 			if (this.audio.paused || this.audio.ended) {
 				this.pausedOrEnded = true;
