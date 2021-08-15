@@ -42,13 +42,12 @@ export default {
 			)
 				.then((response) => response.json())
 				.then((receivedScore) => {
-					var score =
-						receivedScore <= 0
-							? "" + receivedScore + " / 100%0A"
-							: (window.location.href =
-									"https://twitter.com/intent/tweet?text=" +
-									score +
-									"%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz");
+					var score = receivedScore <= 0 ? "" : receivedScore + " / 100%0A";
+					window.location.href =
+						"https://twitter.com/intent/tweet?text=" +
+						score +
+						"%23polquiz %0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz";
+
 				});
 		},
 	},
