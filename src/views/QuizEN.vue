@@ -2,7 +2,7 @@
 	<v-container>
 		<div data-aos="zoom-in" data-aos-delay="1500">
 			<v-btn 
-				href="https://twitter.com/intent/tweet?text=Have%20you%20been%20able%20to%20keep%20up%20with%20the%20circus?%20Check%20your%20Polka%20knowledge%20in%20the%20%23OmaPolQuiz %23尾丸ポルカ一周年クイズ %20here:%0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz" 
+				href="https://twitter.com/intent/tweet?text=Have%20you%20been%20able%20to%20keep%20up%20with%20the%20circus?%20Check%20your%20Polka%20knowledge%20in%20the%20%23%E5%B0%BE%E4%B8%B8%E3%83%9D%E3%83%AB%E3%82%AB%E4%B8%80%E5%91%A8%E5%B9%B4%E3%82%AF%E3%82%A4%E3%82%BA%20%20here:%0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz" 
 				target="_blank">
 				<v-icon>
 					mdi-twitter

@@ -1,7 +1,7 @@
 <template>
 	<v-container>
 		<div data-aos="zoom-in" data-aos-delay="1500">
-			<v-btn href="https://twitter.com/intent/tweet?text=%E4%BD%A0%E8%83%BD%E8%B7%9F%E5%BE%97%E4%B8%8A%E9%A6%AC%E6%88%B2%E5%9C%98%E7%9A%84%E9%80%9F%E5%BA%A6%E5%97%8E%EF%BC%9F%E4%BE%86%20%23OmaPolQuiz%20%23%E5%B0%BE%E4%B8%B8%E3%83%9D%E3%83%AB%E3%82%AB%E4%B8%80%E5%91%A8%E5%B9%B4%E3%82%AF%E3%82%A4%E3%82%BA%20%E6%B8%AC%E8%A9%A6%E4%BD%A0%E7%9A%84%E5%BA%A7%E9%95%B7%E7%9F%A5%E8%AD%98%E5%90%A7%20:%0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz" target="_blank">
+			<v-btn href="https://twitter.com/intent/tweet?text=%E4%BD%A0%E8%83%BD%E8%B7%9F%E5%BE%97%E4%B8%8A%E9%A6%AC%E6%88%B2%E5%9C%98%E7%9A%84%E9%80%9F%E5%BA%A6%E5%97%8E%EF%BC%9F%E4%BE%86%20%23%E5%B0%BE%E4%B8%B8%E3%83%9D%E3%83%AB%E3%82%AB%E4%B8%80%E5%91%A8%E5%B9%B4%E3%82%AF%E3%82%A4%E3%82%BA%20%E6%B8%AC%E8%A9%A6%E4%BD%A0%E7%9A%84%E5%BA%A7%E9%95%B7%E7%9F%A5%E8%AD%98%E5%90%A7%20:%0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz" target="_blank">
 				<v-icon>
 					mdi-twitter
 				</v-icon>
