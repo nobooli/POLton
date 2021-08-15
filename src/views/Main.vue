@@ -302,5 +302,5 @@ export default {
 	justify-content: center;
 }
 
-.tent { margin-top: -12.5% }
+.tent { margin-top: -15% }
 </style>
