@@ -56,7 +56,7 @@ export default {
 	},
 	data() {
 		return {
-			banner: "img/otegami.png",
+			banner: "/POLton/img/otegami.png",
 			messages: messages.messages,
 		};
 	},

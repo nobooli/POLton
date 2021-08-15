@@ -100,7 +100,7 @@ main {
 	left: 0;
 	height: 100%;
 	width: 50%;
-	background-image: url("/img/curtain_end.png");
+	background-image: url("/POLton/img/curtain_end.png");
 	background-size: cover;
 	background-position: bottom right;
 }
@@ -111,7 +111,7 @@ main {
 	right: 0;
 	height: 100%;
 	width: 50%;
-	background-image: url("/img/curtain_end.png");
+	background-image: url("/POLton/img/curtain_end.png");
 	background-size: cover;
 	background-position: bottom right;
 	transform: scaleX(-1);
