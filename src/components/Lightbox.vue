@@ -16,13 +16,8 @@ DEALINGS IN THE // SOFTWARE.
 
 <template>
 	<div :class="album_class">
-		<div
-			class="illust_card"
-			v-for="(image, key) in images"
-			v-bind:key="key"
-			data-aos="fade-up"
-		>
-			<div class="illust_thumbnail">
+		<div class="illust_card" v-for="(image, key) in images" v-bind:key="key">
+			<div class="illust_thumbnail" data-aos="fade-up">
 				<a :href="image.path" :artist="image.artist" :message="image.message">
 					<img
 						:src="image.thumbnail"
@@ -33,7 +28,7 @@ DEALINGS IN THE // SOFTWARE.
 					/>
 				</a>
 			</div>
-			<div class="illust_profile">
+			<div class="illust_profile" data-aos="fade-up" data-aos-duration="650">
 				<a v-if="image.artist_twitter_link" :href="image.artist_twitter_link">
 					<v-icon>mdi-twitter</v-icon>
 					<p>{{ image.artist_twitter }}</p>
@@ -75,9 +70,9 @@ export default {
 	mounted() {
 		try {
 			if (this.options != undefined) {
-				new SimpleLightbox(".illust_card a", this.options);
+				new SimpleLightbox(".illust_thumbnail a", this.options);
 			} else {
-				new SimpleLightbox(".illust_card a");
+				new SimpleLightbox(".illust_thumbnail a");
 			}
 		} catch (e) {
 			// eslint-disable-next-line no-console
@@ -94,16 +89,25 @@ export default {
 
 <style>
 .illust_card {
-	border: 0.3em solid white;
-	background: white;
 	max-width: 300px;
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 6px 8px rgba(0, 0, 0, 0.4);
 	width: 100%;
+	filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.4));
 }
 
 .illust_thumbnail img {
 	width: 100%;
 	height: 100%;
+	background: white;
+	border-radius: 0.5rem;
+	border: #f8ed9e solid 0.3rem;
+	display: block;
+	margin-bottom: 0.2rem;
+	transition: transform 200ms ease-out, border 300ms ease-out;
+}
+
+.illust_thumbnail:hover img {
+	border: #bb2830 solid 0.3rem;
+	transform: translateY(-0.5rem);
 }
 
 .illust_profile {
@@ -111,6 +115,8 @@ export default {
 	justify-content: space-between;
 	align-content: center;
 	padding: 0.5rem;
+	background: #e6e6e6;
+	border-radius: 0.5rem;
 }
 
 .illust_profile a,
@@ -119,6 +125,30 @@ export default {
 	display: flex;
 	justify-content: center;
 	text-decoration: none;
+}
+
+.illust_profile .mdi-twitter {
+	color: #4ab4f4;
+}
+
+.illust_profile:hover .mdi-twitter {
+	animation: twitter 250ms ease;
+	animation-fill-mode: forwards;
+}
+
+@keyframes twitter {
+	0% {
+		transform: rotate(0deg);
+	}
+	33% {
+		transform: rotate(-15deg);
+	}
+	67% {
+		transform: rotate(15deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
 }
 
 .illust_profile p {

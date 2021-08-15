@@ -43,7 +43,7 @@ export default {
 		AOSInit() {
 			this.aos = AOS;
 			this.aos.init({
-				duration: 750,
+				duration: 500,
 				disable: "mobile",
 			});
 		},
@@ -59,7 +59,7 @@ export default {
 <style>
 .art-album {
 	display: grid;
-	grid-gap: 2rem;
+	grid-gap: 2.5rem 1rem;
 	grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
 	margin: 0 1rem;
 	place-items: center;
