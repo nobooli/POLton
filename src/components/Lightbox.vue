@@ -23,23 +23,38 @@
 <template>
   <div>
     <div class="my-gallery" :class="album_class">
-      <a :href="image.path" v-for="(image,key) in images" v-bind:key="key"
-        :artist="image.artist"
-        :message="image.message"
-        data-aos="zoom-in"
-      >
-        <img :src="image.thumbnail" 
-          alt="" 
-          :title="image.artist_twitter" 
-          :class="image_class"
-          :srcset="image.thumbnail_srcset"
-          :sizes="thumbnail_sizes"
-        />
-        <!-- <div class="artist-message">
-          <div class="artist-name">{{ image.artist }}</div>
-          <div class="caption-text">{{ image.message }}</div>
-        </div> -->
-      </a>
+      <div v-for="(image,key) in images" v-bind:key="key">
+        <div class="illust_thumbnail">
+          <a :href="image.path"
+            :artist="image.artist"
+            :message="image.message"
+            data-aos="zoom-in"
+          >
+            <img :src="image.thumbnail" 
+              alt="" 
+              :class="image_class"
+              :srcset="image.thumbnail_srcset"
+              :sizes="thumbnail_sizes"
+            />
+          </a>
+        </div>
+        <div>
+          <div class="illust_profile">
+            <img class="profile-pic"
+              :src="image.profile_pic" />
+          </div>
+          <div>
+            <a v-if="image.artist_twitter_link"
+              :href="image.artist_twitter_link">
+              <v-icon>mdi-twitter</v-icon>
+              {{ image.artist_twitter }}
+            </a>
+            <span v-if="!image.artist_twitter_link">
+              {{ image.artist_twitter }}
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
