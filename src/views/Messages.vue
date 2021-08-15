@@ -17,7 +17,9 @@
 								:class="message.country_flag"
 								style="right-align"
 							></span>
-							<p>{{ message.name }}</p>
+							<a :id="message.name" :href="'#' + message.name"
+								><p>{{ message.name }}</p>
+							</a>
 						</div>
 						<img
 							v-if="message.profile_pic"
