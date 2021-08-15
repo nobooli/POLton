@@ -130,7 +130,7 @@ export default {
       //{ title: "简体中文", src: "zhHans", isready: false },
       { title: "日本語", src: "ja", isready: true },
     ],
-    audio: new Audio("bgm/1.wav"), // change to appropriate BGM file
+    audio: new Audio("bgm/BGM.mp3"), // change to appropriate BGM file
     volume: 5,
     previousVolume: 0,
     fromRoute: null,
