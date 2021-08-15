@@ -44,7 +44,7 @@ export default {
 		},
 		getScoreTweet() {
 			fetch(
-				"https://script.google.com/macros/s/AKfycbzejN74f_F5jk7gLoSLcIvJtwxI9EkQzXcpi6oXj8cqGuiQp0k23xFCZANlOrLFCu7SjA/exec?id=" +
+				"https://script.google.com/macros/s/AKfycbxDSRdI5SAbqe0913KofKTchhv55_NBMEb5Pebgcic-btylAYfq1WifO1Mcs_lUyCyk4A/exec?id=" +
 					this.uuid
 			)
 				.then((response) => {
