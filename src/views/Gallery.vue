@@ -45,7 +45,7 @@ export default {
 		AOSInit() {
 			this.aos = AOS;
 			this.aos.init({
-				duration: 1000,
+				duration: 400,
 				disable: "mobile",
 			});
 		},

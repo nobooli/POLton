@@ -29,6 +29,7 @@
             :artist="image.artist"
             :message="image.message"
             data-aos="zoom-in"
+            data-aos-once="true"
           >
             <img :src="image.thumbnail" 
               alt="" 
