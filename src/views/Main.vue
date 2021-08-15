@@ -153,7 +153,7 @@ export default {
 	right: 50%;
 	margin-left: -50vw;
 	margin-right: -50vw;
-	background-image: url("/img/banner-tile.png");
+	background-image: url("/POLton/img/banner-tile.png");
 	background-repeat: repeat-x;
 	background-size: contain;
 }
@@ -194,7 +194,7 @@ export default {
 	right: -1.25em;
 	bottom: -1.25em;
 	border: 1em dotted white;
-	border-image-source: url("/img/border_dot.svg");
+	border-image-source: url("/POLton/img/border_dot.svg");
 	border-image-slice: 33% 33%;
 	border-image-repeat: round;
 	filter: drop-shadow(0 0 4px white);
