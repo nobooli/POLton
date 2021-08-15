@@ -97,6 +97,8 @@ export default {
 	border: 0.3em solid white;
 	background: white;
 	max-width: 300px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 6px 8px rgba(0, 0, 0, 0.4);
+	width: 100%;
 }
 
 .illust_thumbnail img {
