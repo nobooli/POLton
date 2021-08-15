@@ -1,7 +1,9 @@
 <template>
 	<v-container>
 		<div data-aos="zoom-in" data-aos-delay="1500">
-			<v-btn>
+			<v-btn 
+				href="https://twitter.com/intent/tweet?text=Have%20you%20been%20able%20to%20keep%20up%20with%20the%20circus?%20Check%20your%20Polka%20knowledge%20in%20the%20%23PolQuiz%20here:%0Ahttps%3A%2F%2Fnepolabo.fans%2Fpolka%2Fquiz" 
+				target="_blank">
 				<v-icon>
 					mdi-twitter
 				</v-icon>
