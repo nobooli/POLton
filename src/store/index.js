@@ -10,13 +10,8 @@ export default new Vuex.Store({
         dark_icon: "mdi-moon-waning-crescent",
         lastAudio: '',
         notifications: [],
-        curtainsOpen: false,
-        playBgmOnCurtains: true
     },
     mutations: {
-        toggle_playBgmOnCurtains() {
-            this.state.playBgmOnCurtains = !this.state.playBgmOnCurtains;
-        },
         change_dark_mode(state) {
             state.dark_mode = !state.dark_mode;
             if (state.dark_icon == "mdi-white-balance-sunny") {

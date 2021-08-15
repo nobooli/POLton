@@ -58,8 +58,9 @@ export default {
 		const preloaders = document.querySelectorAll('.preloader')
 		preloaders.forEach((elem) => {
 			elem.addEventListener('click', (event) => {
-				this.state.playBgmOnCurtains = this.bgmStart;
-				this.$root.$emit("preloader_start_bgm");
+				if (this.bgmStart) {
+					this.$root.$emit("preloader_start_bgm");
+				}
 				this.openCurtains(event.target)
 			})
 		});
@@ -97,7 +98,7 @@ export default {
 			// store.toggleAudio();
 		},
 		toggleBgmAutoPlay() {
-			store.toggle_playBgmOnCurtains();
+			this.bgmStart = !this.bgmStart;
 		}
 	}
 };

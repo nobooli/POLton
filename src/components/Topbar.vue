@@ -169,8 +169,6 @@ export default {
 		toRoute: null,
 		pausedOrEnded: false,
 		disabled: false,
-		state: store.state,
-		noBgmStart: false
 	}),
 	watch: {
 		$route() {
@@ -182,17 +180,9 @@ export default {
 				this.disabled = false;
 			}
 		},
-		state: function() {
-			if (this.noBgmStart !== !store.state.playBgmOnCurtains) {
-				this.noBgmStart = !this.noBgmStart;
-			}
-		}
 	},
 	mounted() {
 		this.noBgmStart = this.$store.state.playBgmOnCurtains;
-		this.$root.$on("no_preloader_bgm", () => {
-			this.noBgmStart = true;
-		})
 
 		this.audio.preload = true;
 		this.audio.loop = true;
@@ -244,11 +234,6 @@ export default {
 				}
 			},
 		},
-		playBgmOnCurtains: {
-			get: function() {
-				return this.$store.state.playBgmOnCurtains;
-			}
-		}
 	},
 };
 </script>
