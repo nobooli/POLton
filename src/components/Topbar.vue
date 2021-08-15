@@ -164,7 +164,7 @@ export default {
 			{ title: "日本語", src: "ja", isready: true },
 		],
 		audio: new Audio("bgm/BGM.mp3"), // change to appropriate BGM file
-		volume: 10,
+		volume: 15,
 		previousVolume: 0,
 		fromRoute: null,
 		toRoute: null,
