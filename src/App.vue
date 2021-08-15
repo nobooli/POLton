@@ -3,9 +3,7 @@
 		<Topbar></Topbar>
 		<main>
 			<v-content app>
-				<v-container fluid class="mb-10">
-					<router-view></router-view>
-				</v-container>
+				<router-view></router-view>
 			</v-content>
 		</main>
 		<Footer></Footer>
