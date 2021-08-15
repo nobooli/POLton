@@ -2,7 +2,7 @@ module.exports = {
   ui: {
     title: "",
     welcome: "Welcome",
-    scrollingTitle: "Congratulations on your 1st Anniversary Polka!",
+    scrollingTitle: "Congratulations on your 1st Anniversary Polka!　　　　　　Psst, click the zains!",
     credits: "Credits",
     mediacontorl: "Control Button",
     stopplay: "Stop",
