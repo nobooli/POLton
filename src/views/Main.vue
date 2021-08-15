@@ -1,5 +1,5 @@
 <template>
-	<v-container>
+	<div>
 		<Header :banner_image="banner"></Header>
 
 		<div class="tent" data-aos="zoom-in">
@@ -43,7 +43,7 @@
 				<!-- <span>{{ $t("link.soundboard") }}</span> -->
 			</h3>
 		</div>
-	</v-container>
+	</div>
 </template>
 
 <script>

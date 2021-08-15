@@ -53,6 +53,7 @@ export default {
 	background: rgba(255, 255, 255, 0.65);
 	border-top: #7c1a1f solid 0.25em;
 	backdrop-filter: blur(6px);
+	margin-top: 2.5rem;
 	color: #bb2830;
 	padding: 3rem 2rem;
 }
