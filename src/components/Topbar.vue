@@ -167,7 +167,7 @@ export default {
 		previousVolume: 0,
 		fromRoute: null,
 		toRoute: null,
-		pausedOrEnded: false,
+		pausedOrEnded: true,
 		disabled: false,
 	}),
 	watch: {
@@ -182,16 +182,11 @@ export default {
 		},
 	},
 	mounted() {
-		this.noBgmStart = this.$store.state.playBgmOnCurtains;
-
 		this.audio.preload = true;
 		this.audio.loop = true;
 		this.audio.volume = this.volume / 100;
 
-		if (this.noBgmStart) { 
-			this.pausedOrEnded = true; 
-			return; 
-		}
+		this.pausedOrEnded = true;
 		this.$root.$on("preloader_start_bgm", () => {
 			if (this.audio.paused || this.audio.ended) {
 				this.pausedOrEnded = true;
