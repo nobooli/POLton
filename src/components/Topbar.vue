@@ -147,7 +147,6 @@
 
 <script>
 import { copyToClipboard } from "@/common/clipboard";
-import store from '@/store';
 
 export default {
 	props: {
