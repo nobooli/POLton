@@ -367,4 +367,9 @@ export default {
 	color: black;
 	text-align: center;
 }
+
+.quizframe {
+    background-color: rgba(255,255,255,0.8);
+}
+
 </style>
