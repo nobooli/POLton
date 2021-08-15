@@ -335,6 +335,13 @@ export default {
 				duration: 750,
 				disable: "mobile",
 			});
+			// Slightly expensive to bind to all images, adjust the filter as needed
+			const images = document.querySelectorAll('img')
+			images.forEach((elem) => {
+				elem.addEventListener('load', () => {
+					this.aos.refresh();
+				});
+			});
 		},
 	},
 };
