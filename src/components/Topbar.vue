@@ -186,7 +186,7 @@ export default {
 		this.audio.preload = true;
 		this.audio.loop = true;
 		if(localStorage.getItem("volume") !== null) {
-		    this.volume = localStorage.getItem("volume");
+			this.volume = localStorage.getItem("volume");
 		}
 		this.storage = localStorage;
 		this.audio.volume = this.volume / 100;
