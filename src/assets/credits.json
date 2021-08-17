@@ -51,6 +51,16 @@
             ]
         },
         {
+            "name": "sound_clips",
+            "translation": {
+                "en":"Sound Clips",
+                "ja":"サウンドクリップ"
+            },
+            "members": [
+                { "name": "fuzion_mixer" }
+            ]
+        },
+        {
             "name": "bgm",
             "translation": {
                 "en":"BGM",
@@ -90,8 +100,8 @@
         {
             "name": "special_present_art",
             "translation": {
-                "en":"Special Present Art",
-                "ja":"スペシャルプレゼントイラスト"
+                "en":"Fanbook Art",
+                "ja":"ファンブックイラスト"
             },
             "members": [
                 { "name": "Forever9Nine" }
@@ -100,12 +110,24 @@
         {
             "name": "special_present_design",
             "translation": {
-                "en":"Special Present Design",
-                "ja":"スペシャルプレゼントデザイン"
+                "en":"Fanbook Design",
+                "ja":"ファンブックデザイン"
             },
             "members": [
                 { "name": "Caudy" },
                 { "name": "Sephi" }
+            ]
+        },
+        {
+            "name": "special_present_qc",
+            "translation": {
+                "en":"Fanbook QC",
+                "ja":"ファンブックQC"
+            },
+            "members": [
+                { "name": "yaki_ebiko" },
+                { "name": "Lysogi" },
+                { "name": "Fish-Flavored Water" }
             ]
         },
         {
@@ -130,6 +152,70 @@
             ]
         },
         {
+            "name": "quiz_mouth",
+            "translation": {
+                "en":"ZH Quiz team: MOUTH",
+                "ja":"ZH Quiz team: MOUTH"
+            },
+            "members": [
+                { "name": "雨宮_澪" }
+            ]
+        },
+        {
+            "name": "quiz_form_collations",
+            "translation": {
+                "en":"ZH Quiz team: form_collations",
+                "ja":"ZH Quiz team: form_collations"
+            },
+            "members": [
+                { "name": "ましろうどん" },
+                { "name": "ウサギ" },
+                { "name": "Tony CHAN" }
+            ]
+        },
+        {
+            "name": "quiz_translation",
+            "translation": {
+                "en":"ZH Quiz team: Translation",
+                "ja":"ZH Quiz team: 翻訳"
+            },
+            "members": [
+                { "name": "CST" },
+                { "name": "猫やんけ" },
+                { "name": "ツバサ★" },
+                { "name": "小花" },
+                { "name": "Hekit000" }
+            ]
+        },
+        {
+            "name": "quiz_testing",
+            "translation": {
+                "en":"ZH Quiz team: Integrated help | Testing",
+                "ja":"ZH Quiz team: Integrated help | Testing"
+            },
+            "members": [
+                { "name": "白白白" },
+                { "name": "ZQ紫棋" },
+                { "name": "labibibibidu" },
+                { "name": "MarcusMa" },
+                { "name": "言木頭" },
+                { "name": "米樂" },
+                { "name": "二足步行傘トカゲ" },
+                { "name": "暗玥無痕" },
+                { "name": "Bog" }
+            ]
+        },
+        {
+            "name": "quiz_qc",
+            "translation": {
+                "en": "Quiz QC",
+                "ja": "クイズQC"
+            },
+            "members": [
+                { "name": "Bog" }
+            ]
+        },
+        {
             "name": "special_thanks",
             "translation": {
                 "en":"Special Thanks",
@@ -138,7 +224,7 @@
             "members": [
                 { "name": "Niels M H" },
                 { "name": "Hosu" },
-                { "name": "AmamiyaMio" },
+                { "name": "雨宮_澪" },
                 { "name": "nikki" },
                 { "name": "NyakOfThePolpol" },
                 { "name": "PovertyMiko" },
