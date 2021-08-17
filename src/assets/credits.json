@@ -155,7 +155,7 @@
             "name": "quiz_mouth",
             "translation": {
                 "en":"ZH Quiz team: MOUTH",
-                "ja":"ZH Quiz team: MOUTH"
+                "ja":"ZHクイズチーム: MOUTH"
             },
             "members": [
                 { "name": "雨宮_澪" }
@@ -164,8 +164,8 @@
         {
             "name": "quiz_form_collations",
             "translation": {
-                "en":"ZH Quiz team: form_collations",
-                "ja":"ZH Quiz team: form_collations"
+                "en":"ZH Quiz team: Form Collation",
+                "ja":"ZHクイズチーム: フォーム整理"
             },
             "members": [
                 { "name": "ましろうどん" },
@@ -177,7 +177,7 @@
             "name": "quiz_translation",
             "translation": {
                 "en":"ZH Quiz team: Translation",
-                "ja":"ZH Quiz team: 翻訳"
+                "ja":"ZHクイズチーム: 翻訳"
             },
             "members": [
                 { "name": "CST" },
@@ -191,7 +191,7 @@
             "name": "quiz_testing",
             "translation": {
                 "en":"ZH Quiz team: Integrated help | Testing",
-                "ja":"ZH Quiz team: Integrated help | Testing"
+                "ja":"ZHクイズチーム: Integrated help | テスト"
             },
             "members": [
                 { "name": "白白白" },
