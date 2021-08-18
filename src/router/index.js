@@ -16,7 +16,7 @@ const routes = [
     name: "Main",
     component: Main,
     meta: {
-      title: "Pol"
+      title: "尾丸ポルカ一周年記念ファンサイト A Fan Site for Omaru Polka's 1st Anniversary"
     },
   },
   {
