@@ -191,8 +191,8 @@
         {
             "name": "quiz_testing",
             "translation": {
-                "en":"ZH Quiz team: Integrated help | Testing",
-                "ja":"ZHクイズチーム: Integrated help | テスト"
+                "en":"ZH Quiz team: Integrated help | Testing　&　QC",
+                "ja":"ZHクイズチーム: Integrated help | テスト　＆　QC"
             },
             "members": [
                 { "name": "白白白" },
@@ -203,17 +203,10 @@
                 { "name": "米樂" },
                 { "name": "二足步行傘トカゲ" },
                 { "name": "暗玥無痕" },
-                { "name": "Bog" }
-            ]
-        },
-        {
-            "name": "quiz_qc",
-            "translation": {
-                "en": "Quiz QC",
-                "ja": "クイズQC"
-            },
-            "members": [
-                { "name": "Bog" }
+                { "name": "Bog" },
+                { "name": "Niels M H" },
+                { "name": "NyakOfThePolPol" },
+                { "name": "BunBun" }
             ]
         },
         {
