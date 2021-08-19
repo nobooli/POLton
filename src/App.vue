@@ -1,6 +1,7 @@
 <template>
 	<v-app id="app">
 		<v-btn large class="preloader-volume-toggle"
+			id="bgmToggleButton"
 			@click="toggleBgmAutoPlay()">
 				{{ this.bgmStart ? "BGM On" : "BGM Off" }}
 		</v-btn>
@@ -38,7 +39,8 @@ export default {
 		showSidebar: false,
 		loaded: false,
 		state: store.state,
-		bgmStart: true
+		bgmStart: true,
+		curtainsOpen: false
 	}),
 	mounted() {
 		// let timeNow = new Date();
@@ -61,9 +63,17 @@ export default {
 				if (this.bgmStart) {
 					this.$root.$emit("preloader_start_bgm");
 				}
-				this.openCurtains(event.target)
+				this.openCurtains(event.target);
 			})
 		});
+		document.addEventListener('scroll', () => {
+			if (this.bgmStart && !this.curtainsOpen) {
+				this.$root.$emit("preloader_start_bgm");
+			}
+			if (!this.curtainsOpen) {
+				this.openCurtains(preloaders);
+			}
+		})
 	},
 	methods: {
 		handleScroll() {
@@ -85,17 +95,25 @@ export default {
 			window.location.href = e;
 		},
 		openCurtains(e) {
-			if (e.classList.contains("preloader-left") && !e.classList.contains("page-loaded")) {
+			if (e.length === 2) { // Scrolling
+				e.forEach((curtain) => {
+					if (!curtain.classList.contains("page-loaded")) {
+						curtain.classList.toggle("page-loaded");
+					}
+				});
+			} else if (e.classList.contains("preloader-left") && !e.classList.contains("page-loaded")) {
 				var rightCurtain = document.getElementsByClassName("preloader-right")[0];
 				rightCurtain.classList.toggle('page-loaded');
+				e.classList.toggle('page-loaded');
 			} else if (!e.classList.contains("page-loaded")) { // we clicked right curtain
 				var leftCurtain = document.getElementsByClassName("preloader-left")[0];
 				leftCurtain.classList.toggle('page-loaded');
+				e.classList.toggle('page-loaded');
 			}
 			document.getElementsByClassName("preloader-volume-toggle")[0].classList.toggle('hide-preloader-volume-toggle');
-			e.classList.toggle('page-loaded');
 			// this.state.openCurtains = true;
 			// store.toggleAudio();
+			this.curtainsOpen = true;
 		},
 		toggleBgmAutoPlay() {
 			this.bgmStart = !this.bgmStart;
